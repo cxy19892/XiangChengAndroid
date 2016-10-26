@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ebebeb" >
+
+    <com.yzm.sleep.sunrefresh.PullToRefreshView
+        android:id="@+id/pull_refreshview_message"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/view_bottom"
+        android:background="#ebebeb" >
+
+        <ListView
+            android:id="@+id/lv_bytime_topices"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/app_title"
+            android:background="#ebebeb"
+            android:dividerHeight="@dimen/activity_setting_line_height"
+            android:fastScrollEnabled="false"
+            android:listSelector="@drawable/common_tab_bg"
+            android:visibility="visible" >
+        </ListView>
+    </com.yzm.sleep.sunrefresh.PullToRefreshView>
+
+    <Button
+        android:id="@+id/to_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginRight="15dp"
+        android:visibility="gone" />
+
+</RelativeLayout>

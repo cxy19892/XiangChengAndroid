@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color" >
+
+    <include layout="@layout/title_layout_dark" />
+
+    <ScrollView
+        android:id="@+id/sc_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/x48dp"
+        android:background="@color/bg_color"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_color"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/viewp"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:background="@color/bg_color"
+                android:gravity="bottom"
+                android:orientation="horizontal" >
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" >
+
+                    <LinearLayout
+                        android:layout_width="@dimen/x90dp"
+                        android:layout_height="@dimen/x100dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="@drawable/custom_bg3"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/tv_onbed_lenght"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/x40dp"
+                            android:text="10小时10分"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/ts_sub" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="在床时长"
+                            android:textColor="@color/ct_color"
+                            android:textSize="@dimen/ts_sub" />
+                    </LinearLayout>
+
+                    <com.yzm.sleep.widget.MyCustomClockView
+                        android:id="@+id/myclock1"
+                        android:layout_width="@dimen/x80dp"
+                        android:layout_height="@dimen/x80dp"
+                        android:layout_centerInParent="true" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0" />
+
+                <RelativeLayout
+                    android:layout_width="@dimen/x90dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tv_efficiency"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/x28dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/x8dp"
+                        android:background="@drawable/custom_bg5"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/x15dp"
+                        android:paddingRight="@dimen/x15dp"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/ts_content" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv_efficiency"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="@dimen/x8dp"
+                        android:gravity="center"
+                        android:text="睡眠效率"
+                        android:textColor="@color/ct_color"
+                        android:textSize="@dimen/ts_sub" />
+
+                    <View
+                        android:id="@+id/view_bg"
+                        android:layout_width="@dimen/x90dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="@drawable/custom_bg4" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" >
+
+                    <LinearLayout
+                        android:layout_width="@dimen/x90dp"
+                        android:layout_height="120dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="@drawable/custom_bg3"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/tv_sleep_lenght"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/x50dp"
+                            android:text="10小时10分"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/ts_sub" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="睡眠时长"
+                            android:textColor="@color/ct_color"
+                            android:textSize="@dimen/ts_sub" />
+                    </LinearLayout>
+
+                    <com.yzm.sleep.widget.MyCustomClockView
+                        android:id="@+id/myclock2"
+                        android:layout_width="@dimen/x80dp"
+                        android:layout_height="@dimen/x80dp"
+                        android:layout_centerInParent="true" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/x1dp"
+                android:background="@color/cbg_color"
+                android:padding="@dimen/x15dp"
+                android:text="感觉自己睡得怎么样？"
+                android:textColor="@color/ct_color"
+                android:textSize="@dimen/ts_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/cbg_color"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/x15dp" >
+
+                <TextView
+                    android:id="@+id/btn_1"
+                    android:layout_width="@dimen/x54dp"
+                    android:layout_height="@dimen/x54dp"
+                    android:background="@drawable/feel_1"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/ts_sub" />
+
+                <TextView
+                    android:id="@+id/btn_2"
+                    android:layout_width="@dimen/x54dp"
+                    android:layout_height="@dimen/x54dp"
+                    android:layout_marginLeft="@dimen/x10dp"
+                    android:background="@drawable/feel_2"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/ts_sub" />
+
+                <TextView
+                    android:id="@+id/btn_3"
+                    android:layout_width="@dimen/x54dp"
+                    android:layout_height="@dimen/x54dp"
+                    android:layout_marginLeft="@dimen/x10dp"
+                    android:background="@drawable/feel_3"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/ts_sub" />
+
+                <TextView
+                    android:id="@+id/btn_4"
+                    android:layout_width="@dimen/x54dp"
+                    android:layout_height="@dimen/x54dp"
+                    android:layout_marginLeft="@dimen/x10dp"
+                    android:background="@drawable/feel_4"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/ts_sub" />
+
+                <TextView
+                    android:id="@+id/btn_5"
+                    android:layout_width="@dimen/x54dp"
+                    android:layout_height="@dimen/x54dp"
+                    android:layout_marginLeft="@dimen/x10dp"
+                    android:background="@drawable/feel_5"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/ts_sub" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rl_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/x10dp"
+                android:background="@color/cbg_color"
+                android:orientation="vertical" />
+
+            <LinearLayout
+                android:id="@+id/rl_jf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/cbg_color"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/x15dp"
+                android:visibility="gone" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/cbg_color"
+                    android:padding="@dimen/x15dp"
+                    android:text="当日体重"
+                    android:textColor="@color/ct_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <Button
+                    android:id="@+id/btn_recordtz"
+                    android:layout_width="140dp"
+                    android:layout_height="@dimen/x40dp"
+                    android:layout_marginLeft="@dimen/x20dp"
+                    android:background="@drawable/custom_round_normal"
+                    android:gravity="center"
+                    android:padding="@dimen/x10dp"
+                    android:text="+记录体重"
+                    android:textColor="@color/ct_color"
+                    android:textSize="@dimen/ts_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

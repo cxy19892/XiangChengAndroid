@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome_page"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="164dp"
+        android:visibility="gone"
+        android:background="@drawable/welcome_logo" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/x28dp"
+        android:text="香  橙"
+        android:visibility="gone"
+        android:textColor="@color/onet_color"
+        android:textSize="@dimen/ts_big" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/x10dp"
+        android:text="想   睡   如   此   简   单"
+        android:textColor="@color/ct_color"
+        android:visibility="gone"
+        android:textSize="@dimen/ts_content" />
+
+    <ImageView
+        android:id="@+id/iv_app_market_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/x60dp"
+        android:background="@drawable/welcome_thre_platform_icon" />
+
+    <TextView
+        android:id="@+id/tv21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/x20dp"
+        android:text="成都香晨科技有限责任公司"
+        android:visibility="gone"
+        android:textColor="@color/fct_color"
+        android:textSize="@dimen/ts_min" />
+
+</RelativeLayout>

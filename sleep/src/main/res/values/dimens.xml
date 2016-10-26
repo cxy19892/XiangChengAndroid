@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="edit_hight_normal">18dp</dimen>
+    <dimen name="circular_corner_normao">3dp</dimen>
+    <dimen name="btn_height">35dp</dimen>
+    <dimen name="btn_width_larger">200dp</dimen>
+    <dimen name="fragment_padding_bottom">60dp</dimen>
+    <dimen name="list_item_height_normal">60dp</dimen>
+    <dimen name="list_item_height_small">50dp</dimen>
+    <dimen name="activity_padding">20dp</dimen>
+    <dimen name="btn_padding_left_right">20dp</dimen>
+    <dimen name="btn_padding_top_bottom">20dp</dimen>
+    <dimen name="slidingmenu_offset">0dp</dimen>
+    <dimen name="textsize_title2">18sp</dimen>
+    <dimen name="textsize_large">20sp</dimen>
+    <dimen name="textsize_normal">18sp</dimen>
+    <dimen name="textsize_small">14sp</dimen>
+    <dimen name="textsize_xsmall">12sp</dimen>
+    <dimen name="textsize_xlarge">24sp</dimen>
+    <dimen name="textsize_xxlarge">30sp</dimen>
+    <dimen name="textsize_title">24sp</dimen>
+    <dimen name="textsize_title_small">20sp</dimen>
+    <dimen name="textsize_button">20sp</dimen>
+    <dimen name="text_line_spacingextra_normal">3.5dp</dimen>
+    <dimen name="textsize_head">30sp</dimen>
+    <dimen name="textsize_second">14sp</dimen>
+    <dimen name="list_item_margin_normal">16dp</dimen>
+    <dimen name="margin_padding_normal">20dp</dimen>
+    <dimen name="margin_padding_small">10dp</dimen>
+    <dimen name="margin_padding_xsmall">4dp</dimen>
+    <dimen name="margin_padding_xxsmall">2dp</dimen>
+    <dimen name="margin_padding_large">30dp</dimen>
+    <dimen name="margin_padding_xlarge">40dp</dimen>
+    <dimen name="margin_padding_xxlarge">50dp</dimen>
+    <dimen name="margin_icon_welcome">120dp</dimen>
+    <dimen name="margin_padding_xxxlarge">100dp</dimen>
+    <dimen name="alarm_padding_top_bottom">100dp</dimen>
+    <dimen name="round_bc_padding">26dp</dimen>
+    <dimen name="btn_width_normal">50dp</dimen>
+    <dimen name="btn_width_large">80dp</dimen>
+    <dimen name="btn_width_xlarge">100dp</dimen>
+    <dimen name="btn_height_normal">40dp</dimen>
+    <dimen name="btn_bottom_height">40dp</dimen>
+    <dimen name="text_padding">4dp</dimen>
+    <dimen name="default_time_size">30sp</dimen>
+    <dimen name="time_et_width">60dp</dimen>
+    <dimen name="time_et__height">20dp</dimen>
+    <dimen name="left_right_padding">20dp</dimen>
+    <dimen name="margin_normal">20dp</dimen>
+    <dimen name="margin_small">10dp</dimen>
+    <dimen name="time_format_margin">6dp</dimen>
+    <dimen name="title_padding">10dp</dimen>
+    <dimen name="title_height">58dp</dimen>
+    <dimen name="title_btn_width">50dp</dimen>
+    <dimen name="title_btn_height">36dp</dimen>
+    <dimen name="gender_width">200dp</dimen>
+    <dimen name="gender_height">80dp</dimen>
+    <dimen name="birth_figure_width">160dp</dimen>
+    <dimen name="birth_figure_height">200dp</dimen>
+    <dimen name="birth_figure_margin_left">70dp</dimen>
+    <dimen name="birth_figure_height_margin_top">30dp</dimen>
+    <dimen name="layout_button_arrows_width">40dp</dimen>
+    <dimen name="layout_button_arrows_height">40dp</dimen>
+    <dimen name="layout_day_sleep_width">80dp</dimen>
+    <dimen name="layout_day_sleep_height">80dp</dimen>
+    <dimen name="layout_day_sleep_beauty_width">106dp</dimen>
+    <dimen name="layout_day_sleep_beauty_height">106dp</dimen>
+    <dimen name="sleep_round_width">18dp</dimen>
+    <dimen name="textsize_round_hour">44sp</dimen>
+    <dimen name="textsize_round_minute">32sp</dimen>
+    <dimen name="textsize_round_tag">14sp</dimen>
+    <dimen name="layout_week_sleep_width">82dp</dimen>
+    <dimen name="layout_week_sleep_height">82dp</dimen>
+    <dimen name="timeset_type_height">100dp</dimen>
+    <dimen name="timeset_type_width">220dp</dimen>
+    <dimen name="timeset_type_selected_height">80dp</dimen>
+    <dimen name="timeset_type_margin_bottom">20dp</dimen>
+    <dimen name="timeset_text_margin_left">-20dp</dimen>
+    <dimen name="sleep_day_round_width">280dp</dimen>
+    <dimen name="sleep_day_loop_width_large">40dp</dimen>
+    <dimen name="sleep_week_statistics_width">280dp</dimen>
+    <dimen name="ruler_height">86dp</dimen>
+    <dimen name="activity_setting_line_height">0.6dp</dimen>
+    <dimen name="activity_setting_divider">6dp</dimen>
+    <dimen name="occupation_round_width">13dp</dimen>
+    <dimen name="occupation_divider_height_normal">0.6dp</dimen>
+    <dimen name="occupation_divider_height_larger">1.2dp</dimen>
+    <dimen name="ranking_tabmargin_left">30dp</dimen>
+    <dimen name="ranking_tabmargin_width">56dp</dimen>
+    <dimen name="numperpicker_divider_interval_height">25dp</dimen>
+    <dimen name="back_logo_margin_top">210dp</dimen>
+    <dimen name="excalmatory_mark_margin_top">-4dp</dimen>
+    <dimen name="explanation_tip_margin_left">10dp</dimen>
+    <dimen name="explanation_tip_margin_bottom">50dp</dimen>
+
+    <!-- 环信界面 -->
+    <dimen name="height_top_bar">46dp</dimen>
+
+    <!-- 2.0 -->
+    <dimen name="head_portrait_background_img_height">220dp</dimen>
+    <dimen name="head_icon_with_height_normal">50dp</dimen>
+    <dimen name="head_icon_with_height_large">70dp</dimen>
+    <dimen name="head_icon_with_height_xlarge">80dp</dimen>
+
+    <!-- 铃音播放二级界面、闹钟界面 -->
+    <dimen name="xiangcheng_audio_cover_height">310dp</dimen>
+    <dimen name="xiangcheng_audio_cover_corner_radius">15dp</dimen>
+    <dimen name="xiangcheng_audio_play_bottom_heigth">90dp</dimen>
+    <dimen name="xiangcheng_alarm_bottom_height">80dp</dimen>
+
+    <!-- 主界面 底部导航图标触发区域 距离顶端的距离 -->
+    <dimen name="xiangcheng_bottom_tabbutton_topmargin">6dp</dimen>
+    <dimen name="xiangcheng_bottom_tabbutton_topmargin_small">4dp</dimen>
+    <dimen name="pop_dialog_margin_bottom">10dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="image_size">120dp</dimen>
+    <dimen name="space_size">2dp</dimen>
+    <dimen name="folder_cover_size">72dp</dimen>
+    <dimen name="crop_bar_height">48dp</dimen>
+
+    
+    <!--  文字规范 -->
+    <!-- 事项提醒、时间数字 -->
+    <dimen name="ts_max">40sp</dimen>
+    <!-- 大文字，介于标题与最大文字之间 -->
+    <dimen name="ts_big">20sp</dimen>
+    <!-- 标题 -->
+    <dimen name="ts_titles">18sp</dimen>
+    <!-- 按钮字体-->
+    <dimen name="ts_btn">17sp</dimen>
+    <!-- 内容正文-->
+    <dimen name="ts_content">16sp</dimen>
+    <!-- 辅助文字、预读等内容-->
+    <dimen name="ts_sub">14sp</dimen>
+    <!-- 最小字体 用语图表的字体(一般用作画图)-->
+    <dimen name="ts_min">12sp</dimen>
+    
+    
+    <!-- 适配方案 -->
+    <dimen name="x0dp">0dp</dimen>
+    <dimen name="x1dp">1dp</dimen>
+    <dimen name="x2dp">2dp</dimen>
+    <dimen name="x3dp">3dp</dimen>
+    <dimen name="x4dp">4dp</dimen>
+    <dimen name="x5dp">5dp</dimen>
+    <dimen name="x6dp">6dp</dimen>
+    <dimen name="x7dp">7dp</dimen>
+    <dimen name="x8dp">8dp</dimen>
+    <dimen name="x9dp">9dp</dimen>
+    <dimen name="x10dp">11dp</dimen>
+    <dimen name="x11dp">12dp</dimen>
+    <dimen name="x12dp">13dp</dimen>
+    <dimen name="x13dp">14dp</dimen>
+    <dimen name="x14dp">15dp</dimen>
+    <dimen name="x15dp">16dp</dimen>
+    <dimen name="x16dp">17dp</dimen>
+    <dimen name="x17dp">18dp</dimen>
+    <dimen name="x18dp">19dp</dimen>
+    <dimen name="x19dp">20dp</dimen>
+    <dimen name="x20dp">21dp</dimen>
+    <dimen name="x21dp">22dp</dimen>
+    <dimen name="x22dp">23dp</dimen>
+    <dimen name="x23dp">24dp</dimen>
+    <dimen name="x24dp">25dp</dimen>
+    <dimen name="x25dp">26dp</dimen>
+    <dimen name="x26dp">27dp</dimen>
+    <dimen name="x27dp">28dp</dimen>
+    <dimen name="x28dp">29dp</dimen>
+    <dimen name="x29dp">30dp</dimen>
+    <dimen name="x30dp">31dp</dimen>
+    <dimen name="x31dp">33dp</dimen>
+    <dimen name="x32dp">34dp</dimen>
+    <dimen name="x33dp">35dp</dimen>
+    <dimen name="x34dp">36dp</dimen>
+    <dimen name="x35dp">37dp</dimen>
+    <dimen name="x36dp">38dp</dimen>
+    <dimen name="x37dp">39dp</dimen>
+    <dimen name="x38dp">40dp</dimen>
+    <dimen name="x39dp">41dp</dimen>
+    <dimen name="x40dp">42dp</dimen>
+    <dimen name="x41dp">43dp</dimen>
+    <dimen name="x42dp">44dp</dimen>
+    <dimen name="x43dp">45dp</dimen>
+    <dimen name="x44dp">46dp</dimen>
+    <dimen name="x45dp">47dp</dimen>
+    <dimen name="x46dp">48dp</dimen>
+    <dimen name="x47dp">49dp</dimen>
+    <dimen name="x48dp">50dp</dimen>
+    <dimen name="x49dp">51dp</dimen>
+    <dimen name="x50dp">52dp</dimen>
+    <dimen name="x51dp">54dp</dimen>
+    <dimen name="x52dp">55dp</dimen>
+    <dimen name="x53dp">56dp</dimen>
+    <dimen name="x54dp">57dp</dimen>
+    <dimen name="x55dp">58dp</dimen>
+    <dimen name="x56dp">59dp</dimen>
+    <dimen name="x57dp">60dp</dimen>
+    <dimen name="x58dp">61dp</dimen>
+    <dimen name="x59dp">62dp</dimen>
+    <dimen name="x60dp">63dp</dimen>
+    <dimen name="x61dp">64dp</dimen>
+    <dimen name="x62dp">65dp</dimen>
+    <dimen name="x63dp">66dp</dimen>
+    <dimen name="x64dp">67dp</dimen>
+    <dimen name="x65dp">68dp</dimen>
+    <dimen name="x66dp">69dp</dimen>
+    <dimen name="x67dp">70dp</dimen>
+    <dimen name="x68dp">71dp</dimen>
+    <dimen name="x69dp">72dp</dimen>
+    <dimen name="x70dp">74dp</dimen>
+    <dimen name="x71dp">75dp</dimen>
+    <dimen name="x72dp">76dp</dimen>
+    <dimen name="x73dp">77dp</dimen>
+    <dimen name="x74dp">78dp</dimen>
+    <dimen name="x75dp">79dp</dimen>
+    <dimen name="x76dp">80dp</dimen>
+    <dimen name="x77dp">81dp</dimen>
+    <dimen name="x78dp">82dp</dimen>
+    <dimen name="x79dp">83dp</dimen>
+    <dimen name="x80dp">84dp</dimen>
+    <dimen name="x81dp">85dp</dimen>
+    <dimen name="x82dp">86dp</dimen>
+    <dimen name="x83dp">87dp</dimen>
+    <dimen name="x84dp">88dp</dimen>
+    <dimen name="x85dp">89dp</dimen>
+    <dimen name="x86dp">90dp</dimen>
+    <dimen name="x87dp">91dp</dimen>
+    <dimen name="x88dp">92dp</dimen>
+    <dimen name="x89dp">93dp</dimen>
+    <dimen name="x90dp">94dp</dimen>
+    <dimen name="x91dp">96dp</dimen>
+    <dimen name="x92dp">97dp</dimen>
+    <dimen name="x93dp">98dp</dimen>
+    <dimen name="x94dp">99dp</dimen>
+    <dimen name="x95dp">100dp</dimen>
+    <dimen name="x96dp">101dp</dimen>
+    <dimen name="x97dp">102dp</dimen>
+    <dimen name="x98dp">103dp</dimen>
+    <dimen name="x99dp">104dp</dimen>
+    <dimen name="x100dp">105dp</dimen>
+
+</resources>

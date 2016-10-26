@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color" >
+
+    <com.yzm.sleep.refresh.MaterialRefreshLayout
+        android:id="@+id/fragment_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_color"
+        android:paddingLeft="@dimen/x12dp"
+        android:paddingRight="@dimen/x12dp" >
+
+        <ListView
+            android:id="@+id/lv_goods_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bg_color"
+            android:childDivider="@null"
+            android:divider="#00000000"
+            android:dividerHeight="0dip"
+            android:listSelector="@drawable/comm_bg_listview_item"
+            android:scrollbars="none" />
+    </com.yzm.sleep.refresh.MaterialRefreshLayout>
+
+</RelativeLayout>

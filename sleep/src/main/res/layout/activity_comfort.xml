@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+    
+    <include layout="@layout/title_layout_dark"/>
+
+	<com.yzm.sleep.widget.SlideCutListView 
+	    android:id="@+id/comfort_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:listSelector="@android:color/transparent"
+        android:cacheColorHint="#00000000"
+        android:divider="#00000000"
+        android:dividerHeight="10dp"
+        android:scrollbars="none"
+	    ></com.yzm.sleep.widget.SlideCutListView>
+</LinearLayout>

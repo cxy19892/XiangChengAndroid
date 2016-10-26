@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/comm_bg_listview_item"
+    android:paddingBottom="@dimen/x18dp" >
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/x18dp"
+        android:layout_marginLeft="@dimen/x18dp"
+        android:layout_marginRight="@dimen/x18dp"
+        android:background="#00000000"
+        android:text="已售完，正在加紧生产中，请稍后再来"
+        android:textColor="@color/onet_color"
+        android:textSize="@dimen/ts_content" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv"
+        android:layout_marginLeft="@dimen/x12dp"
+        android:layout_marginRight="@dimen/x12dp"
+        android:layout_marginTop="@dimen/x18dp"
+        android:background="@drawable/custom_button_bg"
+        android:padding="@dimen/x12dp"
+        android:text="我知道了"
+        android:textColor="@color/onet_color"
+        android:textSize="@dimen/ts_content" />
+
+</RelativeLayout>

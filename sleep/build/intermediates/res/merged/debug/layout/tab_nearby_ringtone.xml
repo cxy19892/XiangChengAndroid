@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.yzm.sleep.pulltorefresh.PullToRefreshListView
+        android:id="@+id/lv_nearby_ringtone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="#00000000"
+        android:fastScrollEnabled="false"
+        android:scrollbars="none"
+        android:divider="@null" />
+
+    <RelativeLayout
+        android:id="@+id/layout_noresult1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone"
+        android:gravity="center"
+        android:padding="@dimen/margin_padding_normal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_nearby_ringtone_noresult"
+            android:textColor="@color/ct_color"
+            android:textSize="@dimen/textsize_normal" />
+    </RelativeLayout>
+    
+
+</RelativeLayout>

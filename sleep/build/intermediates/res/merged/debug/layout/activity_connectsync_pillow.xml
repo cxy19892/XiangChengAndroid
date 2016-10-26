@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_half_trapor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layout_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:padding="@dimen/margin_padding_small" >
+
+        <ProgressBar
+            android:id="@+id/pb"
+            style="@style/MyProDialogConn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:indeterminateDuration="500" />
+
+        <TextView
+            android:id="@+id/tv_alert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_padding_small"
+            android:text="正在连接智能枕扣..."
+            android:textColor="@color/ct_color"
+            android:textSize="@dimen/textsize_normal" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_setting_line_height"
+        android:layout_below="@id/layout_top"
+        android:background="@color/white" />
+
+    <ImageView
+        android:layout_margin="@dimen/margin_padding_large"
+        android:id="@+id/iv_alert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/pillow_intr_icon" />
+<TextView
+        android:id="@+id/tv_text_introduce2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/iv_alert"
+        android:layout_centerHorizontal="true"
+        android:text="@string/bind_pillow_text21"
+        android:textColor="@color/ct_color"
+        android:textSize="@dimen/textsize_normal" />
+    <TextView
+        android:id="@+id/tv_text_introduce1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tv_text_introduce2"
+        android:layout_centerHorizontal="true"
+        android:text="@string/bind_pillow_text20"
+        android:textColor="@color/ct_color"
+        android:textSize="@dimen/textsize_normal" />
+    
+    <TextView
+        android:id="@+id/tv_cancel_connect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_alert"
+        android:layout_centerHorizontal="true"
+        android:text="取消连接"
+        android:textColor="@color/ct_color"
+        android:textSize="@dimen/textsize_normal" />
+
+</RelativeLayout>

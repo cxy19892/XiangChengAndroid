@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+      <TextView
+        android:id="@+id/tv_nodata_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textColor="#303030"
+        android:background="@drawable/no_panel_display"
+        android:textSize="14sp" />
+<!--         <TextView -->
+<!--         android:id="@+id/tv_nodata_title" -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_centerHorizontal="true" -->
+<!--         android:layout_marginTop="100dp" -->
+<!--         android:text="还没有小组" -->
+<!--         android:textColor="#303030" -->
+<!--         android:textSize="14sp" /> -->
+
+<!--     <View -->
+<!--         android:id="@+id/view_notdata" -->
+<!--         android:layout_width="1dp" -->
+<!--         android:layout_height="1dp" -->
+<!--         android:layout_centerHorizontal="true" /> -->
+
+<!--     <TextView -->
+<!--         android:id="@+id/tv_nodata" -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_below="@id/tv_nodata_title" -->
+<!--         android:layout_marginTop="20dp" -->
+<!--         android:layout_toLeftOf="@id/view_notdata" -->
+<!--         android:text="热点" -->
+<!--         android:textColor="#FF5722"  -->
+<!--         android:textSize="14sp" /> -->
+
+<!--     <TextView -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_below="@id/tv_nodata_title" -->
+<!--         android:layout_marginTop="20dp" -->
+<!--         android:layout_toLeftOf="@id/tv_nodata" -->
+<!--         android:text="你可以去“" -->
+<!--         android:textColor="#999999" -->
+<!--         android:textSize="14sp" /> -->
+
+<!--     <TextView -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_below="@id/tv_nodata_title" -->
+<!--         android:layout_marginTop="20dp" -->
+<!--         android:layout_toRightOf="@id/view_notdata" -->
+<!--         android:text="”里关注你感兴趣的" -->
+<!--         android:textColor="#999999" -->
+<!--         android:textSize="14sp" /> -->
+
+</RelativeLayout>

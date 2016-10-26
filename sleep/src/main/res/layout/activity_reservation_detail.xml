@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_layout_dark" />
+    <TextView 
+        android:id="@+id/tvClinic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/ts_content"
+        android:layout_marginTop="@dimen/x16dp"
+        android:layout_marginLeft="@dimen/x10dp"
+        android:layout_marginRight="@dimen/x10dp"
+        android:textColor="@color/ct_color"/>
+    <TextView 
+        android:id="@+id/tvAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/ts_content"
+        android:layout_marginTop="@dimen/x16dp"
+        android:layout_marginLeft="@dimen/x10dp"
+        android:layout_marginRight="@dimen/x10dp"
+        android:textColor="@color/ct_color"/>
+    <TextView 
+        android:id="@+id/tvDoctor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/ts_content"
+        android:layout_marginTop="@dimen/x16dp"
+        android:layout_marginLeft="@dimen/x10dp"
+        android:layout_marginRight="@dimen/x10dp"
+        android:textColor="@color/ct_color"/>
+    <TextView 
+        android:id="@+id/tvOrderTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/ts_content"
+        android:layout_marginTop="@dimen/x16dp"
+        android:layout_marginLeft="@dimen/x10dp"
+        android:layout_marginRight="@dimen/x10dp"
+        android:textColor="@color/ct_color"/>
+    <TextView 
+        android:id="@+id/tvPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/ts_content"
+        android:layout_marginTop="@dimen/x16dp"
+        android:layout_marginLeft="@dimen/x10dp"
+        android:layout_marginRight="@dimen/x10dp"
+        android:textColor="@color/ct_color"/>
+
+</LinearLayout>

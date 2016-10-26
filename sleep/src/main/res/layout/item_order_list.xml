@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cbg_color"
+    android:orientation="vertical" >
+    
+    <View android:layout_width="match_parent"
+        android:layout_height="@dimen/x10dp"
+        android:background="@color/cbg_color"/>
+
+    <LinearLayout
+        android:id="@+id/item_order_lin_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/x10dp"
+        android:paddingRight="@dimen/x10dp"
+        android:paddingTop="@dimen/x13dp"
+        android:paddingBottom="@dimen/x13dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/string_orders_num"
+            android:textSize="@dimen/ts_content"
+            android:textColor="@color/onet_color" />
+
+        <TextView
+            android:id="@+id/order_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/ts_content"
+            android:textColor="@color/onet_color" 
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/order_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_right"
+            android:drawablePadding="@dimen/x8dp"
+            android:textColor="@color/ct_color"
+            android:textSize="@dimen/ts_content"
+            android:text="x1" />
+
+    </LinearLayout>
+    
+    <View android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@color/bg_color"/>
+    
+    <!-- <GridView
+        android:id="@+id/item_order_listv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/x10dp"
+        android:layout_marginTop="@dimen/x10dp"
+        android:horizontalSpacing="@dimen/x15dp"
+        android:layout_weight="1"
+        android:numColumns="3"
+        android:scrollbars="none" >
+	</GridView> -->
+
+    <!-- <HorizontalScrollView
+        android:id="@+id/horizontalScrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:paddingTop="@dimen/x10dp"
+        android:paddingBottom="@dimen/x10dp"
+         > -->
+         <LinearLayout
+        android:id="@+id/item_order_lin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/x10dp"
+        android:paddingTop="@dimen/x10dp" >
+            
+        <com.yzm.sleep.widget.CustomGridView
+            android:id="@+id/item_order_grid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0.6dp"
+            android:background="@color/cbg_color"
+            android:focusable="false"
+            android:horizontalSpacing="@dimen/x22dp"
+            android:listSelector="#00000000"
+            android:numColumns="3"
+            android:paddingBottom="@dimen/x12dp"
+            android:paddingLeft="@dimen/x18dp"
+            android:paddingRight="@dimen/x18dp"
+            android:paddingTop="@dimen/x12dp"
+             /> 
+    </LinearLayout>
+
+   <!--  </HorizontalScrollView> -->
+
+    <View 
+        android:id="@+id/pic_bottom_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@color/bg_color"/>
+
+    <RelativeLayout
+        android:id="@+id/item_order_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/x10dp"
+        android:paddingRight="@dimen/x10dp"
+        android:paddingTop="@dimen/x13dp"
+        android:paddingBottom="@dimen/x13dp" >
+        
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/theme_color"
+            android:textSize="@dimen/ts_sub"
+            android:text="￥" />
+
+        <TextView
+            android:id="@+id/item_order_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/textView2"
+            android:layout_marginLeft="@dimen/x3dp"
+            android:textColor="@color/theme_color"
+            android:textSize="@dimen/ts_big"
+            android:text="TextView" />
+	</LinearLayout>
+        <TextView
+            android:id="@+id/item_order_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/fct_color"
+            android:textSize="@dimen/ts_sub"
+            android:text="TextView" />
+
+    </RelativeLayout>
+
+</LinearLayout>

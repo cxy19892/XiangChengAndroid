@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+    
+    <include 
+        layout="@layout/title_layout_dark"/>
+
+    <ProgressBar
+        android:id="@+id/esti_progerssbar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:progressDrawable="@drawable/progressbar_color"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp" />
+    
+    <TextView
+        android:id="@+id/esti_tvLoadFailed"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_color"
+        android:gravity="center"
+        android:text="网络异常，请稍后再试"
+        android:textColor="@color/fct_color"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+    <WebView
+        android:id="@+id/esti_web_View"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_color"
+        android:scrollbars="none"
+        android:visibility="gone" />
+
+
+</LinearLayout>

@@ -1,0 +1,134 @@
+[
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\anim\\alpha_in.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\anim\\alpha_in.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\anim\\alpha_out.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\anim\\alpha_out.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\anim\\fragment_slide_left_exit.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\anim\\fragment_slide_left_exit.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\anim\\accordion_left_out.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\anim\\accordion_left_out.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\anim\\sheet_dialog_in.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\anim\\sheet_dialog_in.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\anim\\fragment_slide_left_enter.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\anim\\fragment_slide_left_enter.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\anim\\accordion_right_out.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\anim\\accordion_right_out.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\anim\\zoom_enter.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\anim\\zoom_enter.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\anim\\scale_anim_praise_img.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\anim\\scale_anim_praise_img.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\anim\\voice_from_icon.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\anim\\voice_from_icon.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\anim\\accordion_right_in.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\anim\\accordion_right_in.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\anim\\voice_to_icon.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\anim\\voice_to_icon.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_bottom_out.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\anim\\dialog_bottom_out.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\anim\\translatexanimator2.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\anim\\translatexanimator2.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\anim\\slide_in.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\anim\\translatexanimator.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\anim\\translatexanimator.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\anim\\filtrate_popup_hide.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\anim\\filtrate_popup_hide.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\anim\\cus_progress_rotate.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\anim\\cus_progress_rotate.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\anim\\filtrate_popup_show.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\anim\\filtrate_popup_show.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\anim\\sheet_dialog_out.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\anim\\sheet_dialog_out.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_bottom_in.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\anim\\dialog_bottom_in.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\anim\\tips_hint_user_to_pulldown.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\anim\\tips_hint_user_to_pulldown.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\anim\\slide_out.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\anim\\accordion_left_in.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\anim\\accordion_left_in.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\anim\\zoom_exit.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\anim\\zoom_exit.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\anim\\settime_bottom_out.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\anim\\settime_bottom_out.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\anim\\fragment_slide_right_exit.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\anim\\fragment_slide_right_exit.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\anim\\slide_right_in.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\anim\\slide_right_in.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\anim\\fragment_slide_right_enter.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\anim\\fragment_slide_right_enter.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\anim\\settime_bottom_in.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\anim\\settime_bottom_in.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\anim\\slide_left_out.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\anim\\slide_left_out.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\anim\\slide_left_in.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\anim\\slide_left_in.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\anim\\slide_right_out.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\anim\\slide_right_out.xml"
+    }
+]

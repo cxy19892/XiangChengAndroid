@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+    <include layout="@layout/title_layout_dark"/>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/x27dp"
+                android:background="@color/cbg_color"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:id="@+id/layout_account"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/x54dp" >
+
+                    <EditText
+                        android:id="@+id/et_account"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:background="#00000000"
+                        android:gravity="center_vertical"
+                        android:hint="输入手机号码"
+                        android:digits="1234567890#"
+                        android:inputType="numberSigned"
+                        android:maxLength="12"
+                        android:paddingLeft="@dimen/x18dp"
+                        android:singleLine="true"
+                        android:textColor="@color/ct_color"
+                        android:textSize="@dimen/ts_content" />
+                </RelativeLayout>
+                <!-- 密码输入框 -->
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/x1dp"
+                    android:background="@color/bg_color" />
+
+                <RelativeLayout
+                    android:id="@+id/layout_pwd"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/x54dp" >
+
+                    <Button
+                        android:id="@+id/btn_get_code"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/x30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/x20dp"
+                        android:background="@drawable/get_verification_code_btn"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/x10dp"
+                        android:paddingRight="@dimen/x10dp"
+                        android:text="获取验证码"
+                        android:textColor="@color/fct_color"
+                        android:textSize="@dimen/ts_sub" />
+
+                    <EditText
+                        android:id="@+id/et_pwd"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/x10dp"
+                        android:layout_toLeftOf="@id/btn_get_code"
+                        android:background="#00000000"
+                        android:digits="0123456789"
+                        android:hint="@string/activity_login_hint_pwd"
+                        android:imeOptions="actionDone"
+                        android:inputType="phone"
+                        android:maxLength="4"
+                        android:paddingLeft="@dimen/x18dp"
+                        android:singleLine="true"
+                        android:textColor="@color/ct_color"
+                        android:textSize="@dimen/ts_content" />
+                </RelativeLayout>
+            </LinearLayout>
+            <!-- 登录按钮 -->
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/x50dp"
+                android:layout_gravity="right"
+                android:layout_marginLeft="@dimen/x18dp"
+                android:layout_marginRight="@dimen/x18dp"
+                android:layout_marginTop="@dimen/x45dp"
+                android:background="@drawable/button_login"
+                android:text="登录"
+                android:textColor="@color/cbg_color"
+                android:textSize="@dimen/ts_btn" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/x74dp"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_centerInParent="true"
+                        android:id="@+id/tvTag"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#00000000"
+                        android:gravity="center"
+                        android:text="第三方登录"
+                        android:textColor="@color/ct_color" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/x10dp"
+                        android:layout_marginRight="@dimen/x10dp"
+                        android:layout_toLeftOf="@id/tvTag"
+                        android:background="@color/fct_color" />
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/x10dp"
+                        android:layout_marginRight="@dimen/x10dp"
+                        android:layout_toRightOf="@id/tvTag"
+                        android:background="@color/fct_color" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/x40dp"
+                    android:orientation="horizontal" >
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" >
+
+                        <ImageView
+                            android:id="@+id/btn_login_wechat"
+                            android:layout_width="@dimen/x46dp"
+                            android:layout_height="@dimen/x46dp"
+                            android:layout_centerHorizontal="true"
+                            android:background="@drawable/ic_wx"
+                            android:padding="@dimen/x5dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/btn_login_wechat"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="@dimen/x10dp"
+                            android:text="微信"
+                            android:textColor="@color/ct_color"
+                            android:textSize="@dimen/ts_sub" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" >
+
+                        <!-- 微博登录按钮 -->
+
+                        <com.sina.weibo.sdk.widget.LoginButton
+                            android:id="@+id/login_button_weibo"
+                            android:layout_width="@dimen/x46dp"
+                            android:layout_height="@dimen/x46dp"
+                            android:layout_centerHorizontal="true" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/login_button_weibo"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="@dimen/x10dp"
+                            android:text="微博"
+                            android:textColor="@color/ct_color"
+                            android:textSize="@dimen/ts_sub" />
+                    </RelativeLayout>
+
+                    <!-- QQ登录按钮 -->
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" >
+
+                        <ImageView
+                            android:id="@+id/login_qq"
+                            android:layout_width="@dimen/x46dp"
+                            android:layout_height="@dimen/x46dp"
+                            android:layout_centerHorizontal="true"
+                            android:background="@drawable/ic_qq" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/login_qq"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="@dimen/x10dp"
+                            android:text="QQ"
+                            android:textColor="@color/ct_color"
+                            android:textSize="@dimen/ts_sub" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

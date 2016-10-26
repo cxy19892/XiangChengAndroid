@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <include layout="@layout/title_layout_dark"/>
+
+    <com.yzm.sleep.widget.KJScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/release_conversation_label_tips"
+            android:textColor="@color/gray_normal"
+            android:padding="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/release_conversation_label_owned" />
+            
+        </RelativeLayout>
+
+         <View
+             android:layout_width="match_parent"
+             android:layout_height="@dimen/activity_setting_line_height"
+             android:background="@color/activity_setting_line_color" />
+
+         <com.yzm.sleep.widget.AutoNewLineLinearLayout
+            android:id="@+id/release_label_layout_owned"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small"
+            android:orientation="horizontal" >
+        </com.yzm.sleep.widget.AutoNewLineLinearLayout>
+         
+         <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp" >
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/release_conversation_label_host" />
+            
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_setting_line_height"
+            android:background="@color/activity_setting_line_color" />
+        
+
+         
+         <com.yzm.sleep.widget.AutoNewLineLinearLayout
+            android:id="@+id/release_label_layout_host"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small"
+            android:orientation="horizontal" >
+        </com.yzm.sleep.widget.AutoNewLineLinearLayout>
+
+    </LinearLayout>
+    </com.yzm.sleep.widget.KJScrollView>
+
+</LinearLayout>

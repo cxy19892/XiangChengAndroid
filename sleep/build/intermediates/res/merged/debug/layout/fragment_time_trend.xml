@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cbg_color" >
+
+    <ScrollView
+        android:id="@+id/sc_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/cbg_color"
+        android:visibility="gone"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cbg_color"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/cbg_color"
+                android:paddingBottom="@dimen/x15dp" >
+
+
+
+                <com.yzm.sleep.widget.SleepTimePointTable
+                    android:id="@+id/soft_week_data_view2"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="@dimen/x10dp"
+                     />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="@dimen/x6dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/tv_rech"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/ts_min"
+                        android:textColor="@color/theme_color"
+                        android:drawableLeft="@drawable/custom_cricle_1"
+                        android:drawablePadding="@dimen/x5dp"
+                        android:text=""/>
+
+                    <TextView
+                        android:id="@+id/tv_not_rech"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/ts_min"
+                        android:textColor="@color/theme_color"
+                        android:layout_marginLeft="@dimen/x16dp"
+                        android:drawableLeft="@drawable/custom_cricle_2"
+                        android:drawablePadding="@dimen/x5dp"
+                        android:layout_marginRight="@dimen/x5dp"
+                        android:text=""/>
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/analyze_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/x10dp"
+                android:background="@color/bg_color_7f"
+                android:paddingBottom="@dimen/x10dp" >
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/x15dp"
+                    android:drawablePadding="@dimen/x5dp"
+                    android:textStyle="bold"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/x10dp"
+                    android:textColor="@color/onet_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <TextView
+                    android:id="@+id/tv_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x10dp"
+                    android:layout_marginTop="@dimen/x15dp"
+                    android:textStyle="bold"
+                    android:layout_toRightOf="@id/tv_title"
+                    android:gravity="center_vertical"
+                    android:paddingRight="@dimen/x10dp"
+                    android:textColor="@color/onet_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <com.yzm.sleep.widget.ColorFullRoundProgressBar
+                    android:id="@+id/progerssbar"
+                    android:layout_width="@dimen/x80dp"
+                    android:layout_height="@dimen/x80dp"
+                    android:layout_below="@id/tv_title"
+                    android:layout_marginLeft="@dimen/x10dp"
+                    android:layout_marginTop="@dimen/x8dp"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_pro"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_alignBottom="@id/progerssbar"
+                    android:layout_alignLeft="@id/progerssbar"
+                    android:layout_alignRight="@id/progerssbar"
+                    android:layout_alignTop="@id/progerssbar"
+                    android:gravity="center"
+                    android:text="0%"
+                    android:textColor="#FFFF8037"
+                    android:textSize="@dimen/ts_titles" />
+
+                <TextView
+                    android:id="@+id/tv_complete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_title"
+                    android:layout_marginLeft="@dimen/x15dp"
+                    android:layout_marginTop="@dimen/x8dp"
+                    android:layout_toRightOf="@+id/progerssbar"
+                    android:textColor="@color/theme_color"
+                    android:textSize="@dimen/ts_sub" />
+
+                <TextView
+                    android:id="@+id/tv_goal_before"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_complete"
+                    android:layout_marginLeft="@dimen/x15dp"
+                    android:layout_marginTop="@dimen/x10dp"
+                    android:layout_toRightOf="@+id/progerssbar"
+                    android:textColor="@color/fct_color"
+                    android:textSize="@dimen/ts_min" />
+
+                <TextView
+                    android:id="@+id/tv_goal_later"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_goal_before"
+                    android:layout_marginLeft="@dimen/x15dp"
+                    android:layout_toRightOf="@+id/progerssbar"
+                    android:textColor="@color/fct_color"
+                    android:textSize="@dimen/ts_min" />
+
+                <TextView
+                    android:id="@+id/tv_goal_between"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_goal_later"
+                    android:layout_marginLeft="@dimen/x15dp"
+                    android:layout_toRightOf="@+id/progerssbar"
+                    android:textColor="@color/fct_color"
+                    android:textSize="@dimen/ts_min" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/x10dp"
+                android:background="@color/bg_color_7f"
+                android:paddingLeft="@dimen/x10dp"
+                android:paddingRight="@dimen/x10dp" >
+
+                <TextView
+                    android:id="@+id/tv__2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/x15dp"
+                    android:gravity="center_vertical"
+                    android:text="睡眠小贴士"
+                    android:textColor="@color/onet_color"
+                    android:visibility="gone"
+                    android:textSize="@dimen/ts_content" />
+
+                <TextView
+                    android:id="@+id/tips_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv__2"
+                    android:layout_marginTop="@dimen/x10dp"
+                    android:paddingBottom="@dimen/x10dp"
+                    android:gravity="center_vertical"
+                    android:lineSpacingMultiplier="1.2"
+                     android:textColor="@color/fct_color"
+                    android:drawableLeft="@drawable/ic_notice_point"
+                    android:drawablePadding="@dimen/x5dp"
+                    android:textSize="@dimen/ts_min" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <include
+        android:id="@+id/nonet"
+        layout="@layout/layout_no_net"
+        android:visibility="gone"
+        />
+</RelativeLayout>

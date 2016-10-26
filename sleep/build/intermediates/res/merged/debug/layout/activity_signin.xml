@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color" >
+
+    <include layout="@layout/title_layout_dark" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/x48dp"
+        android:background="@color/bg_color"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/x20dp" >
+
+            <LinearLayout
+                android:id="@+id/rl_question_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/x10dp"
+                android:paddingRight="@dimen/x10dp" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/x10dp"
+                    android:text="几点尝试入睡"
+                    android:textColor="@color/ct_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <TextView
+                    android:id="@+id/try_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x10dp"
+                    android:layout_marginRight="@dimen/x10dp"
+                    android:background="@drawable/border"
+                    android:drawableRight="@drawable/ic_down"
+                    android:hint="选择"
+                    android:padding="@dimen/x10dp"
+                    android:textColor="@color/onet_color"
+                    android:textColorHint="@color/onet_color"
+                    android:textSize="@dimen/ts_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rl_question_three"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/x10dp"
+                android:paddingRight="@dimen/x10dp" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/x10dp"
+                    android:text="花了多长时间入睡"
+                    android:textColor="@color/ct_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <TextView
+                    android:id="@+id/spend_sleep_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x10dp"
+                    android:layout_marginRight="@dimen/x10dp"
+                    android:background="@drawable/border"
+                    android:drawableRight="@drawable/ic_down"
+                    android:hint="选择"
+                    android:padding="@dimen/x10dp"
+                    android:textColor="@color/onet_color"
+                    android:textColorHint="@color/onet_color"
+                    android:textSize="@dimen/ts_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rl_question_six"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/x10dp"
+                android:paddingRight="@dimen/x10dp" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/x10dp"
+                    android:text="早晨几点醒来"
+                    android:textColor="@color/ct_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <TextView
+                    android:id="@+id/getup_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x10dp"
+                    android:layout_marginRight="@dimen/x10dp"
+                    android:background="@drawable/border"
+                    android:drawableRight="@drawable/ic_down"
+                    android:hint="选择"
+                    android:padding="@dimen/x10dp"
+                    android:textColor="@color/onet_color"
+                    android:textColorHint="@color/onet_color"
+                    android:textSize="@dimen/ts_content" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/show_more"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x10dp"
+                android:padding="@dimen/x10dp"
+                android:text="填更多数据，查看睡眠效率"
+                android:textColor="@color/ct_color"
+                android:visibility="gone"
+                android:textSize="@dimen/ts_content" />
+
+            <LinearLayout
+                android:id="@+id/rl_question_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/x10dp"
+                android:paddingRight="@dimen/x10dp" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/x10dp"
+                    android:text="晚上几点上床"
+                    android:textColor="@color/ct_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <TextView
+                    android:id="@+id/gobed_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x10dp"
+                    android:layout_marginRight="@dimen/x10dp"
+                    android:background="@drawable/border"
+                    android:drawableRight="@drawable/ic_down"
+                    android:hint="选择"
+                    android:padding="@dimen/x10dp"
+                    android:textColor="@color/onet_color"
+                    android:textColorHint="@color/onet_color"
+                    android:textSize="@dimen/ts_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rl_question_four"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/x10dp"
+                android:paddingRight="@dimen/x10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/x10dp"
+                    android:text="中途醒来几次"
+                    android:textColor="@color/ct_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <TextView
+                    android:id="@+id/wake_count"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x10dp"
+                    android:layout_marginRight="@dimen/x10dp"
+                    android:background="@drawable/border"
+                    android:drawableRight="@drawable/ic_down"
+                    android:hint="选择"
+                    android:padding="@dimen/x10dp"
+                    android:textColor="@color/onet_color"
+                    android:textColorHint="@color/onet_color"
+                    android:textSize="@dimen/ts_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rl_question_five"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/x10dp"
+                android:paddingRight="@dimen/x10dp"
+                android:visibility="gone" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/x10dp"
+                    android:text="中途醒来总时长"
+                    android:textColor="@color/ct_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <TextView
+                    android:id="@+id/wake_time_lenght"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x10dp"
+                    android:layout_marginRight="@dimen/x10dp"
+                    android:background="@drawable/border"
+                    android:drawableRight="@drawable/ic_down"
+                    android:hint="选择"
+                    android:padding="@dimen/x10dp"
+                    android:textColor="@color/onet_color"
+                    android:textColorHint="@color/onet_color"
+                    android:textSize="@dimen/ts_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rl_question_seven"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/x10dp"
+                android:paddingRight="@dimen/x10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/x10dp"
+                    android:text="比计划早醒多久"
+                    android:textColor="@color/ct_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <TextView
+                    android:id="@+id/early_wake_length"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x10dp"
+                    android:layout_marginRight="@dimen/x10dp"
+                    android:background="@drawable/border"
+                    android:drawableRight="@drawable/ic_down"
+                    android:hint="选择"
+                    android:padding="@dimen/x10dp"
+                    android:textColor="@color/onet_color"
+                    android:textColorHint="@color/onet_color"
+                    android:textSize="@dimen/ts_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rl_question_eight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/x10dp"
+                android:paddingRight="@dimen/x10dp" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/x10dp"
+                    android:text="几点离床"
+                    android:textColor="@color/ct_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <TextView
+                    android:id="@+id/leave_bed_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x10dp"
+                    android:layout_marginRight="@dimen/x10dp"
+                    android:background="@drawable/border"
+                    android:drawableRight="@drawable/ic_down"
+                    android:hint="选择"
+                    android:padding="@dimen/x10dp"
+                    android:textColor="@color/onet_color"
+                    android:textColorHint="@color/onet_color"
+                    android:textSize="@dimen/ts_content" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_complate"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x48dp"
+                android:layout_marginLeft="@dimen/x20dp"
+                android:layout_marginRight="@dimen/x20dp"
+                android:layout_marginTop="@dimen/x20dp"
+                android:background="@drawable/button_login"
+                android:gravity="center"
+                android:text="完成"
+                android:textColor="@color/white"
+                android:visibility="gone"
+                android:textSize="@dimen/ts_btn" />
+
+            <Button
+                android:id="@+id/btn_buying"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/x48dp"
+                android:layout_marginLeft="@dimen/x20dp"
+                android:layout_marginRight="@dimen/x20dp"
+                android:layout_marginTop="@dimen/x20dp"
+                android:background="@drawable/tranceparent_button_bg"
+                android:text="购买香橙枕扣，自动记录"
+                android:textColor="@color/fct_color"
+                android:textSize="@dimen/ts_content" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

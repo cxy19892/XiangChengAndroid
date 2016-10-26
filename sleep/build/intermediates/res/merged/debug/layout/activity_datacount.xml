@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color" >
+
+    <include layout="@layout/title_layout_dark" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/x48dp"
+        android:background="@color/bg_color"
+        android:scrollbars="none" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:id="@+id/data_count1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/x10dp"
+                android:background="@color/cbg_color" >
+
+                <TextView
+                    android:id="@+id/tv_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="@dimen/x5dp"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="@dimen/x15dp"
+                    android:paddingLeft="@dimen/x15dp"
+                    android:paddingTop="@dimen/x15dp"
+                    android:text="平均睡眠时长"
+                    android:textColor="@color/second_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <TextView
+                    android:id="@+id/sleep_health_state"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:drawablePadding="@dimen/x5dp"
+                    android:drawableRight="@drawable/ic_more_normal"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="@dimen/x15dp"
+                    android:paddingRight="@dimen/x15dp"
+                    android:paddingTop="@dimen/x15dp"
+                    android:textColor="@color/sub_health"
+                    android:textSize="@dimen/ts_content" />
+
+                <TextView
+                    android:id="@+id/average_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_1"
+                    android:gravity="center"
+                    android:paddingBottom="@dimen/x30dp"
+                    android:paddingLeft="@dimen/x15dp"
+                    android:paddingTop="@dimen/x15dp"
+                    android:textColor="#dfe0f5"
+                    android:textSize="@dimen/ts_max" />
+
+                <com.yzm.sleep.widget.WaveView
+                    android:id="@+id/wave"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/x70dp"
+                    android:layout_below="@id/average_1" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/data_count1"
+                android:layout_marginTop="@dimen/x8dp"
+                android:background="@color/bg_color"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:id="@+id/data_count2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:background="@color/cbg_color" >
+
+                    <TextView
+                        android:id="@+id/average_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingBottom="@dimen/x30dp"
+                        android:paddingTop="@dimen/x30dp"
+                        android:textColor="@color/onet_color"
+                        android:textSize="@dimen/ts_max" />
+
+                    <TextView
+                        android:id="@+id/tv_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/average_2"
+                        android:gravity="center"
+                        android:text="平均入睡时间点"
+                        android:textColor="@color/second_color"
+                        android:textSize="@dimen/ts_content" />
+
+                    <TextView
+                        android:id="@+id/sleep_complate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv_2"
+                        android:drawableBottom="@drawable/ic_more_normal"
+                        android:drawablePadding="@dimen/x10dp"
+                        android:gravity="center"
+                        android:paddingBottom="@dimen/x20dp"
+                        android:textColor="@color/ct_color"
+                        android:textSize="@dimen/ts_sub" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/data_count3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x8dp"
+                    android:layout_weight="1.0"
+                    android:background="@color/cbg_color" >
+
+                    <TextView
+                        android:id="@+id/average_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingBottom="@dimen/x30dp"
+                        android:paddingLeft="@dimen/x10dp"
+                        android:paddingTop="@dimen/x30dp"
+                        android:textColor="@color/onet_color"
+                        android:textSize="@dimen/ts_max" />
+
+                    <TextView
+                        android:id="@+id/tv_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/average_3"
+                        android:gravity="center"
+                        android:text="平均醒来时间点"
+                        android:textColor="@color/second_color"
+                        android:textSize="@dimen/ts_content" />
+
+                    <TextView
+                        android:id="@+id/getup_complate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv_3"
+                        android:drawableBottom="@drawable/ic_more_normal"
+                        android:drawablePadding="@dimen/x10dp"
+                        android:gravity="center"
+                        android:paddingBottom="@dimen/x20dp"
+                        android:textColor="@color/ct_color"
+                        android:textSize="@dimen/ts_sub" />
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

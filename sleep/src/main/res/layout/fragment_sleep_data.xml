@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cbg_color"
+    android:orientation="vertical" >
+
+    <com.yzm.sleep.widget.KJScrollView
+        android:id="@+id/m_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+		android:focusableInTouchMode="true"
+		android:descendantFocusability="beforeDescendants"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <com.yzm.sleep.widget.SignInCircle
+                    android:id="@+id/soft_day_data_view"
+                    android:layout_width="300dp"
+                    android:layout_marginTop="@dimen/x26dp"
+                    android:layout_height="300dp"
+                    android:focusable="true"
+					android:focusableInTouchMode="true"
+                    android:layout_gravity="center_horizontal"
+                     />
+
+                <com.yzm.sleep.widget.WaveView
+                    android:id="@+id/wave"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/x70dp"
+                    android:layout_gravity="bottom"
+                     /> 
+                <!-- 睡眠结果提示 -->
+                
+                <LinearLayout 
+                    android:id="@+id/lin_sleep_time_select"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="@dimen/x10dp"
+                    android:paddingTop="@dimen/x10dp"
+                    >
+                    
+                   <Button 
+                       android:id="@+id/btn_last_day"
+                       android:layout_width="wrap_content"
+                       android:layout_height="@dimen/btn_height"
+                       android:background="@color/transparent"
+                       android:layout_weight="1"
+                       android:gravity="right"
+                       android:drawableRight="@drawable/ic_last"/>
+                   
+                   <TextView 
+                       android:id="@+id/tv_date_today"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:gravity="center"
+                       android:text=""
+                       android:textColor="@color/ct_color"
+                       android:ems="7"
+                       android:textSize="@dimen/ts_content"/>
+                   
+                   <Button 
+                       android:id="@+id/btn_next_day"
+                       android:layout_width="wrap_content"
+                       android:layout_height="@dimen/btn_height"
+                       android:layout_weight="1"
+                       android:background="@color/transparent"
+                       android:gravity="left"
+                       android:drawableLeft="@drawable/ic_next"/>
+                   
+                </LinearLayout>
+
+               <!--  <TextView
+                    android:id="@+id/tvSeepDetail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginTop="-20dp"
+                    android:drawableLeft="@drawable/home_sleep_data_yes"
+                    android:drawablePadding="@dimen/x10dp"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="@dimen/x10dp"
+                    android:paddingLeft="@dimen/x16dp"
+                    android:paddingRight="@dimen/x16dp"
+                    android:paddingTop="@dimen/x10dp"
+                    android:textColor="@color/color_text_title"
+                    android:textSize="@dimen/ts_content" /> -->
+				<!--  顶部title -->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <Button
+                        android:id="@+id/ib_left"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:paddingBottom="@dimen/x20dp"
+                        android:paddingLeft="@dimen/x16dp"
+                        android:paddingRight="@dimen/x80dp"
+                        android:text="趋势"
+                        android:textColor="@color/second_color"
+                        android:textSize="@dimen/ts_content"
+                        android:paddingTop="@dimen/x16dp"/>
+
+                    <ImageButton
+                        android:id="@+id/ib_right"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@null"
+                        android:paddingBottom="@dimen/x20dp"
+                        android:paddingLeft="@dimen/x80dp"
+                        android:paddingRight="@dimen/x16dp"
+                        android:paddingTop="@dimen/x16dp"
+                        android:src="@drawable/message_btn_bg" />
+
+                    <ImageView
+                        android:id="@+id/has_new_msg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignRight="@id/ib_right"
+                        android:layout_alignTop="@id/ib_right"
+                        android:layout_marginRight="@dimen/x15dp"
+                        android:layout_marginTop="@dimen/x16dp"
+                        android:src="@drawable/update_icon"
+                        android:visibility="invisible" />
+                    
+                    <!-- 测试按钮 发布的时候屏蔽 -->
+                    
+                    
+                </RelativeLayout>
+                
+                
+            </FrameLayout>
+
+            <!-- 周提示 及 热门小组 事项提醒 -->
+            
+            <RelativeLayout
+                android:id="@+id/rel_content_after_punch"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x70dp"
+                android:layout_marginTop="@dimen/x10dp"
+                android:background="@color/ct_color" >
+
+                <LinearLayout
+                    android:id="@+id/lin_clock_times"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:background="@color/ct_color" 
+                    android:paddingLeft="@dimen/x16dp"
+                    android:paddingRight="@dimen/x16dp"
+                    android:paddingTop="@dimen/x16dp"
+                     android:visibility="visible" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/tv_punch_clock_times"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:focusable="true"
+                            android:focusableInTouchMode="true"
+                            android:gravity="center_vertical"
+                            android:text="连续坚持第 1天"
+                            android:textColor="@color/fct_color"
+                            android:textSize="@dimen/ts_sub" />
+
+                        <TextView
+                            android:id="@+id/tv_todays_sleep_times"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/x6dp"
+                            android:gravity="center_vertical"
+                            android:lineSpacingExtra="@dimen/x3dp"
+                            android:text="睡眠时长：8小时12分"
+                            android:textColor="@color/onet_color"
+                            android:textSize="@dimen/ts_content" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/iv_feel_smail_face"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_smile" />
+                </LinearLayout>
+                
+                <LinearLayout
+                    android:id="@+id/lin_feels_select"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="@color/ct_color" 
+                    android:paddingLeft="@dimen/x16dp"
+                    android:paddingRight="@dimen/x16dp"
+                    android:paddingTop="@dimen/x6dp"
+                    android:visibility="gone" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center" >
+
+                        <TextView
+                            android:id="@+id/tv_feels_good" 
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawableTop="@drawable/ic_smile"
+                            android:textColor="@color/ct_color"
+                            android:textSize="@dimen/ts_sub"
+                            android:gravity="center_horizontal"
+                            android:text="感觉好"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center" >
+
+                        <TextView
+                            android:id="@+id/tv_feels_badly" 
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawableTop="@drawable/ic_cry"
+                            android:textColor="@color/ct_color"
+                            android:textSize="@dimen/ts_sub"
+                            android:gravity="center_horizontal"
+                            android:text="感觉差"/>
+                        
+                    </LinearLayout>
+                </LinearLayout>
+                
+            </RelativeLayout>
+            
+
+            <LinearLayout
+                android:id="@+id/lin_todays_sleep_tips"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/ct_color"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/x16dp"
+                android:paddingRight="@dimen/x16dp"
+                android:paddingTop="@dimen/x10dp"
+                android:paddingBottom="@dimen/x10dp"
+                android:layout_marginTop="1dp"
+                android:visibility="gone"
+                >
+
+                <TextView
+                    android:id="@+id/tv_todays_sleep_tips"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="您昨晚的睡眠时长为8小时00分钟，睡眠效率：98%，入睡快速，中途容易醒来，比预期早醒20分钟"
+                    android:textColor="@color/ct_color"
+                    android:textSize="@dimen/ts_sub" />
+                
+                <TextView android:id="@+id/tv_todays_setting_remind"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/x8dp"
+                    android:textColor="@color/fct_color"
+                    android:textSize="@dimen/ts_sub"
+                    android:visibility="gone"
+                    android:text="设置提醒"/>
+
+            </LinearLayout>
+            
+            <TextView
+                android:id="@+id/tv_welcome_go_pinggu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/x10dp"
+                android:paddingBottom="@dimen/x10dp"
+                android:paddingLeft="@dimen/x16dp"
+                android:paddingRight="@dimen/x16dp"
+                android:paddingTop="@dimen/x10dp"
+                android:text="评估后将为您制定睡眠改善方案"
+                android:textColor="@color/ct_color"
+                android:textSize="@dimen/ts_content"
+                android:visibility="gone" />
+            
+            <TextView
+                android:id="@+id/tv_welcome_go_plan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/x10dp"
+                android:paddingBottom="@dimen/x10dp"
+                android:paddingLeft="@dimen/x16dp"
+                android:paddingRight="@dimen/x16dp"
+                android:paddingTop="@dimen/x10dp"
+                android:text="暂无计划"
+                android:textColor="@color/ct_color"
+                android:textSize="@dimen/ts_content"
+                android:visibility="gone" />
+            
+            <LinearLayout
+                android:id="@+id/lin_todays_welcome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/ct_color"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/x10dp"
+                android:padding="@dimen/x10dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/tv_todays_welcome_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="香橙欢迎您的加入"
+                    android:layout_marginBottom="@dimen/x8dp"
+                    android:textColor="@color/onet_color"
+                    android:textSize="@dimen/ts_titles" />
+                
+                <View android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/bg_color"/>
+                
+                <TextView android:id="@+id/tv_todays_welcome_cont"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/x8dp"
+                    android:textColor="@color/ct_color"
+                    android:textSize="@dimen/ts_content"
+                    android:text="@string/string_welcome_tips"/>
+                
+                <TextView android:id="@+id/tv_todays_welcome_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/x8dp"
+                    android:textColor="@color/ct_color"
+                    android:textSize="@dimen/ts_content"
+                    android:gravity="right"
+                    android:text="12月27日"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lin_days_plan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                 >
+
+                <TextView
+                    android:id="@+id/tv_days_plan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="@dimen/x10dp"
+                    android:paddingLeft="@dimen/x16dp"
+                    android:paddingRight="@dimen/x16dp"
+                    android:paddingTop="@dimen/x10dp"
+                    android:text="每日计划"
+                    android:textColor="@color/ct_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <com.yzm.sleep.widget.CustomListView 
+                    android:id="@+id/lv_days_plan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:divider="@color/bg_color"
+                    android:scrollbars="none"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    ></com.yzm.sleep.widget.CustomListView>
+            </LinearLayout>
+            
+             <LinearLayout
+                 android:id="@+id/lin_eq_manager"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical"
+                 android:visibility="gone"
+                  >
+
+                 <TextView
+                     android:id="@+id/tv_eq_manager"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:gravity="center_vertical"
+                     android:layout_marginBottom="@dimen/x10dp"
+                     android:layout_marginLeft="@dimen/x16dp"
+                     android:layout_marginTop="@dimen/x10dp"
+                     android:text="情绪管理"
+                     android:textColor="@color/ct_color"
+                     android:textSize="@dimen/ts_content" />
+
+                 <EditText
+                     android:id="@+id/edt_sleep_thinking"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginBottom="@dimen/x2dp"
+                     android:background="@color/cbg_color"
+                     android:gravity="left|top"
+                     android:hint="写出您心里想的事情"
+                     android:minLines="3"
+                     android:padding="@dimen/x16dp"
+                     android:text=""
+                     android:textColor="@color/onet_color"
+                     android:textSize="@dimen/ts_sub" >
+                 </EditText>
+
+
+                 <EditText
+                     android:id="@+id/edt_sleep_feeling"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:background="@color/cbg_color"
+                     android:gravity="left|top"
+                     android:hint="写下您的感受"
+                     android:minLines="1"
+                     android:padding="@dimen/x16dp"
+                     android:text=""
+                     android:textColor="@color/onet_color"
+                     android:textSize="@dimen/ts_sub" />
+                 
+                 <Button 
+                     android:id="@+id/btn_commit_emotion"
+                     android:layout_width="match_parent"
+                     android:layout_height="@dimen/btn_height_normal"
+                     android:layout_marginTop="@dimen/x16dp"
+                     android:layout_marginLeft="@dimen/x16dp"
+                     android:layout_marginRight="@dimen/x16dp"
+                     android:text="下一步"
+                     android:textColor="@color/onet_color"
+                     android:background="@drawable/custom_button_bg"/>
+             </LinearLayout>
+
+             <LinearLayout
+                 android:id="@+id/lin_relax_self"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="@dimen/x16dp"
+                 android:orientation="vertical"
+                 android:visibility="gone"
+                  >
+
+                 <TextView
+                     android:id="@+id/tv_relax_self"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:gravity="center_vertical"
+                     android:padding="@dimen/x16dp"
+                     android:layout_marginBottom="@dimen/x16dp"
+                     android:drawableRight="@drawable/ic_right"
+                     android:background="@color/cbg_color"
+                     android:text="开始放松身心"
+                     android:textColor="@color/ct_color"
+                     android:textSize="@dimen/ts_content" />
+             </LinearLayout>
+        </LinearLayout>
+    </com.yzm.sleep.widget.KJScrollView>
+
+</LinearLayout>

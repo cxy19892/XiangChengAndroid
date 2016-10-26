@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/circular_corner_dialog" >
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView 
+            android:id="@+id/dialog_bluetooth_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:padding="@dimen/x16dp"
+            android:textSize="16sp"
+            android:textColor="@color/onet_color"/>
+        <TextView 
+            android:id="@+id/dialog_bluetooth_sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingBottom="10dp"
+            android:layout_below="@id/dialog_bluetooth_title"
+            android:layout_marginBottom="@dimen/x10dp"
+            android:textSize="14sp"
+            android:textColor="@color/ct_color"/>
+        <View 
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/dialog_bluetooth_sub"
+            android:background="@color/bg_color"/>
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dialog_bluetooth_sub"
+            android:orientation="horizontal">
+            <Button 
+                android:id="@+id/dialog_bluetooth_leftbtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_gray1_bg"
+                android:padding="@dimen/list_item_margin_normal"
+                android:textSize="14sp"
+                android:textColor="@color/onet_color"/>
+            <View 
+	            android:layout_width="1dp"
+	            android:layout_height="match_parent"
+	            android:background="@color/bg_color"/>
+            <Button 
+                android:id="@+id/dialog_bluetooth_rightbtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_gray1_bg"
+                android:padding="@dimen/list_item_margin_normal"
+                android:textSize="14sp"
+                android:textColor="@color/onet_color"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

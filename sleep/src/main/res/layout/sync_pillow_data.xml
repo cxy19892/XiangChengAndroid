@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    android:padding="10dp">
+    
+    
+
+    
+    
+    <TextView 
+        android:id="@+id/sync_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:paddingLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:singleLine="true"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:textColor="#ffffff"
+        />
+
+    <ImageView
+        android:id="@+id/sync_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/sync_title"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/linellae_xiangcheng_img" />
+    
+    <RelativeLayout
+        android:id="@+id/count_rel_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sync_title"
+        android:layout_marginTop="@dimen/margin_padding_normal"
+         >
+        
+        <TextView 
+        android:id="@+id/sync_abstruct1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:textSize="14sp"
+        android:textColor="#ffffff"
+        android:text="@string/sync_pillow_data_abstruct1"
+        />
+    <TextView 
+        android:id="@+id/sync_abstruct2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/sync_abstruct1"
+        android:textSize="14sp"
+        android:textColor="#ffffff"
+        android:text="@string/sync_pillow_data_abstruct2"
+        />
+
+    <ProgressBar 
+        android:id="@+id/sync_progreebar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_centerInParent="true"
+        android:indeterminateDuration="800"
+        style="@style/MyProDialogUpgrade"/>
+    
+    <TextView 
+        android:id="@+id/sync_progree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_centerInParent="true"
+        android:textSize="@dimen/textsize_xlarge"
+        android:text="99%"
+        android:textColor="#ffffff"
+        />
+    </RelativeLayout>
+    
+</RelativeLayout>

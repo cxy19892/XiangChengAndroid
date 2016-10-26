@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/x10dp"
+    android:background="@color/cbg_color"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/improGram"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/tvProgramNuber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/improGram"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="@dimen/x25dp"
+            android:textColor="@color/onet_color"
+            android:textSize="@dimen/x13dp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/bg_color"
+        android:layout_height="@dimen/x2dp" />
+
+</LinearLayout>

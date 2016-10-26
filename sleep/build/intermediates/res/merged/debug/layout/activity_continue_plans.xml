@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/cbg_color"
+    android:layout_height="match_parent">
+
+
+    <include layout="@layout/title_layout_transparent"/>
+
+    <RelativeLayout
+        android:id="@+id/rel_time"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" >
+
+        <RelativeLayout
+            android:id="@+id/rel_wiget_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/x16dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            >
+
+            <TextView
+                android:id="@+id/tv_tips"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="是否更改起床时间？如不调整，点击下一步。"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:textColor="@color/ct_color"
+                android:textSize="@dimen/ts_content" />
+
+            <com.yzm.sleep.widget.MyClock
+                android:id="@+id/myclock"
+                android:layout_below="@+id/tv_tips"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="@dimen/x20dp"
+                ></com.yzm.sleep.widget.MyClock>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rel_ruler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rel_wiget_view"
+            android:layout_alignParentBottom="true"
+            >
+
+            <com.yzm.sleep.widget.RulerView
+                android:id="@+id/myrulerview"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                >
+            </com.yzm.sleep.widget.RulerView>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/rel_length"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="@dimen/x16dp"
+            android:paddingBottom="@dimen/x6dp"
+            android:layout_weight="1"
+            >
+
+            <com.yzm.sleep.widget.MyClockPro
+                android:id="@+id/my_clock_pro"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true" />
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/theme_color_7f"
+            >
+
+            <LinearLayout
+                android:id="@+id/lin_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/theme_color"
+                android:layout_alignParentBottom="true"
+                >
+
+                <Button
+                    android:id="@+id/btn_last"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/x48dp"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:background="@color/transparent"
+                    android:layout_marginRight="@dimen/x5dp"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/ts_btn"
+                    android:text="我要调整" />
+
+                <Button
+                    android:id="@+id/btn_next"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/x48dp"
+                    android:layout_marginLeft="@dimen/x5dp"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/ts_btn"
+                    android:background="@color/transparent"
+                    android:text="我不调整" />
+
+                <Button
+                    android:id="@+id/btn_notchange"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/x48dp"
+                    android:layout_marginLeft="@dimen/x5dp"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/ts_btn"
+                    android:background="@color/transparent"
+                    android:visibility="gone"
+                    android:text="我知道了" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_plan_suggest"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/lin_bottom"
+                android:lineSpacingExtra="10sp"
+                android:background="@color/theme_color_ee"
+                android:drawableLeft="@drawable/ic_xd_plan"
+                android:drawablePadding="@dimen/x16dp"
+                android:padding="@dimen/x16dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ts_content"
+                android:text="" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

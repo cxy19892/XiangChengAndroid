@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/x30dp"
+    android:background="@color/cbg_color" >
+    
+    <TextView 
+        android:id="@+id/punch_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:gravity="center_horizontal"
+        android:text="我已经连续打卡20天"
+        android:padding="@dimen/x20dp"
+        android:textSize="@dimen/ts_titles"
+        android:textColor="@color/onet_color"/>
+
+    <LinearLayout 
+        android:id="@+id/punch_insleep_lin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/punch_title"
+        android:layout_marginTop="@dimen/x10dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="入睡时间"
+            android:singleLine="true"
+            android:textSize="@dimen/ts_btn"
+            android:textColor="@color/ct_color"/>
+        <TextView 
+            android:id="@+id/punch_insleep"
+            android:layout_width="@dimen/x100dp"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:gravity="center"
+            android:text=""
+            android:layout_marginLeft="@dimen/x15dp"
+            android:textSize="@dimen/ts_btn"
+            android:textColor="@color/onet_color"
+            android:padding="@dimen/x10dp"
+            android:background="@color/bg_color"/>
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/punch_outsleep_lin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/punch_insleep_lin"
+        android:layout_marginTop="@dimen/x20dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="醒来时间"
+            android:singleLine="true"
+            android:textSize="@dimen/ts_btn"
+            android:textColor="@color/ct_color"/>
+        <TextView 
+            android:id="@+id/punch_outsleep"
+            android:layout_width="@dimen/x100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textSize="@dimen/ts_btn"
+            android:textColor="@color/onet_color"
+            android:layout_marginLeft="@dimen/x15dp"
+            android:padding="@dimen/x10dp"
+            android:background="@color/bg_color"/>
+    </LinearLayout>
+    
+    <Button 
+        android:id="@+id/punch_enter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/punch_outsleep_lin"
+        android:textSize="@dimen/ts_btn"
+        android:textColor="@color/onet_color"
+        android:background="@drawable/custom_button_bg"
+        android:text="打卡"
+        android:layout_marginTop="@dimen/x30dp"
+        android:layout_marginRight="@dimen/x20dp"
+        android:layout_marginLeft="@dimen/x20dp"
+        android:padding="@dimen/x10dp"
+        />
+    
+</RelativeLayout>

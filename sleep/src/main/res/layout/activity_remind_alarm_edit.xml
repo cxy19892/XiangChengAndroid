@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cbg_color"
+    android:orientation="vertical" >
+    
+    <include layout="@layout/title_layout_dark"/>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/x10dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/lin_remind_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/x18dp"
+                android:paddingBottom="@dimen/x18dp"
+                android:paddingRight="@dimen/x10dp"
+                android:paddingLeft="@dimen/x10dp"
+                android:background="@color/cbg_color"
+                android:layout_marginBottom="1dip" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/textsize_normal"
+                    android:textColor="@color/onet_color"
+                    android:text="@string/string_title" />
+
+                <EditText
+                    android:id="@+id/edt_remind_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x20dp"
+                    android:background="@color/transparent"
+                    android:textSize="@dimen/textsize_normal"
+                    android:hint="提醒做什么？"
+                    android:textColor="@color/ct_color" >
+
+                </EditText>
+
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/lin_remind_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/x18dp"
+                android:paddingBottom="@dimen/x18dp"
+                android:paddingRight="@dimen/x10dp"
+                android:paddingLeft="@dimen/x10dp"
+                android:background="@color/cbg_color"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="1dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/textsize_normal"
+                    android:textColor="@color/onet_color"
+                    android:text="@string/string_time" />
+
+                <TextView
+                    android:id="@+id/tv_remind_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/textsize_normal"
+                    android:layout_marginLeft="@dimen/x20dp"
+                    android:textColor="@color/ct_color"
+                    android:text="00:00" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/lin_remind_repeat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/x18dp"
+                android:paddingBottom="@dimen/x18dp"
+                android:paddingRight="@dimen/x10dp"
+                android:paddingLeft="@dimen/x10dp"
+                android:background="@color/cbg_color"
+                android:layout_marginBottom="1dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/textsize_normal"
+                    android:textColor="@color/onet_color"
+                    android:text="@string/string_repeat" />
+                
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x20dp"
+                    android:gravity="center_vertical|left"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|left"
+                        android:orientation="horizontal" >
+
+                        <CheckBox
+                            android:id="@+id/cb_sunday"
+                            style="@style/MyCheckBox1"
+                            android:layout_width="@dimen/x28dp"
+                            android:layout_height="@dimen/x28dp"
+                            android:background="@drawable/awake_alarm_repeat_check"
+                            android:button="@null"
+                            android:checked="false"
+                            android:gravity="center"
+                            android:text="@string/awake_alarm_select_repeat0"
+                            android:textColor="@color/awake_alarm_select_textcolor" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|left"
+                        android:orientation="horizontal" >
+
+                        <CheckBox
+                            android:id="@+id/cb_monday"
+                            style="@style/MyCheckBox1"
+                            android:layout_width="@dimen/x28dp"
+                            android:layout_height="@dimen/x28dp"
+                            android:background="@drawable/awake_alarm_repeat_check"
+                            android:button="@null"
+                            android:checked="false"
+                            android:gravity="center"
+                            android:text="@string/awake_alarm_select_repeat1"
+                            android:textColor="@color/awake_alarm_select_textcolor" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|left"
+                        android:orientation="horizontal" >
+
+                        <CheckBox
+                            android:id="@+id/cb_tuesday"
+                            style="@style/MyCheckBox1"
+                            android:layout_width="@dimen/x28dp"
+                            android:layout_height="@dimen/x28dp"
+                            android:background="@drawable/awake_alarm_repeat_check"
+                            android:button="@null"
+                            android:checked="false"
+                            android:gravity="center"
+                            android:text="@string/awake_alarm_select_repeat2"
+                            android:textColor="@color/awake_alarm_select_textcolor" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|left"
+                        android:orientation="horizontal" >
+
+                        <CheckBox
+                            android:id="@+id/cb_wednesday"
+                            style="@style/MyCheckBox1"
+                            android:layout_width="@dimen/x28dp"
+                            android:layout_height="@dimen/x28dp"
+                            android:background="@drawable/awake_alarm_repeat_check"
+                            android:button="@null"
+                            android:checked="false"
+                            android:gravity="center"
+                            android:text="@string/awake_alarm_select_repeat3"
+                            android:textColor="@color/awake_alarm_select_textcolor" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|left"
+                        android:orientation="horizontal" >
+
+                        <CheckBox
+                            android:id="@+id/cb_thursday"
+                            style="@style/MyCheckBox1"
+                            android:layout_width="@dimen/x28dp"
+                            android:layout_height="@dimen/x28dp"
+                            android:background="@drawable/awake_alarm_repeat_check"
+                            android:button="@null"
+                            android:checked="false"
+                            android:gravity="center"
+                            android:text="@string/awake_alarm_select_repeat4"
+                            android:textColor="@color/awake_alarm_select_textcolor" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|left"
+                        android:orientation="horizontal" >
+
+                        <CheckBox
+                            android:id="@+id/cb_friday"
+                            style="@style/MyCheckBox1"
+                            android:layout_width="@dimen/x28dp"
+                            android:layout_height="@dimen/x28dp"
+                            android:background="@drawable/awake_alarm_repeat_check"
+                            android:button="@null"
+                            android:checked="false"
+                            android:gravity="center"
+                            android:text="@string/awake_alarm_select_repeat5"
+                            android:textColor="@color/awake_alarm_select_textcolor" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|left"
+                        android:orientation="horizontal" >
+
+                        <CheckBox
+                            android:id="@+id/cb_saturday"
+                            style="@style/MyCheckBox1"
+                            android:layout_width="@dimen/x28dp"
+                            android:layout_height="@dimen/x28dp"
+                            android:background="@drawable/awake_alarm_repeat_check"
+                            android:button="@null"
+                            android:checked="false"
+                            android:gravity="center"
+                            android:text="@string/awake_alarm_select_repeat6"
+                            android:textColor="@color/awake_alarm_select_textcolor" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/lin_remind_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/x18dp"
+                android:paddingBottom="@dimen/x18dp"
+                android:paddingRight="@dimen/x10dp"
+                android:paddingLeft="@dimen/x10dp"
+                android:background="@color/cbg_color"
+                android:layout_marginBottom="1dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/textsize_normal"
+                    android:textColor="@color/onet_color"
+                    android:text="@string/string_content" />
+
+                <EditText
+                    android:id="@+id/edt_reind_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x20dp"
+                    android:background="@color/transparent"
+                    android:textSize="@dimen/textsize_normal"
+                    android:hint="@string/tips_message_content"
+                    android:textColor="@color/ct_color"
+                    android:lines="2"
+                    android:gravity="top"
+                     >
+
+                </EditText>
+
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/lin_remind_rins"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/x18dp"
+                android:paddingBottom="@dimen/x18dp"
+                android:paddingRight="@dimen/x10dp"
+                android:paddingLeft="@dimen/x10dp"
+                android:background="@color/cbg_color"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="1dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/textsize_normal"
+                    android:textColor="@color/onet_color"
+                    android:text="@string/string_rings" />
+
+                <TextView
+                    android:id="@+id/tv_remind_rings_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x20dp"
+                    android:textColor="@color/ct_color"
+                    android:drawableRight="@drawable/next"
+                    android:textSize="@dimen/textsize_normal"
+                    android:singleLine="true"
+                    android:gravity="right"
+                    android:drawablePadding="5dp"
+                    android:text="" />
+
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/lin_remind_share"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/x18dp"
+                android:paddingBottom="@dimen/x18dp"
+                android:paddingRight="@dimen/x10dp"
+                android:paddingLeft="@dimen/x10dp"
+                android:background="#30304c"
+                android:visibility="gone"
+                android:layout_marginTop="@dimen/margin_padding_normal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/textsize_normal"
+                    android:textColor="@color/onet_color"
+                    android:text="@string/string_share" />
+
+                <TextView 
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x20dp"
+                    android:textColor="@color/color_d9d9d9"
+                    android:textSize="@dimen/textsize_normal"
+                    android:singleLine="true"
+                    android:gravity="right"
+                    android:drawableRight="@drawable/next"
+                    android:drawablePadding="5dp"
+                    android:text="@string/tips_share_reminds"/>
+
+
+            </LinearLayout>
+            
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

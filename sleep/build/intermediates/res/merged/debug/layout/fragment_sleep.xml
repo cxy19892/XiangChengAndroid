@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cbg_color"
+    android:orientation="vertical" >
+
+    <com.yzm.sleep.widget.KJScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <com.yzm.sleep.widget.DayDataCircle
+                    android:id="@+id/soft_day_data_view"
+                    android:layout_width="300dp"
+                    android:layout_marginTop="@dimen/x26dp"
+                    android:layout_height="300dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="@dimen/x10dp" />
+
+                <com.yzm.sleep.widget.WaveView
+                    android:id="@+id/wave"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/x70dp"
+                    android:layout_gravity="bottom" />
+                <!-- 睡眠结果提示 -->
+
+                <TextView
+                    android:id="@+id/tvSeepDetail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginTop="-20dp"
+                    android:drawableLeft="@drawable/home_sleep_data_yes"
+                    android:drawablePadding="@dimen/x10dp"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="@dimen/x10dp"
+                    android:paddingLeft="@dimen/x16dp"
+                    android:paddingRight="@dimen/x16dp"
+                    android:paddingTop="@dimen/x10dp"
+                    android:textColor="@color/ct_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <ImageButton
+                        android:id="@+id/ib_left"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:paddingBottom="@dimen/x20dp"
+                        android:paddingLeft="@dimen/x16dp"
+                        android:paddingRight="@dimen/x80dp"
+                        android:paddingTop="@dimen/x16dp"
+                        android:src="@drawable/share_btn_bg" />
+
+                    <ImageButton
+                        android:id="@+id/ib_right"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@null"
+                        android:paddingBottom="@dimen/x20dp"
+                        android:paddingLeft="@dimen/x80dp"
+                        android:paddingRight="@dimen/x16dp"
+                        android:paddingTop="@dimen/x16dp"
+                        android:src="@drawable/message_btn_bg" />
+
+                    <ImageView
+                        android:id="@+id/has_new_msg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignRight="@id/ib_right"
+                        android:layout_alignTop="@id/ib_right"
+                        android:layout_marginRight="@dimen/x15dp"
+                        android:layout_marginTop="@dimen/x16dp"
+                        android:src="@drawable/update_icon"
+                        android:visibility="invisible" />
+                    
+                    <!-- 测试按钮 发布的时候屏蔽 -->
+                    <Button
+                        android:id="@+id/btn_4_debug_user"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:text="数据上报"
+                        android:background="@color/transparent"
+                        android:textColor="@color/theme_color"
+                        android:visibility="gone"
+                        ></Button>
+                    
+                </RelativeLayout>
+                
+                
+            </FrameLayout>
+
+            <!-- 周提示 及 热门小组 事项提醒 -->
+
+            <LinearLayout
+                android:id="@+id/llWeekNews"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/x6dp"
+                android:background="@color/ct_color"
+                android:orientation="vertical"
+                android:padding="@dimen/x16dp" >
+
+                <TextView
+                    android:id="@+id/tvWeekTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/home_sleep_qushi"
+                    android:drawablePadding="@dimen/x10dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:gravity="center_vertical"
+                    android:text="睡眠趋势，看健康状况"
+                    android:textColor="@color/ct_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <TextView
+                    android:id="@+id/tvWeekContent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/x6dp"
+                    android:gravity="center_vertical"
+                    android:lineSpacingExtra="@dimen/x3dp"
+                    android:paddingLeft="@dimen/x30dp"
+                    android:textColor="@color/ct_color"
+                    android:textSize="@dimen/ts_sub" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llHotGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/x6dp"
+                android:background="@color/ct_color"
+                android:orientation="vertical"
+                android:padding="@dimen/x16dp"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/tvGroupTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/home_sleep_hot"
+                    android:drawablePadding="@dimen/x10dp"
+                    android:gravity="center_vertical"
+                    android:text="热门讨论，一起来围观"
+                    android:textColor="@color/ct_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <GridView
+                    android:id="@+id/gridViewGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x24dp"
+                    android:layout_marginTop="@dimen/x10dp"
+                    android:focusable="false"
+                    android:focusableInTouchMode="true"
+                    android:gravity="center"
+                    android:listSelector="@color/transparent"
+                    android:numColumns="3" >
+                </GridView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llAlarm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/x6dp"
+                android:background="@color/ct_color"
+                android:orientation="vertical"
+                android:padding="@dimen/x16dp" >
+
+                <TextView
+                    android:id="@+id/tvAlarmTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/home_sleep_clock"
+                    android:drawablePadding="@dimen/x10dp"
+                    android:gravity="center_vertical"
+                    android:text="事项提醒，让生活更规律"
+                    android:textColor="@color/ct_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/x18dp"
+                    android:orientation="vertical" >
+
+                    <Button
+                        android:id="@+id/btnClockSleep"
+                        android:layout_width="@dimen/x54dp"
+                        android:layout_height="@dimen/x54dp"
+                        android:layout_marginLeft="@dimen/x32dp"
+                        android:background="@drawable/home_remind_item_bg"
+                        android:focusable="false"
+                        android:textColor="#7c7d8e"
+                        android:textSize="@dimen/ts_sub" />
+
+                    <Button
+                        android:id="@+id/btnClockGetup"
+                        android:layout_width="@dimen/x54dp"
+                        android:layout_height="@dimen/x54dp"
+                        android:layout_marginLeft="@dimen/x44dp"
+                        android:layout_toRightOf="@id/btnClockSleep"
+                        android:background="@drawable/home_remind_item_bg"
+                        android:focusable="false"
+                        android:textColor="#7c7d8e"
+                        android:textSize="@dimen/ts_sub" />
+
+                    <Button
+                        android:id="@+id/btnClockAdd"
+                        android:layout_width="@dimen/x54dp"
+                        android:layout_height="@dimen/x54dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/home_add_btn_bg"
+                        android:focusable="false"
+                        android:textColor="#7c7d8e"
+                        android:textSize="@dimen/ts_content" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </com.yzm.sleep.widget.KJScrollView>
+
+</LinearLayout>

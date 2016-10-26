@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/cbg_color"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+        android:id="@+id/header_rel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         >
+    
+    <RelativeLayout
+        android:layout_width="@dimen/x27dp"
+        android:layout_height="match_parent"
+        android:background="@color/ct_color" >
+        <RelativeLayout
+        android:layout_width="@dimen/x26dp"
+        android:layout_height="match_parent"
+        android:background="@color/cbg_color" >
+    </RelativeLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/head_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/x45dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg_item_crop_1" />
+
+    <ImageView
+        android:id="@+id/img_add_new"
+        android:layout_width="@dimen/x45dp"
+        android:layout_height="@dimen/x45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/x23dp"
+        android:layout_marginRight="@dimen/x45dp"
+        android:src="@drawable/awake_alarm_repeat_check" />
+
+    </RelativeLayout>
+
+</LinearLayout>

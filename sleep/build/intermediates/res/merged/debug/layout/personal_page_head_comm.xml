@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x1dp"
+        android:background="@color/bg_color"
+        android:visibility="visible" />
+
+    <!-- 睡眠情况 -->
+
+    <TextView
+        android:id="@+id/tvSleepIntroTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/x10dp"
+        android:text="专家介绍"
+        android:layout_marginTop="@dimen/x16dp"
+        android:textColor="@color/fct_color"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tvZjIntroduce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/x10dp"
+        android:background="@color/cbg_color"
+        android:paddingBottom="@dimen/x10dp"
+        android:paddingLeft="@dimen/x10dp"
+        android:paddingRight="@dimen/x10dp"
+        android:paddingTop="@dimen/x10dp"
+        android:text="专家介绍详情"
+        android:textColor="@color/fct_color"
+        android:textSize="@dimen/ts_content"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/layoutSleepData"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/rlSleepAverage"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="@dimen/x10dp"
+            android:background="@color/cbg_color"
+            android:paddingTop="@dimen/x10dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x10dp"
+                android:text="平均睡眠时长"
+                android:textColor="@color/onet_color"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tvSleepLength"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="0小时"
+                 android:textColor="@color/onet_color"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="@dimen/x6dp"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/cbg_color"
+                android:orientation="horizontal"
+                android:padding="@dimen/x10dp" >
+
+                <TextView
+                    android:id="@+id/tvSleepTag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="平均入睡时间点"
+                     android:textColor="@color/onet_color"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tvSleepTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="00:00"
+                    android:textColor="@color/onet_color"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="@dimen/x6dp"
+                android:layout_height="match_parent"
+                android:background="@color/transparent" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/cbg_color"
+                android:orientation="horizontal"
+                android:padding="@dimen/x10dp" >
+
+                <TextView
+                    android:id="@+id/tvGetupTag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="平均醒来时间点"
+                     android:textColor="@color/onet_color"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tvGetUp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="00:00"
+                    android:textColor="@color/onet_color"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvArticleTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/x10dp"
+        android:layout_marginTop="@dimen/x16dp"
+        android:text="发布的话题"
+        android:textColor="@color/fct_color"
+        android:visibility="gone"
+        android:textSize="15sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x10dp"
+        android:background="@color/transparent" />
+
+</LinearLayout>

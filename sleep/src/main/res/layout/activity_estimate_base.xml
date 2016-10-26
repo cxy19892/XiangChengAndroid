@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_layout_dark" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/content_lin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/x15dp" >
+
+                    <TextView
+                        android:id="@+id/esti_tv_sleeppg_tips"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:paddingBottom="@dimen/x15dp"
+                        android:text="@string/string_yours_sleep_estimate"
+                        android:textColor="@color/ct_color"
+                        android:textSize="@dimen/ts_content" />
+
+                    <RelativeLayout
+                        android:id="@+id/esti_rel_layout"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_below="@+id/esti_tv_sleeppg_tips"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <com.yzm.sleep.widget.SimpleRoundProgressBar
+                            android:id="@+id/esti_progress"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/bind_pillow_text1"
+                            android:textColor="#888888"
+                            android:textSize="16sp" />
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true" >
+
+                            <TextView
+                                android:id="@+id/esti_tv_scor"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/bind_pillow_power_icon"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="2dp"
+                                android:textColor="@color/onet_color"
+                                android:textSize="@dimen/ts_max" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+
+                    <!--
+                     <TextView
+                    android:id="@+id/esti_tv_scor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:padding="@dimen/x50dp"
+                    android:textColor="@color/onet_color"
+                    android:text=""
+                    android:textSize="@dimen/ts_big" />
+                    -->
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/x15dp"
+                    android:text="@string/string_others_sleep_estimate"
+                    android:textColor="@color/ct_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:orientation="horizontal" >
+
+                        <RelativeLayout
+                            android:id="@+id/esti_rel_1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@color/cbg_color"
+                            android:padding="@dimen/x10dp" >
+
+                            <TextView
+                                android:id="@+id/esti_rel_1_tv_tip"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:text=""
+                                android:textColor="@color/ct_color"
+                                android:textSize="@dimen/ts_content" />
+
+                            <TextView
+                                android:id="@+id/esti_rel_1_tv_con"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_centerInParent="true"
+                                android:gravity="center"
+                                android:text=""
+                                android:textColor="@color/onet_color"
+                                android:textSize="@dimen/ts_big" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/esti_rel_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="1dp"
+                            android:layout_weight="1"
+                            android:background="@color/cbg_color"
+                            android:padding="@dimen/x10dp" >
+
+                            <TextView
+                                android:id="@+id/esti_rel_2_tv_tip"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:text=""
+                                android:textColor="@color/ct_color"
+                                android:textSize="@dimen/ts_content" />
+
+                            <TextView
+                                android:id="@+id/esti_rel_2_tv_con"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_centerInParent="true"
+                                android:gravity="center"
+                                android:text=""
+                                android:textColor="@color/onet_color"
+                                android:textSize="@dimen/ts_big" />
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                        <RelativeLayout
+                            android:id="@+id/esti_rel_3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@color/cbg_color"
+                            android:padding="@dimen/x10dp" >
+
+                            <TextView
+                                android:id="@+id/esti_rel_3_tv_tip"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:text=""
+                                android:textColor="@color/ct_color"
+                                android:textSize="@dimen/ts_content" />
+
+                            <TextView
+                                android:id="@+id/esti_rel_3_tv_con"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_centerInParent="true"
+                                android:gravity="center"
+                                android:text=""
+                                android:textColor="@color/onet_color"
+                                android:textSize="@dimen/ts_big" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/esti_rel_4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="1dp"
+                            android:layout_weight="1"
+                            android:background="@color/cbg_color"
+                            android:padding="@dimen/x10dp" >
+
+                            <TextView
+                                android:id="@+id/esti_rel_4_tv_tip"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:text=""
+                                android:textColor="@color/ct_color"
+                                android:textSize="@dimen/ts_content" />
+
+                            <TextView
+                                android:id="@+id/esti_rel_4_tv_con"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_centerInParent="true"
+                                android:gravity="center"
+                                android:text=""
+                                android:textColor="@color/onet_color"
+                                android:textSize="@dimen/ts_big" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/no_net_lin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone" >
+                
+                <RelativeLayout
+                    android:id="@+id/rl_p"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/bg_color" >
+
+                    <TextView
+                        android:id="@+id/text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="130dp"
+                        android:drawablePadding="@dimen/x15dp"
+                        android:drawableTop="@drawable/no_network"
+                        android:text="网络连接失败"
+                        android:textColor="@color/fct_color" />
+                </RelativeLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

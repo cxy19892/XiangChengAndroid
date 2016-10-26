@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dialogb_color"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/pop_tv_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dialogb_color"
+        android:gravity="center"
+        android:padding="@dimen/list_item_margin_normal"
+        android:text="请选择操作"
+        android:textColor="@color/fct_color"
+        android:textSize="@dimen/textsize_small" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/bg_color" />
+
+    <TextView
+        android:id="@+id/pop_tv_secend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_gray1_bg"
+        android:gravity="center"
+        android:padding="@dimen/list_item_margin_normal"
+        android:text="TextView"
+        android:textColor="@color/onet_color"
+        android:textSize="@dimen/textsize_normal" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/bg_color" />
+
+    <TextView
+        android:id="@+id/pop_tv_thrid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_gray1_bg"
+        android:gravity="center"
+        android:padding="@dimen/list_item_margin_normal"
+        android:text="TextView"
+        android:textColor="@color/onet_color"
+        android:textSize="@dimen/textsize_normal" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/bg_color" />
+
+    <TextView
+        android:id="@+id/pop_tv_four"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_gray1_bg"
+        android:gravity="center"
+        android:padding="@dimen/list_item_margin_normal"
+        android:text="TextView"
+        android:textColor="@color/onet_color"
+        android:textSize="@dimen/textsize_normal" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_small"
+        android:background="@color/bg_color" />
+
+    <TextView
+        android:id="@+id/pop_tv_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_gray1_bg"
+        android:gravity="center"
+        android:padding="@dimen/list_item_margin_normal"
+        android:text="TextView"
+        android:textColor="@color/onet_color"
+        android:textSize="@dimen/textsize_normal" />
+
+</LinearLayout>

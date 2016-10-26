@@ -1,0 +1,146 @@
+[
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\newest_and_hottest_play_icon.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-mdpi\\newest_and_hottest_play_icon.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_com_sina_weibo_sdk_button_grey_focused.9.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\exploded-aar\\XiangChengAndroid\\weiboSDK\\unspecified\\res\\drawable-mdpi-v4\\ic_com_sina_weibo_sdk_button_grey_focused.9.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\icon_comment_grey.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-mdpi\\icon_comment_grey.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_com_sina_weibo_sdk_button_blue_normal.9.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\exploded-aar\\XiangChengAndroid\\weiboSDK\\unspecified\\res\\drawable-mdpi-v4\\ic_com_sina_weibo_sdk_button_blue_normal.9.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\tips_hint_user_to_pulldown_0.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-mdpi\\tips_hint_user_to_pulldown_0.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_com_sina_weibo_sdk_button_blue_focused.9.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\exploded-aar\\XiangChengAndroid\\weiboSDK\\unspecified\\res\\drawable-mdpi-v4\\ic_com_sina_weibo_sdk_button_blue_focused.9.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\none_topic_img_icon.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-mdpi\\none_topic_img_icon.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_com_sina_weibo_sdk_logo.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\exploded-aar\\XiangChengAndroid\\weiboSDK\\unspecified\\res\\drawable-mdpi-v4\\ic_com_sina_weibo_sdk_logo.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_com_sina_weibo_sdk_login_button_with_frame_logo_focused.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\exploded-aar\\XiangChengAndroid\\weiboSDK\\unspecified\\res\\drawable-mdpi-v4\\ic_com_sina_weibo_sdk_login_button_with_frame_logo_focused.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_com_sina_weibo_sdk_login_with_account_text_focused.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\exploded-aar\\XiangChengAndroid\\weiboSDK\\unspecified\\res\\drawable-mdpi-v4\\ic_com_sina_weibo_sdk_login_with_account_text_focused.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\rings_male_icon.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-mdpi\\rings_male_icon.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\comment_on_the_sofa_img_text.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-mdpi\\comment_on_the_sofa_img_text.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_com_sina_weibo_sdk_login_with_account_text_pressed.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\exploded-aar\\XiangChengAndroid\\weiboSDK\\unspecified\\res\\drawable-mdpi-v4\\ic_com_sina_weibo_sdk_login_with_account_text_pressed.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\tips_hint_user_to_pulldown_1.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-mdpi\\tips_hint_user_to_pulldown_1.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ununited_cell_img.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-mdpi\\ununited_cell_img.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_com_sina_weibo_sdk_login_button_with_frame_logo_normal.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\exploded-aar\\XiangChengAndroid\\weiboSDK\\unspecified\\res\\drawable-mdpi-v4\\ic_com_sina_weibo_sdk_login_button_with_frame_logo_normal.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_com_sina_weibo_sdk_button_grey_pressed.9.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\exploded-aar\\XiangChengAndroid\\weiboSDK\\unspecified\\res\\drawable-mdpi-v4\\ic_com_sina_weibo_sdk_button_grey_pressed.9.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\icon_praise_orange_fill.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-mdpi\\icon_praise_orange_fill.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\icon_praise_orange.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-mdpi\\icon_praise_orange.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\tips_hint_user_to_pulldown_3.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-mdpi\\tips_hint_user_to_pulldown_3.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\tips_hint_user_to_pulldown_2.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-mdpi\\tips_hint_user_to_pulldown_2.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\rings_female_icon.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-mdpi\\rings_female_icon.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_com_sina_weibo_sdk_button_blue_pressed.9.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\exploded-aar\\XiangChengAndroid\\weiboSDK\\unspecified\\res\\drawable-mdpi-v4\\ic_com_sina_weibo_sdk_button_blue_pressed.9.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\no_topic_img_text.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-mdpi\\no_topic_img_text.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\headset_img_icon.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-mdpi\\headset_img_icon.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\share_icon.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-mdpi\\share_icon.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ignore_icon_button.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-mdpi\\ignore_icon_button.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\group_information_icon_button.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-mdpi\\group_information_icon_button.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_com_sina_weibo_sdk_button_grey_normal.9.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\exploded-aar\\XiangChengAndroid\\weiboSDK\\unspecified\\res\\drawable-mdpi-v4\\ic_com_sina_weibo_sdk_button_grey_normal.9.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_com_sina_weibo_sdk_login_with_text.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\exploded-aar\\XiangChengAndroid\\weiboSDK\\unspecified\\res\\drawable-mdpi-v4\\ic_com_sina_weibo_sdk_login_with_text.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_com_sina_weibo_sdk_login_button_with_frame_logo_pressed.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\exploded-aar\\XiangChengAndroid\\weiboSDK\\unspecified\\res\\drawable-mdpi-v4\\ic_com_sina_weibo_sdk_login_button_with_frame_logo_pressed.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\topic_pencil_icon_img.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-mdpi\\topic_pencil_icon_img.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_com_sina_weibo_sdk_login_with_account_text_normal.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\exploded-aar\\XiangChengAndroid\\weiboSDK\\unspecified\\res\\drawable-mdpi-v4\\ic_com_sina_weibo_sdk_login_with_account_text_normal.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\send_audio_btn_icon_a.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-mdpi\\send_audio_btn_icon_a.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\gengduo_icon.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-mdpi\\gengduo_icon.png"
+    }
+]

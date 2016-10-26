@@ -1,0 +1,1114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme_color" >
+
+    <ImageView
+        android:id="@+id/bg_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/report_top_bg" />
+
+    <include layout="@layout/title_layout_transparent" />
+
+    <LinearLayout
+        android:id="@+id/bottom_view"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/report_bottom_bg"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/x30dp"
+        android:gravity="center_vertical"
+        android:visibility="gone"
+        android:paddingRight="@dimen/x30dp" >
+
+        <Button
+            android:id="@+id/btn_2"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/x40dp"
+            android:layout_weight="1.0"
+            android:background="@drawable/custom_round_select"
+            android:gravity="center"
+            android:text="续订计划"
+            android:textColor="@color/white"
+            android:textSize="@dimen/ts_content" />
+
+    <!--    <Button
+            android:id="@+id/btn_3"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/x40dp"
+            android:layout_marginLeft="@dimen/x20dp"
+            android:layout_weight="1.0"
+            android:background="@drawable/custom_round_select"
+            android:gravity="center"
+            android:text="调整计划"
+            android:textColor="@color/white"
+            android:textSize="@dimen/ts_content" />-->
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/sc_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/x48dp"
+        android:layout_above="@id/bottom_view"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/x30dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="@dimen/x15dp" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/report_pic"
+                    android:textSize="@dimen/ts_sub" />
+
+                <TextView
+                    android:id="@+id/tv_explain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/report_yij_bg"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/ts_sub" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/x8dp" >
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/x30dp"
+                    android:background="@color/cbg_color"
+                    android:gravity="center"
+                    android:paddingTop="@dimen/x45dp"
+                    android:text="睡眠质量"
+                    android:textColor="@color/onet_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <TextView
+                    android:id="@+id/tv_length_explain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv1"
+                    android:background="@color/cbg_color"
+                    android:paddingLeft="@dimen/x12dp"
+                    android:paddingTop="@dimen/x10dp"
+                    android:text="平均睡眠时长："
+                    android:textColor="@color/ct_color"
+                    android:textSize="@dimen/ts_sub" />
+
+                <TextView
+                    android:id="@+id/tv_xiaolv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_length_explain"
+                    android:background="@color/cbg_color"
+                    android:paddingBottom="@dimen/x10dp"
+                    android:paddingLeft="@dimen/x12dp"
+                    android:text="平均睡眠效率："
+                    android:textColor="@color/ct_color"
+                    android:textSize="@dimen/ts_sub" />
+
+                <LinearLayout
+                    android:id="@+id/rl1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_xiaolv"
+                    android:background="@color/cbg_color"
+                    android:gravity="right|bottom"
+                    android:paddingBottom="@dimen/x10dp"
+                    android:paddingRight="@dimen/x12dp" >
+
+                    <ImageView
+                        android:layout_width="@dimen/x8dp"
+                        android:layout_height="@dimen/x8dp"
+                        android:layout_marginBottom="@dimen/x2dp"
+                        android:background="#92DBEE" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/x4dp"
+                        android:background="@color/cbg_color"
+                        android:text="在床时长"
+                        android:textColor="@color/ct_color"
+                        android:textSize="@dimen/ts_min" />
+
+                    <ImageView
+                        android:layout_width="@dimen/x8dp"
+                        android:layout_height="@dimen/x8dp"
+                        android:layout_marginBottom="@dimen/x2dp"
+                        android:layout_marginLeft="@dimen/x20dp"
+                        android:background="@color/theme_color" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/x4dp"
+                        android:background="@color/cbg_color"
+                        android:text="睡眠时长"
+                        android:textColor="@color/ct_color"
+                        android:textSize="@dimen/ts_min" />
+                </LinearLayout>
+
+                <com.yzm.sleep.widget.ReportSleepLengthTable
+                    android:id="@+id/report_tab"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_below="@id/rl1"
+                    android:background="@color/cbg_color"
+                    android:paddingBottom="@dimen/x12dp"
+                    android:paddingLeft="@dimen/x12dp"
+                    android:paddingRight="@dimen/x12dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/x12dp"
+                    android:layout_below="@id/report_tab"
+                    android:background="@color/cbg_color" />
+
+                <ImageView
+                    android:layout_width="@dimen/x60dp"
+                    android:layout_height="@dimen/x60dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/length_pic" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/x8dp" >
+
+                <TextView
+                    android:id="@+id/tv_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/x30dp"
+                    android:background="@color/cbg_color"
+                    android:gravity="center"
+                    android:paddingTop="@dimen/x45dp"
+                    android:text="入睡时间"
+                    android:textColor="@color/ct_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <TextView
+                    android:id="@+id/tv_sleep_explain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_2"
+                    android:background="@color/cbg_color"
+                    android:paddingLeft="@dimen/x12dp"
+                    android:paddingRight="@dimen/x12dp"
+                    android:paddingTop="@dimen/x10dp"
+                    android:text="平均入睡时间为："
+                    android:textColor="@color/ct_color"
+                    android:textSize="@dimen/ts_sub" />
+
+                <LinearLayout
+                    android:id="@+id/rl2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_sleep_explain"
+                    android:background="@color/cbg_color"
+                    android:gravity="right|center_vertical"
+                    android:paddingBottom="@dimen/x10dp"
+                    android:paddingRight="@dimen/x12dp"
+                    android:paddingTop="@dimen/x10dp" >
+
+                    <ImageView
+                        android:layout_width="@dimen/x8dp"
+                        android:layout_height="@dimen/x8dp"
+                        android:background="@drawable/custom_point_bg2" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/cbg_color"
+                        android:text="入睡时间达标"
+                        android:textColor="@color/ct_color"
+                        android:textSize="@dimen/ts_min" />
+
+                    <ImageView
+                        android:layout_width="@dimen/x8dp"
+                        android:layout_height="@dimen/x8dp"
+                        android:layout_marginLeft="@dimen/x20dp"
+                        android:background="@drawable/custom_point_bg1" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/cbg_color"
+                        android:text="入睡时间未达标"
+                        android:textColor="@color/ct_color"
+                        android:textSize="@dimen/ts_min" />
+                </LinearLayout>
+
+                <com.yzm.sleep.widget.SleepTimePointTable
+                    android:id="@+id/soft_tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_below="@id/rl2"
+                    android:background="@color/cbg_color"
+                    android:padding="@dimen/x12dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/x12dp"
+                    android:layout_below="@id/soft_tab1"
+                    android:background="@color/cbg_color" />
+
+                <ImageView
+                    android:layout_width="@dimen/x60dp"
+                    android:layout_height="@dimen/x60dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/sleep_pic" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/x8dp" >
+
+                <TextView
+                    android:id="@+id/tv3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/x30dp"
+                    android:background="@color/cbg_color"
+                    android:gravity="center"
+                    android:paddingTop="@dimen/x45dp"
+                    android:text="醒来时间"
+                    android:textColor="@color/onet_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <TextView
+                    android:id="@+id/tv_getup_explain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv3"
+                    android:background="@color/cbg_color"
+                    android:paddingLeft="@dimen/x12dp"
+                    android:paddingRight="@dimen/x12dp"
+                    android:paddingTop="@dimen/x10dp"
+                    android:text="平均醒来时间为："
+                    android:textColor="@color/ct_color"
+                    android:textSize="@dimen/ts_sub" />
+
+                <LinearLayout
+                    android:id="@+id/rl3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_getup_explain"
+                    android:background="@color/cbg_color"
+                    android:gravity="right|center_vertical"
+                    android:paddingBottom="@dimen/x10dp"
+                    android:paddingRight="@dimen/x12dp"
+                    android:paddingTop="@dimen/x10dp" >
+
+                    <ImageView
+                        android:layout_width="@dimen/x8dp"
+                        android:layout_height="@dimen/x8dp"
+                        android:background="@drawable/custom_point_bg2" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/x4dp"
+                        android:background="@color/cbg_color"
+                        android:text="醒来时间达标"
+                        android:textColor="@color/ct_color"
+                        android:textSize="@dimen/ts_min" />
+
+                    <ImageView
+                        android:layout_width="@dimen/x8dp"
+                        android:layout_height="@dimen/x8dp"
+                        android:layout_marginLeft="@dimen/x20dp"
+                        android:background="@drawable/custom_point_bg1" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/x4dp"
+                        android:background="@color/cbg_color"
+                        android:text="醒来时间未达标"
+                        android:textColor="@color/ct_color"
+                        android:textSize="@dimen/ts_min" />
+                </LinearLayout>
+
+                <com.yzm.sleep.widget.SleepTimePointTable
+                    android:id="@+id/soft_tab2"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_below="@id/rl3"
+                    android:background="@color/cbg_color"
+                    android:padding="@dimen/x12dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/x12dp"
+                    android:layout_below="@id/soft_tab2"
+                    android:background="@color/cbg_color" />
+
+                <ImageView
+                    android:layout_width="@dimen/x60dp"
+                    android:layout_height="@dimen/x60dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/getup_pic" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_smokingp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/x8dp"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/tv4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/x30dp"
+                    android:background="@color/cbg_color"
+                    android:gravity="center"
+                    android:paddingTop="@dimen/x45dp"
+                    android:text="吸烟"
+                    android:textColor="@color/onet_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <TextView
+                    android:id="@+id/smoking_hint"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv4"
+                    android:background="@color/cbg_color"
+                    android:paddingBottom="@dimen/x12dp"
+                    android:paddingLeft="@dimen/x12dp"
+                    android:paddingRight="@dimen/x12dp"
+                    android:paddingTop="@dimen/x10dp"
+                    android:textColor="@color/ct_color"
+                    android:textSize="@dimen/ts_sub" />
+
+                <LinearLayout
+                    android:id="@+id/rl4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/smoking_hint"
+                    android:background="@color/cbg_color"
+                    android:orientation="vertical" >
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginLeft="@dimen/x12dp"
+                        android:background="@color/fct_color" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/x30dp"
+                        android:layout_marginLeft="@dimen/x12dp"
+                        android:layout_marginTop="@dimen/x10dp"
+                        android:background="@drawable/custom_round_select"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/x10dp"
+                        android:paddingRight="@dimen/x10dp"
+                        android:text="本周吸烟量"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/ts_content" />
+
+                    <LinearLayout
+                        android:id="@+id/rl_smoking"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/cbg_color"
+                        android:orientation="horizontal"
+                        android:paddingBottom="20dp"
+                        android:paddingLeft="@dimen/x12dp"
+                        android:paddingRight="@dimen/x12dp"
+                        android:paddingTop="20dp" >
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.0"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical" >
+
+                            <ImageView
+                                android:id="@+id/iv1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/smokingn1_pic" />
+
+                            <TextView
+                                android:id="@+id/t1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/x4dp"
+                                android:text="没吸"
+                                android:textColor="@color/fct_color"
+                                android:textSize="@dimen/ts_sub" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.0"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical" >
+
+                            <ImageView
+                                android:id="@+id/iv2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/smokingn1_pic" />
+
+                            <TextView
+                                android:id="@+id/t2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/x4dp"
+                                android:text="1包内"
+                                android:textColor="@color/fct_color"
+                                android:textSize="@dimen/ts_sub" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.0"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical" >
+
+                            <ImageView
+                                android:id="@+id/iv3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/smokingn1_pic" />
+
+                            <TextView
+                                android:id="@+id/t3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/x4dp"
+                                android:text="1包"
+                                android:textColor="@color/fct_color"
+                                android:textSize="@dimen/ts_sub" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.0"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical" >
+
+                            <LinearLayout
+                                android:id="@+id/iv4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal"
+                                android:orientation="horizontal" >
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/smokingn1_pic" />
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/smokingn1_pic" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/t4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/x4dp"
+                                android:text="1-2包"
+                                android:textColor="@color/fct_color"
+                                android:textSize="@dimen/ts_sub" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.0"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical" >
+
+                            <LinearLayout
+                                android:id="@+id/iv5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal"
+                                android:orientation="horizontal" >
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/smokingn1_pic" />
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/smokingn1_pic" />
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/smokingn1_pic" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/t5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/x4dp"
+                                android:text="2包以上"
+                                android:textColor="@color/fct_color"
+                                android:textSize="@dimen/ts_sub" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/smoking_later"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/cbg_color"
+                        android:paddingBottom="@dimen/x12dp"
+                        android:paddingLeft="@dimen/x12dp"
+                        android:paddingRight="@dimen/x12dp"
+                        android:text="比上周少吸了10%"
+                        android:textColor="@color/ct_color"
+                        android:textSize="@dimen/ts_sub" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/smoking_sleep"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/rl4"
+                    android:background="@color/cbg_color"
+                    android:orientation="vertical" >
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginLeft="@dimen/x12dp"
+                        android:background="@color/fct_color" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/x30dp"
+                        android:layout_marginLeft="@dimen/x12dp"
+                        android:layout_marginTop="@dimen/x10dp"
+                        android:background="@drawable/custom_round_select"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/x10dp"
+                        android:paddingRight="@dimen/x10dp"
+                        android:text="睡前一小时吸烟次数"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/ts_content" />
+
+                    <LinearLayout
+                        android:id="@+id/rl_smoking_sleep"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/cbg_color"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal"
+                        android:paddingBottom="@dimen/x20dp"
+                        android:paddingLeft="@dimen/x12dp"
+                        android:paddingRight="@dimen/x12dp"
+                        android:paddingTop="@dimen/x20dp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="@dimen/x60dp"
+                    android:layout_height="@dimen/x60dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/smoking_pic" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_winep"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/x8dp"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/tv5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/x30dp"
+                    android:background="@color/cbg_color"
+                    android:gravity="center"
+                    android:paddingTop="@dimen/x45dp"
+                    android:text="酒精"
+                    android:textColor="@color/onet_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <TextView
+                    android:id="@+id/wine_hint"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv5"
+                    android:background="@color/cbg_color"
+                    android:paddingBottom="@dimen/x12dp"
+                    android:paddingLeft="@dimen/x12dp"
+                    android:paddingRight="@dimen/x12dp"
+                    android:paddingTop="@dimen/x10dp"
+                    android:text="喝酒提醒"
+                    android:textColor="@color/ct_color"
+                    android:textSize="@dimen/ts_sub" />
+
+                <LinearLayout
+                    android:id="@+id/rl5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/wine_hint"
+                    android:background="@color/cbg_color"
+                    android:orientation="vertical" >
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginLeft="@dimen/x12dp"
+                        android:background="@color/fct_color" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/x30dp"
+                        android:layout_marginLeft="@dimen/x12dp"
+                        android:layout_marginTop="@dimen/x12dp"
+                        android:background="@drawable/custom_round_select"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/x10dp"
+                        android:paddingRight="@dimen/x10dp"
+                        android:text="睡前4小时内饮酒次数"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/ts_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/rl_wine"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/rl5"
+                    android:background="@color/cbg_color"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:paddingBottom="@dimen/x20dp"
+                    android:paddingLeft="@dimen/x12dp"
+                    android:paddingRight="@dimen/x12dp"
+                    android:paddingTop="@dimen/x20dp" />
+
+                <ImageView
+                    android:layout_width="@dimen/x60dp"
+                    android:layout_height="@dimen/x60dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/wine_pic" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_coffeep"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/x8dp"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/tv6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/x30dp"
+                    android:background="@color/cbg_color"
+                    android:gravity="center"
+                    android:paddingTop="@dimen/x45dp"
+                    android:text="咖啡"
+                    android:textColor="@color/onet_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <TextView
+                    android:id="@+id/coffee_hint"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv6"
+                    android:background="@color/cbg_color"
+                    android:paddingBottom="@dimen/x12dp"
+                    android:paddingLeft="@dimen/x12dp"
+                    android:paddingRight="@dimen/x12dp"
+                    android:paddingTop="@dimen/x10dp"
+                    android:text="喝咖啡提醒"
+                    android:textColor="@color/ct_color"
+                    android:textSize="@dimen/ts_sub" />
+
+                <LinearLayout
+                    android:id="@+id/rl6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coffee_hint"
+                    android:background="@color/cbg_color"
+                    android:orientation="vertical" >
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginLeft="@dimen/x12dp"
+                        android:background="@color/fct_color" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/x30dp"
+                        android:layout_marginLeft="@dimen/x12dp"
+                        android:layout_marginTop="@dimen/x12dp"
+                        android:background="@drawable/custom_round_select"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/x10dp"
+                        android:paddingRight="@dimen/x10dp"
+                        android:text="睡前6小时喝咖啡次数"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/ts_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/rl_coffee"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/rl6"
+                    android:background="@color/cbg_color"
+                    android:orientation="horizontal"
+                    android:paddingBottom="@dimen/x20dp"
+                    android:paddingLeft="@dimen/x12dp"
+                    android:paddingRight="@dimen/x12dp"
+                    android:paddingTop="@dimen/x20dp" />
+
+                <ImageView
+                    android:layout_width="@dimen/x60dp"
+                    android:layout_height="@dimen/x60dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/coffee_pic" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_weightp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/x8dp"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/tv7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/x30dp"
+                    android:background="@color/cbg_color"
+                    android:gravity="center"
+                    android:paddingTop="@dimen/x45dp"
+                    android:text="减肥"
+                    android:textColor="@color/onet_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <TextView
+                    android:id="@+id/weight_hint"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv7"
+                    android:background="@color/cbg_color"
+                    android:paddingBottom="@dimen/x12dp"
+                    android:paddingLeft="@dimen/x12dp"
+                    android:paddingRight="@dimen/x12dp"
+                    android:paddingTop="@dimen/x10dp"
+                    android:textColor="@color/ct_color"
+                    android:textSize="@dimen/ts_sub" />
+
+                <LinearLayout
+                    android:id="@+id/rl7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/weight_hint"
+                    android:background="@color/cbg_color"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical" >
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginLeft="@dimen/x12dp"
+                        android:background="@color/fct_color" />
+
+                    <ImageView
+                        android:id="@+id/weight_pic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/x20dp"
+                        android:src="@drawable/weight1_pic" />
+
+                    <TextView
+                        android:id="@+id/weight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/x30dp"
+                        android:layout_marginTop="@dimen/x10dp"
+                        android:background="@drawable/custom_round_select"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/x15dp"
+                        android:paddingRight="@dimen/x15dp"
+                        android:text="2.5kg"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/ts_content" />
+
+                    <TextView
+                        android:id="@+id/tv8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/x10dp"
+                        android:background="@color/cbg_color"
+                        android:text="本周期减重"
+                        android:textColor="@color/ct_color"
+                        android:textSize="@dimen/ts_sub" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginLeft="@dimen/x50dp"
+                        android:layout_marginRight="@dimen/x50dp"
+                        android:layout_marginTop="@dimen/x10dp"
+                        android:background="@color/fct_color" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/cbg_color"
+                        android:gravity="center_vertical"
+                        android:paddingBottom="@dimen/x10dp"
+                        android:paddingTop="@dimen/x10dp" >
+
+                        <ImageView
+                            android:layout_width="@dimen/x8dp"
+                            android:layout_height="@dimen/x8dp"
+                            android:background="@drawable/custom_point_bg3" />
+
+                        <TextView
+                            android:id="@+id/cur_weight"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/x4dp"
+                            android:background="@color/cbg_color"
+                            android:text="当前体重 52kg"
+                            android:textColor="@color/ct_color"
+                            android:textSize="@dimen/ts_sub" />
+
+                        <ImageView
+                            android:layout_width="@dimen/x8dp"
+                            android:layout_height="@dimen/x8dp"
+                            android:layout_marginLeft="@dimen/x30dp"
+                            android:background="@drawable/custom_point_bg4" />
+
+                        <TextView
+                            android:id="@+id/max_weight"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/x4dp"
+                            android:background="@color/cbg_color"
+                            android:text="最大减重5kg"
+                            android:textColor="@color/ct_color"
+                            android:textSize="@dimen/ts_sub" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="@dimen/x60dp"
+                    android:layout_height="@dimen/x60dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/jianf_pic" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_sportp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/x8dp"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/tv9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/x30dp"
+                    android:background="@color/cbg_color"
+                    android:gravity="center"
+                    android:paddingTop="@dimen/x45dp"
+                    android:text="运动"
+                    android:textColor="@color/onet_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <TextView
+                    android:id="@+id/sport_hint"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv9"
+                    android:background="@color/cbg_color"
+                    android:paddingBottom="@dimen/x12dp"
+                    android:paddingLeft="@dimen/x12dp"
+                    android:paddingRight="@dimen/x12dp"
+                    android:paddingTop="@dimen/x10dp"
+                    android:textColor="@color/ct_color"
+                    android:textSize="@dimen/ts_sub" />
+
+                <LinearLayout
+                    android:id="@+id/rl9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/sport_hint"
+                    android:background="@color/cbg_color"
+                    android:orientation="vertical" >
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginLeft="@dimen/x12dp"
+                        android:background="@color/fct_color" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/x30dp"
+                        android:layout_marginLeft="@dimen/x12dp"
+                        android:layout_marginTop="@dimen/x12dp"
+                        android:background="@drawable/custom_round_select"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/x10dp"
+                        android:paddingRight="@dimen/x10dp"
+                        android:text="本周期运动时间及次数"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/ts_content" />
+
+                    <LinearLayout
+                        android:id="@+id/rl_sport"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/cbg_color"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical"
+                        android:padding="@dimen/x12dp"
+                        android:paddingBottom="@dimen/x12dp"
+                        android:paddingLeft="@dimen/x12dp"
+                        android:paddingRight="@dimen/x8dp"
+                        android:paddingTop="@dimen/x12dp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="@dimen/x60dp"
+                    android:layout_height="@dimen/x60dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/sport_pic" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/x8dp" >
+
+                <TextView
+                    android:id="@+id/tv10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/x30dp"
+                    android:background="@color/cbg_color"
+                    android:gravity="center"
+                    android:paddingBottom="@dimen/x12dp"
+                    android:paddingTop="@dimen/x45dp"
+                    android:text="环境"
+                    android:textColor="@color/onet_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <TextView
+                    android:id="@+id/huanjing_hint"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv10"
+                    android:background="@color/cbg_color"
+                    android:paddingBottom="@dimen/x12dp"
+                    android:paddingLeft="@dimen/x12dp"
+                    android:paddingRight="@dimen/x12dp"
+                    android:text="你需要控制体重了"
+                    android:textColor="@color/ct_color"
+                    android:textSize="@dimen/ts_sub"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/rl10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/huanjing_hint"
+                    android:background="@color/cbg_color"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/x10dp" >
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginLeft="@dimen/x12dp"
+                        android:background="@color/fct_color" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/x30dp"
+                        android:layout_marginLeft="@dimen/x12dp"
+                        android:layout_marginTop="@dimen/x10dp"
+                        android:background="@drawable/custom_round_select"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/x10dp"
+                        android:paddingRight="@dimen/x10dp"
+                        android:text="环境对睡眠影响的次数"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/ts_content" />
+
+                    <LinearLayout
+                        android:id="@+id/rl_huanjing"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/x15dp"
+                        android:background="@color/cbg_color"
+                        android:orientation="vertical"
+                        android:paddingLeft="@dimen/x12dp"
+                        android:paddingRight="@dimen/x12dp" />
+
+                    <LinearLayout
+                        android:id="@+id/rl_huanjing_message"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/x15dp"
+                        android:background="@color/cbg_color"
+                        android:orientation="vertical"
+                        android:paddingLeft="@dimen/x12dp"
+                        android:paddingRight="@dimen/x12dp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="@dimen/x60dp"
+                    android:layout_height="@dimen/x60dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/huangj_pic" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

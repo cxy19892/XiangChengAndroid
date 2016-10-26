@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/title_bar_bg"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btn_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@color/transparent"
+        android:textSize="@dimen/ts_min"
+        android:padding="@dimen/x10dp"
+        android:textColor="@color/fct_color"
+        android:text="历史数据" />
+    <View android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/bg_color"/>
+
+    <Button
+        android:id="@+id/btn_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@color/transparent"
+        android:textColor="@color/fct_color"
+        android:textSize="@dimen/ts_min"
+        android:padding="@dimen/x10dp"
+        android:text="设置" />
+
+</LinearLayout>

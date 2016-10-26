@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/cbg_color"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/title_layout_dark"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/x10dp"
+        android:background="@color/bg_color"
+        android:textColor="@color/onet_color"
+        android:textSize="@dimen/ts_sub"
+        android:padding="@dimen/x10dp"
+        android:gravity="top|left"
+        android:hint="@string/str_hint_feedback_tips"
+        android:textColorHint="@color/btn_gray_normal"
+        android:lines="10"
+        android:id="@+id/edt_sugg"
+        android:layout_gravity="center_horizontal" >
+
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/x10dp"
+        android:background="@color/bg_color"
+        android:textColor="@color/onet_color"
+        android:textSize="@dimen/ts_sub"
+        android:hint="@string/str_hint_feedback_conn"
+        android:textColorHint="@color/btn_gray_normal"
+        android:inputType="number"
+        android:maxLength="11"
+        android:padding="@dimen/x10dp"
+        android:id="@+id/edt_conn"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>

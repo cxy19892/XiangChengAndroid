@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/includes"
+        layout="@layout/title_layout_dark" />
+
+    <Button
+        android:id="@+id/butBinding"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/x20dp"
+        android:layout_marginLeft="@dimen/x20dp"
+        android:layout_marginRight="@dimen/x20dp"
+        android:layout_marginTop="@dimen/x20dp"
+        android:background="@drawable/tranceparent_button_bg"
+        android:text="已购买枕扣"
+        android:textColor="@color/theme_color"
+        android:textSize="16sp" />
+
+    
+
+    <Button
+        android:id="@+id/btn_buying"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_above="@+id/butBinding"
+        android:layout_marginLeft="@dimen/x20dp"
+        android:layout_marginRight="@dimen/x20dp"
+        android:background="@drawable/custom_button_bg"
+        android:text="购买枕扣"
+        android:textColor="@color/cbg_color"
+        android:textSize="16sp" />
+
+    <!-- <LinearLayout -->
+    <!-- android:id="@+id/ll" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_above="@id/butBinding" -->
+    <!-- android:layout_marginBottom="35dp" -->
+    <!-- android:layout_centerHorizontal="true" -->
+    <!-- android:orientation="horizontal" > -->
+
+
+    <!-- <ImageView -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_gravity="center_vertical" -->
+    <!-- android:clickable="true" -->
+    <!-- android:padding="15.0dip" -->
+    <!-- android:src="@drawable/binding" /> -->
+
+
+    <!-- <ImageView -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_gravity="center_vertical" -->
+    <!-- android:clickable="true" -->
+    <!-- android:padding="15.0dip" -->
+    <!-- android:src="@drawable/binding" /> -->
+
+
+    <!-- <ImageView -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_gravity="center_vertical" -->
+    <!-- android:clickable="true" -->
+    <!-- android:padding="15.0dip" -->
+    <!-- android:src="@drawable/binding" /> -->
+    <!-- </LinearLayout> -->
+
+
+    <!-- <android.support.v4.view.ViewPager -->
+    <!-- android:id="@+id/viewpager" -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="match_parent" -->
+    <!-- android:layout_above="@id/ll" -->
+    <!-- android:layout_below="@id/includes" -->
+    <!-- android:layout_marginBottom="10dp" -->
+    <!-- android:paddingLeft="10dp" -->
+    <!-- android:paddingRight="10dp" -->
+    <!-- android:paddingTop="30dp" /> -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btn_buying"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none"
+             >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center" >
+                
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/pillow_intr_icon" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="@dimen/x10dp"
+                    android:paddingLeft="@dimen/x30dp"
+                    android:paddingRight="@dimen/x10dp" >
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="无需穿戴，无需接触身体，用的放心"
+                        android:textColor="@color/ct_color"
+                        android:textSize="16sp"
+                        android:gravity="center_vertical"
+                        android:drawableLeft="@drawable/pillow_intr_heart"
+                        android:drawablePadding="@dimen/x10dp" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/x10dp"
+                        android:paddingBottom="@dimen/x10dp"
+                        android:text="更精准的记录睡眠，科学分析睡眠质量"
+                        android:textColor="@color/ct_color"
+                        android:textSize="16sp"
+                        android:gravity="center_vertical"
+                        android:drawableLeft="@drawable/pillow_intr_up"
+                        android:drawablePadding="@dimen/x10dp" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="超强续航能力，无需充电"
+                        android:textColor="@color/ct_color"
+                        android:textSize="16sp"
+                        android:gravity="center_vertical"
+                        android:drawableLeft="@drawable/pillow_intr_bateriy"
+                        android:drawablePadding="@dimen/x10dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

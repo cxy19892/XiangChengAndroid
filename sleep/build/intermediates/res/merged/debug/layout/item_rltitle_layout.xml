@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/title_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="@dimen/x12dp"
+        android:paddingTop="@dimen/x15dp"
+        android:text="全部"
+        android:singleLine="true"
+        android:textSize="@dimen/ts_content" />
+
+    <View
+        android:id="@+id/title_tip"
+        android:layout_width="wrap_content"
+        android:layout_alignBottom="@id/title_name"
+        android:layout_alignLeft="@id/title_name"
+        android:layout_alignRight="@id/title_name"
+        android:layout_height="@dimen/x3dp"
+        android:background="@color/theme_color" />
+
+</RelativeLayout>

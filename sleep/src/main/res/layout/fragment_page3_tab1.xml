@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cbg_color" >
+
+    <RelativeLayout
+        android:id="@+id/knowledge_title"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="@color/white" >
+
+
+            <TextView
+                android:id="@+id/tv_knowledge_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:paddingBottom="@dimen/x10dp"
+                android:paddingLeft="@dimen/x18dp"
+                android:paddingRight="@dimen/x18dp"
+                android:paddingTop="@dimen/x10dp"
+                android:text="知识库"
+                android:textColor="@color/onet_color"
+                android:textSize="@dimen/ts_titles" />
+
+        <ImageButton
+            android:id="@+id/knowledge_title_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/btn_gray1_bg"
+            android:padding="10dp"
+            android:src="@drawable/ic_search_normal"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/textsize_normal" />
+
+        </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/view_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/knowledge_title"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/knowledge_headpic" />
+
+        <LinearLayout
+            android:layout_below="@id/view_head"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/cbg_color">
+
+
+            <LinearLayout
+                android:id="@+id/rl_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/cbg_color"
+                android:gravity="center"
+                android:layout_weight="1.0"
+                 >
+
+                <Button
+                    android:id="@+id/btn1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/btn_gray1_bg"
+                    android:padding="@dimen/x20dp"
+                    android:drawableTop="@drawable/knowledge_guilv"
+                    android:text="睡眠规律"
+                    android:textColor="@drawable/text_select_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <View
+                    android:layout_width="@dimen/x1dp"
+                    android:layout_height="match_parent"
+
+                    android:background="@color/bg_color" />
+
+                <Button
+                    android:id="@+id/btn2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/btn_gray1_bg"
+                    android:padding="@dimen/x20dp"
+                    android:drawableTop="@drawable/knowledge_xiguan"
+                    android:text="生活习惯"
+                    android:textColor="@drawable/text_select_color"
+                    android:textSize="@dimen/ts_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rl_line"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x1dp"
+                android:layout_below="@id/rl_1"
+                android:background="@color/cbg_color"
+                android:gravity="center_horizontal" >
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/x1dp"
+                    android:layout_weight="1.0"
+                    android:background="@color/bg_color" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/x1dp"
+                    android:layout_weight="1.0"
+                    android:background="@color/bg_color" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rl_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/rl_line"
+                android:layout_weight="1.0"
+                android:background="@color/cbg_color"
+                android:gravity="center"
+                >
+
+                <Button
+                    android:id="@+id/btn3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/btn_gray1_bg"
+                    android:padding="@dimen/x20dp"
+                    android:drawableTop="@drawable/knowledge_xili"
+                    android:text="心里调节"
+                    android:textColor="@drawable/text_select_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <View
+                    android:layout_width="@dimen/x1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/bg_color" />
+
+                <Button
+                    android:id="@+id/btn4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/btn_gray1_bg"
+                    android:padding="@dimen/x20dp"
+                    android:drawableTop="@drawable/knowledge_hj"
+                    android:text="睡眠环境"
+                    android:textColor="@drawable/text_select_color"
+                    android:textSize="@dimen/ts_content" />
+            </LinearLayout>
+        </LinearLayout>
+
+</RelativeLayout>

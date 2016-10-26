@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cbg_color" >
+
+    <include layout="@layout/title_layout_dark" />
+
+    <HorizontalScrollView
+        android:id="@+id/hsv_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/x48dp"
+        android:background="@color/second_title_bg"
+        android:visibility="invisible"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/rl_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"/>
+    </HorizontalScrollView>
+
+    <com.yzm.sleep.refresh.MaterialRefreshLayout
+        android:id="@+id/my_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/hsv_view"
+        android:background="@color/bg_color" >
+
+        <ListView
+            android:id="@+id/my_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bg_color"
+            android:childDivider="@null"
+            android:divider="@color/bg_color"
+            android:dividerHeight="0.6dip"
+            android:listSelector="@drawable/comm_bg_listview_item"
+            android:scrollbars="none" />
+    </com.yzm.sleep.refresh.MaterialRefreshLayout>
+
+</RelativeLayout>

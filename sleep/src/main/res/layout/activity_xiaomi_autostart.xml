@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cbg_color"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="智能模式设置"
+        android:textColor="@color/ct_color"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:paddingLeft="10dp"
+        android:text="智能模式为无需每次打开APP即可记录睡眠"
+        android:textColor="@color/ct_color"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:paddingLeft="10dp"
+        android:text="智能模式需要打开自启动设置"
+        android:textColor="@color/ct_color"
+        android:textSize="16sp" />
+
+    <RelativeLayout
+        android:id="@+id/layoutReceiverChatMessage"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/comm_bg_listview_item"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="18dp"
+            android:drawableLeft="@drawable/ic_my_zk"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:text="香橙"
+            android:textColor="@color/ct_color"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/cbReceiverChatMessage"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ic_normal"
+            android:button="@null"
+            android:checked="false" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="18dp"
+            android:background="@color/fct_color_7f" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnAllowAutoStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_button_bg"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="允许自启动"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textsize_normal" >
+    </Button>
+
+</LinearLayout>

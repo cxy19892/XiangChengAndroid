@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_layout_dark" />
+
+    <com.yzm.sleep.widget.KJScrollView
+        android:id="@+id/sv_consult_topics"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x0dp"
+        android:layout_weight="1"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x100dp"
+                android:background="@color/cbg_color"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/lin_guanzhu"
+                    android:layout_width="@dimen/x0dp"
+                    android:layout_height="@dimen/x80dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tv_guanzhu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/x10dp"
+                        android:layout_marginTop="@dimen/x15dp"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="0"
+                        android:textColor="@color/onet_color"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/x5dp"
+                        android:gravity="center"
+                        android:text="关注人数"
+                       android:textColor="@color/onet_color"
+                        android:textSize="@dimen/ts_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lin_fangwen"
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tv_fangwen"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/x10dp"
+                        android:layout_marginTop="@dimen/x15dp"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="0"
+                        android:textColor="@color/onet_color"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/x5dp"
+                        android:gravity="center"
+                        android:text="访问人数"
+                       android:textColor="@color/onet_color"
+                        android:textSize="@dimen/ts_content" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/ginfo_rl_gicon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/x1dp"
+                android:background="@drawable/comm_bg_listview_item"
+                android:paddingBottom="@dimen/x20dp"
+                android:paddingLeft="@dimen/x20dp"
+                android:paddingRight="@dimen/x20dp"
+                android:paddingTop="@dimen/x20dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/group_info_icon"
+                    android:textColor="@color/onet_color"
+                    android:textSize="@dimen/ts_sub"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="right|center_vertical"
+                    android:orientation="horizontal" >
+
+                    <RelativeLayout
+                        android:id="@+id/relativeLayout1"
+                        android:layout_width="@dimen/head_icon_with_height_normal"
+                        android:layout_height="@dimen/head_icon_with_height_normal"
+                        android:layout_toLeftOf="@+id/icon_next" >
+                        <com.yzm.sleep.CircleImageView
+                            android:id="@+id/ginfo_imgv_gicon"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:src="@drawable/default_error"
+                            android:scaleType="centerCrop" />
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/ginfo_rl_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/x1dp"
+                android:background="@drawable/comm_bg_listview_item"
+                android:paddingBottom="@dimen/x20dp"
+                android:paddingLeft="@dimen/x20dp"
+                android:paddingRight="@dimen/x20dp"
+                android:paddingTop="@dimen/x20dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/group_info_name"
+                   android:textColor="@color/onet_color"
+                    android:textSize="@dimen/ts_sub"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/ginfo_tv_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:ellipsize="end"
+                    android:maxEms="12"
+                    android:singleLine="true"
+                    android:textColor="@color/onet_color" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/ginfo_rl_creator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/x1dp"
+                android:background="@drawable/comm_bg_listview_item"
+                android:paddingBottom="@dimen/x20dp"
+                android:paddingLeft="@dimen/x20dp"
+                android:paddingRight="@dimen/x20dp"
+                android:paddingTop="@dimen/x20dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/group_info_creator"
+                    android:textColor="@color/onet_color"
+                    android:textSize="@dimen/ts_sub"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/ginfo_tv_creator"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:ellipsize="end"
+                    android:maxEms="12"
+                    android:singleLine="true"
+                    android:textColor="@color/ct_color" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/ginfo_rl_introduction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/comm_bg_listview_item"
+                android:paddingBottom="@dimen/x20dp"
+                android:paddingLeft="@dimen/x20dp"
+                android:paddingRight="@dimen/x20dp"
+                android:paddingTop="@dimen/x20dp" >
+
+                <TextView
+                    android:id="@+id/tv_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/group_info_introduction"
+                   android:textColor="@color/onet_color"
+                    android:textSize="@dimen/ts_sub"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/ginfo_tv_introduction"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/tv_view"
+                    android:ellipsize="end"
+                    android:textColor="@color/ct_color" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/ginfo_btn_cancle"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x45dp"
+                android:layout_marginLeft="@dimen/x20dp"
+                android:layout_marginRight="@dimen/x20dp"
+                android:layout_marginTop="@dimen/x20dp"
+                android:background="@drawable/button_usergroup"
+                android:padding="8dp"
+                android:text="取消关注"
+                android:textColor="@color/ct_color"
+                android:textSize="@dimen/ts_content" />
+        </LinearLayout>
+    </com.yzm.sleep.widget.KJScrollView>
+
+</LinearLayout>

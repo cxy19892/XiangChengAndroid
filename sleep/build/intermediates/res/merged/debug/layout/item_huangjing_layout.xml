@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/x4dp"
+    android:paddingTop="@dimen/x4dp" >
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="@dimen/x60dp"
+        android:layout_height="wrap_content"
+        android:text="光线"
+        android:textColor="@color/ct_color"
+        android:textSize="@dimen/ts_sub" />
+
+    <ProgressBar
+        android:id="@+id/progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/x28dp"
+        android:layout_marginLeft="@dimen/x10dp"
+        android:layout_weight="1.0"
+        android:background="@color/bg_color"
+        android:progressDrawable="@drawable/custom_progressbar_bg1"
+        android:max="700"
+        android:scrollbars="none" />
+
+    <TextView
+        android:id="@+id/num"
+        android:layout_width="@dimen/x20dp"
+        android:layout_height="@dimen/x20dp"
+        android:gravity="center"
+        android:text="2"
+        android:layout_marginLeft="@dimen/x4dp"
+        android:background="@drawable/custom_textview_bg"
+        android:textColor="@color/white"
+        android:layout_marginRight="@dimen/x10dp"
+        android:textSize="@dimen/ts_content" />
+
+</LinearLayout>

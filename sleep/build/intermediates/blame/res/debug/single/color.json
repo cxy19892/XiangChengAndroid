@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\color\\custom_radiobutton_textcolor.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\color\\custom_radiobutton_textcolor.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\color\\color_home_tab.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\color\\color_home_tab.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\color\\color_radiobutton.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\color\\color_radiobutton.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\color\\awake_alarm_select_textcolor.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\color\\awake_alarm_select_textcolor.xml"
+    }
+]

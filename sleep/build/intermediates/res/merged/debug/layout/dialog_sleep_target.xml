@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/x8dp"
+        android:background="@color/cbg_color"
+        android:paddingBottom="@dimen/x40dp" >
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/x20dp"
+            android:paddingLeft="@dimen/x15dp"
+            android:paddingRight="@dimen/x15dp"
+            android:paddingTop="@dimen/x20dp"
+            android:text="睡眠健康指标"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/ts_titles" />
+
+        <ImageView
+            android:id="@+id/close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/tv1"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/tv1"
+            android:layout_marginRight="@dimen/x10dp"
+            android:padding="@dimen/x8dp"
+            android:src="@drawable/close_dialog" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv1"
+            android:layout_marginTop="@dimen/x10dp"
+            android:paddingBottom="@dimen/x15dp"
+            android:paddingLeft="@dimen/x15dp"
+            android:paddingRight="@dimen/x15dp"
+            android:text="睡眠健康指标跟年龄性别息息相关，在不同人群不同年龄阶段，睡眠时长都不相同。培养良好的睡眠习惯，对身心健康意义重大。"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/ts_content" />
+
+        <LinearLayout
+            android:id="@+id/br"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x8dp"
+            android:layout_below="@id/tv2"
+            android:layout_marginBottom="@dimen/x4dp"
+            android:layout_marginLeft="@dimen/x15dp"
+            android:layout_marginRight="@dimen/x15dp"
+            android:layout_marginTop="@dimen/x20dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.0"
+                android:background="@drawable/left_sicircle" />
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#00000000" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.0"
+                android:background="#8644FE" />
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#00000000" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.0"
+                android:background="@drawable/right_sicircle" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/br"
+            android:layout_marginLeft="@dimen/x15dp"
+            android:layout_marginRight="@dimen/x15dp"
+            android:layout_marginTop="@dimen/x8dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/time1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="center_horizontal"
+                android:text="偏短"
+                android:textColor="#999999"
+                android:textSize="@dimen/ts_sub" />
+
+            <TextView
+                android:id="@+id/time3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="center_horizontal"
+                android:text="健康"
+                android:textColor="#999999"
+                android:textSize="@dimen/ts_sub" />
+
+            <TextView
+                android:id="@+id/time5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="center_horizontal"
+                android:minWidth="30dp"
+                android:text="偏长"
+                android:textColor="#999999"
+                android:textSize="@dimen/ts_sub" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

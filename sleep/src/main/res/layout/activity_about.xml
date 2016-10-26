@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_layout_dark" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/x30dp"
+        android:background="@drawable/about_logo" />
+
+    <TextView
+        android:id="@+id/tv_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_padding_small"
+        android:text="香橙"
+        android:textColor="@color/onet_color"
+        android:textSize="@dimen/ts_content" />
+
+    <RelativeLayout
+        android:id="@+id/rl_wx"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x60dp"
+        android:layout_marginTop="@dimen/x30dp"
+        android:background="@color/cbg_color"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/iv_wx"
+            android:layout_width="@dimen/x36dp"
+            android:layout_height="@dimen/x36dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x10dp"
+            android:background="@drawable/ic_wx" />
+
+        <TextView
+            android:id="@+id/tv_wx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x16dp"
+            android:layout_toRightOf="@id/iv_wx"
+            android:text="微信公众号"
+            android:textColor="@color/onet_color"
+            android:textSize="@dimen/ts_btn" />
+
+        <TextView
+            android:id="@+id/tvWeiXinAdmin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="@dimen/x20dp"
+            android:textColor="@color/onet_color"
+            android:textSize="@dimen/ts_sub" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_wb"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x60dp"
+        android:layout_marginTop="@dimen/x1dp"
+        android:background="@color/cbg_color"
+        android:orientation="vertical" >
+
+        <com.sina.weibo.sdk.component.view.AttentionComponentView
+            android:id="@+id/attentionView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@color/cbg_color"
+            android:foreground="@color/cbg_color"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_wb"
+            android:layout_width="@dimen/x36dp"
+            android:layout_height="@dimen/x36dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x10dp"
+            android:background="@drawable/ic_wb"/>
+
+        <TextView
+            android:id="@+id/tv_wb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x16dp"
+            android:layout_toRightOf="@id/iv_wb"
+            android:text="微博"
+            android:textColor="@color/onet_color"
+            android:textSize="@dimen/ts_btn" />
+
+        <TextView
+            android:id="@+id/tvWeiboAdmin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="@dimen/x20dp"
+            android:textColor="@color/onet_color"
+            android:textSize="@dimen/ts_sub" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_qq"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x60dp"
+        android:layout_marginTop="@dimen/x1dp"
+        android:background="@color/cbg_color"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/iv_qq"
+            android:layout_width="@dimen/x36dp"
+            android:layout_height="@dimen/x36dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x10dp"
+            android:background="@drawable/ic_qq"/>
+
+        <TextView
+            android:id="@+id/tv_qq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x16dp"
+            android:layout_toRightOf="@id/iv_qq"
+            android:text="QQ"
+            android:textColor="@color/onet_color"
+            android:textSize="@dimen/ts_btn" />
+
+        <TextView
+            android:id="@+id/tvQQAdmin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="@dimen/x20dp"
+            android:textColor="@color/onet_color"
+            android:textSize="@dimen/ts_sub" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvUserPrivacyPolicy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/x38dp"
+        android:gravity="center"
+        android:text="用户隐私协议"
+        android:textColor="#48afea" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/x8dp"
+        android:gravity="center"
+        android:text="成都香晨科技有限责任公司"
+        android:textColor="@color/fct_color" />
+
+</LinearLayout>

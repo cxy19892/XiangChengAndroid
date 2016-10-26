@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/cbg_color"
+    android:layout_height="54dp"
+     >
+    
+    <TextView 
+        android:id="@+id/bind_pillow_menu_key"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:textSize="16sp"
+        android:textColor="@color/ct_color"/>
+
+    <TextView 
+        android:id="@+id/bind_pillow_menu_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="18dp"
+        android:textSize="16sp"
+        android:textColor="@color/fct_color"/>
+    
+    <ImageView 
+        android:id="@+id/bind_pillow_menu_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="12dp"
+        />
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/bg_color"/>
+</RelativeLayout>

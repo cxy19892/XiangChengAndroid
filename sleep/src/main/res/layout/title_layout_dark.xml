@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/x48dp"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:splitMotionEvents="false" >
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:background="@null"
+        android:drawableLeft="@drawable/icon_return"
+        android:paddingLeft="@dimen/x10dp"
+        android:paddingRight="@dimen/x14dp" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:background="@android:color/transparent"
+        android:paddingLeft="@dimen/x15dp"
+        android:paddingRight="@dimen/x15dp"
+        android:textColor="@color/ct_color"
+        android:textSize="@dimen/ts_content"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:maxEms="10"
+        android:singleLine="true"
+        android:textColor="@color/ct_color"
+        android:textSize="@dimen/ts_titles" />
+
+    <Button
+        android:id="@+id/btn_title_right"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/btn_gray1_bg"
+        android:drawablePadding="@dimen/x1dp"
+        android:paddingLeft="@dimen/x15dp"
+        android:paddingRight="@dimen/x15dp"
+        android:textColor="@color/ct_color"
+        android:textSize="@dimen/ts_content"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn_title_right2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/x5dp"
+        android:background="#00000000"
+        android:drawablePadding="@dimen/x1dp"
+        android:paddingLeft="@dimen/x15dp"
+        android:paddingRight="@dimen/x15dp"
+        android:text="分享"
+        android:textColor="@color/ct_color"
+        android:textSize="@dimen/ts_content"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/btn_right"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/x5dp"
+        android:background="@drawable/btn_gray1_bg"
+        android:paddingLeft="@dimen/x15dp"
+        android:paddingRight="@dimen/x15dp"
+        android:src="@drawable/group_information_icon_button"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/ib_more"
+        android:layout_width="@dimen/btn_width_normal"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/btn_gray1_bg"
+        android:src="@drawable/home_page_mor_icon"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/ib_share"
+        android:layout_width="@dimen/btn_width_normal"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/btn_gray1_bg"
+        android:visibility="gone"
+        android:src="@drawable/ic_share_normal" />
+
+    <ImageButton
+        android:id="@+id/ib_left"
+        android:layout_width="@dimen/btn_width_normal"
+        android:layout_height="match_parent"
+        android:background="@drawable/btn_gray1_bg"
+        android:visibility="gone" />
+
+    <View
+        android:id="@+id/title_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="#757777"
+        android:visibility="gone" />
+
+</RelativeLayout>

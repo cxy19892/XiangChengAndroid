@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_layout_dark" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x16dp"
+                android:layout_marginTop="@dimen/x30dp"
+                android:text="您哪里不舒服"
+                android:textColor="@color/fct_color"
+                android:textSize="@dimen/ts_content" />
+
+            <EditText
+                android:focusable="true"
+                android:id="@+id/etYourState"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="@dimen/x12dp"
+                android:background="@color/cbg_color"
+                android:gravity="top"
+                android:padding="@dimen/x16dp"
+                android:textColor="@color/ct_color"
+                android:textSize="@dimen/ts_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x16dp"
+                android:layout_marginTop="@dimen/x30dp"
+                android:text="您的电话"
+                android:textColor="@color/fct_color"
+                android:textSize="@dimen/ts_content" />
+
+            <EditText
+                android:id="@+id/etYourPhone"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x54dp"
+                android:layout_marginTop="@dimen/x12dp"
+                android:background="@color/cbg_color"
+                android:inputType="phone"
+                android:maxLength="11"
+                android:paddingLeft="@dimen/x16dp"
+                android:paddingRight="@dimen/x16dp"
+                android:singleLine="true"
+                android:textColor="@color/ct_color"
+                android:textSize="@dimen/ts_content" />
+            <TextView
+                android:layout_marginTop="@dimen/x25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x16dp"
+                android:text="工作时间为10:00-18:00，不能及时回答，请谅解"
+                android:textColor="@color/ct_color"
+                android:textSize="@dimen/ts_content" />
+
+            <Button
+                android:id="@+id/btnSend"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x15dp"
+                android:layout_marginRight="@dimen/x15dp"
+                android:layout_marginTop="@dimen/x25dp"
+                android:background="@drawable/custom_button_bg"
+                android:padding="@dimen/x14dp"
+                android:text="发送"
+                android:textColor="@color/cbg_color"
+                android:textSize="@dimen/ts_btn" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

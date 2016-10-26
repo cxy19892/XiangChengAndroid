@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+    
+    
+    <include layout="@layout/title_layout_dark"/>
+    
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+             >
+
+    <TextView
+        android:id="@+id/sleep_thinking_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/ts_content"
+        android:textColor="@color/ct_color"
+        android:layout_marginTop="@dimen/x6dp"
+        android:padding="@dimen/x10dp"
+        android:text="睡觉时想的事情" />
+
+
+    <EditText
+        android:id="@+id/sleep_thinking_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cbg_color"
+        android:padding="@dimen/x10dp"
+        android:textColor="@color/onet_color"
+        android:textSize="@dimen/ts_sub"
+        android:gravity="left|top"
+        android:minLines="3"
+        android:text=""
+        >
+        <requestFocus />
+    </EditText>
+    <TextView
+        android:id="@+id/sleep_feeling_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/ts_content"
+        android:textColor="@color/ct_color"
+        android:padding="@dimen/x10dp"
+        android:text="您的感受" />
+
+    <EditText
+        android:id="@+id/sleep_feeling_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cbg_color"
+        android:padding="@dimen/x10dp"
+        android:textColor="@color/onet_color"
+        android:textSize="@dimen/ts_sub"
+        android:gravity="left|top"
+        android:minLines="3"
+        android:text=""
+        />
+    
+        <TextView
+        android:id="@+id/sleep_positive_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/ts_content"
+        android:textColor="@color/ct_color"
+        android:padding="@dimen/x10dp"
+        android:text="用积极的语言描述睡觉时想的事情" />
+
+    <EditText
+        android:id="@+id/sleep_positive_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cbg_color"
+        android:padding="@dimen/x10dp"
+        android:textColor="@color/onet_color"
+        android:textSize="@dimen/ts_sub"
+        android:gravity="left|top"
+        android:minLines="3"
+        android:text=""
+        />
+    
+        <TextView
+        android:id="@+id/sleep_hopeful_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/ts_content"
+        android:textColor="@color/ct_color"
+        android:padding="@dimen/x10dp"
+        android:text="用乐观的语言描述您的感受" />
+
+    <EditText
+        android:id="@+id/sleep_hopeful_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cbg_color"
+        android:padding="@dimen/x10dp"
+        android:textColor="@color/onet_color"
+        android:textSize="@dimen/ts_sub"
+        android:layout_marginBottom="@dimen/x16dp"
+        android:gravity="left|top"
+        android:minLines="3"
+        android:text=""
+        />
+    
+    
+
+        </LinearLayout>
+    </ScrollView>
+   
+</LinearLayout>

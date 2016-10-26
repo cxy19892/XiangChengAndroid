@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+    
+    <ImageView 
+       android:id="@+id/item_img"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:src="@drawable/ic_zhi_blue1"
+       android:layout_marginLeft="-3dp"
+       android:scaleType="fitXY" />
+    
+     <ImageView 
+       android:id="@+id/item_img2"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:src="@drawable/ic_zhi_blue3"
+       android:layout_marginLeft="-3dp"
+       android:visibility="gone"
+       android:scaleType="fitXY" />   
+    
+
+    <TextView
+        android:id="@+id/item_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/x35dp"
+        android:paddingRight="@dimen/x16dp"
+        android:maxLines="3"
+        android:layout_centerInParent="true"
+        android:ellipsize="end"
+        android:gravity="center|left"
+        android:textSize="@dimen/ts_content"
+        android:textColor="@color/onet_color"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/item_guide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/fct_color"
+        android:layout_below="@+id/item_tv"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:visibility="gone"
+        android:text="滑动撕掉它" />
+
+</RelativeLayout>

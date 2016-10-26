@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/x42dp" >
+
+    <LinearLayout
+        android:id="@+id/layout_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_color"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/roll_btn_cancle"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:paddingBottom="@dimen/x18dp"
+            android:paddingLeft="@dimen/x18dp"
+            android:paddingRight="@dimen/x18dp"
+            android:paddingTop="@dimen/x18dp"
+            android:src="@drawable/dialog_closed_icon" />
+
+        <TextView
+            android:id="@+id/tv_roll_title"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="体重"
+            android:textColor="@color/ct_color"
+            android:textSize="18sp" />
+
+        <ImageButton
+            android:id="@+id/roll_btn_confirm"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:paddingBottom="@dimen/x18dp"
+            android:paddingLeft="@dimen/x18dp"
+            android:paddingRight="@dimen/x18dp"
+            android:paddingTop="@dimen/x18dp"
+            android:src="@drawable/dialog_finish_icon" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="@dimen/x60dp"
+        android:layout_height="@dimen/x40dp"
+        android:layout_below="@id/layout_top"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/x20dp"
+        android:background="@color/cbg_color"
+        android:gravity="center"
+        android:focusable="true"
+        android:maxEms="5"
+        android:inputType="numberDecimal"
+        android:singleLine="true"
+        android:textColor="@color/ct_color"
+        android:textSize="@dimen/ts_btn" />
+
+    <TextView
+        android:id="@+id/tvTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/editText"
+        android:layout_marginLeft="@dimen/x10dp"
+        android:layout_toRightOf="@id/editText"
+        android:text="kg"
+        android:textColor="@color/ct_color"
+        android:textSize="@dimen/ts_content" />
+
+</RelativeLayout>

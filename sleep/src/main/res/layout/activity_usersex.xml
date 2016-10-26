@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/re_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cbg_color" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/x15dp"
+            android:layout_marginLeft="@dimen/x18dp"
+            android:layout_marginRight="@dimen/x10dp"
+            android:layout_marginTop="@dimen/x15dp"
+            android:text="为了科学分析睡眠健康指标，需要您提供以下信息"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/ts_btn" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/x18dp"
+        android:layout_marginTop="@dimen/x32dp"
+        android:text="1.你的性别"
+        android:textColor="#676767"
+        android:textSize="@dimen/ts_content" />
+
+    <LinearLayout
+        android:id="@+id/lin_sex"
+        android:layout_width="match_parent"
+        android:layout_height="101dp"
+        android:layout_marginTop="@dimen/x5dp"
+        android:background="@color/cbg_color"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/re_usernan"
+            android:layout_width="@dimen/x0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/user_im_male"
+                android:layout_width="@dimen/x35dp"
+                android:layout_height="@dimen/x35dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/x20dp"
+                android:background="@drawable/ic_man_normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/user_im_male"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/x10dp"
+                android:text="男"
+                android:textColor="#676767"
+                android:textSize="@dimen/ts_sub" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/re_usernv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/userim_female"
+                android:layout_width="@dimen/x35dp"
+                android:layout_height="@dimen/x35dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/x20dp"
+                android:background="@drawable/ic_woman_normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/userim_female"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/x10dp"
+                android:text="女"
+                android:textColor="#676767"
+                android:textSize="@dimen/ts_sub" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

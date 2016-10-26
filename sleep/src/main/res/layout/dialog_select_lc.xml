@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cbg_color"
+    android:paddingBottom="@dimen/x18dp" >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/x20dp"
+        android:text="选择疗程"
+        android:background="#00000000"
+        android:textColor="@color/onet_color"
+        android:textSize="@dimen/ts_titles" />
+
+    <LinearLayout
+        android:id="@+id/rl_op"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/x80dp"
+        android:layout_marginRight="@dimen/x80dp"
+        android:layout_marginTop="@dimen/x34dp"
+        android:background="#00000000" >
+
+        <ImageView
+            android:id="@+id/lc_minus"
+            android:layout_width="@dimen/x40dp"
+            android:layout_height="@dimen/x40dp"
+            android:background="#00000000"
+            android:src="@drawable/ic_lcminus_icon" />
+
+        <TextView
+            android:id="@+id/lc_num"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/x40dp"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:background="#00000000"
+            android:textColor="@color/onet_color"
+            android:textSize="@dimen/ts_titles" />
+
+        <ImageView
+            android:id="@+id/lc_add"
+            android:layout_width="@dimen/x40dp"
+            android:layout_height="@dimen/x40dp"
+            android:background="#00000000"
+            android:src="@drawable/ic_lcadd_icon" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_buy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_op"
+        android:layout_marginLeft="@dimen/x12dp"
+        android:layout_marginRight="@dimen/x12dp"
+        android:layout_marginTop="@dimen/x34dp"
+        android:background="@drawable/custom_button_bg"
+        android:padding="@dimen/x12dp"
+        android:text="立即购买"
+        android:textColor="@color/onet_color"
+        android:textSize="@dimen/ts_content" />
+
+</RelativeLayout>

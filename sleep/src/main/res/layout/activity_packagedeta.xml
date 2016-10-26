@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cbg_color"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_layout_dark" />
+
+    <Button
+        android:id="@+id/but_buy"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x50dp"
+        android:layout_alignParentBottom="true"
+        android:text="立即购买"
+        android:textColor="@color/ct_color"
+        android:textSize="@dimen/ts_btn"
+        android:visibility="gone" />
+
+    <View
+        android:id="@+id/view_v"
+        android:layout_width="match_parent"
+        android:layout_height="0.6dp"
+        android:layout_alignTop="@id/but_buy"
+        android:background="@color/fct_color"
+        android:visibility="gone" />
+
+    <WebView
+        android:id="@+id/webpackagedeta"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/but_buy"
+        android:layout_marginTop="@dimen/x48dp"
+        android:scrollbars="none" />
+
+    <TextView
+        android:id="@+id/delete_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:textColor="@color/ct_color"
+        android:textSize="@dimen/ts_content"
+        android:text="该商品已下架"
+        android:drawableTop="@drawable/no_network"
+        android:layout_marginTop="@dimen/x48dp"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:drawablePadding="@dimen/x10dp"
+        android:background="#00000000"/>
+
+</RelativeLayout>

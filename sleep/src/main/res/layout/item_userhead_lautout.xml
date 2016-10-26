@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yzm.sleep.CircleImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/iv_praise_head_two"
+    android:layout_width="28dp"
+    android:layout_height="28dp"
+    android:src="@drawable/ic_my_tx" />

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_back"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/cbg_color"
+    android:descendantFocusability="blocksDescendants"
+    android:paddingTop="@dimen/x20dp"
+    android:paddingBottom="@dimen/x20dp"
+    android:paddingRight="@dimen/x20dp"
+     >
+
+
+    <RelativeLayout
+        android:id="@+id/lin_switch_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="2dp"
+        android:paddingLeft="@dimen/x10dp" >
+
+        
+
+        <TextView
+            android:id="@+id/item_tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x18dp"
+            android:paddingBottom="4dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            
+            android:text="23:00"
+            android:textSize="40sp"
+            android:textColor="#e0e1f6" />
+        
+        <View
+            android:id="@+id/item_v_icon"
+            android:layout_width="3dp"
+            android:layout_height="23sp"
+            
+            android:layout_alignParentLeft="true"
+        	android:layout_centerVertical="true"
+            android:background="#E0E0F6" />
+    </RelativeLayout>
+    
+    <ImageView
+        android:id="@+id/iv_img_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_right1" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="@dimen/x10dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="3dp"
+        android:layout_toRightOf="@+id/linearLayout1"
+        android:layout_toLeftOf="@+id/iv_img_next"
+        android:gravity="right"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/item_tv_remind_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:singleLine="true"
+            android:textSize="13sp"
+            android:textColor="#E0E0F6" />
+
+        <TextView
+            android:id="@+id/item_tv_remind_repeat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:singleLine="true"
+            android:textSize="13sp"
+            android:textColor="#E0E0F6" />
+    </LinearLayout>
+
+    
+
+</RelativeLayout>

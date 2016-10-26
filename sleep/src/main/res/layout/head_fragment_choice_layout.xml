@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+
+    <com.yzm.sleep.scrollpage.SliderLayout
+        android:id="@+id/sliderlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00000000" />
+
+    <TextView
+        android:id="@+id/tv_tag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/x10dp"
+        android:background="@color/cbg_color"
+        android:padding="@dimen/x10dp"
+        android:text="主题"
+        android:textColor="@color/onet_color"
+        android:textSize="@dimen/ts_content"
+        android:visibility="gone" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cbg_color"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/tag_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:orientation="horizontal" />
+    </HorizontalScrollView>
+
+    <View
+        android:id="@+id/head_line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x10dp"
+         />
+
+</LinearLayout>

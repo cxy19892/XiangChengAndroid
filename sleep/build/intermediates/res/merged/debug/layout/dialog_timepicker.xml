@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@color/cbg_color"
+    android:paddingBottom="@dimen/activity_padding" >
+
+    <TextView
+        android:id="@+id/datepicker_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:text="@string/timepicker_title"
+        android:textColor="@color/ct_color" 
+        android:textSize="@dimen/textsize_title" />
+
+    <View
+        android:id="@+id/datepicker_line"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/datepicker_title"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:background="@color/fct_color_7f" />
+
+    <LinearLayout
+        android:id="@+id/layout_timepicker"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/datepicker_line"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <com.yzm.sleep.widget.NumberPicker
+            android:id="@+id/hourPicker"
+            style="@style/NPWidget.Holo.NumberPicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_padding_small" 
+            android:text=":"/>
+
+        <com.yzm.sleep.widget.NumberPicker
+            android:id="@+id/minutePicker"
+            style="@style/NPWidget.Holo.NumberPicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_padding_small" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/timepicker_line_info"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/layout_timepicker"
+        android:background="@color/fct_color_7f" />
+
+    <LinearLayout
+        android:id="@+id/timepicker_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/timepicker_line_info"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/timepicker_cacel"
+            android:layout_width="@dimen/btn_width_normal"
+            android:layout_height="@dimen/btn_height_normal"
+            android:layout_marginRight="10dp"
+            android:background="@color/fct_color_7f"
+            android:gravity="center"
+            android:text="@string/alert_cancel"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize_normal" />
+
+        <TextView
+            android:id="@+id/timepicker_submit"
+            android:layout_width="@dimen/btn_width_normal"
+            android:layout_height="@dimen/btn_height_normal"
+            android:layout_marginLeft="10dp"
+            android:background="@color/fct_color_7f"
+            android:gravity="center"
+            android:text="@string/case_submit"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize_normal" />
+    </LinearLayout>
+
+</RelativeLayout>

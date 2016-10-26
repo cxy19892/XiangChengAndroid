@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_op"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cbg_color"
+        android:paddingLeft="@dimen/x15dp"
+        android:paddingRight="@dimen/x15dp" >
+
+        <Button
+            android:id="@+id/but_before"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:drawableLeft="@drawable/preced_month"
+            android:padding="@dimen/x15dp" />
+
+        <TextView
+            android:id="@+id/tv_year_month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@color/cbg_color"
+            android:textColor="@color/ct_color"
+            android:textStyle="bold"
+            android:textSize="@dimen/ts_content" />
+
+        <Button
+            android:id="@+id/but_later"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@null"
+            android:drawableLeft="@drawable/next_month"
+            android:padding="@dimen/x15dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_calender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_op"
+        android:background="@color/cbg_color"
+        android:paddingBottom="@dimen/x10dp"
+        android:paddingLeft="@dimen/x10dp"
+        android:paddingRight="@dimen/x10dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x40dp"
+            android:background="@color/cbg_color" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/cbg_color"
+                android:gravity="center"
+                android:text="日"
+                android:textColor="@color/color_orange"
+                android:textSize="@dimen/ts_content" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/cbg_color"
+                android:gravity="center"
+                android:text="一"
+               android:textColor="@color/color_orange"
+                android:textSize="@dimen/ts_content" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/cbg_color"
+                android:gravity="center"
+                android:text="二"
+                android:textColor="@color/color_orange"
+                android:textSize="@dimen/ts_content" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/cbg_color"
+                android:gravity="center"
+                android:text="三"
+               android:textColor="@color/color_orange"
+                android:textSize="@dimen/ts_content" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/cbg_color"
+                android:gravity="center"
+                android:text="四"
+                android:textColor="@color/color_orange"
+                android:textSize="@dimen/ts_content" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/cbg_color"
+                android:gravity="center"
+                android:text="五"
+                android:textColor="@color/color_orange"
+                android:textSize="@dimen/ts_content" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/cbg_color"
+                android:gravity="center"
+                android:text="六"
+                android:textColor="@color/color_orange"
+                android:textSize="@dimen/ts_content" />
+        </LinearLayout>
+
+        <ViewFlipper
+            android:id="@+id/viewfilpper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cbg_color"
+            android:layout_marginTop="@dimen/x40dp"
+            android:scrollbars="none"
+            android:autoStart="false" >
+
+            <com.yzm.sleep.widget.CustomGridView
+                android:id="@+id/calender_gridview0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/cbg_color"
+                android:horizontalSpacing="0.5dp"
+                android:listSelector="@android:color/transparent"
+                android:numColumns="7"
+                android:scrollbars="none"
+                android:verticalSpacing="0.5dp" />
+
+            <com.yzm.sleep.widget.CustomGridView
+                android:id="@+id/calender_gridview1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/cbg_color"
+                android:horizontalSpacing="0.5dp"
+                android:listSelector="@android:color/transparent"
+                android:numColumns="7"
+                android:scrollbars="none"
+                android:verticalSpacing="0.5dp" />
+
+            <com.yzm.sleep.widget.CustomGridView
+                android:id="@+id/calender_gridview2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/cbg_color"
+                android:horizontalSpacing="0.5dp"
+                android:listSelector="@android:color/transparent"
+                android:numColumns="7"
+                android:scrollbars="none"
+                android:verticalSpacing="0.5dp" />
+        </ViewFlipper>
+    </RelativeLayout>
+
+</RelativeLayout>

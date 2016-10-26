@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cbg_color"
+    android:orientation="vertical" >
+    
+    <include layout="@layout/title_layout_dark" />
+    
+    <com.yzm.sleep.refresh.MaterialRefreshLayout
+        android:id="@+id/my_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        android:background="@color/bg_color" >
+
+        <ListView
+            android:id="@+id/my_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bg_color"
+            android:childDivider="@null"
+            android:divider="@color/bg_color"
+            android:dividerHeight="0.6dip"
+            android:listSelector="@drawable/comm_bg_listview_item"
+            android:scrollbars="none" />
+    </com.yzm.sleep.refresh.MaterialRefreshLayout>
+
+</LinearLayout>

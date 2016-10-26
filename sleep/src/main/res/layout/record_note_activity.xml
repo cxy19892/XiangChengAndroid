@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cbg_color"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@color/transparent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/header_rel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <RelativeLayout
+                android:id="@+id/header_rel_line"
+                android:layout_width="27dp"
+                android:layout_height="match_parent"
+                android:background="@color/ct_color"
+                android:visibility="gone" >
+
+                <RelativeLayout
+                    android:layout_width="26dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/cbg_color" >
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/head_bg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/x25dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/note_headpic" />
+
+            <ImageView
+                android:id="@+id/img_add_new"
+                android:layout_width="@dimen/x55dp"
+                android:layout_height="@dimen/x55dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/x20dp"
+                android:src="@drawable/ic_add_note" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:background="@drawable/custom_bg6"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ts_sub"
+                android:text="将此刻困扰你的事情写下来，让今天到此为止。" />
+
+        </RelativeLayout>
+    </LinearLayout>
+    
+     <com.yzm.sleep.refresh.MaterialRefreshLayout
+        android:id="@+id/my_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/header"
+        android:background="@color/cbg_color"
+        android:visibility="visible" >
+
+        <ListView
+            android:id="@+id/my_listv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/cbg_color"
+            android:childDivider="@null"
+            android:divider="@color/transparent"
+            android:listSelector="@drawable/comm_bg_listview_item"
+            android:scrollbars="none" />
+    </com.yzm.sleep.refresh.MaterialRefreshLayout> 
+
+    <include layout="@layout/title_layout_transparent" />
+
+</RelativeLayout>

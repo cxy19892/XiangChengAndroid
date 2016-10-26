@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/cbg_color"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/x10dp"
+    android:paddingTop="@dimen/x20dp"
+    android:paddingBottom="@dimen/x20dp"
+    android:paddingRight="@dimen/x18dp" >
+
+    
+    <RelativeLayout
+        android:id="@+id/rl_state_loading"
+        android:layout_width="@dimen/x25dp"
+        android:layout_height="@dimen/x25dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:descendantFocusability="blocksDescendants"
+        android:visibility="invisible" >
+
+        <com.yzm.sleep.widget.SimpleRoundProgressBar 
+            android:id="@+id/pb_state_loading"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:clickable="false"
+            android:focusable="false"
+             />
+
+       <TextView
+            android:id="@+id/tv_loading_curpro"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textColor="@color/fct_color"
+            android:visibility="gone"
+            android:text="0%"
+            android:textSize="10dp" /> 
+            
+    </RelativeLayout>
+    
+
+    <ImageView
+        android:id="@+id/img_download_view"
+        android:layout_width="@dimen/x25dp"
+        android:layout_height="@dimen/x25dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_down_normal" />
+    
+    <TextView
+        android:id="@+id/item_tv_rings_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/rl_state_loading"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/onet_color"
+        android:textSize="16sp" />
+
+</RelativeLayout>

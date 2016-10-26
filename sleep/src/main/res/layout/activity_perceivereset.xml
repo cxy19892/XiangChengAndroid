@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+
+    <include 
+        android:id="@+id/rl_title"
+        layout="@layout/title_layout_transparent" />
+
+    <include android:id="@+id/no_net"
+        layout="@layout/layout_no_net"
+        android:visibility="gone"/>
+    
+    <LinearLayout
+        android:id="@+id/rl_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_color"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/rl_type1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.0"
+            android:background="@color/cbg_color"
+            android:padding="@dimen/x30dp"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@color/cbg_color"
+                android:drawablePadding="@dimen/x15dp"
+                android:drawableTop="@drawable/perceive_top"
+                android:gravity="center"
+                android:textColor="@color/ct_color"
+                android:textSize="@dimen/ts_content" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/rl_start"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.2"
+            android:gravity="center"
+            android:background="@color/theme_color"
+            android:visibility="gone" >
+
+            <Button
+                android:id="@+id/btn_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/perceive_start"
+                android:gravity="center"
+                android:textColor="@color/ct_color"
+                android:textSize="@dimen/ts_content" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_content"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.2"
+            android:background="@color/theme_color"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/tv_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@color/theme_color"
+                android:drawablePadding="@dimen/x15dp"
+                android:drawableTop="@drawable/perceive_cicon"
+                android:gravity="center"
+                android:padding="@dimen/x30dp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ts_content" />
+
+            <LinearLayout
+                android:id="@+id/rl_op"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x48dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/title_bar_bg"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btn_btn1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:background="@color/title_bar_bg"
+                    android:drawableTop="@drawable/btn_nouse_icon"
+                    android:gravity="center"
+                    android:text="没用"
+                    android:textColor="@color/t_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <Button
+                    android:id="@+id/btn_btn2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:background="@color/title_bar_bg"
+                    android:drawableTop="@drawable/btn_use_icon"
+                    android:gravity="center"
+                    android:text="有用"
+                    android:textColor="@color/t_color"
+                    android:textSize="@dimen/ts_content" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_nousecontent"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.2"
+            android:background="@color/theme_color"
+            android:visibility="gone" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@color/theme_color"
+                android:drawablePadding="@dimen/x15dp"
+                android:drawableTop="@drawable/nouse_icon"
+                android:gravity="center"
+                android:padding="@dimen/x30dp"
+                android:text="这些都没能改变我的负面想法，我要自己客观分析。"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ts_content" />
+
+            <RelativeLayout
+                android:id="@+id/btn_btn3"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x48dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/title_bar_bg" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/x48dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="#00000000"
+                    android:drawableLeft="@drawable/btn_write"
+                    android:gravity="center"
+                    android:textColor="@color/t_color"
+                    android:textSize="@dimen/ts_content" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

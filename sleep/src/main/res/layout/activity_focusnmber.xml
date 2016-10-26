@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/relaInclude"
+        layout="@layout/title_layout_dark" />
+
+    <com.yzm.sleep.refresh.MaterialRefreshLayout
+        android:id="@+id/focu_mian_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/relaInclude" >
+
+        <ListView
+            android:id="@+id/focu_expanlist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bg_color"
+            android:childDivider="@null"
+            android:divider="@color/bg_color"
+            android:dividerHeight="@dimen/x1dp"
+           android:listSelector="@drawable/comm_bg_listview_item"
+            android:scrollbars="none" />
+    </com.yzm.sleep.refresh.MaterialRefreshLayout>
+
+    <RelativeLayout
+        android:id="@+id/propessbarTeam"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true"
+        android:background="@color/bg_color" >
+
+        <ProgressBar
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:indeterminate="true"
+            android:indeterminateDrawable="@drawable/progress_icon_comm"
+            android:indeterminateDuration="500"/>
+    </RelativeLayout>
+
+</RelativeLayout>

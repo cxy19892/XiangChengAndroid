@@ -1,0 +1,76 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <color name="black">#000000</color>
+    <color name="content">#F0F0F0</color>
+    <color name="blue_light">#0000FF</color>
+    <color name="orange">#FF5722</color>
+    <color name="translucent">#00000000</color>
+    <color name="title_background">#F7F7F7</color>
+    <color name="text_color_dark">#3B3B3B</color>
+    <color name="activity_setting_line_color">#C8C7CC</color>
+    <color name="gray_normal">#666667</color>
+    <color name="btn_gray_normal">#c0c0c0</color>
+   
+    <color name="color_576b95">#576b95</color>
+    <color name="color_d9d9d9">#d9d9d9</color>
+	<color name="color_orange">#ff6d3a</color>
+	
+	<!-- color -->
+	<color name="white">#FFFFFF</color>
+	<!-- 标题栏 标题颜色 -->
+	<color name="t_color">#ffB4B4B4</color>
+	<color name="t_color_7f">#7fB4B4B4</color>
+	<!-- 一级标题-->
+	<color name="onet_color">#ff454758</color>
+	<color name="onet_color_7f">#7f454758</color>
+	<!-- 二级标题-->
+	<color name="second_color">#ffe0e1f6</color>
+	<color name="second_color_7f">#7fe0e1f6</color>
+	
+	<!-- 内容文字-->
+	<color name="ct_color">#ff61637b</color>
+	<color name="ct_color_7f">#7f61637b</color>
+	
+	<color name="second_title_bg">#ff414D8F</color>
+	
+	<!-- 辅助色-->
+	<color name="fct_color">#ff9fa5b7</color>
+	<color name="fct_color_7f">#7f9fa5b7</color>
+	
+	<!-- 亚健康  -->
+	<color name="sub_health">#ff4571ff</color>
+	<color name="sub_health_7f">#7f4571ff</color>
+	
+	<!-- 主题  -->
+	<color name="theme_color">#ff7b95de</color>
+	<color name="theme_color_7f">#7f7b95de</color>
+	<color name="theme_color_ee">#ee7b95de</color>
+	<!-- 背景  -->
+	<color name="bg_color">#ffedeced</color>
+	<color name="bg_color_7f">#7fedeced</color>
+	
+	<!-- 内容背景  -->
+	<color name="cbg_color">#ffffffff</color>
+	<color name="cbg_color_7f">#7fffffff</color>
+	
+	<!-- table 颜色  -->
+	<color name="tab_color">#ffffffff</color>
+	<color name="tab_color_7f">#7fffffff</color>
+	
+	<!-- 浮窗颜色  -->
+	<color name="dialogb_color">#ffffffff</color>
+	<color name="dialogb_color_7f">#7fffffff</color>
+	
+	<!-- 我收到的回复背景 -->
+	<color name="hf_bg">#ff9eabfc</color>
+	
+	<!-- 我收到的回复背景 -->
+	<color name="input_bg">#ff9eabfc</color>
+	
+	<!-- 标题 -->
+	<color name="title_bar_bg">#2d3b8b</color>
+	<color name="title_bar_bg_7f">#7f2d3b8b</color>
+
+	<color name="dark_blue">#6a85d0</color>
+	
+</resources>

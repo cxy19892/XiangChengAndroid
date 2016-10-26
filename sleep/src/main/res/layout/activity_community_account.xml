@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_layout_dark" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/x60dp"
+        android:layout_marginTop="@dimen/x10dp"
+        android:background="@color/cbg_color"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/iv_weibo"
+            android:layout_width="@dimen/x42dp"
+            android:layout_height="@dimen/x42dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x10dp"
+            android:src="@drawable/ic_wb" />
+
+        <TextView
+            android:id="@+id/tv_weibo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x16dp"
+            android:layout_toRightOf="@id/iv_weibo"
+            android:text="微博"
+            android:textColor="@color/onet_color"
+            android:textSize="@dimen/ts_content" />
+
+        <com.sina.weibo.sdk.widget.LoginButton
+            android:id="@+id/btn_bound_weibo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="right|center_vertical"
+            android:paddingRight="@dimen/x20dp"
+            android:textColor="@color/onet_color"
+            android:textSize="@dimen/ts_sub"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_bound_weixin"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x60dp"
+        android:layout_marginTop="@dimen/x1dp"
+        android:background="@color/cbg_color"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/iv_weixin"
+            android:layout_width="@dimen/x42dp"
+            android:layout_height="@dimen/x42dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x10dp"
+            android:background="@drawable/ic_wx" />
+
+        <TextView
+            android:id="@+id/tv_weixin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x16dp"
+            android:layout_toRightOf="@id/iv_weixin"
+            android:text="微信"
+            android:textColor="@color/onet_color"
+            android:textSize="@dimen/ts_content" />
+
+        <Button
+            android:id="@+id/btn_bound_weixin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:gravity="right|center_vertical"
+            android:paddingRight="@dimen/x20dp"
+            android:textColor="@color/onet_color"
+            android:textSize="@dimen/ts_sub" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_bound_qq"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x60dp"
+        android:layout_marginTop="@dimen/x1dp"
+        android:background="@color/cbg_color"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/iv_qq"
+            android:layout_width="@dimen/x42dp"
+            android:layout_height="@dimen/x42dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x10dp"
+            android:background="@drawable/ic_qq"/>
+
+        <TextView
+            android:id="@+id/tv_qq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x16dp"
+            android:layout_toRightOf="@id/iv_qq"
+            android:text="QQ"
+            android:textColor="@color/onet_color"
+            android:textSize="@dimen/ts_content" />
+
+        <Button
+            android:id="@+id/btn_bound_qq"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:gravity="right|center_vertical"
+            android:paddingRight="@dimen/x20dp"
+            android:textColor="@color/onet_color"
+            android:textSize="@dimen/ts_sub" />
+    </RelativeLayout>
+
+</LinearLayout>

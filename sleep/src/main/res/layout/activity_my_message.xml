@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color" >
+
+    <include
+        android:id="@+id/app_title"
+        layout="@layout/title_layout_dark" />
+
+    <com.yzm.sleep.refresh.MaterialRefreshLayout
+        android:id="@+id/pull_refreshview_message"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/app_title"
+        android:background="@color/bg_color" >
+
+        <ListView
+            android:id="@+id/lv_mymessages"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/app_title"
+            android:background="@color/bg_color"
+            android:divider="@color/bg_color"
+            android:listSelector="@drawable/comm_bg_listview_item"
+            android:dividerHeight="@dimen/x1dp"
+            android:fastScrollEnabled="false"
+            android:visibility="visible" >
+        </ListView>
+    </com.yzm.sleep.refresh.MaterialRefreshLayout>
+
+</RelativeLayout>

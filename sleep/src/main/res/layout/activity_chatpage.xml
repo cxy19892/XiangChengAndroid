@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+   android:background="@color/bg_color"
+    android:layout_height="match_parent" >
+
+    <include layout="@layout/title_layout_dark" />
+
+    <RelativeLayout
+        android:id="@+id/input_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/dialogb_color" >
+
+        <RelativeLayout
+            android:id="@+id/input_op"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x48dp"
+            android:background="@color/dialogb_color" >
+
+            <RelativeLayout
+                android:id="@+id/rl_op"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:focusable="true"
+                android:focusableInTouchMode="true" >
+
+                <ImageButton
+                    android:id="@+id/btn_texteinput"
+                    android:layout_width="@dimen/x40dp"
+                    android:layout_height="match_parent"
+                    android:background="#00000000"
+                    android:paddingLeft="@dimen/x10dp"
+                    android:paddingRight="@dimen/x10dp"
+                    android:src="@drawable/btn_texteinput_icon"
+                    android:visibility="gone" />
+
+                <ImageButton
+                    android:id="@+id/btn_record"
+                    android:layout_width="@dimen/x40dp"
+                    android:layout_height="match_parent"
+                    android:background="#00000000"
+                    android:paddingLeft="@dimen/x10dp"
+                    android:paddingRight="@dimen/x10dp"
+                    android:src="@drawable/btn_record_icon" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_right"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="@dimen/x10dp"
+                android:layout_alignParentRight="true" >
+
+                <ImageButton
+                    android:id="@+id/btn_add"
+                    android:layout_width="@dimen/x50dp"
+                    android:layout_height="match_parent"
+                    android:background="#00000000"
+                    android:paddingLeft="@dimen/x10dp"
+                    android:paddingRight="@dimen/x10dp"
+                    android:src="@drawable/btn_add_icon" />
+
+                <Button
+                    android:id="@+id/btn_sendmesage"
+                    android:layout_width="@dimen/x50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/custom_button_bg"
+                    android:paddingBottom="@dimen/x6dp"
+                    android:paddingTop="@dimen/x6dp"
+                    android:text="发送"
+                    android:visibility="gone"
+                    android:textColor="@color/cbg_color"
+                    android:textSize="@dimen/ts_content" />
+            </RelativeLayout>
+
+            <ImageButton
+                android:id="@+id/btn_face"
+                android:layout_width="@dimen/x40dp"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@id/rl_right"
+                android:background="#00000000"
+                android:paddingLeft="@dimen/x10dp"
+                android:paddingRight="@dimen/x10dp"
+                android:src="@drawable/btn_face_icon" />
+
+            <EditText
+                android:id="@+id/edt_mesage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="@dimen/x8dp"
+                android:layout_marginTop="@dimen/x8dp"
+                android:layout_toLeftOf="@id/btn_face"
+                android:layout_toRightOf="@id/rl_op"
+                android:background="@drawable/custom_editext_bg"
+                android:paddingBottom="@dimen/x2dp"
+                android:paddingLeft="@dimen/x4dp"
+                android:paddingRight="@dimen/x4dp"
+                android:paddingTop="@dimen/x2dp"
+                android:singleLine="true"
+                android:textColor="@color/ct_color"
+                android:textSize="@dimen/ts_content" />
+
+            <Button
+                android:id="@+id/btn_touch_record"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="@dimen/x6dp"
+                android:layout_marginTop="@dimen/x6dp"
+                android:layout_toLeftOf="@id/btn_face"
+                android:layout_toRightOf="@id/rl_op"
+                android:background="@drawable/custom_editext_bg"
+                android:text="长按说话"
+                android:textColor="@color/ct_color"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <com.yzm.sleep.widget.EaseEmojiconMenu
+            android:id="@+id/emojicon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/input_op"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/input_menu"
+        android:layout_marginTop="@dimen/x48dp"
+        android:background="@color/bg_color" >
+
+        <TextView
+            android:id="@+id/work_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/onet_color"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/x8dp"
+            android:padding="@dimen/x4dp"
+            android:visibility="gone"
+            android:text="工作时间：10:00-18:00"/>
+
+        <ListView
+            android:id="@+id/list_message"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="#00000000"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:layout_below="@id/work_time"
+            android:listSelector="#00000000"
+            android:scrollbarStyle="outsideOverlay"
+            android:scrollbars="none"
+            android:transcriptMode="normal" />
+
+        <com.yzm.sleep.widget.EaseVoiceRecorderView
+            android:id="@+id/voice_recorder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+</RelativeLayout>

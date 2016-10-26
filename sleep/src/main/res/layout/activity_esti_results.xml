@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+    
+    <include layout="@layout/title_layout_dark"/>
+    
+    <LinearLayout 
+        android:id="@+id/esti_viewOther"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/x20dp"
+        android:orientation="vertical"
+        android:visibility="gone">
+        
+    </LinearLayout>
+    
+    <TextView
+        android:id="@+id/esti_tvLoadFailed"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/progerssbar"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="网络异常，请稍后再试"
+        android:textColor="@color/fct_color"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/esti_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/transparent"
+        android:listSelector="@color/transparent"
+        android:dividerHeight="1dp"
+        android:scrollbars="none" >
+    </ListView>
+
+</LinearLayout>

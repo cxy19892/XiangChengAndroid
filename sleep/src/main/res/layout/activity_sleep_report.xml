@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color" >
+
+    <include layout="@layout/title_layout_dark" />
+
+    <ScrollView
+        android:id="@+id/sc_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/x48dp"
+        android:background="@color/bg_color"
+        android:scrollbars="none"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_color"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/x14dp" >
+
+            <TextView
+                android:id="@+id/tv_explain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/cbg_color"
+                android:padding="@dimen/x12dp"
+                android:textColor="@color/ct_color"
+                android:textSize="@dimen/ts_sub" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/x8dp"
+                android:background="@color/cbg_color"
+                android:padding="@dimen/x12dp"
+                android:text="睡眠质量"
+                android:textColor="@color/onet_color"
+                android:textSize="@dimen/ts_content" />
+
+            <TextView
+                android:id="@+id/tv_length_explain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/cbg_color"
+                android:paddingBottom="@dimen/x12dp"
+                android:paddingLeft="@dimen/x12dp"
+                android:paddingRight="@dimen/x12dp"
+                android:textColor="@color/ct_color"
+                android:textSize="@dimen/ts_sub" />
+
+            <com.yzm.sleep.widget.ReportSleepLengthTable
+                android:id="@+id/report_tab"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@color/cbg_color"
+                android:paddingBottom="@dimen/x12dp"
+                android:paddingLeft="@dimen/x12dp"
+                android:paddingRight="@dimen/x12dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x12dp"
+                android:background="@color/cbg_color" />
+
+            <TextView
+                android:id="@+id/hint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/bg_color"
+                android:padding="@dimen/x12dp"
+                android:text="蓝色表示睡眠时长"
+                android:textColor="@color/ct_color"
+                android:textSize="@dimen/ts_sub" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/x4dp"
+                android:background="@color/cbg_color"
+                android:padding="@dimen/x12dp"
+                android:text="入睡时间"
+                android:textColor="@color/onet_color"
+                android:textSize="@dimen/ts_content" />
+
+            <TextView
+                android:id="@+id/tv_sleep_explain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/cbg_color"
+                android:paddingBottom="@dimen/x12dp"
+                android:paddingLeft="@dimen/x12dp"
+                android:paddingRight="@dimen/x12dp"
+                android:textColor="@color/ct_color"
+                android:textSize="@dimen/ts_sub" />
+
+            <com.yzm.sleep.widget.SleepTimePointTable
+                android:id="@+id/soft_tab1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@color/cbg_color"
+                android:padding="@dimen/x12dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x12dp"
+                android:background="@color/cbg_color" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/x8dp"
+                android:background="@color/cbg_color"
+                android:padding="@dimen/x12dp"
+                android:text="醒来时间"
+                android:textColor="@color/onet_color"
+                android:textSize="@dimen/ts_content" />
+
+            <TextView
+                android:id="@+id/tv_getup_explain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/cbg_color"
+                android:paddingLeft="@dimen/x12dp"
+                android:paddingRight="@dimen/x12dp"
+                android:textColor="@color/ct_color"
+                android:textSize="@dimen/ts_sub" />
+
+            <com.yzm.sleep.widget.SleepTimePointTable
+                android:id="@+id/soft_tab2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@color/cbg_color"
+                android:padding="@dimen/x12dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x12dp"
+                android:background="@color/cbg_color" />
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/nodata"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/x48dp"
+        android:background="#00000000"
+        android:gravity="center"
+        android:text="暂无周报"
+        android:textColor="@color/ct_color"
+        android:textSize="@dimen/ts_content"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/comm_bg_listview_item"
+    android:paddingTop="@dimen/x12dp"
+    android:paddingBottom="@dimen/x12dp"
+    android:orientation="vertical" >
+
+    <com.yzm.sleep.CircleImageView
+        android:id="@+id/fo_group_icon"
+        android:layout_width="@dimen/x38dp"
+        android:layout_height="@dimen/x38dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/x12dp" />
+
+    <ImageView
+        android:id="@+id/tvGroupUserType"
+        android:layout_width="@dimen/x12dp"
+        android:layout_height="@dimen/x12dp"
+        android:layout_alignBottom="@id/fo_group_icon"
+        android:layout_alignRight="@id/fo_group_icon"
+        android:gravity="center"
+        android:visibility="gone"
+        android:src="@drawable/ic_shequ_vip" />
+
+    <TextView
+        android:id="@+id/fo_groupName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/x16dp"
+        android:layout_toLeftOf="@+id/fo_time"
+        android:layout_toRightOf="@id/fo_group_icon"
+        android:singleLine="true"
+        android:textColor="@color/onet_color"
+        android:textSize="@dimen/ts_content" />
+
+    <TextView
+        android:id="@+id/fo_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/x22dp"
+        android:textColor="@color/ct_color"
+        android:textSize="@dimen/ts_sub" />
+
+</RelativeLayout>

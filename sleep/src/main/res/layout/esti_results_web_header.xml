@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:id="@+id/esti_viewData"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <!-- <ProgressBar
+            android:id="@+id/esti_result_progerssbar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:progressDrawable="@drawable/progressbar_color" />
+
+        <WebView
+            android:id="@+id/esti_result_web_View"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_color"
+             /> -->
+             
+             
+             
+             
+        
+
+        <TextView
+            android:id="@+id/esti_result_top_tips"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cbg_color"
+            android:padding="@dimen/x10dp"
+            android:textSize="@dimen/ts_content"
+            android:textColor="@color/ct_color"
+            android:text="" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@color/cbg_color"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:id="@+id/esti_rel_layout"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <com.yzm.sleep.widget.SimpleRoundProgressBar
+                    android:id="@+id/esti_progress"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/bind_pillow_text1"
+                    android:textColor="#888888"
+                    android:textSize="16sp"
+                    android:visibility="invisible" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true" >
+
+                    <TextView
+                        android:id="@+id/esti_tv_scor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/bind_pillow_power_icon"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="2dp"
+                        android:textColor="@color/onet_color"
+                        android:textSize="@dimen/ts_max" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/esti_tv_res_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/ct_color"
+            android:textSize="@dimen/ts_sub"
+            android:padding="@dimen/x10dp"
+            android:background="@color/cbg_color"
+            android:text="" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/x10dp"
+            android:background="@color/cbg_color"
+            android:padding="10dp"
+            android:orientation="vertical" >
+            
+           <LinearLayout 
+               android:id="@+id/esti_lin_type1"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:gravity="center_vertical"
+               android:visibility="gone"
+               >
+               <com.yzm.sleep.widget.CustomGridView 
+                   android:id="@+id/esti_gview_type1"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:listSelector="@color/transparent"
+                   android:numColumns="4"
+                   android:scrollbars="none"
+                   
+                   ></com.yzm.sleep.widget.CustomGridView>
+           </LinearLayout>
+           
+          <LinearLayout 
+               android:id="@+id/esti_lin_type2"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:gravity="center_vertical"
+               android:visibility="visible"
+               >
+               
+
+               
+               <TableLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent" >
+
+                   <TableRow
+                       android:id="@+id/tableRow1"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:paddingTop="@dimen/x5dp"
+                       android:paddingBottom="@dimen/x5dp" >
+                       <TextView
+                       android:id="@+id/textView11"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:textColor="@color/ct_color"
+                       android:textSize="@dimen/ts_sub"
+                       android:text="睡眠效率" />
+                       <RelativeLayout
+                           android:id="@+id/rel_smxl_realy"
+                           android:layout_weight="1"
+	                       android:layout_width="wrap_content"
+	                       android:layout_height="match_parent"
+	                       android:layout_marginLeft="@dimen/x5dp"
+	                       android:layout_marginRight="@dimen/x5dp" >
+	                       
+                           <TextView 
+                               android:id="@+id/pb_v_smxl_realy"
+                               android:layout_width="match_parent"
+                               android:layout_height="match_parent"
+                               android:layout_centerVertical="true"
+                               android:gravity="right"
+                               android:textColor="@color/onet_color"
+	                       	   android:textSize="@dimen/ts_min"
+                               android:background="@drawable/corners_btn_color_theme"/>
+                       	
+                       <!-- <ProgressBar
+                           
+                           android:id="@+id/pb_smxl_realy"
+                           style="?android:attr/progressBarStyleHorizontal"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:indeterminateDrawable="@drawable/custom_circle_point_8745ff"
+                           android:progressDrawable="@drawable/prbar_bg_tranceparent_progress_violet"
+                           android:layout_centerVertical="true" /> -->
+
+                       <TextView
+                           android:id="@+id/tv_smxl_realy"
+                           android:layout_width="wrap_content"
+                           android:layout_height="match_parent"
+                           android:textColor="@color/onet_color"
+                       	   android:textSize="@dimen/ts_min"
+                       	   android:gravity="center_vertical"
+                       	   android:layout_marginLeft="5dp"
+                       	   android:layout_alignParentLeft="true"
+                       	   android:layout_centerVertical="true"
+                           android:text="" />
+
+                       </RelativeLayout>
+                       <TextView
+                       android:id="@+id/tv_smxl_result"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:textColor="@color/ct_color"
+                       android:textSize="@dimen/ts_sub"
+                       android:text="" />
+                   </TableRow>
+
+                   <TableRow
+                       android:id="@+id/tableRow2"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:paddingTop="@dimen/x5dp"
+                       android:paddingBottom="@dimen/x5dp" >
+                       <TextView
+                       android:id="@+id/textView12"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:textColor="@color/ct_color"
+                       android:textSize="@dimen/ts_sub"
+                       android:text="睡眠时长" />
+                       <RelativeLayout
+                           android:id="@+id/rel_smsc_realy"
+                           android:layout_weight="1"
+	                       android:layout_width="wrap_content"
+	                       android:layout_height="match_parent"
+	                       android:layout_marginLeft="@dimen/x5dp"
+	                       android:layout_marginRight="@dimen/x5dp" >
+                       	
+                           <TextView 
+                               android:id="@+id/pb_v_smsc_realy"
+                               android:layout_width="match_parent"
+                               android:layout_height="match_parent"
+                               android:layout_centerVertical="true"
+                               android:gravity="right|center_vertical"
+                               android:textColor="@color/onet_color"
+	                       	   android:textSize="@dimen/ts_min"
+                               android:background="@drawable/corners_btn_color_theme"/>
+                           
+                       <!-- <ProgressBar
+                           
+                           android:id="@+id/pb_smsc_realy"
+                           style="?android:attr/progressBarStyleHorizontal"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:indeterminateDrawable="@drawable/custom_circle_point_8745ff"
+                           android:progressDrawable="@drawable/prbar_bg_tranceparent_progress_violet"
+                           android:layout_centerVertical="true"
+                           /> -->
+                       
+                       <TextView
+                           android:id="@+id/tv_smsc_realy"
+                           android:layout_width="wrap_content"
+                           android:layout_height="match_parent"
+                           android:textColor="@color/onet_color"
+                       	   android:textSize="@dimen/ts_min"
+                       	   android:gravity="center_vertical"
+                       	   android:layout_marginLeft="5dp"
+                       	   android:layout_alignParentLeft="true"
+                       	   android:layout_centerVertical="true"
+                           android:text="" />
+
+                       </RelativeLayout>
+                       <TextView
+                       android:id="@+id/tv_smsc_result"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:textColor="@color/ct_color"
+                       android:textSize="@dimen/ts_sub"
+                       android:text="" />
+                   </TableRow>
+                   
+                   <TableRow
+                       android:id="@+id/tableRow3"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:paddingTop="@dimen/x5dp"
+                       android:paddingBottom="@dimen/x5dp" >
+                       <TextView
+                       android:id="@+id/textView1"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:textColor="@color/ct_color"
+                       android:textSize="@dimen/ts_sub"
+                       android:text="入睡时间" />
+                       <RelativeLayout
+                           android:layout_weight="1"
+	                       android:layout_width="wrap_content"
+	                       android:layout_height="match_parent"
+	                       android:layout_marginLeft="@dimen/x5dp"
+	                       android:layout_marginRight="@dimen/x5dp" >
+                       	
+                       <ProgressBar
+                           
+                           android:id="@+id/pb_rssj_realy"
+                           style="?android:attr/progressBarStyleHorizontal"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:indeterminateDrawable="@drawable/custom_circle_point_theme"
+                           android:progressDrawable="@drawable/prbar_bg_tranceparent_progress_violet"
+                           android:layout_centerVertical="true" />
+                       
+                       <TextView
+                           android:id="@+id/tv_rssj_realy"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:textColor="@color/onet_color"
+                       	   android:textSize="@dimen/ts_min"
+                       	   android:layout_marginLeft="5dp"
+                       	   android:layout_alignParentLeft="true"
+                       	   android:layout_centerVertical="true"
+                           android:text="" />
+
+                       </RelativeLayout>
+                       <TextView
+                       android:id="@+id/tv_rssj_result"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:textColor="@color/ct_color"
+                       android:textSize="@dimen/ts_sub"
+                       android:text="" />
+                   </TableRow>
+                   
+               </TableLayout>
+               
+           </LinearLayout>
+           
+           <LinearLayout 
+               android:id="@+id/esti_lin_type3"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:gravity="center_vertical"
+               android:visibility="gone"
+               >
+               <com.yzm.sleep.widget.CustomGridView 
+                   android:id="@+id/esti_gview_type3"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:listSelector="@color/transparent"
+                   android:numColumns="3"
+                   android:scrollbars="none"
+                   
+                   ></com.yzm.sleep.widget.CustomGridView>
+           </LinearLayout>
+           
+           <LinearLayout 
+               android:id="@+id/esti_lin_type4"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:gravity="center_vertical"
+               android:visibility="gone"
+               >
+               <com.yzm.sleep.widget.CustomGridView 
+                   android:id="@+id/esti_gview_type4"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:listSelector="@color/transparent"
+                   android:numColumns="3"
+                   android:scrollbars="none"
+                   
+                   ></com.yzm.sleep.widget.CustomGridView>
+           </LinearLayout>
+        </LinearLayout>
+        
+        <TextView 
+            android:id="@+id/esti_result_tips"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/ct_color"
+            android:textSize="@dimen/ts_content"
+            android:padding="@dimen/x10dp"
+            android:layout_marginBottom="1dp"
+            android:text="相关推荐"
+            />
+
+    </LinearLayout>
+
+    </LinearLayout>
+

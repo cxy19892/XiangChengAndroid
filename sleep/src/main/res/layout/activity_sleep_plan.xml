@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+
+    <!-- 七日计划 -->
+    <include layout="@layout/title_layout_dark" />
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cbg_color"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="@dimen/x10dp"
+        android:paddingTop="@dimen/x10dp" >
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/x1dp"
+            android:layout_weight="1.0" />
+
+        <RadioButton
+            android:id="@+id/type1"
+            android:layout_width="@dimen/x60dp"
+            android:layout_height="@dimen/x60dp"
+            android:background="@drawable/custom_round_border_bg"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:text="生活\n习惯"
+            android:textColor="@color/custom_radiobutton_textcolor"
+            android:textSize="@dimen/ts_content" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/x1dp"
+            android:layout_weight="1.0" />
+
+        <RadioButton
+            android:id="@+id/type2"
+            android:layout_width="@dimen/x60dp"
+            android:layout_height="@dimen/x60dp"
+            android:background="@drawable/custom_round_border_bg"
+            android:button="@null"
+            android:gravity="center"
+            android:text="作息\n规律"
+            android:textColor="@color/custom_radiobutton_textcolor"
+            android:textSize="@dimen/ts_content" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/x1dp"
+            android:layout_weight="1.0" />
+
+        <RadioButton
+            android:id="@+id/type3"
+            android:layout_width="@dimen/x60dp"
+            android:layout_height="@dimen/x60dp"
+            android:background="@drawable/custom_round_border_bg"
+            android:button="@null"
+            android:gravity="center"
+            android:text="卧室\n环境"
+            android:textColor="@color/custom_radiobutton_textcolor"
+            android:textSize="@dimen/ts_content" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/x1dp"
+            android:layout_weight="1.0" />
+
+        <RadioButton
+            android:id="@+id/type4"
+            android:layout_width="@dimen/x60dp"
+            android:layout_height="@dimen/x60dp"
+            android:background="@drawable/custom_round_border_bg"
+            android:button="@null"
+            android:gravity="center"
+            android:text="心里\n活动"
+            android:textColor="@color/custom_radiobutton_textcolor"
+            android:textSize="@dimen/ts_content" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/x1dp"
+            android:layout_weight="1.0" />
+    </LinearLayout>
+    
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_color"
+        android:layout_marginTop="@dimen/x58dp"
+        android:layout_above="@id/linearlayout"
+        android:layout_marginBottom="0.6dp"
+        android:listSelector="@drawable/comm_bg_listview_item" />
+   
+    <TextView 
+        android:id="@+id/no_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/ct_color"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/x48dp"
+        android:textSize="@dimen/ts_content"
+        android:text="暂无计划"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>

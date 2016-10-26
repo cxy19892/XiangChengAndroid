@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cbg_color"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_layout_dark" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/topic_edt_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:ems="10"
+            android:hint="输入标题"
+            android:padding="@dimen/x18dp"
+            android:textColor="@color/ct_color"
+            android:textColorHint="@color/fct_color"
+            android:textSize="@dimen/textsize_normal" >
+        </EditText>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/activity_setting_line_height"
+            android:background="@color/bg_color" />
+
+        <EditText
+            android:id="@+id/topic_edt_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:gravity="top"
+            android:hint="输入内容"
+            android:minLines="10"
+            android:padding="@dimen/x18dp"
+            android:textColor="@color/ct_color"
+            android:textColorHint="@color/fct_color"
+            android:textSize="@dimen/textsize_normal" >
+        </EditText>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/activity_setting_line_height"
+        android:background="@color/bg_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/tab_color"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/topic_rel_pic"
+            android:layout_width="@dimen/x55dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x5dp" >
+
+            <ImageView
+                android:id="@+id/topic_img_pics"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_centerInParent="true"
+                android:scaleType="fitXY"
+                android:padding="12dp"
+                android:src="@drawable/btn_shequ_photo_click" />
+
+            <TextView
+                android:id="@+id/topic_num_pics"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_above="@+id/topic_img_pics"
+                android:layout_alignLeft="@+id/topic_img_pics"
+                android:layout_marginBottom="-23dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/custom_circle_point_e0e0f6"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="@color/theme_color"
+                android:textColorLink="@color/orange"
+                android:textSize="@dimen/textsize_small"
+                android:textStyle="bold"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/activity_setting_line_height"
+        android:background="@color/bg_color" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/topic_rel_pic_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="7dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:visibility="gone" >
+
+                <com.yzm.sleep.widget.CustomGridView
+                    android:id="@+id/topic_gridview_pic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:horizontalSpacing="4dp"
+                    android:numColumns="3"
+                    android:scrollbars="none"
+                    android:verticalSpacing="4dp" >
+                </com.yzm.sleep.widget.CustomGridView>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

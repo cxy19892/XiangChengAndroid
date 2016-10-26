@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/x18dp"
+        android:layout_marginTop="@dimen/x32dp"
+        android:text="2.你的生日"
+        android:textColor="#676767"
+        android:textSize="@dimen/ts_content" />
+
+    <LinearLayout
+        android:id="@+id/lin_birthday"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/x5dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1" >
+
+            <EditText
+                android:id="@+id/ed_userbirthday"
+                android:layout_width="@dimen/x60dp"
+                android:layout_height="@dimen/x35dp"
+                android:layout_marginLeft="@dimen/x20dp"
+                android:background="@color/cbg_color"
+                android:digits="0123456789"
+                android:gravity="center"
+                android:inputType="number"
+                android:text=""
+                android:textColor="#515266"
+                android:textSize="@dimen/ts_content" />
+
+            <TextView
+                android:id="@+id/tv_text_useryears"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x10dp"
+                android:maxLines="4"
+                android:text="年"
+                android:textColor="#515266"
+                android:textSize="@dimen/ts_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1" >
+
+            <EditText
+                android:id="@+id/ed_usermonth"
+                android:layout_width="@dimen/x60dp"
+                android:layout_height="@dimen/x35dp"
+                android:layout_marginLeft="@dimen/x10dp"
+                android:background="@color/cbg_color"
+                android:digits="0123456789"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="2"
+                android:maxLines="1"
+                android:textColor="#515266"
+                android:textSize="@dimen/ts_content" />
+
+            <TextView
+                android:id="@+id/tv_text_usermonth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x10dp"
+                android:text="月"
+                android:textColor="#515266"
+                android:textSize="@dimen/ts_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/x0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1" >
+
+            <EditText
+                android:id="@+id/ed_userday"
+                android:layout_width="@dimen/x60dp"
+                android:layout_height="@dimen/x35dp"
+                android:background="@color/cbg_color"
+                android:digits="0123456789"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="2"
+                android:maxLines="1"
+                android:textColor="#515266"
+                android:textSize="@dimen/ts_content" />
+
+            <TextView
+                android:id="@+id/tv_text_userday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x10dp"
+                android:text="日"
+                android:textColor="#515266"
+                android:textSize="@dimen/ts_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

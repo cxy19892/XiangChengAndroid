@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="6dp" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_poppuwindow_filtrate" >
+
+        <TextView
+            android:id="@+id/tv_filtrate_uptime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/common_tab_bg"
+            android:gravity="center"
+            android:paddingBottom="@dimen/margin_padding_small"
+            android:paddingLeft="@dimen/margin_padding_normal"
+            android:paddingRight="@dimen/margin_padding_normal"
+            android:paddingTop="@dimen/margin_padding_small"
+            android:text="醒来时间"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize_normal" />
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_setting_line_height"
+            android:layout_alignLeft="@id/tv_filtrate_uptime"
+            android:layout_alignRight="@id/tv_filtrate_uptime"
+            android:layout_below="@id/tv_filtrate_uptime"
+            android:layout_marginLeft="@dimen/margin_padding_small"
+            android:layout_marginRight="@dimen/margin_padding_small"
+            android:background="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_filtrate_sleeptime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/view1"
+            android:background="@drawable/common_tab_bg"
+            android:gravity="center"
+            android:paddingBottom="@dimen/margin_padding_small"
+            android:paddingLeft="@dimen/margin_padding_normal"
+            android:paddingRight="@dimen/margin_padding_normal"
+            android:paddingTop="@dimen/margin_padding_small"
+            android:text="睡觉时间"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize_normal" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/activity_setting_line_height"
+            android:layout_alignLeft="@id/tv_filtrate_uptime"
+            android:layout_alignRight="@id/tv_filtrate_uptime"
+            android:layout_below="@id/tv_filtrate_sleeptime"
+            android:layout_marginLeft="@dimen/margin_padding_small"
+            android:layout_marginRight="@dimen/margin_padding_small"
+            android:background="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_filtrate_sleeplength"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/view2"
+            android:background="@drawable/common_tab_bg"
+            android:gravity="center"
+            android:paddingBottom="@dimen/margin_padding_small"
+            android:paddingLeft="@dimen/margin_padding_normal"
+            android:paddingRight="@dimen/margin_padding_normal"
+            android:paddingTop="@dimen/margin_padding_small"
+            android:text="睡眠时长"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize_normal" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x48dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:drawableLeft="@drawable/icon_return"
+            android:paddingLeft="@dimen/x5dp"
+            android:paddingRight="@dimen/x20dp" />
+        <!--
+     <LinearLayout 
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:background="@drawable/edit_bg">
+        -->
+
+        <AutoCompleteTextView
+            android:id="@+id/serch_edit"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/edit_bg"
+            android:completionThreshold="1"
+            android:drawableLeft="@drawable/search_seek_img"
+            android:drawablePadding="8dp"
+            android:dropDownVerticalOffset="1dip"
+            android:hint="搜索小组/昵称"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:scrollbars="none"
+            android:singleLine="true"
+            android:textColor="@color/ct_color"
+            android:textSize="16sp" >
+
+            <requestFocus />
+        </AutoCompleteTextView>
+
+        <Button
+            android:id="@+id/serch_commit"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="52dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/btn_gray1_bg"
+            android:paddingLeft="15dp"
+            android:paddingRight="7dp"
+            android:text="@string/my_search"
+            android:textColor="@color/white" />
+
+        <ProgressBar
+            android:id="@+id/serch_Progress"
+            android:layout_width="32dp"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:indeterminate="true"
+            android:indeterminateDrawable="@drawable/progress_icon_comm"
+            android:indeterminateDuration="500"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/community_serch_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_color"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <com.yzm.sleep.widget.CustomListView
+                    android:id="@+id/listv_search_history"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/bg_color"
+                    android:divider="@color/bg_color"
+                    android:dividerHeight="1dp"
+                    android:listSelector="@color/transparent"
+                    android:visibility="gone" >
+                </com.yzm.sleep.widget.CustomListView>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/x20dp" >
+
+                    <TextView
+                        android:id="@+id/tv_group"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginBottom="@dimen/x10dp"
+                        android:layout_marginLeft="@dimen/x16dp"
+                        android:text="TextView"
+                        android:textColor="@color/fct_color"
+                        android:textSize="@dimen/ts_sub"
+                        android:visibility="gone" />
+
+                    <com.yzm.sleep.widget.CustomListView
+                        android:id="@+id/listv_group"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/tv_group"
+                        android:background="@color/bg_color"
+                        android:divider="@color/bg_color"
+                        android:dividerHeight="1dp"
+                        android:listSelector="@color/transparent"
+                        android:visibility="gone" >
+                    </com.yzm.sleep.widget.CustomListView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/activity_padding" >
+
+                    <TextView
+                        android:id="@+id/tv_topic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginBottom="@dimen/x10dp"
+                        android:layout_marginLeft="@dimen/x16dp"
+                        android:text="TextView"
+                        android:textColor="@color/fct_color"
+                        android:textSize="@dimen/ts_sub"
+                        android:visibility="gone" />
+
+                    <com.yzm.sleep.widget.CustomListView
+                        android:id="@+id/listv_topic"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/tv_topic"
+                        android:background="@color/bg_color"
+                        android:divider="@color/bg_color"
+                        android:dividerHeight="1dp"
+                        android:listSelector="@color/transparent"
+                        android:visibility="gone" >
+                    </com.yzm.sleep.widget.CustomListView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/x15dp" >
+
+                    <TextView
+                        android:id="@+id/tv_user"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginBottom="@dimen/x10dp"
+                        android:layout_marginLeft="@dimen/x16dp"
+                        android:text="TextView"
+                        android:textColor="@color/fct_color"
+                        android:textSize="@dimen/ts_sub"
+                        android:visibility="gone" />
+
+                    <com.yzm.sleep.widget.CustomListView
+                        android:id="@+id/listv_user"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/tv_user"
+                        android:background="@color/bg_color"
+                        android:divider="@color/bg_color"
+                        android:dividerHeight="1dp"
+                        android:listSelector="@color/transparent"
+                        android:visibility="gone" >
+                    </com.yzm.sleep.widget.CustomListView>
+                </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <!-- <com.yzm.sleep.sunrefresh.PullToRefreshView -->
+
+        <com.yzm.sleep.refresh.MaterialRefreshLayout
+            android:id="@+id/pull_refreshview_search"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bg_color" >
+
+            <ListView
+                android:id="@+id/lv_serch_listv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/bg_color"
+                android:divider="@color/bg_color"
+                android:dividerHeight="1dp"
+                android:listSelector="@color/transparent"
+                android:scrollbars="none"
+                android:visibility="visible" >
+            </ListView>
+        </com.yzm.sleep.refresh.MaterialRefreshLayout>
+        <!--
+    <com.yzm.sleep.pulltorefresh.PullToRefreshListView
+        android:id="@+id/lv_serch_listv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#3c3c5e"
+        android:dividerHeight="1dp"
+        android:listSelector="@android:color/transparent"
+        android:background="@color/color_30304c"
+        android:visibility="visible"
+        android:scrollbars="none"
+         >
+    </com.yzm.sleep.pulltorefresh.PullToRefreshListView>
+        -->
+    </LinearLayout>
+
+</LinearLayout>

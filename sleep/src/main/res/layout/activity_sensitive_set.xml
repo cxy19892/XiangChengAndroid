@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_layout_dark" />
+
+    <TextView
+        android:id="@+id/set_sensitive_yips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/ts_content"
+        android:text="@string/tips_set_sensitive"
+        android:lineSpacingExtra="5dp"
+        android:textColor="@color/ct_color"
+        android:paddingTop="@dimen/x20dp"
+        android:paddingBottom="@dimen/x20dp"
+        android:paddingLeft="@dimen/x18dp"
+        android:paddingRight="@dimen/x18dp"
+        android:background="@color/bg_color" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/pillow_type_tips"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@dimen/x10dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="@dimen/x18dp"
+                    android:layout_marginRight="@dimen/x18dp"
+                    android:layout_marginTop="@dimen/x30dp"
+                    android:text="@string/tips_pillow_type_select"
+                    android:textColor="@color/fct_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <RelativeLayout
+                    android:id="@+id/pillow_type_ro1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/pillow_type_tips"
+                    android:background="@color/cbg_color"
+                    android:layout_marginTop="@dimen/x10dp"
+                    android:paddingBottom="@dimen/x18dp"
+                    android:paddingLeft="@dimen/x18dp"
+                    android:paddingRight="@dimen/x18dp"
+                    android:paddingTop="@dimen/x18dp" >
+
+                    <TextView
+                        android:id="@+id/tv_pillow_hard"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="@string/pillow_types_hard"
+                        android:textColor="@color/ct_color"
+                        android:textSize="@dimen/ts_content" />
+
+                    <ImageView
+                        android:id="@+id/pillow_type1_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/ic_normal"
+                        android:visibility="visible" />
+                </RelativeLayout>
+                
+                <RelativeLayout
+                    android:id="@+id/pillow_type_ro2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/pillow_type_ro1"
+                    android:background="@color/cbg_color"
+                    android:paddingBottom="@dimen/x18dp"
+                    android:paddingLeft="@dimen/x18dp"
+                    android:paddingRight="@dimen/x18dp"
+                    android:paddingTop="@dimen/x18dp" >
+
+                    <TextView
+                        android:id="@+id/tv_pillow_soft"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="@string/pillow_types_soft"
+                        android:textColor="@color/ct_color"
+                        android:textSize="@dimen/ts_content" />
+
+                    <ImageView
+                        android:id="@+id/pillow_type2_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/ic_normal"
+                        android:visibility="visible" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:layout_below="@+id/pillow_type_ro1"
+                    android:layout_marginLeft="@dimen/x18dp"
+                    android:layout_marginTop="-1dip"
+                    android:background="@color/bg_color" />
+
+                <TextView
+                    android:id="@+id/pillow_persons_tips"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@dimen/x10dp"
+                    android:layout_below="@+id/pillow_type_ro2"
+                    android:layout_marginLeft="@dimen/x18dp"
+                    android:layout_marginRight="@dimen/x18dp"
+                    android:layout_marginTop="@dimen/x30dp"
+                    android:text="@string/tips_use_pillow_person_conut_select"
+                    android:textColor="@color/fct_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <RelativeLayout
+                    android:id="@+id/pillow_persons_ro1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/pillow_persons_tips"
+                    android:layout_marginTop="@dimen/x10dp"
+                    android:background="@color/cbg_color"
+                    android:padding="@dimen/x18dp">
+
+                    <TextView
+                        android:id="@+id/tv_peoples_one"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="@string/pillow_user_one"
+                        android:textColor="@color/ct_color"
+                        android:textSize="@dimen/ts_content" />
+
+                    <ImageView
+                        android:id="@+id/oneperson_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/ic_normal"
+                        android:visibility="visible" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/pillow_persons_ro2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/pillow_persons_ro1"
+                    android:background="@color/cbg_color"
+                    android:padding="@dimen/x18dp">
+
+                    <TextView
+                        android:id="@+id/tv_peoples_two"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="@string/pillow_user_two"
+                        android:textColor="@color/ct_color"
+                        android:textSize="@dimen/ts_content" />
+
+                    <ImageView
+                        android:id="@+id/twoperson_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/ic_normal"
+                        android:visibility="visible" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:layout_below="@+id/pillow_persons_ro1"
+                    android:layout_marginLeft="@dimen/x18dp"
+                    android:layout_marginTop="-1dip"
+                    android:background="@color/bg_color" />
+            </RelativeLayout>
+    
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/comm_bg_listview_item"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/x11dp"
+        android:layout_marginRight="@dimen/x11dp"
+        android:paddingBottom="@dimen/x8dp"
+        android:paddingTop="@dimen/x8dp" >
+
+        <ImageView
+            android:id="@+id/imChoice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/tvChoiceTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/imChoice"
+            android:layout_marginLeft="@dimen/x13dp"
+            android:layout_toRightOf="@id/imChoice"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/onet_color"
+            android:textSize="@dimen/ts_content" />
+
+        <TextView
+            android:id="@+id/tvChoiceCont"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvChoiceTitle"
+            android:layout_marginLeft="@dimen/x13dp"
+            android:layout_marginTop="@dimen/x2dp"
+            android:layout_toRightOf="@id/imChoice"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:textColor="@color/ct_color"
+            android:textSize="@dimen/ts_sub" />
+    </RelativeLayout>
+
+</RelativeLayout>

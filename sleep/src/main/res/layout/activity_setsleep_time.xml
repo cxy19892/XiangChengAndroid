@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color" >
+
+    <include layout="@layout/title_layout_dark" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/x48dp"
+        android:scrollbars="none"
+        android:background="@color/bg_color" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_color"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/cbg_color"
+                android:padding="@dimen/x12dp"
+                android:textColor="@color/ct_color"
+                android:text="如何合理安排睡眠时间：\n\n当出现入睡困难、早醒、中途易醒时，通过压缩你在床的时间，保证睡眠质量。"
+                android:textSize="@dimen/ts_content" />
+
+            
+            <RelativeLayout
+                android:id="@+id/rl_getuptime"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x50dp"
+                android:layout_marginTop="@dimen/x1dp"
+                android:background="@drawable/comm_bg_listview_item"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/x12dp"
+                    android:text="起床时间"
+                    android:textColor="@color/ct_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <TextView
+                    android:id="@+id/setgetup_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/x18dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/x12dp"
+                    android:button="@null"
+                    android:checked="true"
+                    android:drawablePadding="@dimen/x4dp"
+                    android:drawableRight="@drawable/right_button"
+                    android:gravity="center_vertical"
+                    android:text="08:00"
+                    android:textColor="@color/ct_color" />
+            </RelativeLayout>
+            
+            <RelativeLayout
+                android:id="@+id/rl_sleeplenght"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x50dp"
+                android:layout_marginTop="@dimen/x1dp"
+                android:background="@drawable/comm_bg_listview_item"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/x12dp"
+                    android:text="睡眠时长"
+                    android:textColor="@color/ct_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <TextView
+                    android:id="@+id/setsleep_lenght"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/x18dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/x12dp"
+                    android:button="@null"
+                    android:checked="true"
+                    android:drawablePadding="@dimen/x4dp"
+                    android:drawableRight="@drawable/right_button"
+                    android:gravity="center_vertical"
+                    android:text="08小时00分"
+                    android:textColor="@color/ct_color" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_remind"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x50dp"
+                android:layout_marginTop="@dimen/x1dp"
+                android:background="@drawable/comm_bg_listview_item"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/x12dp"
+                    android:text="睡前自动提醒"
+                    android:textColor="@color/ct_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <CheckBox
+                    android:id="@+id/cb_remind"
+                    android:layout_width="@dimen/x18dp"
+                    android:layout_height="@dimen/x18dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/x12dp"
+                    android:background="@drawable/app_setting_select_check"
+                    android:button="@null"
+                    android:checked="true"
+                    android:focusable="false"
+                    android:focusableInTouchMode="true" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

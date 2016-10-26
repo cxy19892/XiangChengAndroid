@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color" >
+
+    <include layout="@layout/title_layout_dark" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/x48dp"
+        android:background="@color/bg_color"
+        android:scrollbars="none" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:id="@+id/relative_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/x8dp"
+                android:background="@color/cbg_color"
+                android:paddingBottom="@dimen/x30dp"
+                android:paddingLeft="@dimen/x10dp"
+                android:paddingRight="@dimen/x10dp" >
+
+                <TextView
+                    android:id="@+id/sleept_lenght"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/x15dp"
+                    android:gravity="center_vertical"
+                    android:text="睡眠时长：--：--"
+                    android:textColor="@color/onet_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <TextView
+                    android:id="@+id/sleep_target"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="@dimen/x6dp"
+                    android:drawableLeft="@drawable/explain_icon"
+                    android:paddingBottom="@dimen/x10dp"
+                    android:paddingLeft="@dimen/x10dp"
+                    android:paddingRight="@dimen/x10dp"
+                    android:paddingTop="@dimen/x10dp" />
+
+                <include
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/sleept_lenght"
+                    android:layout_marginTop="@dimen/x10dp"
+                    layout="@layout/tick_mark_show" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relative_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/relative_1"
+                android:layout_marginTop="@dimen/x8dp"
+                android:background="@color/cbg_color"
+                android:paddingBottom="@dimen/x30dp"
+                android:paddingLeft="@dimen/x10dp"
+                android:paddingRight="@dimen/x10dp" >
+
+                <TextView
+                    android:id="@+id/sleep_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/x15dp"
+                    android:gravity="center_vertical"
+                    android:text="入睡时间：--:--"
+                    android:textColor="@color/onet_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <include
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/sleep_time"
+                    android:layout_marginTop="@dimen/x10dp"
+                    layout="@layout/tick_mark_show" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relative_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/relative_2"
+                android:layout_marginTop="@dimen/x8dp"
+                android:background="@color/cbg_color"
+                android:paddingBottom="@dimen/x30dp"
+                android:paddingLeft="@dimen/x10dp"
+                android:paddingRight="@dimen/x10dp" >
+
+                <TextView
+                    android:id="@+id/getup_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/x15dp"
+                    android:gravity="center_vertical"
+                    android:text="醒来时间：--:--"
+                    android:textColor="@color/onet_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <include
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/getup_time"
+                    android:layout_marginTop="@dimen/x10dp"
+                    layout="@layout/tick_mark_show" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

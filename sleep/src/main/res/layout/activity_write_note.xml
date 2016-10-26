@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_layout_dark" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/rel_note_book"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@color/tab_color"
+        android:visibility="gone" >
+        
+        <ImageView
+            android:id="@+id/book_face_back"
+            android:layout_width="257dp"
+            android:layout_height="342dp"
+            android:layout_centerInParent="true"
+            android:scaleType="fitXY"
+            android:visibility="visible"
+            android:background="@drawable/notebook_content" />
+
+        <RelativeLayout
+            android:id="@+id/rl_book_content"
+            android:layout_width="257dp"
+            android:layout_height="342dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/notebook_content" >
+        </RelativeLayout>
+        
+        
+
+        <ImageView
+            android:id="@+id/book_face"
+            android:layout_width="257dp"
+            android:layout_height="342dp"
+            android:layout_centerInParent="true"
+            android:scaleType="fitXY"
+            android:background="@drawable/notebook_face1" />
+        
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rel_notes_write"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/notebook_content"
+            android:visibility="visible" >
+
+            <ScrollView
+                android:id="@+id/scrollView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/x30dp"
+                android:layout_marginRight="@dimen/x10dp"
+                android:layout_marginLeft="@dimen/x10dp"
+                android:layout_marginTop="@dimen/x65dp"
+                android:scrollbars="none" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <EditText
+                        android:id="@+id/edt_notes"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/transparent"
+                        android:gravity="top|left"
+                        android:minLines="35"
+                        android:paddingLeft="@dimen/x16dp"
+                        android:paddingRight="@dimen/x16dp"
+                        android:scrollbars="none"
+                        android:textColor="@color/text_color_dark"
+                        android:textSize="@dimen/ts_sub" />
+
+                    <TextView
+                        android:id="@+id/tv_history_note"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/transparent"
+                        android:gravity="top|left"
+                        android:minLines="15"
+                        android:padding="@dimen/x16dp"
+                        android:paddingTop="@dimen/x35dp"
+                        android:scrollbars="none"
+                        android:textColor="@color/text_color_dark"
+                        android:textSize="@dimen/ts_sub"
+                        android:visibility="gone" />
+                </LinearLayout>
+            </ScrollView>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/rel_note_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@color/bg_color"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <com.yzm.sleep.refresh.MaterialRefreshLayout
+                android:id="@+id/pull_refreshview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:scrollbars="none" >
+
+                <ListView
+                    android:id="@+id/lv_note_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:divider="@color/transparent"
+                    android:dividerHeight="1dip"
+                    android:scrollbars="none" >
+                </ListView>
+            </com.yzm.sleep.refresh.MaterialRefreshLayout>
+
+            <Button
+                android:id="@+id/btn_delet"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/btn_height_normal"
+                android:layout_marginLeft="@dimen/x16dp"
+                android:layout_marginRight="@dimen/x16dp"
+                android:background="@drawable/custom_button_bg"
+                android:textColor="@color/white"
+                android:text="删除"
+                android:visibility="gone" />
+        </LinearLayout> 
+    </RelativeLayout>
+
+</LinearLayout>

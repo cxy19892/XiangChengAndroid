@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+      <declare-styleable name="EaseChatMessageList">
+        <attr name="msgListMyBubbleBackground" format="reference"/>
+        <attr name="msgListOtherBubbleBackground" format="reference"/>
+        <attr name="msgListShowUserAvatar" format="boolean"/>
+        <attr name="msgListShowUserNick" format="boolean"/>
+    </declare-styleable>
+    
+    <declare-styleable name="EaseEmojiconMenu">
+       	<attr name="emojiconRows" format="integer"/>
+       	<attr name="emojiconColumns" format="integer"/>
+    </declare-styleable>
+    
+    <declare-styleable name="RoundProgressBar">
+        <attr name="roundColor" format="color" />
+        <attr name="roundProgressColor" format="color" />
+        <attr name="roundWidth" format="dimension"></attr>
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="max" format="integer"></attr>
+        <attr name="textIsDisplayable" format="boolean"></attr>
+        <attr name="style">
+            <enum name="STROKE" value="0"></enum>
+            <enum name="FILL" value="1"></enum>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="RoundAngleImageView">
+        <attr name="circle_round_width" format="dimension" />
+        <attr name="circle_round_height" format="dimension" />
+    </declare-styleable>
+
+    <attr name="numberPickerStyle" format="reference" />
+
+    <declare-styleable name="NumberPicker">
+        <!-- @hide Color for the solid color background if such for optimized rendering. -->
+        <attr name="solidColor" format="color|reference" />
+        <!-- @hide The divider for making the selection area. -->
+        <attr name="selectionDivider" format="reference" />
+        <!-- @hide The height of the selection divider. -->
+        <attr name="selectionDividerHeight" format="dimension" />
+        <!-- @hide The distance between the two selection dividers. -->
+        <attr name="selectionDividersDistance" format="dimension" />
+        <!-- @hide The min height of the NumberPicker. -->
+        <attr name="internalMinHeight" format="dimension" />
+        <!-- @hide The max height of the NumberPicker. -->
+        <attr name="internalMaxHeight" format="dimension" />
+        <!-- @hide The min width of the NumberPicker. -->
+        <attr name="internalMinWidth" format="dimension" />
+        <!-- @hide The max width of the NumberPicker. -->
+        <attr name="internalMaxWidth" format="dimension" />
+        <!-- @hide The layout of the number picker. -->
+        <attr name="internalLayout" format="reference" />
+        <!-- @hide The drawable for pressed virtual (increment/decrement) buttons. -->
+        <attr name="virtualButtonPressedDrawable" format="reference"/>
+    </declare-styleable>
+
+    <style name="NPWidget">
+        <item name="android:textAppearance">?android:attr/textAppearance</item>
+    </style>
+
+    <style name="NPWidget.NumberPicker">
+        <item name="android:orientation">vertical</item>
+        <item name="android:fadingEdge">vertical</item>
+        <item name="android:fadingEdgeLength">50dip</item>
+    </style>
+
+ <style name="NPWidget.Holo.NumberPicker" parent="NPWidget.NumberPicker">
+        <item name="solidColor">@android:color/transparent</item>
+        <item name="selectionDivider">@drawable/np_numberpicker_selection_divider</item>
+        <item name="selectionDividerHeight">0.6dip</item>
+        <item name="internalLayout">@layout/number_picker_with_selector_wheel</item>
+        <item name="internalMinWidth">64dip</item>
+        <item name="internalMaxHeight">180dip</item>
+        <item name="virtualButtonPressedDrawable">@drawable/item_background_holo_dark</item>
+    </style> 
+
+ <style name="NPWidget.Holo.Light.NumberPicker" parent="NPWidget.Holo.NumberPicker">
+        <item name="virtualButtonPressedDrawable">@drawable/item_background_holo_light</item>
+    </style>
+    
+    <declare-styleable name="SliderLayout">
+
+        <!-- indicator visibility -->
+        <attr name="indicator_visibility" format="enum">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="1"/>
+        </attr>
+
+        <attr name="auto_cycle" format="boolean"/>
+
+        <!-- page animation -->
+        <attr name="pager_animation" format="enum">
+            <enum name="Default" value="0">Default</enum>
+            <enum name="Accordion" value="1">Accordion</enum>
+            <enum name="Background2Foreground" value="2">Background2Foreground</enum>
+            <enum name="CubeIn" value="3">CubeIn</enum>
+            <enum name="DepthPage" value="4">DepthPage</enum>
+            <enum name="Fade" value="5">Fade</enum>
+            <enum name="FlipHorizontal" value="6">FlipHorizontal</enum>
+            <enum name="FlipPage" value="7">FlipPage</enum>
+            <enum name="Foreground2Background" value="8">Foreground2Background</enum>
+            <enum name="RotateDown" value="9">RotateDown</enum>
+            <enum name="RotateUp" value="10">RotateUp</enum>
+            <enum name="Stack" value="11">Stack</enum>
+            <enum name="Tablet" value="12">Tablet</enum>
+            <enum name="ZoomIn" value="13">ZoomIn</enum>
+            <enum name="ZoomOutSlide" value="14">ZoomOutSlide</enum>
+            <enum name="ZoomOut" value="15">ZoomOut</enum>
+        </attr>
+
+        <!-- page animation time span -->
+        <attr name="pager_animation_span" format="integer"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="PagerIndicator">
+        <!-- indicator visibility -->
+        <attr name="visibility" format="enum">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="1"/>
+        </attr>
+
+        <attr name="shape" format="enum">
+            <enum value="0" name="oval"/>
+            <enum value="1" name="rect"/>
+        </attr>
+
+        <attr name="selected_color" format="color"/>
+        <attr name="unselected_color" format="color"/>
+
+        <!-- indicator style -->
+        <attr name="selected_drawable" format="reference"/>
+        <attr name="unselected_drawable" format="reference"/>
+
+        <attr name="selected_width" format="dimension"/>
+        <attr name="selected_height" format="dimension"/>
+
+        <attr name="unselected_width" format="dimension"/>
+        <attr name="unselected_height" format="dimension"/>
+
+        <attr name="padding_left" format="dimension"/>
+        <attr name="padding_right" format="dimension"/>
+        <attr name="padding_top" format="dimension"/>
+        <attr name="padding_bottom" format="dimension"/>
+
+        <attr name="selected_padding_left" format="dimension"/>
+        <attr name="selected_padding_right" format="dimension"/>
+        <attr name="selected_padding_top" format="dimension"/>
+        <attr name="selected_padding_bottom" format="dimension"/>
+
+        <attr name="unselected_padding_left" format="dimension"/>
+        <attr name="unselected_padding_right" format="dimension"/>
+        <attr name="unselected_padding_top" format="dimension"/>
+        <attr name="unselected_padding_bottom" format="dimension"/>
+
+
+    </declare-styleable>
+
+    <declare-styleable name="Themes">
+        <attr name="SliderStyle" format="reference"/>
+        <attr name="PagerIndicatorStyle" format="reference"/>
+    </declare-styleable>
+    
+    <!-- 方形裁剪 -->
+    <attr name="cropImageStyle" format="reference" />
+    <declare-styleable name="CropImageView">
+        <attr name="highlightColor" format="reference|color" />
+        <attr name="showThirds" format="boolean" />
+        <attr name="showHandles">
+          <enum name="changing" value="0" />
+          <enum name="always" value="1" />
+          <enum name="never" value="2" />
+        </attr>
+    </declare-styleable>
+    
+    <declare-styleable name="ViewPagerIndicator">
+        <!-- Style of the circle indicator. -->
+        <attr name="vpiCirclePageIndicatorStyle" format="reference"/>
+        <!-- Style of the icon indicator's views. -->
+        <attr name="vpiIconPageIndicatorStyle" format="reference"/>
+        <!-- Style of the line indicator. -->
+        <attr name="vpiLinePageIndicatorStyle" format="reference"/>
+        <!-- Style of the title indicator. -->
+        <attr name="vpiTitlePageIndicatorStyle" format="reference"/>
+        <!-- Style of the tab indicator's tabs. -->
+        <attr name="vpiTabPageIndicatorStyle" format="reference"/>
+        <!-- Style of the underline indicator. -->
+        <attr name="vpiUnderlinePageIndicatorStyle" format="reference"/>
+    </declare-styleable>
+
+    <attr name="centered" format="boolean" />
+    <attr name="selectedColor" format="color" />
+    <attr name="strokeWidth" format="dimension" />
+    <attr name="unselectedColor" format="color" />
+
+    <declare-styleable name="CirclePageIndicator">
+        <!-- Whether or not the indicators should be centered. -->
+        <attr name="centered" />
+        <!-- Color of the filled circle that represents the current page. -->
+        <attr name="fillColor" format="color" />
+        <!-- Color of the filled circles that represents pages. -->
+        <attr name="pageColor" format="color" />
+        <!-- Orientation of the indicator. -->
+        <attr name="android:orientation"/>
+        <!-- Radius of the circles. This is also the spacing between circles. -->
+        <attr name="radius" format="dimension" />
+        <!-- Whether or not the selected indicator snaps to the circles. -->
+        <attr name="snap" format="boolean" />
+        <!-- Color of the open circles. -->
+        <attr name="strokeColor" format="color" />
+        <!-- Width of the stroke used to draw the circles. -->
+        <attr name="strokeWidth" />
+        <!-- View background -->
+        <attr name="android:background"/>
+    </declare-styleable>
+
+    <declare-styleable name="LinePageIndicator">
+        <!-- Whether or not the indicators should be centered. -->
+        <attr name="centered" />
+        <!-- Color of the unselected lines that represent the pages. -->
+        <attr name="unselectedColor" />
+        <!-- Color of the selected line that represents the current page. -->
+        <attr name="selectedColor" />
+        <!-- Width of each indicator line. -->
+        <attr name="lineWidth" format="dimension" />
+        <!-- Width of each indicator line's stroke. -->
+        <attr name="strokeWidth" />
+        <!-- Width of the gap between each indicator line. -->
+        <attr name="gapWidth" format="dimension" />
+        <!-- View background -->
+        <attr name="android:background"/>
+    </declare-styleable>
+
+    <declare-styleable name="TitlePageIndicator">
+        <!-- Screen edge padding. -->
+        <attr name="clipPadding" format="dimension" />
+        <!-- Color of the footer line and indicator. -->
+        <attr name="footerColor" format="color" />
+        <!-- Height of the footer line. -->
+        <attr name="footerLineHeight" format="dimension" />
+        <!-- Style of the indicator. Default is triangle. -->
+        <attr name="footerIndicatorStyle">
+            <enum name="none" value="0" />
+            <enum name="triangle" value="1" />
+            <enum name="underline" value="2" />
+        </attr>
+        <!-- Height of the indicator above the footer line. -->
+        <attr name="footerIndicatorHeight" format="dimension" />
+        <!-- Left and right padding of the underline indicator. -->
+        <attr name="footerIndicatorUnderlinePadding" format="dimension" />
+        <!-- Padding between the bottom of the title and the footer. -->
+        <attr name="footerPadding" format="dimension" />
+        <!-- Position of the line. -->
+        <attr name="linePosition">
+            <enum name="bottom" value="0"/>
+            <enum name="top" value="1"/>
+        </attr>
+        <!-- Color of the selected title. -->
+        <attr name="selectedColor" />
+        <!-- Whether or not the selected item is displayed as bold. -->
+        <attr name="selectedBold" format="boolean" />
+        <!-- Color of regular titles. -->
+        <attr name="android:textColor" />
+        <!-- Size of title text. -->
+        <attr name="android:textSize" />
+        <!-- Padding between titles when bumping into each other. -->
+        <attr name="titlePadding" format="dimension" />
+        <!-- Padding between titles and the top of the View. -->
+        <attr name="topPadding" format="dimension" />
+        <!-- View background -->
+        <attr name="android:background"/>
+    </declare-styleable>
+
+    <declare-styleable name="UnderlinePageIndicator">
+        <!-- Whether or not the selected indicator fades. -->
+        <attr name="fades" format="boolean" />
+        <!-- Length of the delay to fade the indicator. -->
+        <attr name="fadeDelay" format="integer" />
+        <!-- Length of the indicator fade to transparent. -->
+        <attr name="fadeLength" format="integer" />
+        <!-- Color of the selected line that represents the current page. -->
+        <attr name="selectedColor" />
+        <!-- View background -->
+        <attr name="android:background"/>
+    </declare-styleable>
+    
+    <declare-styleable name="StickyListHeadersListView">
+        <attr name="stickyListHeadersListViewStyle" format="reference"/>
+
+        <!-- View attributes -->
+        <attr name="android:clipToPadding" />
+        <attr name="android:scrollbars" />
+        <attr name="android:overScrollMode" />
+        <attr name="android:padding" />
+        <attr name="android:paddingLeft" />
+        <attr name="android:paddingTop" />
+        <attr name="android:paddingRight" />
+        <attr name="android:paddingBottom" />
+
+        <!-- ListView attributes -->
+        <attr name="android:fadingEdgeLength" />
+        <attr name="android:requiresFadingEdge" />
+        <attr name="android:cacheColorHint" />
+        <attr name="android:choiceMode" />
+        <attr name="android:drawSelectorOnTop" />
+        <attr name="android:fastScrollEnabled" />
+        <attr name="android:fastScrollAlwaysVisible" />
+        <attr name="android:listSelector" />
+        <attr name="android:scrollingCache" />
+        <attr name="android:scrollbarStyle" />
+        <attr name="android:divider" />
+        <attr name="android:dividerHeight" />
+        <attr name="android:transcriptMode" />
+        <attr name="android:stackFromBottom" />
+
+        <!-- StickyListHeaders attributes -->
+        <attr name="hasStickyHeaders" format="boolean" />
+        <attr name="isDrawingListUnderStickyHeader" format="boolean" />
+    </declare-styleable>
+    
+    <!-- style for MaterialRefreshLayout  -->
+    <declare-styleable name="MaterialRefreshLayout">
+        <attr name="overlay" format="boolean"/>
+        <!-- style for MaterialWaveView  -->
+        <attr name="wave_height_type" format="enum">
+            <enum name="normal" value="0"/>
+            <enum name="higher" value="1"/>
+        </attr>
+        <attr name="wave_color" format="color"/>
+        <attr name="wave_show" format="boolean"/>
+        <!-- style for CircleProgressBar  -->
+        <attr name="progress_colors" format="reference"/>
+        <attr name="progress_stoke_width" format="dimension"/>
+        <attr name="progress_backgroud_color" format="color"/>
+        <attr name="progress_show_arrow" format="boolean"/>
+        <attr name="progress_arrow_width" format="dimension"/>
+        <attr name="progress_arrow_height" format="dimension"/>
+        <attr name="progress_show_circle_backgroud" format="boolean"/>
+        <attr name="progress_value" format="integer"/>
+        <attr name="progress_max_value" format="integer"/>
+        <attr name="progress_text_size" format="dimension"/>
+        <attr name="progress_text_color" format="color"/>
+        <attr name="progress_text_visibility" format="enum">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="1"/>
+        </attr>
+        <attr name="progress_size_type" format="enum">
+            <enum name="normal" value="0"></enum>
+            <enum name="big" value="1"></enum>
+        </attr>
+        <attr name="isLoadMore" format="boolean"></attr>
+    </declare-styleable>
+    
+    <declare-styleable name="CircleProgressBar">
+        <attr name="mlpb_inner_radius" format="dimension"/>
+        <attr name="mlpb_background_color" format="color"/>
+        <attr name="mlpb_progress_color" format="color"/>
+        <attr name="mlpb_progress_stoke_width" format="dimension"/>
+        <attr name="mlpb_show_arrow" format="boolean"/>
+        <attr name="mlpb_enable_circle_background" format="boolean"/>
+        <attr name="mlpb_arrow_width" format="dimension"/>
+        <attr name="mlpb_arrow_height" format="dimension"/>
+
+        <attr name="mlpb_progress" format="integer"/>
+        <attr name="mlpb_max" format="integer"/>
+
+
+        <attr name="mlpb_progress_text_size" format="dimension"/>
+        <attr name="mlpb_progress_text_color" format="color"/>
+
+        <!--<attr name="mlpb_progress_text_offset" format="dimension"/>-->
+
+        <attr name="mlpb_progress_text_visibility" format="enum">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="1"/>
+        </attr>
+    </declare-styleable>
+    
+    
+</resources>

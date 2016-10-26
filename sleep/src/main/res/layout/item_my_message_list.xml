@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="107dp"
+    android:background="@drawable/comm_bg_listview_item"
+    android:paddingBottom="10dp" >
+
+    
+    <com.yzm.sleep.CircleImageView
+        android:id="@+id/item_mymessage_user_head_img"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="14dp"
+        android:focusable="false"/>
+
+    <TextView
+        android:id="@+id/item_mymessage_user_nickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/x12dp"
+        android:layout_marginTop="@dimen/x18dp"
+        android:layout_toRightOf="@id/item_mymessage_user_head_img"
+        android:textColor="@color/onet_color"
+        android:textSize="@dimen/ts_content" />
+
+    <TextView
+        android:id="@+id/item_mymessage_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_mymessage_user_nickname"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="5dp"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:layout_marginRight="125dp"
+        android:layout_toRightOf="@id/item_mymessage_user_head_img"
+        android:text="你的装逼不能打动我。对不起。所以我不能转身。。。"
+        android:textColor="@color/ct_color"
+        android:textSize="@dimen/ts_sub" />
+
+    <ImageView
+        android:id="@+id/iv_zan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_mymessage_time"
+        android:layout_marginLeft="@dimen/xiangcheng_audio_cover_corner_radius"
+        android:layout_marginTop="@dimen/margin_padding_small"
+        android:layout_toRightOf="@id/item_mymessage_user_head_img"
+        android:visibility="gone"
+        android:src="@drawable/icon_praise_orange_fill" />
+
+    <TextView
+        android:id="@+id/item_mymessage_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_mymessage_time"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@+id/topice"
+        android:layout_toRightOf="@id/item_mymessage_user_head_img"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:textColor="@color/fct_color"
+        android:textSize="11sp" />
+
+    <RelativeLayout
+        android:id="@+id/topice"
+        android:layout_width="73dp"
+        android:layout_height="73dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/margin_padding_xsmall"
+        android:layout_marginRight="11dp" >
+
+        <TextView
+            android:id="@+id/topice_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:maxLines="4"
+            android:text="你的装逼不能打动我。所以。对不起。。我不能转身"
+            android:textColor="@color/ct_color"
+            android:textSize="@dimen/ts_sub" />
+
+        <ImageView
+            android:id="@+id/topice_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+    </RelativeLayout>
+
+</RelativeLayout>

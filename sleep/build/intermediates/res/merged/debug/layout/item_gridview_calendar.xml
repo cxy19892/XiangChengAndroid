@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+      android:background="@color/cbg_color" >
+
+    <RelativeLayout
+        android:id="@+id/item_calender_p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/cbg_color" >
+
+        <TextView
+            android:id="@+id/item_text"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:gravity="center"
+            android:textColor="@color/ct_color"
+            android:layout_centerInParent="true"
+            android:textSize="@dimen/ts_content" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cbg_color"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_layout_transparent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:id="@+id/rel_habit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bg_color"
+            android:visibility="gone" >
+            
+            <TextView
+                android:id="@+id/habit_tips"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/x32dp"
+                android:paddingBottom="@dimen/x24dp"
+                android:background="@color/cbg_color"
+                android:gravity="center"
+                android:text=""
+                android:textSize="@dimen/ts_content"
+                android:textColor="@color/onet_color"
+                android:textStyle="bold" />
+
+            <ScrollView
+                android:id="@+id/scrollView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/habit_tips"
+                android:scrollbars="none" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/x16dp"
+                    android:paddingRight="@dimen/x16dp" >
+
+                    <LinearLayout
+                        android:id="@+id/lin_A"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingBottom="@dimen/x16dp"
+                        android:paddingTop="@dimen/x32dp" >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="一周内运动少于3次"
+                            android:textColor="@color/ct_color"
+                            android:textSize="@dimen/ts_btn"
+                            android:drawableLeft="@drawable/ic_sport"
+                            android:drawablePadding="@dimen/x16dp" />
+
+                        <CheckBox
+                            android:id="@+id/radioButtonA"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/app_setting_select_check" />
+                    </LinearLayout>
+                    
+                    <LinearLayout
+                        android:id="@+id/lin_B"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingBottom="@dimen/x16dp"
+                        android:paddingTop="@dimen/x16dp" >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="每天至少一只烟"
+                            android:textColor="@color/ct_color"
+                            android:textSize="@dimen/ts_btn"
+                            android:drawableLeft="@drawable/ic_smoke"
+                            android:drawablePadding="@dimen/x16dp" />
+
+                        <CheckBox
+                            android:id="@+id/radioButtonB"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/app_setting_select_check" />
+                    </LinearLayout>
+                    
+                    <LinearLayout
+                        android:id="@+id/lin_C"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingBottom="@dimen/x16dp"
+                        android:paddingTop="@dimen/x16dp" >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="喝咖啡"
+                            android:textColor="@color/ct_color"
+                            android:textSize="@dimen/ts_btn"
+                            android:drawableLeft="@drawable/ic_coffe"
+                            android:drawablePadding="@dimen/x16dp" />
+
+                        <CheckBox
+                            android:id="@+id/radioButtonC"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/app_setting_select_check" />
+                    </LinearLayout>
+                    
+                    <LinearLayout
+                        android:id="@+id/lin_D"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingBottom="@dimen/x16dp"
+                        android:paddingTop="@dimen/x16dp" >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="喝酒"
+                            android:textColor="@color/ct_color"
+                            android:textSize="@dimen/ts_btn"
+                            android:drawableLeft="@drawable/ic_drink"
+                            android:drawablePadding="@dimen/x16dp" />
+
+                        <CheckBox
+                            android:id="@+id/radioButtonD"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/app_setting_select_check" />
+                    </LinearLayout>
+                    
+                    
+                    <LinearLayout
+                        android:id="@+id/lin_E"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingBottom="@dimen/x16dp"
+                        android:paddingTop="@dimen/x16dp" >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="正在进行减肥计划"
+                            android:textColor="@color/ct_color"
+                            android:textSize="@dimen/ts_btn"
+                            android:drawableLeft="@drawable/ic_lose_weight"
+                            android:drawablePadding="@dimen/x16dp" />
+
+                        <CheckBox
+                            android:id="@+id/radioButtonE"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/app_setting_select_check" />
+                    </LinearLayout>
+                    
+                    
+                    <LinearLayout
+                        android:id="@+id/lin_F"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingBottom="@dimen/x16dp"
+                        android:paddingTop="@dimen/x16dp" >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="以上都没有"
+                            android:textColor="@color/ct_color"
+                            android:textSize="@dimen/ts_btn"
+                            android:drawableLeft="@drawable/ic_null"
+                            android:drawablePadding="@dimen/x16dp" />
+
+                        <CheckBox
+                            android:id="@+id/radioButtonF"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/app_setting_select_check" />
+                    </LinearLayout>
+
+                    <!-- <CheckBox
+                        android:id="@+id/radioButtonA"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/app_setting_select_check"
+                        android:paddingBottom="@dimen/x16dp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="@dimen/x16dp"
+                        android:text="每天至少半包烟"
+                        android:textColor="@color/ct_color"
+                        android:textSize="@dimen/ts_btn" />
+
+                    <CheckBox
+                        android:id="@+id/radioButtonB"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/app_setting_select_check"
+                        
+                        android:paddingBottom="@dimen/x16dp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="@dimen/x16dp"
+                        android:text="每天至少小酌两杯"
+                        android:textColor="@color/ct_color"
+                        android:textSize="@dimen/ts_btn" />
+
+                    <CheckBox
+                        android:id="@+id/radioButtonC"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/app_setting_select_check"
+                        android:paddingBottom="@dimen/x16dp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="@dimen/x16dp"
+                        android:text="每天至少3杯咖啡"
+                        android:textColor="@color/ct_color"
+                        android:textSize="@dimen/ts_btn" />
+
+                    <CheckBox
+                        android:id="@+id/radioButtonD"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/app_setting_select_check"
+                        android:paddingBottom="@dimen/x16dp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="@dimen/x16dp"
+                        android:text="减肥超过2斤"
+                        android:textColor="@color/ct_color"
+                        android:textSize="@dimen/ts_btn" />
+
+                    <CheckBox
+                        android:id="@+id/radioButtonE"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/app_setting_select_check"
+                        android:paddingBottom="@dimen/x16dp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="@dimen/x16dp"
+                        android:text="运动少于2次"
+                        android:textColor="@color/ct_color"
+                        android:textSize="@dimen/ts_btn" />
+
+                    <CheckBox
+                        android:id="@+id/radioButtonF"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/app_setting_select_check"
+                        android:paddingBottom="@dimen/x16dp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="@dimen/x16dp"
+                        android:text="以上都没有"
+                        android:textColor="@color/ct_color"
+                        android:textSize="@dimen/ts_btn" /> -->
+                </LinearLayout>
+            </ScrollView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rel_time"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" >
+
+            <RelativeLayout
+                android:id="@+id/rel_wiget_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/x16dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                 >
+                
+                <TextView
+                    android:id="@+id/tv_tips"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="最近一周几点起床？"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/ct_color"
+                    android:textSize="@dimen/ts_content" />
+                
+                <com.yzm.sleep.widget.MyClock
+                    android:id="@+id/myclock"
+                    android:layout_below="@+id/tv_tips"
+	                android:layout_width="150dp"
+	                android:layout_height="150dp"
+	                android:layout_centerInParent="true"
+	                android:layout_marginTop="@dimen/x20dp"
+                    ></com.yzm.sleep.widget.MyClock>
+                    
+            </RelativeLayout>
+            
+            <RelativeLayout
+                android:id="@+id/rel_ruler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rel_wiget_view"
+                android:layout_alignParentBottom="true"
+                 >
+
+                <com.yzm.sleep.widget.RulerView
+                    android:id="@+id/myrulerview"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_centerInParent="true"
+                     >
+                </com.yzm.sleep.widget.RulerView>
+            </RelativeLayout>
+
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:id="@+id/rel_length"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible" >
+            
+            <RelativeLayout
+                android:id="@+id/rel_lenth_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:padding="@dimen/x16dp"
+                 >
+                
+                <TextView
+                    android:id="@+id/tv_lenth_tips"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:text="最近一周平均每天睡眠时长？"
+                    android:textColor="@color/ct_color"
+                    android:textSize="@dimen/ts_content" />
+                
+                <com.yzm.sleep.widget.MyClockPro
+                    android:id="@+id/myclock_lenth"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="@dimen/x10dp"
+                    android:layout_below="@id/tv_lenth_tips"
+                    android:layout_centerHorizontal="true" />
+
+                <!-- <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_below="@+id/tv_lenth_tips"
+                    android:padding="@dimen/x16dp" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="right"
+                        android:layout_weight="1" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="top"
+                            android:lines="3"
+                            android:text="亚健康" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="top"
+                            android:lines="3"
+                            android:text="健康" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="top"
+                            android:lines="3"
+                            android:text="亚健康" />
+
+                    </LinearLayout>
+                    
+                    <LinearLayout
+                        android:id="@+id/lin_totle_lenth"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@color/fct_color_7f"
+                        android:gravity="bottom"
+                        android:layout_weight="0.5" >
+
+                        <TextView
+                            android:id="@+id/tv_sleep_lenth"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/theme_color"
+                            android:text="" />
+
+
+                    </LinearLayout>
+                    
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="1" >
+
+                        <TextView
+                            android:id="@+id/textView1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:lines="3"
+                            android:text="8.5小时" />
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="top"
+                            android:lines="3"
+                            android:text="6.5小时" />
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="bottom"
+                            android:lines="3"
+                            android:text="0小时" />
+
+                    </LinearLayout>
+
+                </LinearLayout> -->
+                    
+            </RelativeLayout>
+            
+            <RelativeLayout
+                android:id="@+id/rel_lenth_ruler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rel_lenth_view"
+                android:layout_alignParentBottom="true"
+                 >
+
+                <com.yzm.sleep.widget.RulerView
+                    android:id="@+id/myruler_lth"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_centerInParent="true">
+                </com.yzm.sleep.widget.RulerView>
+            </RelativeLayout>
+            
+            </RelativeLayout>
+    </RelativeLayout>
+    
+    
+
+</LinearLayout>

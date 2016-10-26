@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/cbg_color"
+    android:padding="@dimen/x20dp" >
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="@dimen/ts_content"
+        android:layout_height="@dimen/ts_content"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_clock" />
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imageView1"
+        android:layout_marginLeft="8dp"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:singleLine="true"
+        android:textColor="@color/ct_color"
+        android:textSize="@dimen/ts_content" >
+    </TextView>
+
+</RelativeLayout>

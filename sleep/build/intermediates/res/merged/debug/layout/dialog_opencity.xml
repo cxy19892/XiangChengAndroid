@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x40dp"
+        android:paddingLeft="@dimen/x12dp"
+        android:text="已开通城市"
+        android:gravity="center_vertical"
+        android:textColor="@color/fct_color"
+        android:textSize="@dimen/ts_sub" />
+
+    <ListView
+        android:id="@+id/open_citys"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/x40dp"
+        android:divider="@color/bg_color"
+        android:dividerHeight="@dimen/x1dp"
+        android:scrollbars="none"
+        android:background="#00000000" >
+    </ListView>
+
+</RelativeLayout>

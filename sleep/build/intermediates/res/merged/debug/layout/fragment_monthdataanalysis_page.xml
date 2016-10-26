@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#242440"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/rl_calender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_op"
+        android:background="#30304c"
+        android:paddingBottom="15dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#30304c" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="日"
+                android:textColor="#dfe0f5"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="一"
+                android:textColor="#dfe0f5"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="二"
+                android:textColor="#dfe0f5"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="三"
+                android:textColor="#dfe0f5"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="四"
+                android:textColor="#dfe0f5"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="五"
+                android:textColor="#dfe0f5"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="六"
+                android:textColor="#dfe0f5"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <com.yzm.sleep.widget.CustomGridView
+            android:id="@+id/calender_gridview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="#30304c"
+            android:focusable="false"
+            android:horizontalSpacing="0.5dp"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="7"
+            android:scrollbars="none"
+            android:verticalSpacing="0.5dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_calender"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <View
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/item_calender_type1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="健康"
+            android:textColor="#7c7d8f"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/item_calender_type2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="偏长或偏短"
+            android:textColor="#7c7d8f"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</RelativeLayout>

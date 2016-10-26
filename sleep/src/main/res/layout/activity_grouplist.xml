@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/includegroup"
+        layout="@layout/title_layout_dark" />
+
+    <com.yzm.sleep.refresh.MaterialRefreshLayout
+        android:id="@+id/fragment_mian_refreshGroup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/includegroup" >
+
+        <ListView
+            android:id="@+id/my_expanlistGroup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00000000"
+            android:childDivider="@null"
+            android:divider="#00000000"
+            android:dividerHeight="0dip"
+            android:listSelector="@drawable/comm_bg_listview_item"
+            android:scrollbars="none" />
+    </com.yzm.sleep.refresh.MaterialRefreshLayout>
+</RelativeLayout>

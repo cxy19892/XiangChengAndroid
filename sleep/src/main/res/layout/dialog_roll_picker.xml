@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dialogb_color"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dialogb_color"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/roll_btn_cancle"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:paddingBottom="@dimen/x18dp"
+            android:paddingLeft="@dimen/x18dp"
+            android:paddingRight="@dimen/x18dp"
+            android:paddingTop="@dimen/x18dp"
+            android:src="@drawable/dialog_closed_icon" />
+
+        <TextView
+            android:id="@+id/tv_roll_title"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/string_select_music"
+            android:textColor="@color/onet_color"
+            android:textSize="18sp" />
+
+        <ImageButton
+            android:id="@+id/roll_btn_confirm"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:paddingBottom="@dimen/x18dp"
+            android:paddingLeft="@dimen/x18dp"
+            android:paddingRight="@dimen/x18dp"
+            android:paddingTop="@dimen/x18dp"
+            android:src="@drawable/dialog_finish_icon" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/x15dp"
+        android:background="@color/dialogb_color"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <com.yzm.sleep.timepicker.WheelView
+            android:id="@+id/roll_time_wheelview_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:visibility="gone" />
+
+        <com.yzm.sleep.timepicker.WheelView
+            android:id="@+id/roll_time_wheelview_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:visibility="gone" />
+
+        <com.yzm.sleep.timepicker.WheelView
+            android:id="@+id/roll_time_wheelview_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

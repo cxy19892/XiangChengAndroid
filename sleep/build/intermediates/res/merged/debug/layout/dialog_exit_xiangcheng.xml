@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/dialogb_color"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="@color/onet_color"
+        android:textSize="@dimen/textsize_normal"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dialog_msg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="20dp"
+        android:textColor="@color/ct_color"
+        android:textSize="@dimen/textsize_small" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/bg_color" />
+
+    <Button
+        android:id="@+id/btn_goon_exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_gray1_bg"
+        android:gravity="center"
+        android:padding="@dimen/list_item_margin_normal"
+        android:text="继续退出"
+        android:textColor="@color/onet_color"
+        android:textSize="@dimen/textsize_normal" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_small"
+        android:background="@color/bg_color" />
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_gray1_bg"
+        android:gravity="center"
+        android:padding="@dimen/list_item_margin_normal"
+        android:text="取消"
+        android:textColor="@color/onet_color"
+        android:textSize="@dimen/textsize_normal" />
+
+</LinearLayout>

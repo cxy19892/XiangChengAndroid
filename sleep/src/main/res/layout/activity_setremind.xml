@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color" >
+
+    <include layout="@layout/title_layout_dark" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/x48dp"
+        android:scrollbars="none"
+        android:background="@color/bg_color" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_color"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/bg_color"
+                android:orientation="horizontal"
+                android:padding="@dimen/x8dp" >
+
+                <LinearLayout
+                    android:id="@+id/data_count2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:background="@color/cbg_color"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/x30dp"
+                    android:paddingTop="@dimen/x30dp" >
+
+                    <TextView
+                        android:id="@+id/average_sleep"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingBottom="@dimen/x30dp"
+                        android:textColor="@color/onet_color"
+                        android:textSize="@dimen/ts_max" />
+
+                    <TextView
+                        android:id="@+id/tv_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="平均入睡时间点"
+                        android:textColor="@color/ct_color"
+                        android:textSize="@dimen/ts_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/data_count3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x8dp"
+                    android:layout_weight="1.0"
+                    android:background="@color/cbg_color"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/x30dp"
+                    android:paddingTop="@dimen/x30dp" >
+
+                    <TextView
+                        android:id="@+id/average_getup"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingBottom="@dimen/x30dp"
+                        android:paddingLeft="@dimen/x10dp"
+                        android:textColor="@color/onet_color"
+                        android:textSize="@dimen/ts_max" />
+
+                    <TextView
+                        android:id="@+id/tv_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="平均醒来时间点"
+                        android:textColor="@color/ct_color"
+                        android:textSize="@dimen/ts_content" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x1dp"
+                android:background="@color/bg_color" />
+
+            <RelativeLayout
+                android:id="@+id/rl_sleeptime"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x50dp"
+                android:background="@drawable/comm_bg_listview_item"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/x12dp"
+                    android:text="计划入睡时间"
+                    android:textColor="@color/onet_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <TextView
+                    android:id="@+id/setsleep_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/x18dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/x12dp"
+                    android:button="@null"
+                    android:checked="true"
+                    android:drawablePadding="@dimen/x4dp"
+                    android:drawableRight="@drawable/right_button"
+                    android:gravity="center_vertical"
+                    android:text="23:00"
+                    android:textColor="@color/ct_color" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x1dp"
+                android:background="@color/bg_color" />
+
+            <RelativeLayout
+                android:id="@+id/rl_getuptime"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x50dp"
+                android:background="@drawable/comm_bg_listview_item"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/x12dp"
+                    android:text="计划起床时间"
+                    android:textColor="@color/onet_color" 
+                    android:textSize="@dimen/ts_content" />
+
+                <TextView
+                    android:id="@+id/setgetup_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/x18dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/x12dp"
+                    android:button="@null"
+                    android:checked="true"
+                    android:drawablePadding="@dimen/x4dp"
+                    android:drawableRight="@drawable/right_button"
+                    android:gravity="center_vertical"
+                    android:text="08:00"
+                    android:textColor="@color/ct_color" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x1dp"
+                android:background="@color/bg_color" />
+
+            <RelativeLayout
+                android:id="@+id/rl_remind"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x50dp"
+                android:background="@drawable/comm_bg_listview_item"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/x12dp"
+                    android:text="睡前自动提醒"
+                    android:textColor="@color/onet_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <CheckBox
+                    android:id="@+id/cb_remind"
+                    android:layout_width="@dimen/x18dp"
+                    android:layout_height="@dimen/x18dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/x12dp"
+                    android:background="@drawable/app_setting_select_check"
+                    android:button="@null"
+                    android:checked="true"
+                    android:focusable="false"
+                    android:focusableInTouchMode="true" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x1dp"
+                android:background="@color/bg_color" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/cbg_color"
+                android:paddingLeft="@dimen/x12dp"
+                android:paddingTop="@dimen/x12dp"
+                android:text="睡眠限制法技巧"
+                android:textColor="@color/onet_color"
+                android:textSize="@dimen/ts_content" />
+
+            <TextView
+                android:id="@+id/setremind_hint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/cbg_color"
+                android:padding="@dimen/x12dp"
+                android:textColor="@color/ct_color"
+                android:textSize="@dimen/ts_sub" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

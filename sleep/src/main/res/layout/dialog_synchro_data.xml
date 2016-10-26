@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/cbg_color"
+    android:gravity="center"
+    android:id="@+id/ll_synchro"
+    android:orientation="horizontal"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp" >
+
+    <ProgressBar
+        android:id="@+id/pb"
+        style="@style/MyProDialogSync"
+        android:layout_width="@dimen/x35dp"
+        android:layout_height="@dimen/x35dp"
+        android:background="@null"
+        android:indeterminateDuration="500" 
+        android:indeterminateDrawable="@drawable/progress_icon_comm"
+        />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_padding_small"
+        android:text="正在同步数据到云端..."
+        android:textColor="@color/ct_color"
+        android:textSize="@dimen/textsize_normal" />
+
+</LinearLayout>

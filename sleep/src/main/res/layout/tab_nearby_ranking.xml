@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical" 
+    android:paddingBottom="50dp">
+
+    <com.yzm.sleep.pulltorefresh.PullToRefreshListView
+        android:id="@+id/lv_nearby_ranking"
+        android:dividerHeight="@dimen/activity_setting_line_height"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    </com.yzm.sleep.pulltorefresh.PullToRefreshListView>
+
+
+</LinearLayout>

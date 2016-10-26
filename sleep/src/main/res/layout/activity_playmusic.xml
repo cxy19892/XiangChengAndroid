@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+        android:id="@+id/music_control"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/music_bg"
+        android:paddingTop="25dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <ImageButton
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_back"
+                android:background="@drawable/btn_gray1_bg"
+                android:paddingLeft="@dimen/x14dp"
+                android:paddingRight="@dimen/x14dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="18sp"
+                android:textColor="@color/onet_color"
+                android:text="催眠音频"
+                android:gravity="center"/>
+        </RelativeLayout>
+
+        <io.vov.vitamio.widget.VideoView
+            android:id="@+id/surface_view"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            />
+        <ImageButton
+            android:id="@+id/play_control_btn"
+            android:layout_width="@dimen/x80dp"
+            android:layout_height="@dimen/x80dp"
+            android:layout_margin="@dimen/x25dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/play_icon"
+            android:background="@drawable/play_btn_bg"/>
+
+        <com.yzm.sleep.widget.MyRoundProgressBar
+            android:id="@+id/play_control_bar"
+            android:layout_width="@dimen/x86dp"
+            android:layout_height="@dimen/x86dp"
+            android:layout_centerInParent="true"/>
+
+        <ImageButton
+            android:id="@+id/play_mode"
+            android:layout_width="@dimen/x50dp"
+            android:layout_height="@dimen/x50dp"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:background="@drawable/music_sort_bg"
+            android:src="@drawable/loop_play_icon"
+            android:layout_toLeftOf="@id/play_control_btn"/>
+
+        <Button
+            android:id="@+id/play_time"
+            android:layout_width="@dimen/x50dp"
+            android:layout_height="@dimen/x50dp"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_centerVertical="true"
+            android:background="@drawable/music_sort_bg"
+            android:layout_toRightOf="@id/play_control_btn"/>
+    </RelativeLayout>
+
+
+    <ListView 
+        android:id="@+id/play_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:cacheColorHint="#00000000"
+        android:footerDividersEnabled="false"
+        android:listSelector="@android:color/transparent"
+        />
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/comm_bg_listview_item"
+    android:orientation="vertical" >
+
+    <View
+        android:id="@+id/view_experts"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x15dp"
+        android:background="@color/bg_color" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:paddingBottom="@dimen/x10dp"
+        android:layout_height="wrap_content" >
+
+        <com.yzm.sleep.CircleImageView
+            android:id="@+id/imgexperts"
+            android:layout_width="@dimen/x41dp"
+            android:layout_height="@dimen/x41dp"
+            android:layout_marginLeft="@dimen/x11dp"
+            android:layout_marginTop="@dimen/x17dp" />
+
+        <TextView
+            android:id="@+id/tv_expertsName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x13dp"
+            android:layout_marginRight="@dimen/x10dp"
+            android:layout_marginTop="@dimen/x19dp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:layout_toRightOf="@id/imgexperts"
+            android:textColor="@color/onet_color"
+            android:textSize="@dimen/ts_content" />
+
+        <TextView
+            android:id="@+id/tv_expertstype"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_expertsName"
+            android:layout_marginLeft="@dimen/x13dp"
+            android:layout_marginRight="@dimen/x10dp"
+            android:layout_marginTop="@dimen/x5dp"
+            android:layout_toRightOf="@id/imgexperts"
+            android:textColor="@color/ct_color"
+            android:textSize="@dimen/ts_sub" />
+
+        <TextView
+            android:id="@+id/tv_expertsConte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_expertstype"
+            android:paddingBottom="@dimen/x15dp"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:layout_marginLeft="@dimen/x13dp"
+            android:layout_marginRight="@dimen/x15dp"
+            android:layout_marginTop="@dimen/x10dp"
+            android:layout_toRightOf="@id/imgexperts"
+            android:textColor="@color/fct_color"
+            android:textSize="@dimen/ts_sub" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/bg_color" />
+
+</LinearLayout>

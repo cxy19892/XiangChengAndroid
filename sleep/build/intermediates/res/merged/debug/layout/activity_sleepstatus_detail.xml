@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_layout_dark" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_color"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/x10dp" >
+
+            <include
+                android:id="@+id/nonet"
+                layout="@layout/layout_no_net"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:id="@+id/rl_tab"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:background="@color/cbg_color"
+                android:paddingBottom="@dimen/x14dp"
+                android:visibility="gone" >
+
+                <com.yzm.sleep.widget.SoftSleepLengthTable
+                    android:id="@+id/softsleeplengthform"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/x40dp"
+                    android:visibility="gone" />
+
+                <com.yzm.sleep.widget.OrangeSleepLengthTable
+                    android:id="@+id/orangsleeplengthform"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/x40dp"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_res"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/x10dp"
+                android:visibility="gone" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/cbg_color"
+                    android:padding="@dimen/x12dp"
+                    android:text="睡眠效率"
+                    android:textColor="@color/ct_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <TextView
+                    android:id="@+id/sleep_efficiency"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:background="@color/cbg_color"
+                    android:padding="@dimen/x12dp"
+                    android:textColor="@color/onet_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/x1dp"
+                    android:layout_below="@id/sleep_efficiency"
+                    android:background="@color/bg_color" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/sleep_efficiency"
+                    android:layout_marginTop="@dimen/x1dp"
+                    android:background="@color/cbg_color"
+                    android:padding="@dimen/x12dp"
+                    android:text="入睡"
+                    android:textColor="@color/ct_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <TextView
+                    android:id="@+id/sleep"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/sleep_efficiency"
+                    android:layout_marginTop="@dimen/x1dp"
+                    android:background="@color/cbg_color"
+                    android:padding="@dimen/x12dp"
+                    android:textColor="@color/onet_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/x1dp"
+                    android:layout_below="@id/sleep"
+                    android:background="@color/bg_color" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/sleep"
+                    android:layout_marginTop="@dimen/x1dp"
+                    android:background="@color/cbg_color"
+                    android:padding="@dimen/x12dp"
+                    android:text="中途"
+                    android:textColor="@color/ct_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <TextView
+                    android:id="@+id/sleep_course"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/sleep"
+                    android:layout_marginTop="@dimen/x1dp"
+                    android:background="@color/cbg_color"
+                    android:padding="@dimen/x12dp"
+                    android:textColor="@color/onet_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/x1dp"
+                    android:layout_below="@id/sleep_course"
+                    android:background="@color/bg_color" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/sleep_course"
+                    android:layout_marginTop="@dimen/x1dp"
+                    android:background="@color/cbg_color"
+                    android:padding="@dimen/x12dp"
+                    android:text="早晨"
+                    android:textColor="@color/ct_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <TextView
+                    android:id="@+id/sleep_morning"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/sleep_course"
+                    android:layout_marginTop="@dimen/x1dp"
+                    android:background="@color/cbg_color"
+                    android:padding="@dimen/x12dp"
+                    android:textColor="@color/onet_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <RelativeLayout
+                    android:id="@+id/rl_deepsleep"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/sleep_morning"
+                    android:visibility="gone" >
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/x1dp"
+                        android:background="@color/bg_color" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/x1dp"
+                        android:background="@color/cbg_color"
+                        android:padding="@dimen/x12dp"
+                        android:text="深度睡眠"
+                        android:textColor="@color/ct_color"
+                        android:textSize="@dimen/ts_content" />
+
+                    <TextView
+                        android:id="@+id/deepsleep_lenght"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="@dimen/x1dp"
+                        android:background="@color/cbg_color"
+                        android:padding="@dimen/x12dp"
+                        android:textColor="@color/onet_color"
+                        android:textSize="@dimen/ts_content" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_qiansleep"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/rl_deepsleep"
+                    android:visibility="gone" >
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/x1dp"
+                        android:background="@color/bg_color" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/x1dp"
+                        android:background="@color/cbg_color"
+                        android:padding="@dimen/x12dp"
+                        android:text="浅度睡眠"
+                        android:textColor="@color/ct_color"
+                        android:textSize="@dimen/ts_content" />
+
+                    <TextView
+                        android:id="@+id/qiansleep_lenght"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="@dimen/x1dp"
+                        android:background="@color/cbg_color"
+                        android:padding="@dimen/x12dp"
+                        android:textColor="@color/onet_color"
+                        android:textSize="@dimen/ts_content" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/text_hint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:textColor="@color/ct_color"
+                android:layout_marginTop="@dimen/x10dp"
+                android:background="@color/cbg_color"
+                android:visibility="gone"
+                android:padding="@dimen/x12dp"
+                android:textSize="@dimen/ts_content"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

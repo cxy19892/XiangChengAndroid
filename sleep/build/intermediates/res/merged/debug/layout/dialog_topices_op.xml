@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/pop_dialog_margin_bottom" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/single_corner_bg"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_tilte"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_height_normal"
+            android:gravity="center"
+            android:text="@string/topice_title"
+            android:textColor="@color/ct_color"
+            android:textSize="@dimen/textsize_normal"
+            android:visibility="gone" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x3dp"/>
+
+        <Button
+            android:id="@+id/btn_report"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_height_normal"
+            android:background="@drawable/btn_gray1_bg"
+            android:text="@string/topice_op1"
+            android:textColor="@color/ct_color"
+            android:textSize="@dimen/textsize_normal" />
+
+        <View
+            android:id="@+id/view_v"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x3dp"
+            android:background="@color/fct_color_7f"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn_set_top"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_height_normal"
+            android:background="@drawable/btn_gray1_bg"
+            android:gravity="center"
+            android:text="@string/topice_op3"
+            android:textColor="@color/ct_color"
+            android:textSize="@dimen/textsize_normal"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/view_v1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x3dp"
+            android:background="@color/fct_color_7f"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_height_normal"
+            android:background="@drawable/btn_gray1_bg"
+            android:gravity="center"
+            android:text="@string/topice_op2"
+            android:textColor="@color/ct_color"
+            android:textSize="@dimen/textsize_normal"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_padding_small"
+        android:background="@drawable/single_corner_bg"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_height_normal"
+            android:background="@drawable/btn_gray1_bg"
+            android:gravity="center"
+            android:text="@string/alert_cancel"
+            android:textColor="@color/ct_color"
+            android:textSize="@dimen/textsize_normal" />
+    </LinearLayout>
+
+</LinearLayout>

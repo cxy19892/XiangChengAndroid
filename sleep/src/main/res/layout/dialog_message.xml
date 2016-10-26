@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/control_small"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dialog_message_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textsize_large"
+        android:textColor="@color/ct_color"
+        android:layout_margin="@dimen/margin_normal"/>
+    
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_small"
+        android:layout_marginRight="@dimen/margin_small"
+        android:background="@drawable/cut_off_ruleb"/>
+    
+    <LinearLayout
+        android:id="@+id/dialog_message_mark_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/dialog_message_mark"
+	        android:textSize="@dimen/textsize_normal"
+	        android:layout_margin="@dimen/margin_normal"/>        
+        
+    </LinearLayout> 
+    
+    <LinearLayout
+        android:id="@+id/dialog_message_delete_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        
+	    <ImageView
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="@dimen/margin_small"
+	        android:layout_marginRight="@dimen/margin_small"
+	        android:background="@drawable/cut_off_rulea"/> 
+	        
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/dialog_message_delete"
+	        android:textSize="@dimen/textsize_normal"
+	        android:layout_margin="@dimen/margin_normal"/>        
+        
+    </LinearLayout>
+     
+</LinearLayout>

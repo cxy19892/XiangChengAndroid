@@ -1,0 +1,1374 @@
+[
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_pillow_day_week.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\fragment_pillow_day_week.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_addalarm_gridview.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_addalarm_gridview.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_textview_serch.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_textview_serch.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\alarm_alert_new.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\alarm_alert_new.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_feedback.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_feedback.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sleeporgetupavgtime_detail.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_sleeporgetupavgtime_detail.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_message.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\fragment_message.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_smokingq_layout.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_smokingq_layout.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_camera.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\list_item_camera.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_personal_info.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_personal_info.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_group_show_laber.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_group_show_laber.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_perfectuserdata.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_perfectuserdata.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_sleep_paln_bottom.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_sleep_paln_bottom.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_knowledge_detail.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_knowledge_detail.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_upgrade_pillow.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_upgrade_pillow.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\title_layout_transparent.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\title_layout_transparent.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_picture.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\ease_row_sent_picture.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\render_type_text.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\render_type_text.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\listview_footer_nomore.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\listview_footer_nomore.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_prosess_layout.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\dialog_prosess_layout.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\customer_notitfication_layout.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\customer_notitfication_layout.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_of_my_local_ring.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_of_my_local_ring.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_center_layout.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\dialog_center_layout.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_numberpicker.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\dialog_numberpicker.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_fragment_window.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\dialog_fragment_window.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_roll_picker.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\dialog_roll_picker.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sleepcase.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_sleepcase.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_reservation.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_reservation.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sleeptrend.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_sleeptrend.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_groupinfo.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\dialog_groupinfo.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_message_list.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_message_list.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\notification_info.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\notification_info.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_alarm_info.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_alarm_info.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_my_message_list.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_my_message_list.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_program.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_program.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\ativity_phone_contacts.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\ativity_phone_contacts.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_comfrot_scroll.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_comfrot_scroll.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_synchro_data.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\dialog_synchro_data.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_estimate_base.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_estimate_base.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_grouplist.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_grouplist.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_community_topic_detail.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_community_topic_detail.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_hos_shop_pro.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_hos_shop_pro.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_community_content.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\fragment_community_content.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_remind_alarm_edit.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_remind_alarm_edit.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\ease_expression_gridview.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\ease_expression_gridview.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_record_sleepdata.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_record_sleepdata.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\crop_layout_done_cancel.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\crop_layout_done_cancel.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\no_auto_layout.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\no_auto_layout.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_guide.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_guide.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\pop_search_people_nearby.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\pop_search_people_nearby.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_goodscombo_list.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_goodscombo_list.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\head_doctor_detail.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\head_doctor_detail.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_opencity.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\dialog_opencity.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\tick_mark_show.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\tick_mark_show.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_knowledge_list.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_knowledge_list.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_load_history_data.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\dialog_load_history_data.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_life_top.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_life_top.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_team.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_team.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_pillow_week.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\fragment_pillow_week.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_recordfeel.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\fragment_recordfeel.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\popupwindow_botton_for_four.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\popupwindow_botton_for_four.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\my_item_expand2.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\my_item_expand2.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_zhiye.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_zhiye.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\sync_pillow_data_pop.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\sync_pillow_data_pop.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\play_music_item.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\play_music_item.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\layout_no_net.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\layout_no_net.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_sleepcase_layout.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_sleepcase_layout.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\fragmentpage3tab1_notdata.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\fragmentpage3tab1_notdata.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_huangjing_layout.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_huangjing_layout.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_paysuccessful.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_paysuccessful.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\layout_found_notdata.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\layout_found_notdata.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sleep_plan.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_sleep_plan.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\view_loding.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\view_loding.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_sport_layout.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_sport_layout.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sleep_plan_old.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_sleep_plan_old.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\slider_layout.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\slider_layout.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_orders.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_orders.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_bedroom_layout.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_bedroom_layout.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_page3_tab1_my.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\fragment_page3_tab1_my.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_page3tab1_second.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_page3tab1_second.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\layout_circular_icon.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\layout_circular_icon.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_rings_mine.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\fragment_rings_mine.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_assessment.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_assessment.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\popupwindow_get_pic_select.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\popupwindow_get_pic_select.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_cropimage4.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\fragment_cropimage4.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_voice.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\ease_row_received_voice.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_guidepage.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\fragment_guidepage.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_monthdataanalysis_page.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\fragment_monthdataanalysis_page.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sleep_report.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_sleep_report.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_select_lc.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\dialog_select_lc.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_type1.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\dialog_type1.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\context_menu_for_text.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\context_menu_for_text.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_esti_results.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_esti_results.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_curl_page.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_curl_page.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_mytopices_bygroup.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\fragment_mytopices_bygroup.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_confirm_order.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_confirm_order.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_kownledge_search.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_kownledge_search.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_post_topics.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_post_topics.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_groupheader.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_groupheader.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_dataresult_feedback.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_dataresult_feedback.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\audio_record_item.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\audio_record_item.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\tab_ringtone_ranking.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\tab_ringtone_ranking.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mydetail_info.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_mydetail_info.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chatpage.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_chatpage.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_dataresult_feedback.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_dataresult_feedback.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_timepicker.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\dialog_timepicker.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_comfort.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_comfort.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_timepicker_pop.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\dialog_timepicker_pop.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_height.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_height.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\toast_view_actionsheet.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\toast_view_actionsheet.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_week.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\fragment_week.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_comments_layout.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_comments_layout.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_goodsaddress.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_goodsaddress.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_note_recording.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_note_recording.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\topice_detail_stickyhead.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\topice_detail_stickyhead.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_recommend_layout.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_recommend_layout.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\sync_pillow_data.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\sync_pillow_data.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_binding.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_binding.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_exit_xiangcheng.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\dialog_exit_xiangcheng.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_usersex.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_usersex.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_slp_plan.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_slp_plan.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_lifehabit.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_lifehabit.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_sport_child_layout.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_sport_child_layout.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\no_comment_data_layout.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\no_comment_data_layout.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_about.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_about.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_write_note.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_write_note.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_datacount.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_datacount.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_fragmentpage3experts.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_fragmentpage3experts.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_mytopices_bytime.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\fragment_mytopices_bytime.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mappathplan.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_mappathplan.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_textview_history.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_textview_history.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_correlative_cellphone.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_correlative_cellphone.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_delete_msg.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\dialog_delete_msg.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_welcome.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\popupwindow_select_update_pic.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\popupwindow_select_update_pic.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_day_data.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\fragment_day_data.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_days_plan.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_days_plan.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_birthday.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_birthday.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_open_blutooth.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\dialog_open_blutooth.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_sleep_data.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\fragment_sleep_data.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_note_list.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_note_list.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_perceivereset.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_perceivereset.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_impr_slp_plan.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_impr_slp_plan.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_community_account.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_community_account.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\mediacontroller.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\exploded-aar\\XiangChengAndroid\\vitamio\\unspecified\\res\\layout\\mediacontroller.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_sleep.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\fragment_sleep.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_viewpage_detail.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_viewpage_detail.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_of_download_ring.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_of_download_ring.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_no_topics.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_no_topics.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\layout_onekey_dialog.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\layout_onekey_dialog.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sleepmessage.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_sleepmessage.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_connectsync_pillow.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_connectsync_pillow.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_community_catalog.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\fragment_community_catalog.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\badge_layout.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\badge_layout.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\head_fragment_choice_layout.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\head_fragment_choice_layout.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pillow_data.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_pillow_data.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_record.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\fragment_record.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\grid_invite_item.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\grid_invite_item.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_my_reservation.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_my_reservation.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\header_note_record.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\header_note_record.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_message.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\dialog_message.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_relax_self.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_relax_self.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_common_problem.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_common_problem.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_mypulltorefreshlistview.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_mypulltorefreshlistview.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_opencity.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_opencity.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\popupwindow_update_phonenumber.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\popupwindow_update_phonenumber.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\goodsdetail_head_layout.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\goodsdetail_head_layout.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_gridview.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_gridview.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_input_edit.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\dialog_input_edit.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\personal_page_head_comm.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\personal_page_head_comm.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\progress_dialog.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\progress_dialog.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\layout_clear_footer.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\layout_clear_footer.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_community_group.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_community_group.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\layout_listview_footer.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\layout_listview_footer.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_sleeplength_trend.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\fragment_sleeplength_trend.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_group_info.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_group_info.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_bund_pillow_info.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_bund_pillow_info.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_message.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_my_message.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\row_sent_message.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\row_sent_message.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_wight.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_wight.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setremind.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_setremind.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\listview_loading.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\listview_loading.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\notification_info_no.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\notification_info_no.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_cropimage.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\fragment_cropimage.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_image.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\list_item_image.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_message.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\ease_row_received_message.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_gallery.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_gallery.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_order_list.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_order_list.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_bedroom_environment.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_bedroom_environment.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_scrollview_select.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_scrollview_select.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\alarm_alert.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\alarm_alert.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_focusnumber.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_focusnumber.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\tip_layout.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\tip_layout.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pilloweek.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_pilloweek.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_signin.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_signin.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setsleep_time.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_setsleep_time.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\number_picker_with_selector_wheel.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\number_picker_with_selector_wheel.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\head_clinic_detail.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\head_clinic_detail.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_pic_and_text.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_pic_and_text.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\notification_last.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\notification_last.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_personal.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\fragment_personal.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\listview_loading_footer.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\listview_loading_footer.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_reservation.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_my_reservation.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\render_type_default.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\render_type_default.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_pillow_data.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\fragment_pillow_data.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sleepdata_report.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_sleepdata_report.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\my_item_expand1.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\my_item_expand1.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_doctor_detail.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_doctor_detail.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_xiaomi_autostart.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_xiaomi_autostart.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_knowledge.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\fragment_knowledge.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_punch_tip.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\dialog_punch_tip.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_shop_order_list.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_shop_order_list.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_picture.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\ease_row_received_picture.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_pillow_start2use_tips.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\dialog_pillow_start2use_tips.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_classifybytag_layout.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_classifybytag_layout.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_sleep_target.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\dialog_sleep_target.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\calender_select_dialog.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\calender_select_dialog.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_relax.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_relax.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\ease_chat_message_list.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\ease_chat_message_list.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\select_list_item.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\select_list_item.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_self_formulation.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_self_formulation.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_agreement.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_agreement.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_voice.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\ease_row_sent_voice.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_bluetooth_tip.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\dialog_bluetooth_tip.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_sleep_plan_layout.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_sleep_plan_layout.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\gv_item.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\gv_item.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_punch.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\dialog_punch.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\entry.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\entry.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_message.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\ease_row_sent_message.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_friendrequest.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_friendrequest.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\record_note_activity.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\record_note_activity.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_rest_to_regul.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_rest_to_regul.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_alarm_style.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\dialog_alarm_style.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\tab_nearby_ranking.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\tab_nearby_ranking.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_xcsecretary_list.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_xcsecretary_list.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_contacts.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_contacts.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_roll_picker_spe.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\dialog_roll_picker_spe.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_topices_op.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\dialog_topices_op.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\get_from_wx.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\get_from_wx.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\listview_footer_addmore.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\listview_footer_addmore.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\layout_remind_notifycation.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\layout_remind_notifycation.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_playmusic.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_playmusic.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_expression.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\ease_row_expression.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_wine_layout.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_wine_layout.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\topices_detail_head_layout.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\topices_detail_head_layout.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_emojicon.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\ease_widget_emojicon.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\esti_results_web_header.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\esti_results_web_header.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_note_record.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_note_record.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_bedroom_suggest.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\dialog_bedroom_suggest.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_pic_text_vertical.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_pic_text_vertical.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_voice_call.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\ease_row_sent_voice_call.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_estimate_web.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_estimate_web.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\title_layout_dark.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\title_layout_dark.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\layout_view_line.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\layout_view_line.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_yestereve_data.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_yestereve_data.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_day_week.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\fragment_day_week.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_time_trend.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\fragment_time_trend.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_packagedeta.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_packagedeta.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_pushtag.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_pushtag.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_published_grida.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_published_grida.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_release_edit.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_release_edit.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_record_feeldata.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_record_feeldata.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_showdata.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_showdata.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_item.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\gallery_item.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_page2tab3_store.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\fragment_page2tab3_store.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_team.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_team.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_folder.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\list_item_folder.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_share.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_share.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\group_headerview.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\group_headerview.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_combo_list.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_combo_list.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_focusnmber.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_focusnmber.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\listview_text_item.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\listview_text_item.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_program.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_program.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_emotion_manager.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_emotion_manager.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_clinic_detail.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_clinic_detail.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_reply_list.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_reply_list.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\cmp_customer_actionbar.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\cmp_customer_actionbar.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_fragmentpage3medical.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_fragmentpage3medical.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sensitive_set.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_sensitive_set.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\jpush_richpush_actionbar_layout.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\jpush_richpush_actionbar_layout.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_message.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_message.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_xc_secretary.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_xc_secretary.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_release_lable.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_release_lable.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_rltitle_layout.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_rltitle_layout.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\layout_nofriend_header.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\layout_nofriend_header.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_bund_suc.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_bund_suc.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_classify_bytag.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_classify_bytag.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_community.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\fragment_community.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_invitation.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\dialog_invitation.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_search_pillow.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_search_pillow.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_habit_layout.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_habit_layout.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\row_received_message.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\row_received_message.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\grid_groupicon_item.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\grid_groupicon_item.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_sleep_sigin.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\fragment_sleep_sigin.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_huangjian_msg.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_huangjian_msg.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_impr_sleep_plan.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_impr_sleep_plan.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\crop_activity_crop.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\crop_activity_crop.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_userhead_lautout.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_userhead_lautout.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_goods_list.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_goods_list.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\indicator_layout.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\indicator_layout.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\pop_delete_doctor_by_creator.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\pop_delete_doctor_by_creator.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_clinic_doctor.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_clinic_doctor.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_comments_list.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_comments_list.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_day.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\fragment_day.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\pop_pillow_set.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\pop_pillow_set.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_image_detail.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_image_detail.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\popupwindow_friendhome_do.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\popupwindow_friendhome_do.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_multi_img.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\fragment_multi_img.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_impr_suc.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_impr_suc.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\ruler.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\ruler.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_reservation_detail.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_reservation_detail.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_page3_tab1.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\fragment_page3_tab1.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_group.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_group.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_continue_plans.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_continue_plans.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_picture_pager.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_picture_pager.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\alarm_item.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\alarm_item.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\popupwindow_filtrate.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\popupwindow_filtrate.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sleeptime_detail.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_sleeptime_detail.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_gridview_calendar.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_gridview_calendar.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\notification_status.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\notification_status.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_goods_detail.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_goods_detail.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sleepstatus_detail.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_sleepstatus_detail.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_group_gridview.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_group_gridview.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_voice_call.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\ease_row_received_voice_call.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_default.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_default.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\layout_myexpand_heeder.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\layout_myexpand_heeder.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_select_profession.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_select_profession.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\item_coffee_layout.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\item_coffee_layout.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\layout_nodata_reprot.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\layout_nodata_reprot.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_rings_down.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\fragment_rings_down.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_bottom_pop_layout.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\dialog_bottom_pop_layout.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_community_search.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_community_search.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_monthdata_analysis.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_monthdata_analysis.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_page3tab1_second.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_page3tab1_second.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\bind_pillow_menu_item.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\bind_pillow_menu_item.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\tab_nearby_ringtone.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\tab_nearby_ringtone.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\test_layout.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\test_layout.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\menber_gridview.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\menber_gridview.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_hos_doctors_list.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_hos_doctors_list.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_voice_recorder.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\ease_widget_voice_recorder.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\layout\\activity_app_setting.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\layout\\activity_app_setting.xml"
+    }
+]

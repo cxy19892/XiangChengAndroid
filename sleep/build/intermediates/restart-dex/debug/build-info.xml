@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="23"
+    density="xxhdpi"
+    format="7"
+    timestamp="477950297244902" >
+
+    <task
+        name="javac"
+        duration="12950" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="12803" />
+    <task
+        name="verifier"
+        duration="4564" />
+
+    <artifact
+        location="G:\Studio\XiangChengAndroid\sleep\build\outputs\apk\sleep-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="477950297244902" >
+        <artifact
+            location="G:\Studio\XiangChengAndroid\sleep\build\outputs\apk\sleep-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

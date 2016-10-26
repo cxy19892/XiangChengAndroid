@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_half_trapor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical" >
+    
+    <ImageView
+        android:id="@+id/iv_failed_bluetooth_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/uplosd_rl_layout"
+        android:layout_marginBottom="@dimen/x30dp"
+        android:background="@drawable/bluetooth_closed_in_img_and_text"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/uplosd_rl_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+         >
+
+        <RelativeLayout
+            android:id="@+id/layout_upgrade_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_upgrade_title"
+            android:layout_marginTop="@dimen/x30dp"
+            android:visibility="visible"
+            android:layout_centerHorizontal="true" >
+
+            <ImageView
+                android:id="@+id/iv_upgrade_failed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/black_bg_defeated_expression"
+                android:visibility="invisible" />
+
+            
+
+            <RelativeLayout
+                android:id="@+id/pb_load_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+                <ProgressBar
+                android:id="@+id/pb_load_web"
+                style="@style/MyProDialogUpgrade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@null"
+                android:indeterminateDuration="800" />
+
+                <TextView
+                    android:id="@+id/pb_load_percent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                     android:textSize="@dimen/textsize_xlarge"
+                     android:textStyle="bold"
+                    android:text="" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_upgrade_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="正在升级智能枕扣"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize_title" />
+        <!-- android:textSize="@dimen/textsize_small" -->
+
+        <TextView
+            android:id="@+id/layout_upgrade_tips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_upgrade_button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/x30dp"
+            android:paddingLeft="@dimen/x30dp"
+            android:paddingRight="@dimen/x30dp"
+            android:gravity="center"
+            android:lineSpacingExtra="2dp"
+            android:text="请尽量让手机贴近枕扣\n切勿关闭程序与枕扣"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize_small"
+            />
+
+        <LinearLayout
+            android:id="@+id/layout_upgrade_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_upgrade_img"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/x30dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <Button
+                android:id="@+id/btn_again_upgrade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/anew_upgrade_button" />
+
+            <TextView
+                android:id="@+id/tv_later_upgrade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/x10dp"
+                android:text="稍后升级"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_small" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_upgrade_cancle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:padding="@dimen/x20dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/transparent"
+        android:textSize="@dimen/textsize_large"
+        android:textColor="@color/white"
+        android:visibility="gone"
+        android:text="@string/cancel" />
+
+</RelativeLayout>

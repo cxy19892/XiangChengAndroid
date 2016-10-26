@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/rl_type1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_color"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cbg_color"
+            android:gravity="center"
+            android:padding="@dimen/x30dp"
+            android:text="本周期感觉自己睡得怎么样？"
+            android:textColor="@color/ct_color"
+            android:textSize="@dimen/ts_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cbg_color"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/x75dp" >
+
+            <TextView
+                android:id="@+id/btn_1"
+                android:layout_width="@dimen/x54dp"
+                android:layout_height="@dimen/x54dp"
+                android:background="@drawable/feel_1"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ts_sub" />
+
+            <TextView
+                android:id="@+id/btn_2"
+                android:layout_width="@dimen/x54dp"
+                android:layout_height="@dimen/x54dp"
+                android:layout_marginLeft="@dimen/x10dp"
+                android:background="@drawable/feel_2"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ts_sub" />
+
+            <TextView
+                android:id="@+id/btn_3"
+                android:layout_width="@dimen/x54dp"
+                android:layout_height="@dimen/x54dp"
+                android:layout_marginLeft="@dimen/x10dp"
+                android:background="@drawable/feel_3"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ts_sub" />
+
+            <TextView
+                android:id="@+id/btn_4"
+                android:layout_width="@dimen/x54dp"
+                android:layout_height="@dimen/x54dp"
+                android:layout_marginLeft="@dimen/x10dp"
+                android:background="@drawable/feel_4"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ts_sub" />
+
+            <TextView
+                android:id="@+id/btn_5"
+                android:layout_width="@dimen/x54dp"
+                android:layout_height="@dimen/x54dp"
+                android:layout_marginLeft="@dimen/x10dp"
+                android:background="@drawable/feel_5"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ts_sub" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rl_type2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cbg_color"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/x75dp"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/rl_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cbg_color"
+            android:gravity="center"
+            android:padding="@dimen/x30dp"
+            android:textColor="@color/ct_color"
+            android:textSize="@dimen/ts_content" />
+
+        <com.yzm.sleep.widget.TagStreamLayout
+            android:id="@+id/tag_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x15dp"
+            android:background="@color/cbg_color" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_jf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cbg_color"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/x15dp"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/v"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cbg_color"
+            android:gravity="center"
+            android:padding="@dimen/x15dp"
+            android:text="本周期体重？"
+            android:textColor="@color/ct_color"
+            android:textSize="@dimen/ts_content" />
+
+        <EditText
+            android:id="@+id/edt_weight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/v"
+            android:layout_centerHorizontal="true"
+            android:inputType="numberDecimal"
+            android:minWidth="@dimen/x80dp"
+            android:padding="@dimen/x10dp"
+            android:maxLength="5"
+            android:singleLine="true"
+            android:textColor="@color/ct_color"
+            android:textSize="@dimen/ts_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/edt_weight"
+            android:layout_toRightOf="@id/edt_weight"
+            android:text="kg"
+            android:layout_marginBottom="@dimen/x4dp"
+            android:textColor="@color/ct_color"
+            android:textSize="@dimen/ts_content" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/x16dp"
+    android:background="@color/cbg_color"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:lines="2"
+        android:textColor="@color/onet_color"
+        android:text="TextView" />
+    
+    <RelativeLayout
+        android:id="@+id/rl_state_loading"
+        android:layout_width="@dimen/x30dp"
+        android:layout_height="@dimen/x30dp"
+        android:descendantFocusability="blocksDescendants"
+        android:visibility="gone" >
+
+        <com.yzm.sleep.widget.SimpleRoundProgressBar 
+            android:id="@+id/pb_state_loading"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:clickable="false"
+            android:focusable="false"
+             />
+
+       <TextView
+            android:id="@+id/tv_loading_curpro"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textColor="@color/fct_color"
+            android:visibility="gone"
+            android:text="0%"
+            android:textSize="10dp" /> 
+            
+    </RelativeLayout>
+    
+
+    <ImageView
+        android:id="@+id/img_download_view"
+        android:layout_width="@dimen/x30dp"
+        android:layout_height="@dimen/x30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_down_normal" />
+
+</LinearLayout>

@@ -1,0 +1,973 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">香橙</string>
+    <string name="about_xiangcheng">关于香橙</string>
+    <string name="about_update_stirng">版本更新</string>
+    <string name="action_settings">setting</string>
+    <string name="welcome_loading">loading...</string>
+    <string name="waiting_loading">设置中...</string>
+    <string name="title_personal_info">个人资料</string>
+    <string name="title_personal_info_preset">设定目标</string>
+    <string name="no_net">网络连接失败，请连接wifi后使用该功能</string>
+    <string name="server_fault">网络不给力，请稍后再试</string>
+    <string name="gender_hint_text1">根据性别你会获得</string>
+    <string name="gender_hint_text2">有针对性的睡眠建议</string>
+    <string name="birth_hint_text1">你是</string>
+    <string name="birth_hint_text2">出生</string>
+    <string name="birthinfo_text">根据年龄制定\n适合您的睡眠方案</string>
+    <string name="birthinfo_next">下一步</string>
+    <string name="profession_hint">快来与同行PK睡眠吧</string>
+    <string name="timeset_hint_text1">根据个人资料</string> 
+    <string name="timeset_hint_text2">制定专属睡眠方案</string>
+    <string name="timeset_hint_text3">确认作息时间</string>
+    <string name="timeset_sleeptime">目标睡眠时间:</string>
+    <string name="timeset_wakeuptime">目标起床时间:</string>
+    <string name="timeset_btn_complete">完成</string>
+    <string name="timeset_btn_complete_set">香橙帮您实现</string>
+    <string name="timeset_btn_complete1">开启自动记录</string>
+    <string name="time_format_type">:</string>
+    <string name="fragment_ranking_title">排名</string>
+    <string name="activity_setting_remind">智能提醒</string>
+    <string name="activity_setting_hide">隐私设置</string>
+    <string name="privacy_setting_hide">在附近的人中隐身</string>
+    <string name="activity_setting_pillow">智能枕扣</string>
+    <string name="activity_setting_title">设置</string>
+    <string name="activity_setting_reset">重置基础信息</string>
+    <string name="activity_setting_alert">修改预设睡眠时间</string>
+    <string name="activity_setting_switch">打开睡眠通知</string>
+    <string name="activity_setting_grade">去给五星好评</string>
+    <string name="activity_setting_message">消息</string>
+    <string name="activity_setting_messagesound">消息声音</string>
+    <string name="activity_setting_messagevirble">消息震动</string>
+    <string name="activity_setting_clear">清除缓存数据</string>
+    <string name="activity_setting_update">软件更新</string>
+    <string name="activity_setting_about">关于香橙</string>
+    <string name="activity_setting_exit">退出登录</string>
+    <string name="activity_message_title">消息</string>
+    <string name="activity_message_friend">好友申请</string>
+    <string name="activity_login_title">请登录</string>
+    <string name="activity_login_message1">可以用以下账号登录</string>
+    <string name="activity_login_message2">用香橙账号登录</string>
+    <string name="activity_login_register">免费注册</string>
+    <string name="activity_login_login">登录</string>
+    <string name="activity_login_forgetpwd">忘记密码?</string>
+    <string name="activity_login_hint_account">请输入未注册的手机号码</string>
+    <string name="activity_login_hint_nickname">请设置昵称</string>
+    <string name="activity_login_hint_pwd">输入验证码</string>
+    <string name="activity_login_regis">快速注册</string>
+    <string name="activity_login_hint_pwdagain">设置登录密码</string>
+    <string name="activity_login_hint_authcode">输入验证码</string>
+    <string name="info5">请根据实际情况</string>
+    <string name="info6">手动纠正时间</string>
+    <string name="info7">睡眠时间</string>
+    <string name="info8">小时</string>
+    <string name="info9">睡眠指数</string>
+    <string name="info_back">返回</string>
+    <string name="info_next">下一步</string>
+    <string name="time_interval">—</string>
+    <string name="alert_cancel">取消</string>
+    <string name="title_sleep">实际睡眠时间:</string>
+    <string name="title_awake">实际起床时间:</string>
+    <string name="time_default">00:00</string>
+    <string name="timepicker_title">请选择时间</string>
+    <string name="numberpicker_title">请设置提前提醒分钟数</string>
+    <string name="case_submit">提交</string>
+    <string name="check_time_empty">时间设置不完整</string>
+    <string name="popupwindow_dayview">日视图</string>
+    <string name="popupwindow_weekview">周视图</string>
+    <string name="layout_day_sleep_beautytime">睡美容觉时间22pm-2am</string>
+    <string name="layout_day_sleep_sleeptime">入睡</string>
+    <string name="layout_day_sleep_wakeuptime">起床</string>
+    <string name="layout_day_sleep_beauty">美容觉</string>
+    <string name="layout_day_sleep_asleeptime">入睡时间</string>
+    <string name="layout_day_sleep_duration">睡眠时长</string>
+    <string name="layout_day_sleep_getuptime">起床时间</string>
+    <string name="layout_day_sleep_phone">当日活动及睡眠时间分布</string>
+    <string name="layout_day_sleep_health">目标时间</string>
+    <string name="layout_day_sleep_s">睡眠</string>
+    <string name="layout_week_sleep_total">总共</string>
+    <string name="layout_week_sleep_deep">深度</string>
+    <string name="layout_week_sleep_shallow">浅度</string>
+    <string name="layout_week_sleep_accumulate">本周累积</string>
+    <string name="layout_week_sleep_average">平均每天</string>
+    <string name="layout_week_sleep_h">h</string>
+    <string name="layout_week_sleep_beautysleep">美容觉统计</string>
+    <string name="layout_alert_commit">确认修改</string>
+    <string name="tab_occupation_ranking_sleep">昨日睡眠</string>
+    <string name="tab_occupation_ranking_sleepave">职业平均</string>
+    <string name="tab_occupation_ranking_loginhint">想知道同职业的睡眠情况吗？\n那就赶紧登录吧</string>
+    <string name="UserName">UserName</string>
+    <string name="UserPwd">UserPwd</string>
+    <string name="sdk_error">未检测到sd卡</string>
+    <!-- 登录 -->
+    <string name="login" formatted="false">{\"type\":\"1001\",\"phone\":\"%s\",\"pwd\":\"%s\"}</string>
+    <string name="system_netbreak">网络连接不可用，请稍后重试</string>
+    <string name="fragment_alarm_title_string">闹钟</string>
+    <string name="fragment_alarm_edit_string">编辑</string>
+    <string name="fragment_alarm_sleepremind_string">橙橙睡前提醒</string>
+    <string name="fragment_alarm_awakelarm_string">橙橙叫醒闹钟</string>
+    <string name="ringtone_select_title_string">铃声</string>
+    <string name="ringtone_select_ok_string">立即找回</string>
+    <string name="ringtone_select_current_string">当前铃声</string>
+    <string name="ringtone_select_recommend_string">为您推荐</string>
+    <string name="ringtone_select_more_string">查看更多铃声</string>
+    <string name="ringtone_select_local_string">查看本地铃声</string>
+    <string name="remind_alarm_title_string">睡前提醒</string>
+    <string name="remind_alarm_text1_string">提前</string>
+    <string name="remind_alarm_text2_string">分钟</string>
+    <string name="remind_alarm_text3_string">提醒间隔</string>
+    <string name="awake_alarm_title_string">编辑</string>
+    <string name="awake_alarm_text1_string">重复</string>
+    <string name="awake_alarm_text2_string">小睡</string>
+    <string name="awake_alarm_sleep5_string">5分钟</string>
+    <string name="awake_alarm_sleep10_string">10分钟</string>
+    <string name="awake_alarm_sleep15_string">15分钟</string>
+    <string name="awake_alarm_sleep30_string">30分钟</string>
+    <string name="awake_alarm_select_repeat0">日</string>
+    <string name="awake_alarm_select_repeat1">一</string>
+    <string name="awake_alarm_select_repeat2">二</string>
+    <string name="awake_alarm_select_repeat3">三</string>
+    <string name="awake_alarm_select_repeat4">四</string>
+    <string name="awake_alarm_select_repeat5">五</string>
+    <string name="awake_alarm_select_repeat6">六</string>
+    <string name="dialog_play_ringtone_set">设为铃声</string>
+    <string name="dialog_play_ringtone_add">加为好友</string>
+    <string name="dialog_play_ringtone_look">查看资料</string>
+    <string name="fragment_alarm_sleepremind_string_new">橙橙智能提醒</string>
+    <!-- 香橙说明界面文案 -->
+    <string name="activity_explanation_title">香橙说明</string>
+    <string name="activity_explanation_brief">香橙简介</string>
+    <string name="activity_explanation_operate_suggest">操作建议</string>
+    <string name="activity_explanation_notice">处女座用户须知：</string>
+    <string name="activity_explanation_start">关闭</string>
+    <string name="activity_explanation_record_sleep">记录睡眠：</string>
+    <string name="activity_explanation_data">数据展示：</string>
+    <string name="activity_explanation_background">后台记录：</string>
+    <string name="activity_explanation_record_sleepcon">自动记录，无需操作</string>
+    <string name="activity_explanation_datacon">起床点开APP，查看昨晚睡眠；</string>
+    <string name="activity_explanation_backgroundcon">后台工作，切勿关闭</string>
+    <string name="activity_explanation_operate_suggestcon">\u3000无需将手机放在枕边，建议将手机放置在平整的桌面。</string>
+    <string name="activity_explanation_noticecon">\u3000考虑亲们的特殊习惯，香橙为您提供精确的修改入口，可以达到精确到分哦。</string>
+    <string name="activity_explanation_tip">点击修改</string>
+
+    <!-- 密码重置界面文本 -->
+    <string name="activity_resetpassword_title">密码重置</string>
+    <string name="activity_resetpassword_declare">密码重置功能目前只针对手机注册或绑定用户开放，如给您带来不便请原谅！</string>
+    <string name="activity_resetpassword_verifyok">验证成功，请输入您的新密码并确认修改</string>
+    <!-- 手机绑定界面文本 -->
+    <string name="activity_phone_bound_title">手机绑定</string>
+    <string name="activity_phone_bound_declare">绑定手机号，让好友可以快速查找添加您为好友</string>
+    <string name="activity_phone_bound_ok">免费绑定</string>
+
+    <!-- 搜索界面文本 -->
+    <string name="activity_search_explain">您可以根据好友的手机号或昵称进行查询来添加好友；也可以将自己的手机号或昵称复制发送给好友，让好友来添加您。</string>
+
+    <!-- 绑定智能枕扣 -->
+    <string name="bind_pillow_text1">点击开始绑定香橙</string>
+    <string name="bind_pillow_text2">SmartPillow ONE</string>
+    <string name="bind_pillow_text3">检测到蓝牙功能未开启</string>
+    <string name="bind_pillow_text4">无法连接香橙智能枕扣</string>
+    <string name="bind_pillow_text5">点击下方“开启蓝牙”按钮后，请在设置页面中开启蓝牙</string>
+    <string name="bind_pillow_text6">开启蓝牙</string>
+    <string name="bind_pillow_text7">取消绑定</string>
+    <string name="bind_pillow_text8">点击设备顶部开关，激活香橙智能睡眠枕扣（指示灯亮起为激活状态），并让手机尽量靠近智能枕扣</string>
+    <string name="bind_pillow_text9">正在搜索设备，请稍候...</string>
+    <string name="bind_pillow_text10">绑定失败</string>
+    <string name="bind_pillow_text11">重新搜索</string>
+    <string name="bind_pillow_text12">请尝试将您的手机贴近智能枕扣，并确认枕扣的指示灯是否亮起（设备是否开启），然后重新搜索</string>
+    <string name="bind_pillow_text13">下拉开启香橙枕扣</string>
+    <string name="bind_pillow_text14">上滑返回数据页面</string>
+    <string name="bind_pillow_text15">橙橙检测到多个枕扣，一个app只能绑定一个枕扣，请只开启需要绑定的智能枕扣。</string>
+    <string name="bind_pillow_text16">绑定失败</string>
+    <string name="bind_pillow_text17">找到设备开始绑定...</string>
+    <string name="bind_pillow_text18">同步数据</string>
+    <string name="bind_pillow_text19">SmartPillow ONE 电量</string>
+    <string name="bind_pillow_text20">单击Orange键，并将</string>
+    <string name="bind_pillow_text21">SmartPillow ONE靠近您的手机</string>
+    <string name="bind_pillow_text22">长按Orange键3秒，香橙指示灯开始\n闪烁后，将手机靠近设备</string>
+    <string name="bind_pillow_text23">若香橙指示灯停止闪烁，请重新长按\n Orange键3秒</string>
+    <string name="bind_pillow_text24">解除绑定</string>
+    <string name="bind_pillow_text25">解除绑定后，香橙智能枕扣将停止记录</string>
+    <string name="bind_pillow_text26">解除绑定后，可使用其他手机连接香橙智能枕扣或者更换新枕扣</string>
+    <!-- 智能提醒 -->
+    <string name="smart_remind_tv_day">白天提醒</string>
+    <string name="smart_remind_tv_night">睡前提醒</string>
+    
+    <!-- 网络请求异常提示 -->
+    <string name="net_requet_exception_tip">未知异常</string>
+    <string name="net_requet_error_tip">未知错误</string>
+    
+    
+    
+    <!-- 修正文档 -->
+    <!-- 日睡眠提示 -->
+    <!-- 入睡时刻 正常 -->
+    <string-array name="day_sleeptime_normal" formatted="false">
+        <item>您昨晚按时睡觉，起床喝杯温水顺通肠胃,再去厕所拉个粑粑，排出毒素一身轻松！</item>
+        <item>早上好！昨晚有按时入睡哦，伸个懒腰，起床吧。</item>
+        <item>Good Morning！您已经完全掌握了中医养生睡眠时间，好棒啊！</item>
+        <item>哦嚯嚯！您挺懂养生知识的嘛，早睡早起身体好！</item>
+        <item>您昨晚有按时睡觉哦，早早的睡了皮肤会很好的哦!</item>
+    </string-array>
+    <!-- 入睡时刻 偏晚 -->
+    <string-array name="day_sleeptime_late" formatted="false">
+        <item>您睡的有点晚哦，这样面部就会像有灰尘一样毫无光泽，全身皮肤会干燥哦！</item>
+        <item>您昨晚入睡偏晚，会没有精神的。建议中午找个机会午休一下！</item>
+        <item>您昨天睡得比较晚呢，上班的时候一定得多喝水，保持水份的摄取！</item>
+        <item>起床了吗？昨天睡的比较晚哦，有没有精神？没关系！今晚按时睡觉。</item>
+        <item>听说皮肤不好的孩子吸引力要打折哦，晚上早点睡吧。</item>
+    </string-array>
+    <!-- 入睡时刻 晚 -->
+    <string-array name="day_sleeptime_xlate" formatted="false">
+        <item>中医说丑时过后进入睡眠，泄之精气，精气藏于五脏，肾脏主根本，精气亏损。</item>
+        <item>昨天睡那么晚，肾脏代谢功能会下降的！</item>
+        <item>睡的那么晚会有口干舌燥，神经紧张，眼睛干涩，目赤肿痛的现象啊！注意注意!  </item>
+        <item>早安！昨晚想谁了啊睡那么晚？ 一定要早睡哦，切记切记！</item>
+        <item>昨晚那么晚才睡，您的身体会透支知道吗？眼睛视物不清有木有？</item>
+    </string-array>
+    <!-- 入睡时刻太晚 -->
+    <string-array name="day_sleeptime_xxlate" formatted="false">
+        <item>您晚睡会导致身体抵抗力下降，病菌会像苍蝇一样来骚扰您的呀！</item>
+        <item>您是真心睡不着，还是心里有事儿呢？熬夜伤身呐！</item>
+        <item>寅时是肺经休息的时候，您还没休息，橙橙好担心啊！这样容易引起呼吸系统疾病的呀！鼻子不通气儿吧？</item>
+        <item>没有身体的健康 其他的要来有啥用啊？心烦，胸闷，掌心发热的有木有？</item>
+        <item>睡得太晚了，面容好生憔悴，长期这样下去会腹痛，肠鸣（胃肠蠕动漉漉作响），便秘，痢疾，痔疮等就会来拜访您了哟！</item>
+    </string-array>
+
+    <!-- 起床时刻太早 -->
+    <string-array name="day_getuptime_early" formatted="false">
+        <item>哇~这么早就醒了，昨晚睡好了吗？</item>
+        <item>您这么早就起床了，吃了早餐后，出门要注意安全。</item>
+        <item>“勤劳的小蜜蜂”指的就是您吧！新的一天，加油！</item>
+        <item>早安！您起得真早呢，早睡早起身体好！</item>
+        <item>早餐准备吃什么呢？少吃油炸食品哦。</item>
+    </string-array>
+    <!-- 起床时刻正常 -->
+    <string-array name="day_getuptime_normal" formatted="false">
+        <item>早上好，昨晚睡得好吧？早晨记得要吃早餐哦！</item>
+        <item>早安，新的一天，愿您有个好心情！</item>
+        <item>Good Morning！起床喝杯温开水清肠是好习惯哦。</item>
+        <item>早安，美好的一天开始了，加油！</item>
+        <item>早起的鸟儿有虫吃，早上好！</item>
+    </string-array>
+    <!-- 起床时刻晚 -->
+    <string-array name="day_getuptime_late" formatted="false">
+        <item>早上早点起床会发现今天一天的时间变长了哦，又可以多看几页书咯。</item>
+        <item>恩，可以起来啦，锻炼个身体吃个早饭，美好一天开始啦！</item>
+        <item>亲爱的，起床后可以做一下轻微的运动，活动活动筋骨。</item>
+        <item>快起床啦！快到吃饭的时间了哦！</item>
+        <item>起来，不愿做懒虫的小主，卷起您的被子，跑去您的位置，迎接崭新又美好的一天噻。</item>
+    </string-array>
+    <!-- 起床时刻很晚 -->
+    <string-array name="day_getuptime_xlate" formatted="false">
+        <item>那个，还不起来您的身体已经开始反吸收屎啦！</item>
+        <item>恭喜您走火入魔成为“白日不起神”，快起床啦！</item>
+        <item>睡觉睡多了，也会反应迟钝的，要是感觉不困了，就起床吧。</item>
+        <item>您莫非是传说中的“我为祖国省粮大神”，哈哈开个玩siao，肯定饿了吧，快起来用餐吧。</item>
+        <item>您现在还不起来，您的肠胃又开始吸收您粑粑里的水分了您知道不，快起来啦。</item>
+    </string-array>
+
+    <!-- 日睡眠时长情况 -->
+    <!-- 睡眠太少 -->
+    <string-array name="day_sleeplength_xless" formatted="false">
+        <item>您睡得太少了，这样怎么可能会有精神呀！</item>
+        <item>昨天晚上您是打了鸡血么? 睡眠时间严重不足哦！</item>
+        <item>睡眠不足对身体危害可大了，今天一天都会无精打采的。</item>
+        <item>昨晚睡眠时间太短了，根本达不到人体所需的休息时间呢。</item>
+        <item>，虽说早起的鸟儿有虫吃，可是您也睡得太少了！实在是看不下去啦~</item>
+    </string-array>
+    <!-- 睡眠少 -->
+    <string-array name="day_sleeplength_less" formatted="false">
+        <item>晚上是不是没睡好？睡觉的时间不够会影响身体排毒的。</item>
+        <item>昨天晚上的睡眠时长偏少，最近是不是太忙压力太大？要保重身子呀。</item>
+        <item>睡的不好伤身伤心哦，只有睡得好才能健康长寿。</item>
+        <item>早上好，昨晚休息时间不够，身体也没有得到充分的休息哦。</item>
+        <item>Morning，昨晚失眠还是有心事？晚上尽量不要思考问题，会影响睡眠。</item>
+    </string-array>
+    <!-- 睡眠正常 -->
+    <string-array name="day_sleeplength_normal" formatted="false">
+        <item>早安，昨晚的睡眠时长比较正常。</item>
+        <item>您昨晚的睡眠时长还行，继续保持哦！</item>
+        <item>睡眠时长足够的人皮肤一定很好哇，早安！</item>
+        <item>早安，您昨晚有没有做梦呀，梦里面有我吗？</item>
+        <item>昨晚睡眠时长挺好的，橙橙为您开心。</item>
+    </string-array>
+    <!-- 睡眠多 -->
+    <string-array name="day_sleeplength_more" formatted="false">
+        <item>您太能睡了，肚子饿得咕咕叫了吧？该吃饭囖！</item>
+        <item>您醒啦？该起床了哟，来杯温水清理一下肠道吧？</item>
+        <item>睡多了头会晕的呢，好的作息时间很重要。</item>
+        <item>无精打采的样子就和贾宝玉的状态差不多了。打起精神来！</item>
+        <item>睡懒觉太多会给人带来萎靡不振的感觉哦！</item>
+    </string-array>
+    <!-- 睡眠太多 -->
+    <string-array name="day_sleeplength_xmore" formatted="false">
+        <item>您就是个小懒猪，赖床可不是个好习惯哦。</item>
+        <item>您已经睡过啦，再不起来我就挠您痒痒咯！</item>
+        <item>您怎么还在睡？要不要出门去散散步呀？</item>
+        <item>快起来了，您已经睡过头啦！再睡头可就晕了！</item>
+        <item>起床啦！起床啦！您睡的时间太长了，和周公在下棋么？</item>
+    </string-array>
+
+    <!-- 平均入睡时间周提示 -->
+    <!-- 平均入睡时间周提示 9点 - 11点  男性 -->
+    <string-array name="week_sleeptime_health_male" formatted="false">
+        <item>最近按时入睡。平时加强锻炼,多吃蔬菜和瓜果补充维生素，对于肉类的摄取尽量吃白肉，就会拥有比常人更健康的体魄，加油！睡前用热水泡脚!</item>
+        <item>晚上23点，天地阴阳对换，在这时候睡觉，最能够养阳、保持精神和体力，也容易入睡。睡前泡热水脚!</item>
+        <item>好的身体，也要好的食物，宜食具有补脾益气、醒脾开胃消食的食品。如薏米、熟藕、粟子、山药、扁豆、豇豆、鸡肉、牛肚、葡萄，身体好吃嘛嘛香！</item>
+        <item>最近按时入睡。您虽然偶尔一次两次晚睡不会有太大的影响，但最好每周不超过两次，每次不超过凌晨一点，会影响排毒导致第二天状态不佳的哦。</item>
+        <item>最近按时睡觉。很多男孩子有吸烟饮酒的习惯？下面有个中医给我的方子，我悄悄告诉您--橘红糕：鲜橘皮，打碎成细粒后用糖浸渍，再和入面粉制成糕点。适用于食欲不振，消化不良，咳嗽痰多。</item>
+    </string-array>
+
+    <!-- 平均入睡时间周提示 9点 - 11点  女性 -->
+    <string-array name="week_sleeptime_health_female" formatted="false">
+        <item>最近按时入睡。女孩子平时坚持有氧运动,多吃蔬菜和瓜果补充维生素，切记不能够吃的太辛辣，您会拥有比常人更美丽健康的身材，加油！睡前泡热水脚!</item>
+        <item>晚上23点，天地阴阳对换，在这时候睡觉，最能够滋阴、也容易入睡。此时脾胃已经休息了，吃下去的东西不能消化，容易堆积脂肪，造成肥胖。如果您不太饿的话，建议不要吃夜宵。 </item>
+        <item>最近按时睡觉。中医建议宜食具有补脾益气、醒脾开胃消食的食品，如粳米、锅巴（焦锅）、薏米、山药、扁豆、豇豆、牛肉、鸡肉、兔肉、猪肚、桂鱼、红枣、胡萝卜、马铃薯、香菇等。</item>
+        <item>最近按时入睡。您虽然偶尔一次两次晚睡不会有太大的影响，但最好每周不超过两次，每次不超过凌晨一点，会给美丽减分的呢，为了美丽，坚持按时睡觉吧！</item>
+        <item>最近按时入睡。有的女孩子有吸烟的习惯?吸烟对皮肤和身体有极大的危害，中医建议：可以睡前喝点儿红酒，一个是防氧化 二个是美容、清肺，祝您拥有超好的皮肤！</item>
+    </string-array>
+    <!-- 平均入睡时间周提示 11点 - 1点  男性 -->
+    <string-array name="week_sleeptime_late_male" formatted="false">
+        <item>睡得晚。您最近睡眠作息时间影响健康，23:00--01:00泄之阳气人体的代谢就会加快 是肝脏开始排毒的时间，还没有睡觉肝脏排毒不畅就容易导致指甲凹凸不平，情绪抑郁，黑眼圈和眼袋也会出现。</item>
+        <item>夜猫子。您最近睡眠作息时间不健康,熬夜工作的人容易脾气暴躁。夜晚11点到凌晨1点是胆经运行解毒的时候，也是松果体分泌褪黑激素最旺盛的时间，您没睡，黑斑、黑痘就来了</item>
+        <item>睡得晚。您这周的入睡时间偏晚，长期如此胆经就易出现问题，会出现口苦、容易嘆气、胸痛、脸缺乏光泽、皮肤乾燥等等状况，还会影响一个人的判断力、记忆力。</item>
+        <item>睡得晚。肾脏是体内最重要的排泄、内分泌器官，肾脏一旦有了损伤，全身就好像被浸泡在大毒缸里了，代谢废物都不能及时排出。第二天自己从上到下都是肿肿的。 </item>
+        <item>睡得晚。您最近睡眠作息时间不规律，长期晚睡肝脏就会受到损伤，您可一定要注意啊！如果没有办法避免熬夜，建议每日多食用绿色蔬菜，帮助肝脏排毒。</item>
+    </string-array>
+    <!-- 平均入睡时间周提示 11点 - 1点  女性 -->
+    <string-array name="week_sleeptime_late_female" formatted="false">
+        <item>睡得晚。您最近睡眠作息时间影响健康，23:00--01:00 是肝脏开始排毒的时间哦，还没有睡觉肝脏排毒不畅就容易导致指甲凹凸不平，情绪抑郁，偏头痛及乳腺增生，黑眼圈和眼袋也会出现。</item>
+        <item>夜猫子。您最近睡眠作息时间不健康，通宵工作的人容易罹患癌症。因为夜晚11点到凌晨2点是松果体分泌褪黑激素最旺盛的时间，如果不能入睡，它的分泌量就会大大降低。</item>
+        <item>睡得晚。您这周的入睡时间偏晚，女孩子长期熬夜胆经就易出现问题，会出现口苦、容易嘆气、胸痛、脸缺乏光泽、皮肤乾燥等等状况，还会影响一个人的判断力、记忆力。</item>
+        <item>睡得晚。您又在伤害自己了，橙橙心疼。中医方子：山药饭：山药、莲肉、米仁、扁豆各，洗净切碎，莲肉去皮，芯后煮烂，再与粳米一起煮饭，适用于脾虚泄泻、食欲不振。</item>
+        <item>睡得晚。您最近睡眠作息时间不规律，女孩子可千万不能熬夜呢，肝脏会受到损伤，如果没有办法避免熬夜，建议每日多食用绿色蔬菜，帮助肝脏排毒。</item>
+    </string-array>
+    <!-- 平均入睡时间周提示1点 - 3点  男性 -->
+    <string-array name="week_sleeptime_xlate_male" formatted="false">
+        <item>睡得很晚。凌晨3:00正是肝脏的修整时间，成年男子需要6.49小时睡眠时间，因为人在此时易达到深睡眠状态，有助于缓解疲劳。</item>
+        <item>中医说，您一直这么晚睡 以后就是疲劳困乏、阳痿早泄  性欲降低、阳萎或阳物举而不坚、遗精、滑精、早泄，显微镜检查可见精子减少或精子活动力减低。</item>
+        <item>您这是自我毁灭啊，中医认为长期入睡时间很晚胆经和肝经就易出现问题，眼睛容易疲劳、视力衰退、且脾气容易暴躁不安。出现口苦、胸痛、脸缺乏光泽、皮肤乾燥等等状况。</item>
+        <item>睡得太晚。中医说您已快肾虚，神疲乏力、精神不振、活力低下的有木有？易疲劳、畏寒怕冷、四肢发凉（重者夏天肾脏也凉）的有木有？身体发沉、腰膝酸痛、腰背冷痛、筋骨萎软的有木有？后面就容易导致性功能减退、阳痿、早泄、易患前列腺炎等哦！要早休息啊，睡前泡热水脚！</item>
+        <item>睡太晚。夜里01:00~03:00，是胆排毒的时间，有利于肝胆的排毒，体内毒素一旦就没有被完全排出会增加内脏负担，此时亦应继续熟睡。</item>
+    </string-array>
+    <!-- 平均入睡时间周提示 1点 - 3点  女性 -->
+    <string-array name="week_sleeptime_xlate_female" formatted="false">
+        <item>睡得很晚。凌晨3:00正是肝脏的修整时间，应保证晚上10点到早晨5点的“优质睡眠时间”。此时易达到深睡眠状态，有助于缓解疲劳。</item>
+        <item>睡的晚容易患妇科疾病，不孕（卵子活跃度低 抗拒精子）  卵巢早衰闭经、月经不调等症状哦！中医建议：早休息、睡觉前、红酒一杯，热水泡脚！</item>
+        <item>您这是自我毁灭啊，中医认为长期入睡时间很晚对于女孩子伤害可大了，在脾虚见症基础上，有慢性出血临床表现，如月经过多、崩漏、便血、衄血、皮下出血等。</item>
+        <item>睡得太晚。您再这样下去您就完了，中医说晚睡伤经络，经络伤了就会性欲减退、宫冷不孕、白带清稀；气滞血瘀导致冲任不通，月经失调或行而不畅，经常小腹胀痛；月经期延后、量少、色暗、有块或痛经的啊！</item>
+        <item>睡太晚。夜里01:00~03:00，是胆排毒的时间，有利于肝胆的排毒，体内毒素一旦就没有被完全排出会增加内脏负担，此时亦应继续熟睡。</item>
+    </string-array>
+    <!-- 平均入睡时间周提示3点以后  男性 -->
+    <string-array name="week_sleeptime_xxlate_male" formatted="false">
+        <item>不要命了。您的入睡时间非常晚，长期入睡时间晚影响胆经、肝经、肺经正常排毒，无精打采的倦容、皮肤乾燥、眼睛容易疲劳、视力衰退、且脾气容易暴躁不安等状况。</item>
+        <item>拼命三郎。晚睡会影响一个人的判断力、记忆力。如果影响到肺的排毒，长期下去自然也容易有呼吸方面的疾病，平时也要注意保持卧室清洁。</item>
+        <item>睡得很晚。最佳睡眠时间为晚上11点至次日6点，而晚上11点至次日3点为睡眠黄金时间。此时肝脏的代谢最为旺盛。若长期错过这段睡眠黄金时间，将会发生睡眠障碍，导致身体机能紊乱。</item>
+        <item>夜游神。深夜肺、胃、大肠开始排毒，脊椎开始造血，必须要熟睡，平时咳嗽的人如果在凌晨3:00之后还没有入睡，肺经没有解毒，咳嗽就会更加严重，导致肺痨等症状！</item>
+        <item>睡得十分晚。您的睡眠太差了，中医认为肺主皮毛，如果睡眠缺失，会脱发掉发的，洗头掉的多吗？长时间熬夜，您会“聪明绝顶”的，长时间下来内分泌失调，生物钟乱掉。 离废不远了！</item>
+        <item>睡得太晚。您想通过熬夜来毁掉自己的身体和容貌吗？以下症状您有吗：眼黄，眼涩，肩臂疼痛，腰背痛，面色桃红，小便黄，咽喉痛，下颌肿，腹泻，大便稀溏，小便短少，神经功能症。您中了吗？</item>
+        <item>睡得非常晚。已经错过肝、胆、淋巴、肺、肠胃系统排毒的最佳时机了，损伤元气了 元气是母亲给的 用点儿少点儿是补不起的。就算您睡得再多都补不回来了！ 未婚未育者慎之！！！</item>
+    </string-array>
+    <!-- 平均入睡时间周提示 3点以后  女性 -->
+    <string-array name="week_sleeptime_xxlate_female" formatted="false">
+        <item>睡太晚，身体早就开始反抗了。中医说伤了经络，吃母鸡都补不回来，身体就会大便溏稀，纳少腹胀，腹痛绵绵，喜温喜节按，形寒气怯，四肢不温，面目无华或浮肿，小便短少或白带多而清晰色白，舌苔白滑！</item>
+        <item>您这是拿生命在熬夜啊。有木有发现您的食量并没有增大，生活也一切如常，可是体重却在不停上升。即使您每天运动一、两个小时，效果也不尽理想。这就是您睡这么晚，伤着身体、伤到经络了！</item>
+        <item>睡得很晚。您最佳睡眠时间为晚上11点至次日6点，而晚上11点至次日3点为睡眠黄金时间。此时肝脏的代谢最为旺盛。长期错过这段睡眠黄金时间，会发生睡眠障碍，导致身体机能紊乱，女孩子不能晚睡的。</item>
+        <item>夜游神。人如果在凌晨3:00之后还没有入睡，平时咳嗽的人就会更加严重，本来空气就不好，您的肺会越来越弱 越来越黑，还容易咳血的,有木有？</item>
+        <item>睡得十分晚。您的睡眠太差了，中医认为肺主皮毛，如果睡眠缺失，您的头发干、分叉、不柔顺。长时间下来内分泌失调，生理时钟也会乱掉。胃痛，腹胀，呕吐，泄泻，鼻子出血，失眠，上牙疼，前额痛，面色发黄，痤疮，乳汁不足，胸口闷，神经衰弱等也会来看望您的！</item>
+        <item>睡得太晚。您的身体有以下症状就得注意了：眼涩，肩臂疼痛，乳腺增生，乳痈，小便黄，咽喉痛，腹痛，大便稀溏，小便短少，重听，耳鸣，听力减弱，呕吐，便秘，下腹痛，</item>
+        <item>睡得非常晚。错过肝、胆、淋巴、肺、肠胃系统排毒的最佳时机了，您的子宫里堆积了很多脏东西，好恶心！！切记不能再这样了  未婚未孕者 牢记！！！</item>
+    </string-array>
+
+    <!-- 平均睡眠时长周提示 -->
+
+	<!-- 平均睡眠时长周提示  0-11岁 小于10小时 -->
+	<string-array name="week_sleeplength_child_less" formatted="false">
+        <item>您最近睡眠时间偏少。尽量每天应保证10～12小时的睡眠哦  </item>
+        <item>您最近睡眠时间偏少，养成良好的作息时间能使头脑清醒，思绪清晰，学习效率比晚睡者高。</item>
+    </string-array>
+    
+	<!-- 平均睡眠时长周提示  0-11岁 10到12小时 -->
+	<string-array name="week_sleeplength_child_health" formatted="false">
+        <item>您最近的睡眠时长很健康哦，少年正常睡眠时间为11小时左右，保持良好的睡眠有助于提高记忆力和免疫力。 </item>
+        <item>最近睡眠市场非常健康。处于正在长身体的阶段，每天应睡足10小时，特别是晚上10点到凌晨3点之间是成长素分泌的时间，睡的足长的高哦。</item>
+    </string-array>
+    
+	<!-- 平均睡眠时长周提示  0-11岁 大于12小时 -->
+	<string-array name="week_sleeplength_child_more" formatted="false">
+        <item>您最近睡眠时间过多。通常需要每天睡11小时左右，且要遵循早睡早起的原则，保证夜里3点左右进入深睡眠。</item>
+        <item>最近睡眠时长过多。睡觉时间过长，会打乱人体生物钟，导致精神不振，影响记忆力，并且会错过用餐时间。</item>
+    </string-array>
+
+    <!-- 平均睡眠时长周提示  12-17岁  小于 7小时 -->
+    <string-array name="week_sleeplength_nonage_less" formatted="false">
+        <item>您最近睡眠时间偏少。青少年每天应保证9～10小时的睡眠哦  </item>
+        <item>最近睡眠时间偏少。按时睡觉才能保证正常的新陈代谢，应注意睡眠时间。不规律的睡眠时间容易导致皮肤乾燥、眼睛疲劳、视力衰退等状况。</item>
+        <item>您最近睡眠时间偏少，养成良好的作息时间能使头脑清醒，思绪清晰，学习效率比晚睡者高。</item>
+        <item>您最近睡眠时间偏少，睡眠不足容易导致抵抗力、视力下降，多吃蔬菜、豆类、鱼类等补充日常所需维生素。</item>
+        <item>最近睡眠时间少，如果经常感到疲劳，就要保持睡眠规律和正常时长哦。青少年每天应保持8--10小时的睡眠，并且每天不少于1小时的运动。</item>
+    </string-array>
+    <!-- 平均睡眠时长周提示  12-17岁 7-9小时 -->
+    <string-array name="week_sleeplength_nonage_health" formatted="false">
+        <item>您最近的睡眠时长很健康哦，青少年正常睡眠时间为8小时，保持良好的睡眠有助于提高记忆力和免疫力。  </item>
+        <item>您最近睡眠时长非常好，继续保持。</item>
+        <item>最近睡眠时长非常健康。青少年正处于长身体的阶段，每天应睡足8小时，特别是晚上10点到凌晨3点之间是成长素分泌的时间，睡的足长的高哦。</item>
+        <item>您最近睡眠时长不错，继续保持这样良好的睡眠作息时间吧。</item>
+        <item>最近睡眠时长很好，天气凉了注意增加衣物，少喝碳酸类饮品及油炸食品，多喝温水，吃水果，茁壮成长。</item>
+    </string-array>
+
+    <!-- 平均睡眠时长周提示  12-17岁 9小时以上 -->
+    <string-array name="week_sleeplength_nonage_more" formatted="false">
+        <item>最近睡眠时长过多。睡觉时间过长，会打乱人体生物钟，导致精神不振，影响记忆力，并且会错过用餐时间。</item>
+        <item>睡眠时间偏多，正常睡眠时间一般在每天8小时左右,体弱多病者应适当增加睡眠时间。</item>
+        <item>您最近睡眠时间过多。休息时心脏处于休息状态，心跳、收缩力、排血量下降。如果睡眠过多，就会破坏心脏休息和运动的规律。</item>
+        <item>您最近睡眠时间过多。青少年通常需要每天睡8小时，且要遵循早睡早起的原则，保证夜里3点左右进入深睡眠。</item>
+        <item>您最近睡眠时长偏多。心脏一歇再歇，最终会使心脏收缩乏力，稍一活动便心跳不一、心慌乏力。另外，如果睡眠过多，就无法按时进餐，胃肠发生饥饿性蠕动，打乱了胃液分泌规律，影响消化功能。</item>
+        <item>您最近睡眠时长过多。睡眠过多会破坏心脏休息和运动的规律。心脏一歇再歇，最终会使心脏收缩乏力，稍一活动便心跳不一、心慌乏力。</item>
+        <item>最近睡眠时间偏多。青少年通常需要每天睡8小时，且要遵循早睡早起的原则，保证夜里3点左右进入深睡眠。平常应保证最晚24点上床、早6点起床，周末也尽量不睡懒觉。</item>
+    </string-array>
+
+    <!-- 平均睡眠时长周提示  18-54岁 小于6.5小时小时 -->
+    <string-array name="week_sleeplength_adult_less" formatted="false">
+        <item>最近睡眠时间偏少。成年人一天应该保证6.5小时的高质量睡眠时间。临床实验还证明，如果成年人每天6.5小时的睡眠时间有半年得不到保证，很容易引发失眠。</item>
+        <item>您最近睡眠时间偏少。大多数人习惯熬夜，这会直接影响到他们第二天的精神状态，且易使皮肤受损，出现暗疮、粉刺、黄褐斑等问题。</item>
+        <item>最近睡眠时间偏少。睡眠不到7小时的男性，比睡7~8小时的男性死亡可能性高出26%，女性高出21%；</item>
+        <item>您最近睡眠时间偏少。“吃人参不如睡五更”缺觉已成为困扰一些成年人的一大难题。有1/3的成年人正是因为晚上没有睡足，所以白天上班打瞌睡，严重影响了工作和学习效率。</item>
+        <item>最近睡眠时长偏少。睡眠不足正成为许多现代人的慢性病，尽量保证晚上10点到早晨5点的“优质睡眠时间”哦。</item>
+        <item>您最近的睡眠时间偏少。一般成年人应该保持6.5－8.5个小时睡眠时间。推荐晚上10－11点睡觉，早上6－7点起床，这样可以使人维持一个较稳定的生物节律，对人体身心都是有益的。</item>
+        <item>最近睡眠时间偏少。长期熬夜会影响内分泌，导致免疫力下降，感冒、胃肠感染、过敏等都会找上门，更会出现健忘、易怒、焦虑不安等精神症状。</item>
+        <item>您最近睡眠时间偏少。如果晚上加班太累可以尝试中午小睡一会儿。健康的午睡以15－30分钟为宜，累了就休息一下吧</item>
+    </string-array>
+    <!-- 平均睡眠时长周提示  18-54岁 6.5-8.5小时小时 -->
+    <string-array name="week_sleeplength_adult_health" formatted="false">
+        <item>您最近睡眠时长很健康。很棒！</item>
+        <item>最近睡眠时长非常好。下午晚些时候做 20到30分钟的体操有助于入睡，散步、听音乐都有助于睡眠。</item>
+        <item>您最近睡眠时长很好。每天还可以锻炼30分钟左右，保证您面色红润身材诱人！</item>
+        <item>最近睡眠时长很健康，继续保持哦！</item>
+        <item>最近睡眠时长很健康。良好的睡眠有利于预防疾病，睡眠不足和睡眠质量降低会导致高血压、糖尿病、抑郁症等疾病的发生。您很棒！</item>
+    </string-array>
+    <!-- 平均睡眠时长周提示  18-54岁 8.5小时以上 -->
+    <string-array name="week_sleeplength_adult_more" formatted="false">
+        
+        <item>最近睡眠时间过多。研究表明，冠心病、高血压均与睡眠时间长短相关联，每天睡眠时间超过9.5小时，患高血压、糖尿病等疾病的风险明显高于睡眠8个小时。</item>
+        <item>最近睡眠时间过多。睡眠过多（思睡）可能导致交感神经功能亢进、内分泌和代谢紊乱以及炎症状态的形成而影响人体健康。</item>
+        <item>您最近睡眠时间过多。睡眠时间过多，会使肌肉组织松弛下来，久而久之，人就会变得懒惰、软弱无力起来，甚至智力也会随之下降。</item>
+        <item>最近睡眠时间过多。芝加哥医学院心脏病学专家罗希特·阿洛拉博士表示，每晚睡眠多于8小时的成年人，发生多种心脏病问题的危险几率更大。</item>
+        <item>最近睡眠时间过多，睡多了就无法按时进餐，胃肠发生饥饿性蠕动，打乱了胃液分泌规律，影响消化功能。</item>
+        <item>最近睡眠时间过长，睡眠时间过长与睡眠不足一样，都可导致神疲、体倦、代谢率降低,睡眠不宜过长，睡的时间过长后，心脏的跳动便会减慢，新陈代谢率亦会降得很低。</item>
+    </string-array>
+
+    <!-- 平均睡眠时长周提示  55岁以上小于5小时 -->
+    <string-array name="week_sleeplength_aged_less" formatted="false">
+        <item>最近睡眠时间偏少。睡眠时间的长短也与寿命的长短有关。一项大型的流行病学研究证实，过短的睡眠与过长的睡眠似乎都能影响人的寿命。老年人约睡5～6小时。女性比男性的睡眠时间相对要多一些。</item>
+        <item>最近睡眠时间偏少。平时加强体育锻炼,保持情绪稳定,睡前不吸烟、不喝咖啡,也是促进睡眠的有效措施。</item>
+        <item>最近睡眠时间偏少，在尽可能缓解压力外，还可以在就寝环境上下点工夫，如减小噪音、通风换气、适当遮光等，并选择10~15厘米高、软硬适中的枕头。</item>
+        <item>最近睡眠时间偏少。许多老人总希望通过使用催眠药来解决睡眠问题,但由于各种镇静催眠药本身都有一定的毒副作用,因此,不可能单纯依靠药物来改善睡眠状况。</item>
+        <item>最近睡眠时间偏少。老年人离退休之后,没有了在工作岗位上的那种紧张节奏,睡眠时间就可以自由安排了,不管白天或是晚上,什么时候想睡都可以去睡,但过多的睡眠,对老年人身体健康是有害无益,这一点应引起老年人的注意。</item>
+    </string-array>
+    <!-- 平均睡眠时长周提示  55岁以上5-7小时 -->
+    <string-array name="week_sleeplength_aged_health" formatted="false">
+        <item>最近睡眠时长非常健康。晚餐应该吃得早一点,必须安排在就寝的两、三个钟头以前。如果晚餐吃得太晚,肚子吃得饱饱的,立刻就睡觉的话,那当然是睡不着的。</item>
+        <item>最近睡眠时长很健康。晚餐时留意吃一些比较容易消化,不会造成胃肠负担的食品,从豆制品、鱼、蛋、肉、炒过的蔬菜中,平衡地摄取动植物性蛋白质、无机盐、维生素等为佳。</item>
+        <item>最近睡眠时长很健康。吃清淡一点。如果盐吃得太多,便容易口渴,而想吃水分多的东西,从而夜尿多影响睡眠。但是,不能够因为太频繁而极端地减少水分的摄取量。</item>
+        <item>最近睡眠时长非常健康，继续保持哦。</item>
+        <item>最近睡眠时长非常好。睡前喝一小碗小米粥,就很容易酣然入睡。因为小米中含有色氨酸和淀粉,食后可促使胰岛素的分泌,从而提高能进入脑内色氨酸的量,起到催眠作用。</item>
+    </string-array>
+    <!-- 平均睡眠时长周提示  55岁以上7小时以上 -->
+    <string-array name="week_sleeplength_aged_more" formatted="false">
+        <item>最近睡眠时间有点多。晚餐应该吃得早一点,必须安排在就寝的两、三个钟头以前。如果晚餐吃得太晚,肚子吃得饱饱的,立刻就睡觉的话,那当然是睡不着的。</item>
+        <item>最近睡眠时间偏多。晚餐时留意吃一些比较容易消化,不会造成胃肠负担的食品,从豆制品、鱼、蛋、肉、炒过的蔬菜中,平衡地摄取动植物性蛋白质、无机盐、维生素等为佳。</item>
+        <item>最近睡眠时间偏多。吃清淡一点。如果盐吃得太多,便容易口渴,而想吃水分多的东西,从而夜尿多影响睡眠。但是,不能够因为太频繁而极端地减少水分的摄取量。</item>
+        <item>最近睡眠时间有点偏多，平时注意保暖！</item>
+        <item>最近睡眠时间偏多。睡前喝一小碗小米粥,就很容易酣然入睡。因为小米中含有色氨酸和淀粉,食后可促使胰岛素的分泌,从而提高能进入脑内色氨酸的量,起到催眠作用。</item>
+    </string-array>
+   
+
+    <!-- 平均起床时间周提示 -->
+    <!-- 平均起床时间周提示 8点以前   最健康 男性 -->
+    <string-array name="week_getuptime_health_male" formatted="false">
+        <item>最近起床时间早，健康的一天注意多喝水，出门在外三餐一定要吃好，晚餐不要吃的太饱哦。</item>
+        <item>您最近起床时间早。最近是不是很少吃水果呀？适当补充维生素是非常有必要的。</item>
+        <item>您最近起床时间早，每天适当配合有氧运动，您的全身会散发出独一无二的正能量！</item>
+        <item>亲爱的，起床后第一件事记得吗？排出昨夜的毒素，然后喝一杯温水，照照镜子，把自己收拾的妥妥得，玉树凌风，身边的女孩子绝对会忍不住偷偷的多看您几眼呢！</item>
+        <item>您最近起床时间早，每天一定要吃早餐哦，中午的时候有机会就小小的休息一下，下午工作学习事半功倍！</item>
+    </string-array>
+    <!-- 平均起床时间周提示 8点以前   最健康 女性 -->
+    <string-array name="week_getuptime_health_female" formatted="false">
+        <item>最近起床时间早，觉得皮肤干燥的话，晚上8点--9点可以敷张面膜，第二天皮肤就会水水哒；另外，睡前喝一杯热牛奶，帮助睡好美容觉。</item>
+        <item>您最近起床时间早，晚餐不要吃过于油腻的食物和吃得太饱哦。</item>
+        <item>最近您起床时间早，每天起床后先喝一杯温水，把积累一夜的毒素一并排出。然后照照镜子，整理一下，轻松的出门吧！</item>
+        <item>您醒来后先躺在床上1-5分钟，再去洗手间把晚上产生的毒素排出体外，然后喝一杯温水准备一下就可以出门啦！记得要吃早餐哦！</item>
+        <item>您新的一天开始了，准备好了吗？深呼吸三下可以增加自信心。早餐搭配一杯热豆浆，新的一天活力满满！</item>
+    </string-array>
+    <!-- 平均起床时间周提示 8点 - 9点 偏晚 男性 -->
+    <string-array name="week_getuptime_late_male" formatted="false">
+        <item>您早上8点--9点属于肌肉恢复时间，这段时间起床，轻轻舒缓一下筋骨，一天都有好精神。</item>
+        <item>您最近的起床时间很正常，继续保持。</item>
+        <item>您每天早晨起床后不要做剧烈运动，睡前不要饮用咖啡、不喝浓茶、听轻音乐可以得到放松。</item>
+        <item>最近平均起床时间为8点--9点！起床后先来一杯温水吧。</item>
+        <item>您最近起床时间比较规律，按时睡觉身体才会更健康！</item>
+    </string-array>
+    <!-- 平均起床时间周提示 8点 - 9点  偏晚 女性 -->
+    <string-array name="week_getuptime_late_female" formatted="false">
+        <item>您早上8点--9点属于肌肉恢复时间，这段时间起床，轻轻舒缓一下筋骨，一天都有好精神。</item>
+        <item>您最近的起床时间很正常，继续保持。</item>
+        <item>您每天早晨起床后不要做剧烈运动，睡前不要饮用咖啡、不喝浓茶、听轻音乐可以得到放松。</item>
+        <item>最近起床时间比较规律，如果能按时入睡，才会有一个好的身体！</item>
+        <item>您最近起床时间比较规律，按时睡觉身体才会更健康！</item>
+    </string-array>
+    <!-- 平均起床时间周提示9点 - 10点 较晚 男性 -->
+    <string-array name="week_getuptime_xlate_male" formatted="false">
+        <item>偶尔晚起其实是一件极其幸福的事儿，不过老这样就有些浪费时间了哦。</item>
+        <item>偶尔晚起可以放松自己平时的压力，但老这样就有些浪费时间了哦。</item>
+        <item>如果起的较晚又觉得没睡够其实是睡过了哦。</item>
+        <item>您可以早点起来去健身啦。保证好睡眠好的健身习惯保证您1年成男神。</item>
+        <item>亲爱的可以早一点点起来，看看书，跑跑步，做做瑜伽，生活如此多娇。</item>
+    </string-array>
+    <!-- 平均起床时间周提示 9点 - 10点  较晚 女性 -->
+    <string-array name="week_getuptime_xlate_female" formatted="false">
+        <item>偶尔晚起其实是一件极其幸福的事儿，不过老这样就有些浪费时间了哦。</item>
+        <item>偶尔晚起可以放松自己平时的压力，但老这样就有些浪费时间了哦。</item>
+        <item>如果起的较晚又觉得没睡够其实是睡过了哦。</item>
+        <item>您可以早点起来去健身啦。保证好睡眠好的健身习惯保证您1年成女神。</item>
+        <item>亲爱的可以早一点点起来，看看书，跑跑步，做做瑜伽，生活如此多娇。</item>
+    </string-array>
+    <!-- 平均起床时间周提示10点以后  懒觉 男性 -->
+    <string-array name="week_getuptime_xxlate_male" formatted="false">
+        <item>偶尔晚起其实是一件极其幸福的事儿，不过老这样就有些浪费时间了哦。</item>
+        <item>偶尔晚起可以放松自己平时的压力，但老这样就有些浪费时间了哦。</item>
+        <item>如果起的较晚又觉得没睡够其实是睡过了哦。</item>
+        <item>您可以早点起来去健身啦。保证好睡眠好的健身习惯保证您1年成男神。</item>
+        <item>亲爱的可以早一点点起来，看看书，跑跑步，做做瑜伽，生活如此多娇。</item>
+    </string-array>
+    <!-- 平均起床时间周提示10点以后  懒觉 女性 -->
+    <string-array name="week_getuptime_xxlate_female" formatted="false">
+        <item>偶尔晚起其实是一件极其幸福的事儿，不过老这样就有些浪费时间了哦。</item>
+        <item>偶尔晚起可以放松自己平时的压力，但老这样就有些浪费时间了哦。</item>
+        <item>如果起的较晚又觉得没睡够其实是睡过了哦。</item>
+        <item>您可以早点起来去健身啦。保证好睡眠好的健身习惯保证您1年成女神。</item>
+        <item>亲爱的可以早一点点起来，看看书，跑跑步，做做瑜伽，生活如此多娇。</item>
+    </string-array>
+    <!-- 未绑定智能枕扣的功能键  remove <item>您还没有绑定智能枕扣，点击绑定吧</item> -->
+    <string-array name="no_bind_pillow" formatted="false">
+        <item>了解香橙SmartPillow ONE智能枕扣</item>
+    </string-array>
+    <!-- 绑定后的智能枕扣的功能键 -->
+    <string-array name="bind_pillow" formatted="false">
+        <item>枕扣编号</item>
+        <item>解除绑定</item>
+        <item>恢复设备</item>
+        <item>固件版本号</item>
+    </string-array>
+    
+    <!-- 绑定后的智能枕扣的功能键新版本 -->
+    <string-array name="bind_pillow_new" formatted="false">
+        <item>枕扣编号</item>
+        <item>固件版本号</item>
+        <item>睡眠环境</item>
+        <item>常见问题</item>
+    </string-array>
+
+    <!-- 强制恢复 -->
+    <string-array name="recover_pillow" formatted="false">
+        <item>强制恢复</item>
+        <item>恢复出厂设置</item>
+        <item>返回</item>
+    </string-array>
+
+    <!-- tips 提示信息 -->
+    <string-array name="serch_pillow_tips" formatted="false">
+        <item>正在搜索设备,请稍候 .&#160;&#160;</item>
+        <item>正在搜索设备,请稍候 ..&#160;</item>
+        <item>正在搜索设备,请稍候 ...</item>
+    </string-array>
+
+    <!-- 闹钟start -->
+
+    <string name="label">"标签"</string>
+    <string name="alarm_list_title">"闹钟"</string>
+    <string name="add_alarm">"添加玲闹钟"</string>
+    <string name="desk_clock_button_description">"时钟显示"</string>
+    <string name="default_label">"闹钟"</string>
+    <string name="menu_desk_clock">"座钟"</string>
+    <string name="menu_edit_alarm">"修改闹钟设置"</string>
+    <string name="enable_alarm">"启用闹钟"</string>
+    <string name="delete_alarm">"取消闹钟"</string>
+    <string name="disable_alarm">"停用闹钟"</string>
+    <string name="delete_alarm_confirm">"将会取消此闹钟。"</string>
+    <string name="alarm_notify_snooze_label">"<xliff:g id="LABEL">%s</xliff:g>（已暂停）"</string>
+    <string name="alarm_repeat">"重复"</string>
+    <string name="alarm_vibrate">"振动"</string>
+    <string name="alert">"铃声"</string>
+    <string name="time">"时间"</string>
+    <string name="set_alarm">"设置闹钟"</string>
+    <string name="done">"完成"</string>
+    <string name="revert">"还原"</string>
+    <string name="delete">"删除闹钟"</string>
+    <string name="alarm_alert_dismiss_text">"关闭闹钟"</string>
+    <string name="alarm_volume_title">"闹钟音量"</string>
+    <string name="alarm_volume_summary">"设置闹钟音量"</string>
+    <string name="silent_alarm_summary">"静音"</string>
+    <string name="alarm_notify_text">"选择暂停或关闭此闹钟。"</string>
+    <string name="alarm_alert_snooze_text">"再睡一会"</string>
+    <string name="alarm_alert_alert_silenced">"闹钟响铃时间为 <xliff:g id="MINUTES">%d</xliff:g> 分钟"</string>
+    <string name="alarm_notify_snooze_text">"已将闹钟设置为从现在起 <xliff:g id="TIME">%s</xliff:g>后再提醒。选中可以取消。"</string>
+    <string name="alarm_alert_snooze_set">"暂停 <xliff:g id="MINUTES">%d</xliff:g> 分钟。"</string>
+    <string name="about_update_dialog_title">"更新新版本"</string>
+    <string name="about_update_dialog_string">"香橙又有新版了，马上去升级吧！"</string>
+    <string name="about_update_string">"更新"</string>
+    <string name="bound_phone_reminder">是否允许访问手机通讯录？确认后香橙将访问您的通讯录，帮您查找手机号已注册的好友。</string>
+    <string name="close_help_reminder_title">是否关闭使用说明提示</string>
+    <string name="close_help_reminder">关闭后可在设置页面内查看使用帮助</string>
+
+    <!-- message界面 -->
+    <string name="dialog_message_mark">"标为已读"</string>
+    <string name="dialog_message_delete">"删除聊天"</string>
+
+    <!-- 聊天界面 -->
+    <string name="button_send">发送</string>
+
+    <string name="ok">确认</string>
+    <string name="cancel">取消</string>
+    <string name="prompt">prompt</string>
+    <string name="confirm_resend">confirm to resend？</string>
+    <string name="Into_the_blacklist">Into the blacklist?</string>
+    <string name="resend">resend</string>
+    <string name="copy_message">copy message</string>
+    <string name="delete_message">delete message</string>
+    <string name="forward">forwarding</string>
+    <string name="Whether_to_empty_all_chats">是否清空聊天记录？</string>
+    <string name="not_connect_to_server">Not connect to server, please try again later</string>
+
+    <string-array name="alarm_set">
+        <item msgid="5163476010406761625">"已将此闹钟设置为从现在起不到 1 分钟后提醒。"</item>
+        <item msgid="7110525731259629055">"已将此闹钟设置为从现在起 <xliff:g id="DAYS">%1$s</xliff:g>后再提醒。"</item>
+        <item msgid="7003982794086186185">"已将此闹钟设置为从现在起 <xliff:g id="HOURS">%2$s</xliff:g>后再提醒。"</item>
+        <item msgid="7311021123230077742">"已将此闹钟设置为从现在起 <xliff:g id="DAYS">%1$s</xliff:g><xliff:g id="HOURS">%2$s</xliff:g>后再提醒。"</item>
+        <item msgid="8431715191823114872">"已将此闹钟设置为从现在起 <xliff:g id="MINUTES">%3$s</xliff:g>后再提醒。"</item>
+        <item msgid="3244151088673185428">"已将此闹钟设置为从现在起 <xliff:g id="DAYS">%1$s</xliff:g><xliff:g id="MINUTES">%3$s</xliff:g>后再提醒。"</item>
+        <item msgid="3663661342600168814">"已将此闹钟设置为从现在起 <xliff:g id="HOURS">%2$s</xliff:g><xliff:g id="MINUTES">%3$s</xliff:g>后再提醒。"</item>
+        <item msgid="7779544127785487304">"已将该闹钟设置为从现在起 <xliff:g id="DAYS">%1$s</xliff:g><xliff:g id="HOURS">%2$s</xliff:g><xliff:g id="MINUTES">%3$s</xliff:g>后再提醒。"</item>
+    </string-array>
+
+    <string name="day">"1 天"</string>
+    <string name="days">"<xliff:g id="DAYS">%s</xliff:g> 天"</string>
+    <string name="hour">"1 小时"</string>
+    <string name="hours" msgid="2071487018566991613">"<xliff:g id="HOURS">%s</xliff:g> 小时"</string>
+    <string name="minute">"1 分钟"</string>
+    <string name="minutes">"<xliff:g id="MINUTES">%s</xliff:g> 分钟"</string>
+    <string name="every_day">"每天"</string>
+    <string name="never">"一律不"</string>
+    <string name="day_concat">", "</string>
+    <string name="clock_instructions">"选择要显示的时钟。"</string>
+    <string name="analog_gadget">"模拟时钟"</string>
+    <string name="settings">"设置"</string>
+    <string name="alarm_in_silent_mode_title">"静音模式下闹钟响"</string>
+    <string name="alarm_in_silent_mode_summary">"手机处于静音模式时，闹钟仍会响"</string>
+    <string name="snooze_duration_title">"再响间隔"</string>
+
+    <string-array name="snooze_duration_entries">
+        <item msgid="8337408933053603125">"5 分钟"</item>
+        <item msgid="5294206441496024610">"10 分钟"</item>
+        <item msgid="2165904039211935470">"15 分钟"</item>
+        <item msgid="7248236967714374250">"20 分钟"</item>
+        <item msgid="738394723625179423">"25 分钟"</item>
+        <item msgid="1180222611308391616">"30 分钟"</item>
+    </string-array>
+    <string-array name="snooze_duration_values">
+        <item msgid="3655014754453084122">"5"</item>
+        <item msgid="8939029597449573449">"10"</item>
+        <item msgid="3922647341176353315">"15"</item>
+        <item msgid="5821804105985044459">"20"</item>
+        <item msgid="6048861883552402852">"25"</item>
+        <item msgid="2740866721232379791">"30"</item>
+    </string-array>
+
+    <string name="alarm_klaxon_service_desc">"在 DeskClock 中设置的闹钟铃声播放服务。"</string>
+    <!-- 闹钟end -->
+
+
+    <!-- 个人中心 -->
+    <string name="activity_personal_title_string">个人中心</string>
+    <string name="activity_personal_exit_string">退出登录</string>
+    <string name="activity_personal_login_string">未登录，请点击登录</string>
+    <string name="activity_personal_orderaudio_string">铃声下载管理</string>
+    <string name="activity_personal_publishaudio_string">我的公开铃音</string>
+    <string name="activity_personal_exclusiveaudio_string">专属铃声</string>
+    <string name="activity_personal_bluetooth_string">蓝牙设备</string>
+    <string name="activity_audio_order_title">铃声下载管理</string>
+    <string name="activity_audio_publish_title">我的公开铃音</string>
+    <string name="activity_audio_publish_current">当前发布</string>
+    <string name="activity_audio_publish_record">录制铃音</string>
+
+    <!-- 录音界面 -->
+    <string name="activity_record_title">铃音制作</string>
+    <string name="activity_record_state_string">按住开始录音</string>
+    <string name="activity_record_save">完成</string>
+    <string name="activity_record_delete">删除铃声</string>
+    <string name="activity_record_upload">发布铃声</string>
+    <string name="activity_record_dialog_title">是否存储新铃声</string>
+    <string name="activity_record_dialog_button_save">存储</string>
+
+    <!-- 保存铃音界面 -->
+    <string name="activity_save_audio_title">铃音属性</string>
+    <string name="activity_save_audio_title1">铃音文件名</string>
+    <string name="activity_save_audio_title2">添加铃音图片</string>
+    <string name="activity_save_audio_hint1">请输入铃声标题</string>
+
+    <!-- 使用说明文档 -->
+    <string name="activity_explanation_help_title1">日睡眠</string>
+    <string name="activity_explanation_help_title2">周总结</string>
+    <string name="activity_explanation_help_title3">初体验</string>
+    <string name="activity_explanation_help_title4">原理</string>
+    <string name="activity_explanation_help_title5">加入后台保护程序</string>
+    <string name="activity_explanation_help_title6">摆放</string>
+    <string name="activity_explanation_help_title7">提醒</string>
+    <string name="activity_explanation_help_title8">修正</string>
+    <string name="activity_explanation_help_content1">\u3000\u3000香橙根据您的目标，为您监控睡眠时段情况，展示睡眠目标达成情况，让您轻松了解自己每日睡眠情况。</string>
+    <string name="activity_explanation_help_content2">\u3000\u3000对于查看当日所在自然周进行统计分布展示睡眠指标，提供睡眠建议和引导。</string>
+    <string name="activity_explanation_help_content3">\u3000\u3000香橙在初体验时会出现一个昨夜的睡眠展示页，因未使用，所以展示页暂无数据。</string>
+    <string name="activity_explanation_help_content4">\u3000\u3000香橙会自动根据您使用手机的情况，智能测算出您夜间大致的睡眠时段，如果您需要香橙精确到分的帮您记录分析您的睡眠情况，请在睡前和起床后给手机翻个身呗！</string>
+    <string name="activity_explanation_help_content5">\u3000\u3000Android手机用户需要设置香橙为“后台受保护程序”。关闭手机网络、wifi或飞行模式都不会影响香橙的正常工作，但是需要关机睡觉又需要香橙工作的小伙伴们，小橙子要说：“这个臣妾做不到啊！”</string>
+    <string name="activity_explanation_help_content6">\u3000\u3000香橙是根据手机内传感器来进行感测睡眠的。为了避免小伙伴们遭受手机辐射，睡觉时千万别把手机放在枕边哦！    </string>
+    <string name="activity_explanation_help_content7">\u3000\u3000香橙睡眠提醒会给根据您每天的睡眠情况为您智能进行睡眠总结和睡觉提醒，努力保证您可以拥有更好的睡眠！</string>
+    <string name="activity_explanation_help_content8">\u3000\u3000香橙在测算睡眠数据时可能会出现一些偏差，对于有精度要求的人可以根据自己的想法进行睡眠数据调整，调整方式：</string>
+
+    <!-- 附近铃声搜索无结果 -->
+    <string name="activity_nearby_ringtone_noresult">哇，附件居然没有人发布铃音！要不咱马上录制一段上传吧！</string>
+
+    <!-- 新建闹钟成功后  闹钟说明对话框文本 -->
+
+    <string name="dialog_save_alarm_success_title">为保证香橙闹铃正常工作，请依照下列操作执行：</string>
+    <string name="dialog_save_alarm_success_book1">1、请勿在后台关闭香橙或插入耳机；</string>
+    <string name="dialog_save_alarm_success_book2">2、请勿关闭手机或使手机处于静音；</string>
+    <string name="dialog_save_alarm_success_book3">3、请勿将手机设置为勿扰模式；</string>
+    <string name="dialog_save_alarm_success_book4">4、请把香橙设置为后台保护程序；</string>
+    <string name="dialog_save_alarm_success_book5">5、请把香橙设置为开机自动启动程序。</string>
+    <string name="dialog_save_alarm_success_rbstring">不再提示</string>
+    <string name="dialog_save_alarm_success_buttonstring">朕知道了</string>
+
+    <string name="device">Device:</string>
+    <string name="no_device">&lt;Select a device&gt;</string>
+    <string name="select_device">Select a device</string>
+    <string name="status">Status</string>
+    <string name="llsWrite">LinkLossAlert</string>
+    <string name="iasWrite">ImmediateAlert</string>
+    <string name="scanning">Scanning for devices...</string>
+    <string name="no_ble_devices">No LE devices found.</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Not connected</string>
+    <string name="ready">Ready</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="connect">connect</string>
+    <string name="unpair">unpair</string>
+    <string name="pair">pair</string>
+    <string name="RadioButton1">Alert level high</string>
+    <string name="RadioButton2">Alert level mid</string>
+    <string name="RadioButton3">Stop alerting</string>
+    <string name="SystemId">SystemId</string>
+    <string name="ModelNumber">ModelNumber</string>
+    <string name="SerialNumber">SerialNumber</string>
+    <string name="FirmwareRevision">FirmwareRevision</string>
+    <string name="HardwareRevision">HardwareRevision</string>
+    <string name="SoftwareRevision">SoftwareRevision</string>
+    <string name="ManufactureName">ManufactureName</string>
+    <string name="RegCertDataList">RegCertDataList</string>
+    <string name="ManufactureId">    ManufactureId</string>
+    <string name="BatteryLevel">    Battery Level</string>
+    <string name="search_text">搜索好友昵称或手机号</string>
+    <string name="OrgId">    OrganizationId</string>
+    <string name="Txpower">    Txpower Level</string>
+    <string name="Noupdate">    No Update</string>
+    <string name="ReadTxPower">ReadTxPower</string>
+    <string name="high_alert">HIGH Alert triggered!</string>
+    <string name="low_alert">LOW Alert triggered!</string>
+    <string name="writeTxnoti">TxNoti</string>
+    <string name="readRssi">Read Rssi Value</string>
+    <string name="Readdummy">D Read</string>
+    <string name="removeBond">Remove Bond</string>
+    <string name="paired">paired</string>
+    <string name="popup_title">Quit nRF UART?</string>
+    <string name="popup_message">Do you want to quit this Application?</string>
+    <string name="popup_yes">YES</string>
+    <string name="popup_no">NO</string>
+    <string name="ble_not_supported">蓝牙版本太旧，不支持此功能！</string>
+    <string name="scan">Scan</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="found_rings_text_in_found_page">铃音</string>
+    <string name="found_nears_text_in_found_page">附近的人</string>
+    <string name="nodata_1">A.</string>
+    <string name="nodata_2">B.</string>
+    <string name="natata_dec1">请检查香橙是否被安全软件禁用</string>
+    <string name="natata_dec2">请把香橙加入安全白名单</string>
+
+    <!-- 我的和发现 -->
+    <string name="my_search">搜索</string>
+    <string name="my_message">消息</string>
+    <string name="my">我的</string>
+    <string name="my_found">发现</string>
+
+    <!-- 小组话题 -->
+    <string name="spase">&#160;</string>
+    <string name="spase1">&#160;&#160;&#160;&#160;</string>
+    <string name="support">点赞</string>
+    <string name="comment">评论</string>
+    <string name="share">分享</string>
+    <string name="community_post">发布新话题</string>
+    <string name="community_hint_post">我也来说两句</string>
+    <string name="topics_on">还没有话题</string>
+    <string name="topics_can_post">你可以去发布一条话题</string>
+    <string name="info">信息</string>
+    <string name="topice_op1">举报不良内容</string>
+    <string name="topice_op2">删除</string>
+    <string name="topice_op3">置顶</string>
+    <string name="topice_title">请选择操作</string>
+    
+    <string name="my_topice">我的话题</string>
+    <string name="by_time">按时间</string>
+     <string name="by_group">按小组</string>
+
+    <!-- 举报 -->
+    <string name="report_1">欺诈</string>
+    <string name="report_2">广告骚扰</string>
+    <string name="report_3">诱导分享</string>
+    <string name="report_4">谣言</string>
+    <string name="report_5">政治敏感</string>
+    <string name="report_6">色情低俗</string>
+    <string name="report_7">侵权</string>
+    <string name="report_8">编不下去了</string>
+    <string name="report_9">其他</string>
+    <string name="sure_report">确认举报</string>
+    <string name="zan_1">已点赞</string>
+    <string name="zan_2">点赞失败</string>
+
+    <!-- 话题发布相关 -->
+    <string name="release_conversation_title">标题</string>
+    <string name="release_conversation_picture">图片</string>
+    <string name="release_conversation_description">详细内容</string>
+    <string name="release_conversation_label">标签</string>
+    <string name="release_conversation_default_title">请为你的文章添加一个标题</string>
+    <string name="release_conversation_default_description">请输入文章的内容</string>
+    <string name="release_conversation_default_label">请输入搜索关键字</string>
+    <string name="release_conversation_label_owned">已有标签</string>
+    <string name="release_conversation_label_host">热门标签</string>
+    <string name="release_conversation_label_tips">提示：添加标签后便于更多人搜到你的文章</string>
+    <!-- 小组信息 -->
+    <string name="group_info_icon">小组图标</string>
+    <string name="group_info_name">小组名称</string>
+    <string name="group_info_creator">小组组长</string>
+    <string name="group_info_introduction">小组简介</string>
+    <string name="group_info_labers">小组标签</string>
+    <string name="group_info_managers">小组成员</string>
+    <string name="group_info_topic_num_all">总话题</string>
+    <string name="group_info_topic_num_today">今日新增话题</string>
+    <string name="group_info_reported_infos">被举报内容</string>
+    <string name="group_info_edit_group_introduction">编辑小组简介</string>
+    <!-- 处理举报页面相关 -->
+    <string name="manager_report_report">举报</string>
+    <string name="manager_report_topic">的话题</string>
+    <string name="manager_report_ignore">忽略</string>
+    <string name="manager_report_delete">删除</string>
+    
+    
+    <string name="folder_all">所有照片</string>
+    <string name="preview">预览</string>
+    <string name="msg_no_camera">没有系统相机</string>
+    <string name="msg_amount_limit">已经达到最高选择数量</string>
+    <string name="select_mode">Select Mode</string>
+    <string name="mode_single">Single-Choice</string>
+    <string name="mode_multi">Multi-Choice</string>
+    <string name="max_select_amount">Max Selected Amount</string>
+    <string name="hint_default_amount">default amount is 9</string>
+    <string name="enable_camera">Enable Camera</string>
+    <string name="enable">Enable</string>
+    <string name="disable">Disable</string>
+    <string name="go_select">Select</string>
+
+    
+    <!-- 绑定智能枕扣 -->
+    <string name="btn_start_to_use_pillow">开启智能枕扣</string>
+    <string name="tips_set_sensitive">合理选择您的睡眠环境，有利于更精确检测睡眠情况：</string>
+	<string name="tips_sarch_pillow_1">点击枕扣 </string>
+	<string name="tips_sarch_pillow_2">请重新点击枕扣</string>
+	<string name="tips_sarch_pillow_3">(首次使用，长按3秒，待灯闪烁) </string>
+	<string name="tips_getdev_and_ask_confirm">枕扣常亮？</string>
+	<string name="light_not_normal">指示灯不亮或者闪烁</string>
+	<string name="light_normal">指示灯处于常亮状态</string>
+	<string name="tips_pillow_bund_suc">香橙枕扣绑定成功！</string>
+	<string name="tips_learn_next">接下来您可以了解：</string>
+	<string name="operation_tips_1">如何正确的放置香橙枕扣设备</string>
+	<string name="operation_tips_2">如何在手机端同步查看睡眠数据</string>
+	<string name="operation_tips_3">常见问题及解答</string>  <!-- 如何查看香橙枕扣设备的信息   如何绑定智能扣枕-->
+	<string name="tips_pillow_type_select"> 你睡觉使用的枕头</string>
+	<string name="tips_use_pillow_person_conut_select"> 你平时几人睡觉</string>
+	<string name="pillow_types_hard">硬枕头(茶叶枕、慢回弹枕、橡胶枕等)</string>
+	<string name="pillow_types_soft">软枕头(木棉枕、鸭绒枕、纤维枕等)</string>
+	
+	<string name="pillow_user_one">一人</string>
+	<string name="pillow_user_two">两人</string>
+	<string name="pillow_binding">无需穿戴，无需接触身体，用的放心\n更精准的记录睡眠，科学分析睡眠质量\n超强续航能力，无需充电</string>
+
+	<string name="sync_pillow_data_abstruct1">单击设备键，激活设备（灯闪烁)</string>
+	<string name="sync_pillow_data_abstruct2">手机尽量靠近设备</string>
+	<!-- 方形裁剪框 -->
+    <string name="crop_saving">正在保存图片…</string>
+    <string name="crop_wait">正在处理图片…</string>
+    <string name="crop_pick_error">图片资源没找到</string>
+    <string name="crop_done">完成</string>
+    <string name="crop_cancel" >取消</string>
+    
+    <!-- v3.3remindalrmactivity -->
+    <string name="string_title">标题</string>
+    <string name="string_time">时间</string>
+    <string name="string_repeat">重复</string>
+    <string name="string_content">内容</string>
+    <string name="string_share">共享</string>
+    <string name="string_rings">铃音</string>
+    <string name="tips_remindding_for">提醒做什么?</string>
+    <string name="tips_message_content">弹出消息提示内容(20字以内)</string>
+    <string name="tips_share_reminds">共享给您身边的人，一起来参与</string>
+    <string name="string_select_music">选择铃声</string>
+    <string name="string_my_music">我的铃声</string>
+    <string name="string_get_more">下载更多</string>
+    <string name="string_tips_upload">睡眠固件有更新</string><!-- 数据同步完成\n发现新的香橙智能枕扣更新资源包，是否立即更新 -->
+    <!-- 4.1 商城 -->
+    <string name="string_orders_num">订单号:</string>
+    <!-- 4.1.1  -->
+    <string name="string_hospital_doctor">医馆名医</string>
+    <string name="string_words_more">更多</string>
+    <string name="string_pros_and_services">医馆产品服务</string>
+    <string name="string_doc_pros_and_services">专家产品服务</string>
+    <!-- 4.1.2 睡眠评估 -->
+    <string name="string_yours_sleep_estimate">"您的睡眠评估指数"</string>
+    <string name="string_others_sleep_estimate">以下是您睡眠的具体的分析</string>
+
+     <!-- PayActivity -->
+    <string name="app_tip">提示</string>
+	<string name="unifiedorder_v3_wx">APP支付生成预支付订单</string>
+	<string name="pay__pre_by_wxap">生成APP微信支付参数</string>
+
+	<string name="pay_by_wxap">调起微信支付</string>
+	<string name="check_pay">检查微信版本是否支持支付</string>
+	<string name="input_reqkey">输入reqkey</string>
+	<string name="input_package_value">输入package value</string>
+	<string name="input_sign">输入sign</string>
+	<string name="getting_access_token">正在获取access token...</string>
+	<string name="get_access_token_succ">获取access token成功</string>
+	<string name="get_access_token_fail" formatted="false">获取access token失败，原因%s</string>
+	<string name="getting_prepayid">正在获取预支付订单...</string>
+	<string name="paying">支付中</string>
+	<string name="get_prepayid_succ">获取prepayid成功</string>
+	<string name="get_prepayid_fail" formatted="false">获取prepayid失败，原因%s</string>
+    <!-- WXPayEntryActivity -->
+	<string name="pay_result_tip">这个界面用于显示第三方app通过微信支付的结果</string>
+	<string name="pay_result_callback_msg" formatted="false">微信支付结果：%s</string>
+	
+	<!-- 4.2.0 -->
+	<string name="string_welcome_tips">非常高兴您选择香橙！香橙致力于提供最专业的个性化睡眠解决方案，如果您也受失眠困扰，那么快点开启“香橙7天睡眠计划”吧！花5分钟完成香橙睡眠评估，以便我们的专家能够更全面、深入地了解您的睡眠困扰，制定适用于您的个性化改善方案。</string>
+    <!-- 4.3.2 -->
+    <string name="str_hint_feedback_tips">写下你在使用香橙时遇到的问题或对香橙的意见和建议，便于我们更好的为你服务。</string>
+    <string name="str_hint_feedback_conn">留下你的联系方式（电话或QQ）</string>
+</resources>

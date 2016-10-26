@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/black">
+    
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/icon_58x58"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"/>
+    
+    <LinearLayout
+        android:id="@+id/notification_text_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/icon"
+        android:layout_marginLeft="@dimen/margin_padding_small"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="橙橙提醒您"
+            android:textSize="@dimen/textsize_normal"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="该睡觉了"
+            android:textSize="@dimen/textsize_normal"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"/>        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal"
+        android:layout_toRightOf="@id/notification_text_layout"
+        android:layout_marginLeft="@dimen/margin_padding_small">
+        <Button
+        	android:id="@+id/sleep"
+        	android:layout_width="55dp"
+        	android:layout_height="40dp"
+        	android:text="马上睡"
+        	android:textColor="@android:color/white"
+        	android:textSize="@dimen/textsize_small"
+        	android:textStyle="bold"
+        	android:gravity="center"
+        	android:background="@drawable/button"/>
+    </LinearLayout>        
+</RelativeLayout>

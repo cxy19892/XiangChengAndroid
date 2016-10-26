@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_color" >
+
+    <LinearLayout
+        android:id="@+id/rl_head_op"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:background="@color/cbg_color"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/rl_head_op"
+        android:background="@color/cbg_color"
+        android:focusable="false"
+        android:focusableInTouchMode="true" >
+
+        <Button
+            android:id="@+id/iv_share"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="#00000000"
+            android:drawableLeft="@drawable/ic_shequshere_icon"
+            android:focusable="false"
+            android:focusableInTouchMode="true"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/iv_praise"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:layout_toLeftOf="@id/iv_share"
+            android:background="#00000000"
+            android:drawableLeft="@drawable/ic_shequ_zan_normal"
+            android:focusable="false"
+            android:focusableInTouchMode="true"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/praise_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:textColor="@color/ct_color"
+            android:textSize="14sp" />
+    </RelativeLayout>
+    
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_below="@id/rl_head_op"
+        android:background="@color/bg_color" />
+
+</RelativeLayout>

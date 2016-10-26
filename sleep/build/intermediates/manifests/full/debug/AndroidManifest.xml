@@ -1,0 +1,1179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yzm.sleep"
+    android:versionCode="32"
+    android:versionName="4.3.2" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.VIBRATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <!-- 添加可以向外拨打电话的权限 -->
+    <uses-permission android:name="android.permission.CALL_PHONE" >
+    </uses-permission>
+
+    <!-- 这个权限用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" >
+    </uses-permission>
+    <!-- 这个权限用于访问GPS定位 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" >
+    </uses-permission>
+    <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" >
+    </uses-permission>
+    <!-- 获取运营商信息，用于支持提供运营商信息相关的接口 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <!-- 这个权限用于获取wifi的获取权限，wifi信息会用来进行网络定位 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" >
+    </uses-permission>
+    <!-- 使用蓝牙的权限 -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <!-- 用于读取手机当前的状态 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" >
+    </uses-permission>
+    <!-- 写入扩展存储，向扩展卡写入数据，用于写入离线定位数据 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <!-- 访问网络，网络定位需要上网 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- SD卡读取权限，用户写入离线定位数 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" >
+    </uses-permission>
+    <!-- 读取手机通讯录权限 -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <!-- 拍照 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.GET_TASKS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <!-- 极光推送的权限 -->
+    <permission
+        android:name="com.yzm.sleep.permission.JPUSH_MESSAGE"
+        android:protectionLevel="signature" />
+    <!-- Required -->
+    <uses-permission android:name="com.yzm.sleep.permission.JPUSH_MESSAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <!-- Optional. Required for location feature -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+
+    <application
+        android:name="com.yzm.sleep.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/ActivityTheme" >
+
+        <!-- 这是环信的Required. AppKey copied from Portal -->
+        <meta-data
+            android:name="EASEMOB_APPKEY"
+            android:value="cdyzm#xiangchengdebug" />
+
+        <!-- 正式用EMAppKey cdyzm#xiangcheng -->
+
+
+        <!-- 测试用EMAppKey cdyzm#xiangchengdebug -->
+
+
+        <!-- Required. For publish channel feature -->
+        <!-- JPUSH_CHANNEL 是为了方便开发者统计APK分发渠道。 -->
+        <!-- 例如: -->
+        <!-- 发到 Google Play 的APK可以设置为 google-play; -->
+        <!-- 发到其他市场的 APK 可以设置为 xxx-market。 -->
+        <!-- 目前这个渠道统计功能的报表还未开放。 -->
+        <meta-data
+            android:name="JPUSH_CHANNEL"
+            android:value="developer-default" />
+        <!--
+                        这是极光的Required. AppKey copied from Portal  
+        	测试用AppKey：1fd9e622b8d7757f16a9b7e7
+        	正式用AppKey：97750bf5366d16602572c7c9
+        -->
+        <meta-data
+            android:name="JPUSH_APPKEY"
+            android:value="1fd9e622b8d7757f16a9b7e7" />
+
+        <!--
+             百度地图  key DRKz1jf7k0411UmUEdgexeCo 
+        	tianxun : XzNzi8So3Ojv8EG09uvIfpvp
+        	huang: R98kUl2gapXkjf5SBgs1W5Wl
+        -->
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="DRKz1jf7k0411UmUEdgexeCo" />
+
+        <!-- Required SDK核心功能 -->
+        <service
+            android:name="com.easemob.chat.EMChatService"
+            android:exported="true" />
+
+        <!-- 声明sdk所需的receiver -->
+        <receiver android:name="com.easemob.chat.EMMonitorReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+            <!-- 可选filter -->
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.yzm.sleep.crop.CropImageUI"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 购买成功 -->
+        <activity
+            android:name="com.yzm.sleep.activity.shop.PaySuccessfulActivity"
+            android:screenOrientation="portrait" />
+        <!-- 收货信息 -->
+        <activity
+            android:name="com.yzm.sleep.activity.shop.GoodsAddressActivity"
+            android:screenOrientation="portrait" />
+        <!-- 套餐详情 -->
+        <activity
+            android:name="com.yzm.sleep.activity.shop.PackageDetailsActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 主界面 -->
+        <activity
+            android:name="com.yzm.sleep.activity.HomeActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+
+            <!--
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            -->
+        </activity>
+        <!-- 点赞人列表 -->
+        <activity
+            android:name="com.yzm.sleep.activity.community.GroupThumbActivity"
+            android:screenOrientation="portrait" />
+        <!-- 香橙推荐 -->
+        <activity
+            android:name="com.yzm.sleep.activity.GroupActivity"
+            android:screenOrientation="portrait" />
+        <!-- 活动详情 -->
+        <activity
+            android:name="com.yzm.sleep.activity.community.ProgramDetailsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 枕扣绑定说明界面 -->
+        <activity
+            android:name="com.yzm.sleep.activity.pillow.BindingProcessActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.yzm.sleep.activity.XiaoMiAutostartActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yzm.sleep.activity.community.TeamDetailsActivity"
+            android:screenOrientation="portrait" />
+        <!-- 闹钟界面 -->
+        <activity
+            android:name="com.yzm.sleep.activity.alar.AlarmActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yzm.sleep.activity.community.GroupFocusnumberActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 枕头（硬件）周报 -->
+        <activity
+            android:name="com.yzm.sleep.activity.pillow.PillDataCountActivity"
+            android:screenOrientation="portrait" />
+        <!-- 睡眠周报详细（枕头） -->
+        <activity
+            android:name="com.yzm.sleep.activity.pillow.PillowWeeklyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.yzm.sleep.activity.WelcomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--
+        <activity
+            android:name="com.yzm.sleep.activity.TestActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+            
+            
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>            
+        </activity>        
+        -->
+
+        <activity
+            android:name="com.yzm.sleep.activity.PerfectUserDataActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+        </activity>
+        <activity
+            android:name="com.yzm.sleep.activity.AboutActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.yzm.sleep.im.ChatActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+        </activity>
+        <activity
+            android:name="com.yzm.sleep.activity.ShareActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTranslucentTheme" >
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.yzm.sleep.activity.AppSettingActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.yzm.sleep.activity.LoginActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+        </activity>
+        <activity
+            android:name="com.yzm.sleep.wxapi.WXEntryActivity"
+            android:exported="true"
+            android:theme="@style/MyDialogStyle" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="wx6bd5de3c891c60ba" />
+            </intent-filter>
+        </activity>
+
+        <!-- 应用吧 -->
+        <activity
+            android:name="com.tencent.open.yyb.AppbarActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity android:name="com.tencent.connect.avatar.ImageActivity" />
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="tencent1103438039" />
+            </intent-filter>
+        </activity>
+        <!-- 评估界面 -->
+        <activity
+            android:name="com.yzm.sleep.activity.community.AssessmentActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <!-- 智能枕头的数据 -->
+        <activity
+            android:name="com.yzm.sleep.activity.pillow.PillowDataActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" >
+        </activity>
+
+        <!-- android:theme="@android:style/Theme.Wallpaper.NoTitleBar" -->
+        <activity
+            android:name="com.yzm.sleep.activity.alar.AlarmAlertFullScreen"
+            android:configChanges="orientation|keyboardHidden|keyboard|navigation"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:taskAffinity=""
+            android:theme="@style/CircularCornerDialog" />
+        <activity
+            android:name="com.yzm.sleep.activity.alar.AlarmAlert"
+            android:configChanges="orientation|keyboardHidden|keyboard|navigation"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:taskAffinity=""
+            android:theme="@style/alarm_alert" />
+
+        <!-- 浏览照片墙的图片界面 -->
+        <activity
+            android:name="com.yzm.sleep.activity.PictureWallPagerActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+        <!-- 智能枕头升级界面 -->
+        <activity
+            android:name="com.yzm.sleep.activity.pillow.PillowUpgradeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTranslucentTheme" >
+ <!-- "@android:style/Theme.Translucent" > -->
+        </activity>
+        <!-- 3.0 -->
+
+
+        <!-- 关联手机界面 -->
+        <activity
+            android:name="com.yzm.sleep.activity.community.CorrelativeCellPhoneActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+        </activity>
+
+        <!-- 发布话题编辑界面 -->
+        <activity
+            android:name="com.yzm.sleep.activity.community.ReleaseEditActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme"
+            android:windowSoftInputMode="stateVisible|adjustResize" >
+        </activity>
+
+        <!-- 我的小组界面 -->
+        <activity
+            android:name="com.yzm.sleep.activity.community.MyGroupListActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 小组信息界面 -->
+        <activity
+            android:name="com.yzm.sleep.activity.community.GroupInfoActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" >
+        </activity>
+        <!-- 消息界面 -->
+        <activity
+            android:name="com.yzm.sleep.activity.community.MyAutoMsgActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" >
+        </activity>
+        <!-- 我的话题 -->
+        <activity
+            android:name="com.yzm.sleep.activity.community.CommunitySearchActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/CommunitySearchActivityTheme"
+            android:windowSoftInputMode="stateVisible|adjustResize" >
+        </activity>
+
+        <!-- 图片详情 -->
+        <activity
+            android:name="com.yzm.sleep.activity.community.ImageDetailActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" >
+        </activity>
+
+        <!-- v3.1 -->
+        <!-- 睡眠计划的页面 -->
+        <!--
+        <activity
+            android:name="com.yzm.sleep.activity.SleepPlanActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" >
+        </activity>
+        -->
+        <!-- 个人资料的页面 -->
+        <activity
+            android:name="com.yzm.sleep.activity.PersonalInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" >
+        </activity>
+        <!-- 我的资料页面 -->
+        <activity
+            android:name="com.yzm.sleep.activity.MyDetailInfoActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" >
+        </activity>
+        <!-- 社交账户界面页面 -->
+        <activity
+            android:name="com.yzm.sleep.activity.CommunityAccountActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" >
+        </activity>
+        <!-- 选择职业页面 -->
+        <activity
+            android:name="com.yzm.sleep.activity.SelectProfessionActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" >
+        </activity>
+        <!-- 多图选择页面新 -->
+        <activity
+            android:name="com.yzm.sleep.imageSelect.MultiImageSelectorActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+
+        <!-- 加载web的公用页面 -->
+        <activity
+            android:name="com.yzm.sleep.activity.WebViewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+
+        <!-- 3.2硬件数据相关的页面 -->
+        <!-- 裁剪正方形的页面 -->
+        <activity
+            android:name="com.yzm.sleep.rectCrop.CropImageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+
+        <!-- 硬件日数据页面 -->
+        <activity
+            android:name="com.yzm.sleep.activity.pillow.PillowDayDataActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+
+        <!-- 周报数据统计页面 -->
+        <activity
+            android:name="com.yzm.sleep.activity.DataCountActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+
+        <!-- 平均睡眠时长 -->
+        <activity
+            android:name="com.yzm.sleep.activity.SleepTimeDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+
+        <!-- 平均起床时间点 平均入睡时间点 -->
+        <activity
+            android:name="com.yzm.sleep.activity.SleepOrGetUpAvgTimeDetail"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+
+        <!-- 灵敏度调节页面 -->
+        <activity
+            android:name="com.yzm.sleep.activity.pillow.SensitiveSetActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+
+        <!-- 开始收索设备页面 -->
+        <activity
+            android:name="com.yzm.sleep.activity.pillow.SearchPillowActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+
+        <!-- 绑定页面 -->
+        <activity
+            android:name="com.yzm.sleep.activity.pillow.CommonProblemActiivity"
+            android:screenOrientation="portrait" />
+        <!-- 绑定成功提示页面 -->
+        <activity
+            android:name="com.yzm.sleep.activity.pillow.BundSucActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+
+        <!-- 设备信息 -->
+        <activity
+            android:name="com.yzm.sleep.activity.pillow.BundPillowInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+
+        <!-- 软件的昨晚数据 -->
+        <activity
+            android:name="com.yzm.sleep.activity.YestereveDataActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+        <!-- 提醒事项 -->
+        <activity
+            android:name="com.yzm.sleep.activity.alar.RemindAlarmEditActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- v3.3页面 -->
+        <!-- 月数据分析 -->
+        <activity
+            android:name="com.yzm.sleep.activity.MonthDataAnalysisActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+        <!-- 消息 -->
+        <activity
+            android:name="com.yzm.sleep.activity.MessageListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" >
+        </activity>
+        <!-- 小秘书消息 -->
+        <activity
+            android:name="com.yzm.sleep.activity.XcSecretaryActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yzm.sleep.utils.PunchDialog"
+            android:theme="@style/MyDialogActivityStyle" >
+        </activity>
+
+        <!-- 话题详情 -->
+F
+        <activity
+            android:name="com.yzm.sleep.activity.community.CommunityTopiceDetailActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+
+            <!--
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name="com.yzm.sleep.activity.community.PostTopicsActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <!-- 必须注册在微博授权，分享微博时候用到 -->
+        <activity
+            android:name="com.sina.weibo.sdk.component.WeiboSdkBrowser"
+            android:configChanges="keyboardHidden|orientation"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+
+        <!-- 我的预约界面 -->
+        <activity
+            android:name="com.yzm.sleep.activity.doctor.MyReservationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+        <!-- 预约详情界面 -->
+        <activity
+            android:name="com.yzm.sleep.activity.doctor.ReservationDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+        <!-- 医馆详情界面 -->
+        <activity
+            android:name="com.yzm.sleep.activity.doctor.ClinicDetatilActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+        <!-- 专家详情界面 -->
+        <activity
+            android:name="com.yzm.sleep.activity.doctor.DoctorDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+        <!-- 预约界面 -->
+        <activity
+            android:name="com.yzm.sleep.activity.doctor.ReservationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <!-- 商品详情 -->
+        <activity
+            android:name="com.yzm.sleep.activity.shop.GoodsDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+        <!-- 确认订单 -->
+        <activity
+            android:name="com.yzm.sleep.activity.shop.ConfirmOrderActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="wx6bd5de3c891c60ba" />
+            </intent-filter>
+        </activity>
+        <!-- 我的订单 -->
+        <activity
+            android:name="com.yzm.sleep.activity.shop.ShopOrderListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" >
+        </activity>
+
+        <!-- 地图路径规划 -->
+        <activity
+            android:name="com.yzm.sleep.activity.shop.ShopMapPathPlanActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+        <!-- 医馆名医列表 -->
+        <activity
+            android:name="com.yzm.sleep.activity.doctor.HosdoctorListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" >
+        </activity>
+        <!-- 医馆产品列表 -->
+        <activity
+            android:name="com.yzm.sleep.activity.doctor.HosShopProlistActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" >
+        </activity>
+        <!-- 评估页面 -->
+        <activity
+            android:name="com.yzm.sleep.activity.EstimateWebActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" >
+        </activity>
+
+        <!-- 单个的评估结果页面 -->
+        <activity
+            android:name="com.yzm.sleep.activity.EstiRresultsWebActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" >
+        </activity>
+        <!-- 总的评估结果界面 -->
+        <activity
+            android:name="com.yzm.sleep.activity.EstimateBaseActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" >
+        </activity>
+        <!-- 4.1.3 -->
+        <!-- 按标签分类 -->
+        <activity
+            android:name="com.yzm.sleep.activity.community.ClassifyByTagActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 4.2.0 -->
+        <!-- 七日计划 -->
+        <activity
+            android:name="com.yzm.sleep.activity.SleepPlanActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+
+        <!-- 每日签到 -->
+        <activity
+            android:name="com.yzm.sleep.activity.SignInActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+
+        <!-- 情绪管理 -->
+        <activity
+            android:name="com.yzm.sleep.activity.EmotionManagerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- 我的订单 -->
+        <activity
+            android:name="com.yzm.sleep.activity.OrdersActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+        <!-- 放松身心 -->
+        <activity
+            android:name="com.yzm.sleep.activity.RelaxActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+        <!-- 设置提醒 -->
+        <activity
+            android:name="com.yzm.sleep.activity.SetRemindActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+        <!-- 睡眠详情 -->
+        <activity
+            android:name="com.yzm.sleep.activity.SleepStatusDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+        <!-- 平均时间点详情 -->
+        <activity
+            android:name="com.yzm.sleep.activity.AvgTimeDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+
+        <!-- 4.2.1 -->
+        <!-- 睡眠趋势整合 -->
+        <activity
+            android:name="com.yzm.sleep.activity.SleepTrendActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+
+        <!-- 睡眠报告 -->
+        <activity
+            android:name="com.yzm.sleep.activity.SleepReportActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+
+        <!-- 卧室环境 -->
+        <activity
+            android:name="com.yzm.sleep.activity.BedroomEnvironmentActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+
+        <!-- 睡眠改善方案 -->
+        <activity
+            android:name="com.yzm.sleep.activity.ImprSleepPlanActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+
+        <!-- 7日睡眠方案 -->
+        <activity
+            android:name="com.yzm.sleep.activity.SleepCaseActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+
+        <!-- 流媒体播放界面 -->
+        <activity
+            android:name="com.yzm.sleep.activity.PlayMusicActivity"
+            android:configChanges="orientation|screenSize|smallestScreenSize|keyboard|keyboardHidden|navigation"
+            android:process=":vitamio"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+
+        <!-- 减压调节 -->
+        <activity
+            android:name="com.yzm.sleep.activity.RestToRegulActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+
+        <!-- 记事本 -->
+        <activity
+            android:name="com.yzm.sleep.activity.WriteNoteActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+
+        <!-- 生活习惯 -->
+        <activity
+            android:name="com.yzm.sleep.activity.LifeHabitActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+        <activity
+            android:name="io.vov.vitamio.activity.InitActivity"
+            android:configChanges="orientation|screenSize|smallestScreenSize|keyboard|keyboardHidden|navigation"
+            android:launchMode="singleTop"
+            android:theme="@style/ActivityTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <!-- 睡眠安慰 -->
+        <activity
+            android:name="com.yzm.sleep.activity.ComfortActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+
+        <!-- 积极表述 -->
+        <activity
+            android:name="com.yzm.sleep.activity.SelfFormulationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme"
+            android:windowSoftInputMode="stateVisible|adjustPan" />
+
+        <!-- 4.2.2 -->
+        <!-- 生活习惯, 睡眠环境 -->
+        <activity
+            android:name="com.yzm.sleep.activity.community.Page3Tab1SecondActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+
+        <!-- 设置睡眠时间 -->
+        <activity
+            android:name="com.yzm.sleep.activity.SetSleepTimeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+        <!-- 知识搜索 -->
+        <activity
+            android:name="com.yzm.sleep.activity.community.KnowledgeSearchActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+        <!-- 知识详情 -->
+        <activity
+            android:name="com.yzm.sleep.activity.community.KnowledgeDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+
+        <!-- 知识列表 -->
+        <activity
+            android:name="com.yzm.sleep.activity.community.KnowledgeListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+
+        <!-- 4.3.0 -->
+
+
+        <!-- 我的 -->
+        <activity
+            android:name="com.yzm.sleep.activity.PersonalActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+
+        <!-- 睡眠数据记录 -->
+        <activity
+            android:name="com.yzm.sleep.activity.RecordSleepDataActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+
+        <!-- 补充非量化数据 -->
+        <activity
+            android:name="com.yzm.sleep.activity.RecordFeelDataActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+
+        <!-- 每日数据反馈 -->
+        <activity
+            android:name="com.yzm.sleep.activity.DataResultFeedbackActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+
+        <!-- 认知重构 -->
+        <activity
+            android:name="com.yzm.sleep.activity.PerceiveResetActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+
+        <!-- 睡眠改善计划 -->
+        <activity
+            android:name="com.yzm.sleep.activity.ImprSlpPlanActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+        <!-- 睡眠阶段 -->
+        <activity
+            android:name="com.yzm.sleep.activity.SlpPlanActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+
+        <!-- 睡眠数据报告 -->
+        <activity
+            android:name="com.yzm.sleep.activity.SleepDataReportActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+        <!-- 记录心事 -->
+        <activity
+            android:name="com.yzm.sleep.activity.RecordNoteActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+
+        <!-- 增加记录 -->
+        <activity
+            android:name="com.yzm.sleep.activity.NoteRecordingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyDialogStyle" />
+        <activity
+            android:name="com.yzm.sleep.activity.ContinuePlansActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+
+        <!-- 意见反馈 -->
+        <activity
+            android:name="com.yzm.sleep.activity.FeedBackActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" />
+        <!-- 引导页 -->
+        <activity
+            android:name="com.yzm.sleep.activity.GuideActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Fullscreen" />
+
+        <receiver
+            android:name="com.yzm.sleep.activity.alar.AlarmReceiver"
+            android:process=":remote" >
+            <intent-filter>
+                <action android:name="com.yzm.sleep.alarm.ALARM_ALERT" >
+                    <action android:name="alarm_killed" />
+                    <action android:name="cancel_snooze" />
+                </action>
+            </intent-filter>
+        </receiver>
+        <!--
+             This service receives the same intent as AlarmReceiver but it does
+             not respond to the same broadcast. The AlarmReceiver will receive
+             the alert broadcast and will start this service with the same
+             intent. The service plays the alarm alert and vibrates the device.
+             This allows the alert to continue playing even if another activity
+             causes the AlarmAlert activity to pause.
+        -->
+
+
+        <!-- 聊天服务 -->
+        <service
+            android:name="com.easemob.chat.EMGCMListenerService"
+            android:exported="false" >
+        </service>
+
+        <!-- 音频文件播放服务 -->
+        <service android:name="com.yzm.sleep.service.PlayerServie" >
+            <intent-filter>
+                <action android:name="com.yzm.media.MUSIC_SERVICE" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="com.yzm.sleep.AppRegister"
+            android:permission="com.tencent.mm.plugin.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.yzm.sleep.background.AlarmService" >
+            <intent-filter>
+                <action android:name="background.AlarmService" >
+                </action>
+            </intent-filter>
+        </service>
+        <!--
+        <service android:name="com.yzm.sleep.background.PermanentService" > 后台记录的后台服务 功能取消于 4.3版本
+            <intent-filter>
+                <action android:name="background.PermanentService" >
+                </action>
+            </intent-filter>
+        </service>
+        -->
+        <service android:name="com.yzm.sleep.background.NotificationService" >
+            <intent-filter>
+                <action android:name="background.NotificationService" >
+                </action>
+            </intent-filter>
+        </service>
+        <service android:name="com.yzm.sleep.background.RemindNotificationService" >
+        </service>
+
+        <receiver android:name="com.yzm.sleep.background.WaitNotificationReceiver" >
+            <intent-filter>
+                <action android:name="background.WaitNotificationReceiver" >
+                </action>
+            </intent-filter>
+        </receiver>
+        <!--
+        <receiver android:name="com.yzm.sleep.background.BootBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.HOME" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+
+                <data android:scheme="file" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_RESTARTED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT" />
+            </intent-filter>
+        </receiver>
+        -->
+        <receiver
+            android:name="com.yzm.sleep.activity.alar.OneShotReminsAlarmRecever"
+            android:process=":remote" >
+            <intent-filter>
+                <action android:name="com.yzm.sleep.alarm.MART_NOTIFY" />
+            </intent-filter>
+        </receiver>
+
+        <!-- bluetooth ble -->
+        <service
+            android:name="com.yzm.sleep.bluetoothBLE.UartService"
+            android:enabled="true" />
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" >
+        </service>
+
+        <!-- umeng统计 -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="5496909bfd98c5b16e0002bc" >
+        </meta-data>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="UMENG_CHANNEL" />
+        <meta-data
+            android:name="BUG_HD_SDK_GENERAL_KEY"
+            android:value="b890b16db086604a2f87aa1306e41d60" />
+
+        <!-- -*************************************极光推送******************************************* -->
+        <!-- Required -->
+        <service
+            android:name="cn.jpush.android.service.PushService"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTER" />
+                <action android:name="cn.jpush.android.intent.REPORT" />
+                <action android:name="cn.jpush.android.intent.PushService" />
+                <action android:name="cn.jpush.android.intent.PUSH_TIME" />
+            </intent-filter>
+        </service>
+
+        <!-- since 1.8.0 option 可选项。用于同一设备中不同应用的JPush服务相互拉起的功能。 -->
+        <!-- 若不启用该功能可删除该组件，将不拉起其他应用也不能被其他应用拉起 -->
+        <service
+            android:name="cn.jpush.android.service.DaemonService"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.DaemonService" />
+
+                <category android:name="com.yzm.sleep" />
+            </intent-filter>
+        </service>
+
+        <!-- Required -->
+        <receiver
+            android:name="cn.jpush.android.service.PushReceiver"
+            android:enabled="true" >
+            <intent-filter android:priority="1000" >
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY" />
+
+                <category android:name="com.yzm.sleep" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+            <!-- Optional -->
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        <!-- Required SDK核心功能 -->
+        <activity
+            android:name="cn.jpush.android.ui.PushActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.ui.PushActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="com.yzm.sleep" />
+            </intent-filter>
+        </activity>
+        <!-- Required SDK核心功能 -->
+        <service
+            android:name="cn.jpush.android.service.DownloadService"
+            android:enabled="true"
+            android:exported="false" >
+        </service>
+        <!-- Required SDK核心功能 -->
+        <receiver android:name="cn.jpush.android.service.AlarmReceiver" />
+
+        <!-- User defined. 用户自定义的广播接收器 -->
+        <receiver
+            android:name="com.yzm.sleep.brodcast.JPushMsgBroadcast"
+            android:enabled="true" >
+            <intent-filter>
+
+                <!-- Required 用户注册SDK的intent -->
+                <action android:name="cn.jpush.android.intent.REGISTRATION" />
+                <action android:name="cn.jpush.android.intent.UNREGISTRATION" />
+                <!-- Required 用户接收SDK消息的intent -->
+                <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED" />
+                <!-- Required 用户接收SDK通知栏信息的intent -->
+                <!-- <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED" /> -->
+                <!-- Required 用户打开自定义通知栏的intent -->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED" />
+                <!-- Optional 用户接受Rich Push Javascript 回调函数的intent -->
+                <action android:name="cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK" />
+                <!-- 接收网络变化 连接/断开 since 1.6.3 -->
+                <action android:name="cn.jpush.android.intent.CONNECTION" />
+
+                <category android:name="com.yzm.sleep" />
+            </intent-filter>
+        </receiver>
+
+        <!-- alipay sdk begin -->
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind"
+            android:windowSoftInputMode="adjustResize|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.alipay.sdk.auth.AuthActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind" >
+        </activity>
+        <!-- alipay sdk end -->
+
+
+        <!-- wxpay sdk start -->
+        <activity
+            android:name="com.yzm.sleep.wxapi.WXPayEntryActivity"
+            android:exported="true"
+            android:launchMode="singleTop" />
+
+        <receiver android:name="com.yzm.sleep.wxpay.AppRegister" >
+            <intent-filter>
+                <action android:name="com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP" />
+            </intent-filter>
+        </receiver>
+        <!-- wxpay sdk end -->
+    </application>
+
+</manifest>

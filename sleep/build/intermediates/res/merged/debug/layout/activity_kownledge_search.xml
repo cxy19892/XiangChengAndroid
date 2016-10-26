@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x48dp"
+        android:background="@color/white" 
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="5dp">
+        
+        <Button
+	        android:id="@+id/back"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:background="@null"
+	        android:drawableLeft="@drawable/icon_return"
+	        android:paddingLeft="@dimen/x5dp"
+        	android:paddingRight="@dimen/x20dp" />
+        <EditText
+            android:id="@+id/serch_edit"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/search_seek_img"
+            android:drawablePadding="8dp"
+            android:scrollbars="none"
+            android:inputType="text"
+            android:background="@drawable/edit_bg"
+            android:textSize="16sp"
+            android:textColor="@color/ct_color"
+            android:hint="输入关键词、标签"
+            android:imeOptions="actionSearch"
+            android:singleLine="true"
+            android:dropDownVerticalOffset="1dip"
+            android:completionThreshold="1"
+            android:paddingLeft="10dp"
+             >
+
+            <requestFocus />
+        </EditText>
+        
+        <Button
+            android:id="@+id/serch_commit"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="52dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/btn_gray1_bg"
+            android:paddingLeft="15dp"
+            android:paddingRight="7dp"
+            android:textColor="@color/white"
+            android:text="@string/my_search" />
+        
+        <ProgressBar 
+            android:id="@+id/serch_Progress"
+	        android:layout_width="32dp"
+	        android:layout_height="30dp"
+	        android:layout_centerInParent="true"
+	        android:indeterminate="true"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        android:gravity="center"
+	        android:visibility="gone"
+	        android:indeterminateDuration="500"
+	        android:indeterminateDrawable="@drawable/progress_icon_comm"
+        />
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/community_serch_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_color"
+        android:orientation="vertical" >
+        
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+	
+
+        <TextView
+            android:id="@+id/tv_kownledge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:visibility="gone"
+            android:layout_marginBottom="@dimen/x10dp"
+            android:textColor="@color/fct_color"
+            android:textSize="@dimen/ts_sub"
+            android:layout_marginLeft="@dimen/x16dp"
+            android:text="TextView" />
+
+    
+        <com.yzm.sleep.widget.CustomListView
+            android:id="@+id/listv_search_history"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_color"
+            android:visibility="gone"
+            android:divider="@color/bg_color"
+	        android:dividerHeight="1dp"
+            android:listSelector="@color/transparent"
+             >
+        </com.yzm.sleep.widget.CustomListView>
+
+    <LinearLayout 
+        android:id="@+id/search_labe_lin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/x16dp"
+        android:background="@color/cbg_color"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/fct_color"
+            android:textSize="@dimen/ts_sub"
+            android:text="大家都在搜"
+            />
+	    <com.yzm.sleep.widget.AutoNewLineLinearLayout
+	        android:id="@+id/search_layout_label"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="left|center_vertical"
+	        android:orientation="horizontal" >
+	    </com.yzm.sleep.widget.AutoNewLineLinearLayout>
+	</LinearLayout>
+</LinearLayout>
+    </ScrollView>
+    
+    <!-- <com.yzm.sleep.sunrefresh.PullToRefreshView -->
+    <com.yzm.sleep.refresh.MaterialRefreshLayout
+        android:id="@+id/pull_refreshview_search"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_color" >
+            
+        <ListView 
+            android:id="@+id/lv_serch_listv"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:divider="@color/bg_color"
+	        android:dividerHeight="1dp"
+	        android:listSelector="@color/transparent"
+	        android:background="@color/bg_color"
+	        android:visibility="visible"
+	        android:scrollbars="none"
+            
+            ></ListView>
+            
+        </com.yzm.sleep.refresh.MaterialRefreshLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

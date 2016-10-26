@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cbg_color">
+
+    <RelativeLayout
+        android:id="@+id/rl_p"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cbg_color" >
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="130dp"
+            android:drawablePadding="@dimen/x15dp"
+            android:drawableTop="@drawable/no_network"
+            android:gravity="center_horizontal"
+            android:text="点击屏幕，重新请求"
+            android:textColor="@color/ct_color" />
+    </RelativeLayout>
+
+</RelativeLayout>

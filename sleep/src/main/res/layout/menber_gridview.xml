@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_centerInParent="true"
+        >
+
+        <com.yzm.sleep.CircleImageView
+            android:id="@+id/zj_user_icon"
+            android:layout_width="54dp"
+            android:layout_height="54dp" />
+
+        <ImageView
+            android:id="@+id/is_pass"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignBottom="@id/zj_user_icon"
+            android:layout_alignRight="@id/zj_user_icon"
+            android:src="@drawable/ic_shequ_vip"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/zj_user_icon"
+            android:layout_alignRight="@id/zj_user_icon"
+            android:layout_below="@id/zj_user_icon"
+            android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:singleLine="true"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/ct_color"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

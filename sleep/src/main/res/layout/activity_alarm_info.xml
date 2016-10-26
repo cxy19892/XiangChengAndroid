@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainweixin"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_color" >
+
+    <include
+        android:id="@+id/title_layout"
+        android:layout_marginBottom="10dp"
+        layout="@layout/title_layout_dark" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_layout"
+        android:scrollbars="none" > 
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/title_layout"
+            android:orientation="vertical" >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/transparent" />
+
+            <com.yzm.sleep.widget.CustomListView
+                android:id="@+id/lv_alarm"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:dividerHeight="@dimen/activity_setting_line_height"
+                android:divider="@color/transparent"
+                android:footerDividersEnabled="false"
+                android:scrollbars="@null" />
+       </LinearLayout>
+</ScrollView>
+
+
+
+
+</RelativeLayout>

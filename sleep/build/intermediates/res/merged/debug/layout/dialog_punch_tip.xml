@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cbg_color"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="早起打卡时间为 04:00 ~ 11:00"
+        android:singleLine="true"
+        android:gravity="center"
+        android:padding="@dimen/x20dp"
+        android:textSize="@dimen/ts_titles"
+        android:textColor="@color/onet_color"/>
+
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="记得早点来打卡哟， 养成睡眠好习惯"
+        android:singleLine="true"
+        android:gravity="center"
+        android:textSize="@dimen/ts_content"
+        android:textColor="@color/ct_color"/>
+    
+    <Button 
+        android:id="@+id/punch_tip_enter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/x34dp"
+        android:layout_marginLeft="@dimen/x24dp"
+        android:layout_marginRight="@dimen/x24dp"
+        android:layout_marginBottom="@dimen/x34dp"
+        android:padding="@dimen/x10dp"
+        android:text="确  定"
+        android:textSize="@dimen/ts_btn"
+        android:textColor="@color/onet_color"
+        android:background="@drawable/custom_button_bg"/>
+</LinearLayout>

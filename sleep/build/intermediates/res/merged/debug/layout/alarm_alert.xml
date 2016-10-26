@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/margin_padding_xxsmall"
+    android:paddingRight="@dimen/margin_padding_xxsmall" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circular_corner_dialog" >
+
+        <RelativeLayout
+            android:id="@+id/layout_theme_pic"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/xiangcheng_audio_cover_height" >
+
+            <com.yzm.sleep.HalfRoundAngleImageView
+                android:id="@+id/iv_theme_pic"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="fitXY" />
+            <!-- 显示闹钟时间 、日期、星期 -->
+
+            <LinearLayout
+                android:id="@+id/layout_time"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/the_alarm_clock_time_background_img"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/margin_padding_xsmall"
+                android:paddingLeft="@dimen/margin_padding_xlarge"
+                android:paddingRight="@dimen/margin_padding_large"
+                android:paddingTop="@dimen/margin_padding_xsmall" >
+
+                <TextView
+                    android:id="@+id/alertTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textsize_round_minute" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tv_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/textsize_normal" />
+
+                    <TextView
+                        android:id="@+id/tv_week"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/textsize_normal" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/xiangcheng_alarm_bottom_height"
+            android:layout_below="@id/layout_theme_pic" >
+
+            <!--
+                 <com.yzm.sleep.RoundAngleImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/white" />
+            -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/snooze"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:textColor="@color/ct_color"
+                    android:textSize="@dimen/textsize_xxlarge" />
+
+                <View
+                    android:layout_width="@dimen/activity_setting_line_height"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_padding_normal"
+                    android:layout_marginTop="@dimen/margin_padding_normal"
+                    android:background="@color/fct_color_7f" />
+
+                <Button
+                    android:id="@+id/dismiss"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:textColor="@color/ct_color"
+                    android:textSize="@dimen/textsize_xxlarge" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

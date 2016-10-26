@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color" >
+
+    <include layout="@layout/title_layout_dark" />
+
+    <RelativeLayout
+        android:id="@+id/rl_my_receive"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x50dp"
+        android:layout_marginTop="@dimen/x48dp"
+        android:visibility="gone"
+        android:background="@color/hf_bg" >
+
+        <TextView
+            android:id="@+id/tv_re"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:text="我收到的回复"
+            android:textColor="@color/ct_color"
+            android:textSize="@dimen/ts_content" />
+
+        <ImageView
+            android:id="@+id/has_receive_communit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/tv_re"
+            android:src="@drawable/update_icon"
+            android:visibility="gone" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/x10dp"
+            android:src="@drawable/right_button" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/message_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/x58dp"
+        android:background="@color/bg_color"
+        android:divider="@color/bg_color"
+        android:dividerHeight="0.8dp"
+        android:listSelector="@drawable/comm_bg_listview_item"
+        android:scrollbars="none" />
+
+</RelativeLayout>

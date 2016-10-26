@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linMylayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.yzm.sleep.CircleImageView
+            android:id="@+id/mYicon"
+            android:layout_width="35dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="35dp"
+            android:background="@drawable/not_login_head_portraitb" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="香橙六六"
+                android:textColor="#576b95"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvTime"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="2分钟"
+                android:textColor="#999999"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/tvCont"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="23dp"
+                android:maxLines="4"
+                android:layout_marginTop="3dp"
+                android:textColor="#303030"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-10dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tvCommNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawableLeft="@drawable/icon_comment_grey"
+                    android:drawablePadding="5dp"
+                    android:padding="10dp"
+                    android:text="15"
+                    android:textColor="#A5A5A5"
+                    android:textSize="13sp" />
+                <TextView
+                    android:id="@+id/tvzNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:drawableLeft="@drawable/icon_praise_orange"
+                    android:drawablePadding="5dp"
+                    android:padding="10dp"
+                    android:text="15"
+                    android:textColor="#A5A5A5"
+                    android:textSize="13sp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

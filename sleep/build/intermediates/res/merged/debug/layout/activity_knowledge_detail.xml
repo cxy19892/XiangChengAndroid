@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/cbg_color" >
+    
+    <include layout="@layout/title_layout_dark"/>
+
+    <TextView
+        android:id="@+id/topice_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/x12dp"
+        android:layout_marginRight="@dimen/x12dp"
+        android:layout_marginTop="@dimen/x20dp"
+        android:maxLines="2"
+        android:visibility="gone"
+        android:textColor="@color/onet_color"
+        android:textSize="@dimen/ts_titles" />
+
+
+
+    <RelativeLayout
+        android:id="@+id/rl_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <WebView
+            android:id="@+id/topice_webpage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:scrollbars="none"
+            android:visibility="gone" />
+        
+        </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/rb_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/ct_color"
+        android:textSize="@dimen/ts_content"
+        android:gravity="center"
+        android:background="@color/cbg_color"
+        android:paddingLeft="@dimen/x10dp"
+        android:paddingRight="@dimen/x10dp"
+        android:paddingTop="@dimen/x24dp"
+        android:paddingBottom="@dimen/x24dp" />
+
+</RelativeLayout>

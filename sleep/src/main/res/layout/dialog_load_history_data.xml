@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/pop_dialog_margin_bottom" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/single_corner_bg"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/btn_height_normal"
+            android:gravity="center"
+            android:text="发现云端有保存的历史数据"
+            android:textColor="@color/ct_color"
+            android:textSize="@dimen/textsize_normal"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/activity_setting_line_height"
+            android:background="@color/fct_color_7f" />
+
+        <Button
+            android:id="@+id/btn_download"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/btn_height_normal"
+            android:background="@drawable/btn_gray1_bg"
+            android:gravity="center"
+            android:text="立刻下载"
+            android:textColor="@color/ct_color"
+            android:textSize="@dimen/textsize_normal" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_padding_small"
+        android:background="@drawable/single_corner_bg" >
+
+        <Button
+            android:id="@+id/btn_later_download"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/btn_height_normal"
+            android:background="@drawable/btn_gray1_bg"
+            android:gravity="center"
+            android:text="稍后下载"
+            android:textColor="@color/ct_color"
+            android:textSize="@dimen/textsize_normal" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color" >
+
+    <include 
+        android:id="@+id/rl_title"
+        layout="@layout/title_layout_dark" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/x48dp"
+        android:background="@color/bg_color"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/x20dp" >
+
+            <RelativeLayout
+                android:id="@+id/rl_question_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/x20dp"
+                android:paddingLeft="@dimen/x30dp">
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="晚上几点上床"
+                    android:textColor="@color/onet_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <TextView
+                    android:id="@+id/gobed_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv1"
+                    android:textColor="@color/fct_color"
+                    android:layout_marginTop="@dimen/x4dp"
+                    android:textSize="@dimen/ts_sub" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_below="@id/gobed_time"
+                    android:background="@color/fct_color"
+                    android:layout_marginTop="@dimen/x20dp"/>
+
+                <TextView
+                    android:id="@+id/btn_gobed_time"
+                    android:layout_width="@dimen/x60dp"
+                    android:layout_height="@dimen/x35dp"
+                    android:text="选择"
+                    android:gravity="center"
+                    android:background="@drawable/custom_bg11"
+                    android:clickable="true"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/x15dp"
+                    android:textSize="@dimen/ts_content"
+                    android:textColor="@color/onet_color"
+                    />
+            </RelativeLayout>
+            
+            <RelativeLayout
+                android:id="@+id/rl_question_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/x20dp"
+                android:paddingLeft="@dimen/x30dp">
+
+                <TextView
+                    android:id="@+id/tv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="几点尝试入睡"
+                    android:textColor="@color/onet_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <TextView
+                    android:id="@+id/try_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv2"
+                    android:textColor="@color/fct_color"
+                    android:layout_marginTop="@dimen/x4dp"
+                    android:textSize="@dimen/ts_sub" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_below="@id/try_time"
+                    android:background="@color/fct_color"
+                    android:layout_marginTop="@dimen/x20dp"/>
+
+                <TextView
+                    android:id="@+id/btn_try_time"
+                    android:layout_width="@dimen/x60dp"
+                    android:layout_height="@dimen/x35dp"
+                    android:text="选择"
+                    android:gravity="center"
+                    android:background="@drawable/custom_bg11"
+                    android:clickable="true"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/x15dp"
+                    android:textSize="@dimen/ts_content"
+                    android:textColor="@color/onet_color"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_question_three"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/x20dp"
+                android:paddingLeft="@dimen/x30dp">
+
+                <TextView
+                    android:id="@+id/tv3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="花多长时间入睡"
+                    android:textColor="@color/onet_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <TextView
+                    android:id="@+id/spend_sleep_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv3"
+                    android:textColor="@color/fct_color"
+                    android:layout_marginTop="@dimen/x4dp"
+                    android:textSize="@dimen/ts_sub" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_below="@id/spend_sleep_time"
+                    android:background="@color/fct_color"
+                    android:layout_marginTop="@dimen/x20dp"/>
+
+                <TextView
+                    android:id="@+id/btn_spend_sleep_time"
+                    android:layout_width="@dimen/x60dp"
+                    android:layout_height="@dimen/x35dp"
+                    android:text="选择"
+                    android:gravity="center"
+                    android:background="@drawable/custom_bg11"
+                    android:clickable="true"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/x15dp"
+                    android:textSize="@dimen/ts_content"
+                    android:textColor="@color/onet_color"
+                    />
+            </RelativeLayout>
+
+            <!--<LinearLayout
+                android:id="@+id/rl_question_four"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/x10dp"
+                android:visibility="gone"
+                android:paddingRight="@dimen/x10dp" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="@dimen/x15dp"
+                    android:text="中途醒来几次"
+                    android:textColor="@color/ct_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x10dp"
+                    android:layout_marginRight="@dimen/x10dp"
+                    android:background="@drawable/border"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <ImageButton
+                        android:id="@+id/btn_minus"
+                        android:layout_width="@dimen/x45dp"
+                        android:layout_height="@dimen/x45dp"
+                        android:background="@null"
+                        android:src="@drawable/btn_minus_icon"
+                        android:gravity="center" />
+
+                    <View
+                        android:layout_width="0.5dp"
+                        android:layout_height="@dimen/x30dp"
+                        android:background="@color/fct_color" />
+
+                    <TextView
+                        android:id="@+id/wake_count"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:gravity="center"
+                        android:text="0"
+                        android:padding="@dimen/x15dp"
+                        android:textColor="@color/onet_color"
+                        android:textColorHint="@color/onet_color"
+                        android:textSize="@dimen/ts_content" />
+
+                    <View
+                        android:layout_width="0.5dp"
+                        android:layout_height="@dimen/x30dp"
+                        android:background="@color/fct_color" />
+
+                    <ImageButton
+                        android:id="@+id/btn_add"
+                        android:layout_width="@dimen/x45dp"
+                        android:layout_height="@dimen/x45dp"
+                        android:background="@null"
+                        android:gravity="center"
+                        android:src="@drawable/btn_add_icon"
+                         />
+                </LinearLayout>
+            </LinearLayout>-->
+
+            <RelativeLayout
+                android:id="@+id/rl_question_five"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/x20dp"
+                android:paddingLeft="@dimen/x30dp">
+
+                <TextView
+                    android:id="@+id/tv4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="中途醒来总时长"
+                    android:textColor="@color/onet_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <TextView
+                    android:id="@+id/wake_time_lenght"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv4"
+                    android:textColor="@color/fct_color"
+                    android:layout_marginTop="@dimen/x4dp"
+                    android:textSize="@dimen/ts_sub" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_below="@id/wake_time_lenght"
+                    android:background="@color/fct_color"
+                    android:layout_marginTop="@dimen/x20dp"/>
+
+                <TextView
+                    android:id="@+id/btn_wake_time_lenght"
+                    android:layout_width="@dimen/x60dp"
+                    android:layout_height="@dimen/x35dp"
+                    android:text="选择"
+                    android:gravity="center"
+                    android:background="@drawable/custom_bg11"
+                    android:clickable="true"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/x15dp"
+                    android:textSize="@dimen/ts_content"
+                    android:textColor="@color/onet_color"
+                    />
+            </RelativeLayout>
+            
+            <RelativeLayout
+                android:id="@+id/rl_question_six"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/x20dp"
+                android:paddingLeft="@dimen/x30dp">
+
+                <TextView
+                    android:id="@+id/tv5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="早晨几点醒来"
+                    android:textColor="@color/onet_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <TextView
+                    android:id="@+id/getup_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv5"
+                    android:textColor="@color/fct_color"
+                    android:layout_marginTop="@dimen/x4dp"
+                    android:textSize="@dimen/ts_sub" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_below="@id/getup_time"
+                    android:background="@color/fct_color"
+                    android:layout_marginTop="@dimen/x20dp"/>
+
+                <TextView
+                    android:id="@+id/btn_getup_time"
+                    android:layout_width="@dimen/x60dp"
+                    android:layout_height="@dimen/x35dp"
+                    android:text="选择"
+                    android:gravity="center"
+                    android:background="@drawable/custom_bg11"
+                    android:clickable="true"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/x15dp"
+                    android:textSize="@dimen/ts_content"
+                    android:textColor="@color/onet_color"
+                    />
+            </RelativeLayout>
+            
+            <RelativeLayout
+                android:id="@+id/rl_question_seven"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/x20dp"
+                android:paddingLeft="@dimen/x30dp">
+
+                <TextView
+                    android:id="@+id/tv6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="比计划早醒多久"
+                    android:textColor="@color/onet_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <TextView
+                    android:id="@+id/early_wake_length"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv6"
+                    android:textColor="@color/fct_color"
+                    android:layout_marginTop="@dimen/x4dp"
+                    android:textSize="@dimen/ts_sub" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_below="@id/early_wake_length"
+                    android:background="@color/fct_color"
+                    android:layout_marginTop="@dimen/x20dp"/>
+
+                <TextView
+                    android:id="@+id/btn_early_wake_length"
+                    android:layout_width="@dimen/x60dp"
+                    android:layout_height="@dimen/x35dp"
+                    android:text="选择"
+                    android:gravity="center"
+                    android:background="@drawable/custom_bg11"
+                    android:clickable="true"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/x15dp"
+                    android:textSize="@dimen/ts_content"
+                    android:textColor="@color/onet_color"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_question_eight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/x20dp"
+                android:paddingLeft="@dimen/x30dp">
+
+                <TextView
+                    android:id="@+id/tv7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="早上几点离床"
+                    android:textColor="@color/onet_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <TextView
+                    android:id="@+id/leave_bed_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv7"
+                    android:textColor="@color/fct_color"
+                    android:layout_marginTop="@dimen/x4dp"
+                    android:textSize="@dimen/ts_sub" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_below="@id/leave_bed_time"
+                    android:background="@color/fct_color"
+                    android:layout_marginTop="@dimen/x20dp"/>
+
+                <TextView
+                    android:id="@+id/btn_leave_bed_time"
+                    android:layout_width="@dimen/x60dp"
+                    android:layout_height="@dimen/x35dp"
+                    android:text="选择"
+                    android:gravity="center"
+                    android:background="@drawable/custom_bg11"
+                    android:clickable="true"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/x15dp"
+                    android:textSize="@dimen/ts_content"
+                    android:textColor="@color/onet_color"
+                    />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

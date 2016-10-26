@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color" >
+
+    <include layout="@layout/title_layout_dark" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/x48dp"
+        android:background="@color/bg_color"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_color"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/x14dp" >
+
+            <HorizontalScrollView
+                android:id="@+id/hsv_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/title_bar_bg"
+                android:scrollbars="none"
+                android:visibility="gone" >
+
+                <LinearLayout
+                    android:id="@+id/rl_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/title_bar_bg"
+                    android:orientation="horizontal"
+                    android:paddingTop="@dimen/x14dp" />
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/tv_qtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/x1dp"
+                android:background="@color/bg_color"
+                android:gravity="center_horizontal"
+                android:padding="@dimen/x14dp"
+                android:textColor="@color/ct_color"
+                android:textSize="@dimen/ts_content" />
+
+            <com.yzm.sleep.widget.TagStreamLayout
+                android:id="@+id/gridview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x10dp"
+                android:background="@color/bg_color" />
+
+            <LinearLayout
+                android:id="@+id/rl_su"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="@dimen/x14dp"
+                android:layout_marginRight="@dimen/x14dp"
+                android:layout_weight="1.0"
+                android:layout_marginTop="@dimen/x14dp"
+                android:background="@drawable/custon_content_bg"
+                android:orientation="vertical"
+                android:padding="@dimen/x12dp"
+                android:visibility="gone" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="专家建议"
+                    android:drawableLeft="@drawable/ic_zhuajia_small"
+                    android:drawablePadding="5dp"
+                    android:textColor="@color/ct_color"
+                    android:textSize="@dimen/ts_sub" />
+
+                <TextView
+                    android:id="@+id/tv_suggest"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/x8dp"
+                    android:textColor="@color/fct_color"
+                    android:textSize="@dimen/ts_sub" />
+            </LinearLayout>
+
+            <Button
+                android:visibility="gone"
+                android:id="@+id/btn_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x30dp"
+                android:layout_marginRight="@dimen/x30dp"
+                android:layout_marginTop="@dimen/x20dp"
+                android:background="@drawable/button_login"
+                android:text="我知道了"
+                android:padding="@dimen/x10dp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ts_btn" />
+        </LinearLayout>
+    </ScrollView>
+
+    <include
+        android:id="@+id/no_net"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/x48dp"
+        layout="@layout/layout_no_net"
+        android:visibility="gone" />
+
+</RelativeLayout>

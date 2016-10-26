@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/share_back"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black" >
+
+    <LinearLayout
+        android:id="@+id/layoutBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/dialogb_color"
+        android:orientation="vertical" >
+
+        <GridView
+            android:id="@+id/gridView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="18dp"
+            android:listSelector="#00000000"
+            android:numColumns="4"
+            android:scrollbars="@null"
+            android:verticalSpacing="8dp" >
+        </GridView>
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/comm_bg_listview_item"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="@color/fct_color"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/layoutBottom"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:background="@color/cbg_color"
+        android:paddingBottom="20dp" >
+
+        <RelativeLayout
+            android:id="@+id/layoutUserMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <com.yzm.sleep.CircleImageView
+                android:id="@+id/ivUserIcon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp" />
+
+            <TextView
+                android:id="@+id/tvUserNickname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:layout_toRightOf="@id/ivUserIcon"
+                android:textColor="@color/onet_color"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+        <com.yzm.sleep.widget.DayDataCircle
+            android:id="@+id/soft_day_data_view"
+            android:layout_width="280dp"
+            android:layout_height="280dp"
+            android:layout_below="@id/layoutUserMessage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-14dp" />
+
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/tvDakaDays"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/soft_day_data_view"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="-20dp"
+            android:drawablePadding="5dp"
+            android:textColor="@color/t_color"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/tvSleepDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvDakaDays"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:drawablePadding="5dp"
+            android:textColor="@color/fct_color"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

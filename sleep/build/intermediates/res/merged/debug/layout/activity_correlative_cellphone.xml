@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_layout_dark" />
+
+    <EditText
+        android:id="@+id/et_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/cbg_color"
+        android:hint="输入手机号码"
+        android:inputType="phone"
+        android:paddingBottom="@dimen/margin_padding_xsmall"
+        android:paddingLeft="10dp"
+        android:paddingRight="80dp"
+        android:singleLine="true"
+        android:textColor="@color/ct_color"
+        android:textColorHint="@color/fct_color"
+        android:textSize="14sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/cbg_color" >
+
+        <Button
+            android:id="@+id/btn_get_vercode"
+            android:layout_width="100dp"
+            android:layout_height="38dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/get_verification_code_btn"
+            android:text="获取验证码"
+            android:textColor="@color/fct_color"
+            android:textSize="@dimen/textsize_small" />
+
+        <EditText
+            android:id="@+id/et_vercode"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/btn_get_vercode"
+            android:background="@null"
+            android:hint="输入验证码"
+            android:inputType="number"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:singleLine="true"
+            android:textColor="@color/ct_color"
+            android:textColorHint="@color/fct_color"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_bound"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/custom_button_bg"
+        android:padding="8dp"
+        android:text="关联手机"
+        android:textColor="@color/cbg_color"
+        android:textSize="14sp" />
+
+</LinearLayout>

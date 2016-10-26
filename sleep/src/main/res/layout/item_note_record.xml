@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:background="@color/cbg_color" >
+
+        <ImageView
+            android:id="@+id/img_roll"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="@dimen/x10dp"
+            android:layout_marginLeft="6dp"
+            android:src="@drawable/custom_circle_point_theme" />
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/img_roll"
+            android:layout_marginLeft="14dp"
+            android:padding="4dp"
+            android:layout_marginTop="@dimen/x2dp"
+            android:textStyle="bold"
+            android:textSize="@dimen/ts_sub"
+            android:textColor="@color/ct_color"
+            android:layout_toRightOf="@+id/img_roll"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tv_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/img_roll"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:paddingRight="@dimen/x14dp"
+            android:paddingLeft="@dimen/x14dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:textSize="@dimen/ts_content"
+            android:textColor="@color/ct_color"
+            android:drawableRight="@drawable/ic_delet"
+            android:text="" />
+        
+        <!-- android:layout_alignLeft="@+id/img_roll"  android:layout_below="@+id/img_roll" android:layout_alignParentBottom="true"  -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_time"
+            android:layout_marginLeft="10dp"
+            android:background="@color/ct_color"
+             >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/x20dp"
+            android:paddingBottom="@dimen/x10dp"
+            android:background="@color/cbg_color" >
+            <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/x10dp"
+            android:paddingTop="@dimen/x10dp"
+            android:textSize="@dimen/ts_content"
+            android:textColor="@color/fct_color"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tv_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="全文"
+            android:textSize="@dimen/ts_content"
+            android:paddingTop="@dimen/x5dp"
+            android:paddingBottom="@dimen/x5dp"
+            android:textColor="@color/theme_color" />
+        </LinearLayout>
+ 
+        </RelativeLayout>
+
+    </RelativeLayout>

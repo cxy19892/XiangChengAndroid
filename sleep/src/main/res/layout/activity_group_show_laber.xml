@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <include layout="@layout/title_layout_dark"/>
+    
+    <com.yzm.sleep.widget.KJScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+        
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_padding"
+        >
+
+        <TextView
+            android:id="@+id/group_tv_tips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="已加标签" />
+
+        <com.yzm.sleep.widget.AutoNewLineLinearLayout
+            android:id="@+id/group_layout_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small"
+            android:orientation="horizontal" >
+        </com.yzm.sleep.widget.AutoNewLineLinearLayout>
+
+    </LinearLayout>
+    </com.yzm.sleep.widget.KJScrollView>
+
+</LinearLayout>

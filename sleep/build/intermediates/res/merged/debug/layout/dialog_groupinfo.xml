@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dialogb_color"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/x10dp"
+        android:gravity="center"
+        android:text="确定取消关注？"
+        android:textColor="@color/ct_color"
+        android:textSize="@dimen/ts_titles" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/x10dp"
+        android:background="@color/fct_color_7f" />
+
+    <Button
+        android:id="@+id/btn_group_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_gray1_bg"
+        android:gravity="center"
+        android:padding="@dimen/x10dp"
+        android:text="确定"
+        android:textColor="@color/ct_color"
+        android:textSize="@dimen/textsize_normal" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_small"
+        android:background="@color/fct_color_7f" />
+
+    <Button
+        android:id="@+id/btn_group_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_gray1_bg"
+        android:gravity="center"
+        android:padding="@dimen/list_item_margin_normal"
+        android:text="取消"
+        android:textColor="@color/ct_color"
+        android:textSize="@dimen/textsize_normal" />
+
+</LinearLayout>

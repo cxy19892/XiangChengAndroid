@@ -1,0 +1,930 @@
+[
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\default_head_icon.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\default_head_icon.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\home_tab4_true.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\home_tab4_true.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\knowledge_xiguan_press.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\knowledge_xiguan_press.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_shequ_photo_close_pressed.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_shequ_photo_close_pressed.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\play_icon.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\play_icon.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_getup_normal.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_getup_normal.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\perceive_cicon.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\perceive_cicon.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_return_normal.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_return_normal.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_coffe_selected.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_coffe_selected.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\coffee2_pic.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\coffee2_pic.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\loop_play_icon.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\loop_play_icon.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_share_normal.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_share_normal.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\bluetooth_closed_in_img_and_text.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\bluetooth_closed_in_img_and_text.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\home_sleep_data_no.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\home_sleep_data_no.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\knowledge_xili_normal.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\knowledge_xili_normal.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_com_sina_weibo_sdk_login_with_account_text_pressed.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\exploded-aar\\XiangChengAndroid\\weiboSDK\\unspecified\\res\\drawable-xxhdpi-v4\\ic_com_sina_weibo_sdk_login_with_account_text_pressed.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_null.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_null.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_my_qr.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_my_qr.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_top.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_top.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_finish_normal.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_finish_normal.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_pause.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_pause.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_yan_normal.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_yan_normal.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_my_order.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_my_order.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_qushi.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_qushi.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_chat_bq_selected.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_chat_bq_selected.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\smoking_pic.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\smoking_pic.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\btn_write.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\btn_write.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_chat_jp_selected.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_chat_jp_selected.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\comment_on_the_sofa_img_text.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\comment_on_the_sofa_img_text.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_com_sina_weibo_sdk_login_button_with_frame_logo_focused.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\exploded-aar\\XiangChengAndroid\\weiboSDK\\unspecified\\res\\drawable-xxhdpi-v4\\ic_com_sina_weibo_sdk_login_button_with_frame_logo_focused.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_next_step_b.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_next_step_b.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\tips_hint_user_to_pulldown_1.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\tips_hint_user_to_pulldown_1.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_pyq.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_pyq.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\home_sleep_hot.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\home_sleep_hot.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\home_tab3_false.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\home_tab3_false.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\knowledge_guilv_press.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\knowledge_guilv_press.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_smile.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_smile.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_down_normal.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_down_normal.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\wine1_pic.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\wine1_pic.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_shequ_share_pressed.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_shequ_share_pressed.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\no_panel_display.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\no_panel_display.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\perceive_start.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\perceive_start.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\jianf_pic.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\jianf_pic.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\about_logo.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\about_logo.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\report_top_bg.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\report_top_bg.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\length_pic.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\length_pic.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\home_tab4_false.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\home_tab4_false.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_man.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_man.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_sport.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_sport.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_chat_jp_normal.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_chat_jp_normal.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_chat_yy_normal.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_chat_yy_normal.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_zhifubao.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_zhifubao.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_my_friend.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_my_friend.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_yjfk.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_yjfk.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\tips_hint_user_to_pulldown_2.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\tips_hint_user_to_pulldown_2.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_calendar_gray.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_calendar_gray.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\bg_home_2.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\bg_home_2.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_yan_selected.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_yan_selected.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\knowledge_xili_press.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\knowledge_xili_press.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_wx.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_wx.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\welcome_logo.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\welcome_logo.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_right.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_right.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_sleep_lenth_normal.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_sleep_lenth_normal.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_chat_pic_selected.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_chat_pic_selected.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_my_pg.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_my_pg.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\home_tab2_true.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\home_tab2_true.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_shequ_photo_selected.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_shequ_photo_selected.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\linellae_xiangcheng_img.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\linellae_xiangcheng_img.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_minus_normal.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_minus_normal.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_last.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_last.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\btn_use_icon.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\btn_use_icon.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_chat_bq_normal.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_chat_bq_normal.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\pillow_intr_icon.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\pillow_intr_icon.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ignore_icon_button.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ignore_icon_button.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\knowledge_hj_press.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\knowledge_hj_press.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\coffee_pic.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\coffee_pic.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_qzone.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_qzone.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_wb.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_wb.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_jiu_selected.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_jiu_selected.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_clock.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_clock.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\home_tab2_false.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\home_tab2_false.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\pillow_intr_up.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\pillow_intr_up.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ununited_cell_img.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ununited_cell_img.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\dat_getup.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\dat_getup.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\nouse_icon.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\nouse_icon.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\wine_pic.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\wine_pic.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_share_pressed.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_share_pressed.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_com_sina_weibo_sdk_login_button_with_frame_logo_pressed.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\exploded-aar\\XiangChengAndroid\\weiboSDK\\unspecified\\res\\drawable-xxhdpi-v4\\ic_com_sina_weibo_sdk_login_button_with_frame_logo_pressed.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_down_pressed.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_down_pressed.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\huangj_pic.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\huangj_pic.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\knowledge_guilv_normal.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\knowledge_guilv_normal.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_jishi.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_jishi.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic__right.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic__right.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_suo.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_suo.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_my_jh.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_my_jh.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\bg_home.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\bg_home.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_normal.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_normal.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_calendar_blue.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_calendar_blue.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_my_zk.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_my_zk.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\edit_data.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\edit_data.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\triangle_target.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\triangle_target.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_pre_pressed.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_pre_pressed.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\btn_nouse_icon.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\btn_nouse_icon.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\logo.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\logo.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_jiu_normal.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_jiu_normal.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_colse_normal.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_colse_normal.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_coffe.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_coffe.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\report_pic.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\report_pic.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\no_network.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\no_network.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_back.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_back.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\bg_home_1.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\bg_home_1.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\knowledge_hj_normal.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\knowledge_hj_normal.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\home_tab1_true.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\home_tab1_true.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_next_pressed.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_next_pressed.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\wine2_pic.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\wine2_pic.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_lose_weight.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_lose_weight.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\weight1_pic.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\weight1_pic.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\bg_home_report.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\bg_home_report.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\note_headpic.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\note_headpic.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_lock_bg.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_lock_bg.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\knowledge_headpic.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\knowledge_headpic.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_more_pressed.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_more_pressed.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\pillow_intr_bateriy.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\pillow_intr_bateriy.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_closed_pressed.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_closed_pressed.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_add_note.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_add_note.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_next_normal.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_next_normal.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_shequ_share_normal.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_shequ_share_normal.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_myorder.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_myorder.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\knowledge_xiguan_normal.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\knowledge_xiguan_normal.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\pause_icon.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\pause_icon.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_lcadd_normal.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_lcadd_normal.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_woman.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_woman.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\home_sleep_qushi.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\home_sleep_qushi.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_comment_grey.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\icon_comment_grey.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\home_tab1_false.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\home_tab1_false.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_play.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_play.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\smokingq1_pic.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\smokingq1_pic.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_home_bed.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_home_bed.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_coffe_normal.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_coffe_normal.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_chat_yy_selected.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_chat_yy_selected.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_pb_selected.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_pb_selected.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\home_tab3_true.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\home_tab3_true.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_zhuajia_small.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_zhuajia_small.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_lcadd_pressed.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_lcadd_pressed.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\jihua.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\jihua.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_pb_normal.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_pb_normal.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_praise_orange.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\icon_praise_orange.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\rings_male_icon.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\rings_male_icon.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sport_pic.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\sport_pic.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\second_level_play_set_ring_tone_button.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\second_level_play_set_ring_tone_button.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_weixin.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_weixin.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_my_data.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_my_data.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_my_sz.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_my_sz.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_next_step_w.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_next_step_w.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_cry.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_cry.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_next.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_next.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sport1_pic.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\sport1_pic.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_success.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_success.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_praise_orange_fill.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\icon_praise_orange_fill.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\send_audio_btn_icon_a.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\send_audio_btn_icon_a.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\topic_pencil_icon_img.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\topic_pencil_icon_img.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_week_report.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_week_report.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_down.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_down.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_my_bx.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_my_bx.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\no_topic_img_text.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\no_topic_img_text.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_com_sina_weibo_sdk_login_with_account_text_focused.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\exploded-aar\\XiangChengAndroid\\weiboSDK\\unspecified\\res\\drawable-xxhdpi-v4\\ic_com_sina_weibo_sdk_login_with_account_text_focused.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\rings_female_icon.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\rings_female_icon.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_selected.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_selected.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\tips_hint_user_to_pulldown_3.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\tips_hint_user_to_pulldown_3.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_shequ_sl.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_shequ_sl.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_sleep_lenth_select.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_sleep_lenth_select.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_fall_sleep_select.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_fall_sleep_select.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_anwei.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_anwei.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_right1.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_right1.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_smoke.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_smoke.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_ms.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_ms.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\home_sleep_data_yes.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\home_sleep_data_yes.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\home_remind_item_bg.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\home_remind_item_bg.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_my_msg.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_my_msg.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\smokingn1_pic.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\smokingn1_pic.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_com_sina_weibo_sdk_login_with_account_text_normal.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\exploded-aar\\XiangChengAndroid\\weiboSDK\\unspecified\\res\\drawable-xxhdpi-v4\\ic_com_sina_weibo_sdk_login_with_account_text_normal.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\default_choice_icon.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\default_choice_icon.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\voice_to_icon.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\voice_to_icon.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\smokingq2_pic.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\smokingq2_pic.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\weight2_pic.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\weight2_pic.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_fall_sleep_normal.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_fall_sleep_normal.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_email_normal.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_email_normal.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\feedback_icon.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\feedback_icon.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sleep_pic.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\sleep_pic.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\reply_to_the_triangle.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\reply_to_the_triangle.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_smile_normal.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_smile_normal.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\bg_home_4.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\bg_home_4.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_finish_pressed.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_finish_pressed.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\smokings1_pic.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\smokings1_pic.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\bg_home_impro.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\bg_home_impro.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\voice_from_icon.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\voice_from_icon.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\smokingn2_pic.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\smokingn2_pic.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_email_pressed.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_email_pressed.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\perceive_top.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\perceive_top.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\coffee1_pic.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\coffee1_pic.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_drink.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_drink.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\none_topic_img_icon.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\none_topic_img_icon.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sport2_pic.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\sport2_pic.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\home_remind_add_bg0.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\home_remind_add_bg0.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_chat_pic_normal.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_chat_pic_normal.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\music_bg.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\music_bg.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_jianfei_normal.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_jianfei_normal.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\smokings2_pic.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\smokings2_pic.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_jianfei_selected.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_jianfei_selected.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_getup_select.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_getup_select.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_return_pressed.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_return_pressed.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_delet.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_delet.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\pillow_intr_heart.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\pillow_intr_heart.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\single_play_icon.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\single_play_icon.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\home_remind_add_bg1.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\home_remind_add_bg1.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\linellae_phone_img.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\linellae_phone_img.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\bg_home_3.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\bg_home_3.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_more_normal.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_more_normal.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_com_sina_weibo_sdk_login_button_with_frame_logo_normal.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\exploded-aar\\XiangChengAndroid\\weiboSDK\\unspecified\\res\\drawable-xxhdpi-v4\\ic_com_sina_weibo_sdk_login_button_with_frame_logo_normal.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_shequ_photo_normal.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_shequ_photo_normal.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_add_record.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_add_record.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_shequ_vip.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_shequ_vip.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\tips_hint_user_to_pulldown_0.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\tips_hint_user_to_pulldown_0.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\group_information_icon_button.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\group_information_icon_button.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_qq.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_qq.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_mingxiang.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_mingxiang.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_minus_pressed.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_minus_pressed.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_lock.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_lock.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_pre_normal.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_pre_normal.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\getup_pic.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\getup_pic.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\home_sleep_clock.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\home_sleep_clock.png"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_shequ_photo_close_normal.png",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable-xxhdpi\\ic_shequ_photo_close_normal.png"
+    }
+]

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color" >
+
+    <include layout="@layout/title_layout_dark" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/x48dp"
+        android:background="@color/bg_color"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/x8dp" >
+
+        <RelativeLayout
+            android:id="@+id/rl_graph"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:background="@color/cbg_color"
+            android:paddingBottom="@dimen/x15dp" >
+
+            <TextView
+                android:id="@+id/tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/x30dp"
+                android:gravity="center"
+                android:text="最近7天"
+                android:textColor="@color/onet_color"
+                android:textSize="@dimen/ts_big" />
+
+            <LinearLayout
+                android:id="@+id/ll_l"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/x20dp"
+                android:background="@color/cbg_color" >
+
+                <TextView
+                    android:id="@+id/sleeptlenght"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/ct_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <TextView
+                    android:id="@+id/sleep_state"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:textColor="#e0e1f6"
+                    android:layout_marginLeft="@dimen/x8dp"
+                    android:textSize="@dimen/ts_content" />
+            </LinearLayout>
+
+            <com.yzm.sleep.widget.SoftSleepLengthTable
+                android:id="@+id/softsleeplengthform"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@+id/ll_l"
+                android:layout_marginTop="@dimen/x30dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/x8dp"
+            android:layout_weight="0.32"
+            android:background="@color/cbg_color"
+            android:paddingBottom="@dimen/x18dp"
+            android:paddingLeft="@dimen/x10dp"
+            android:paddingRight="@dimen/x10dp" >
+
+            <TextView
+                android:id="@+id/tv__2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/x10dp"
+                android:gravity="center_vertical"
+                android:text="睡眠小贴士"
+                android:textColor="@color/onet_color"
+                android:textSize="@dimen/ts_content" />
+
+            <TextView
+                android:id="@+id/tips_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv__2"
+                android:layout_marginTop="@dimen/x10dp"
+                android:gravity="center_vertical"
+                android:lineSpacingMultiplier="1.2"
+                android:textColor="@color/ct_color"
+                android:textSize="@dimen/ts_sub" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

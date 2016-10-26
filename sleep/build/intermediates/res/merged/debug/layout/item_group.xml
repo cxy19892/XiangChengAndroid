@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/lin_teamName"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x48dp"
+        android:background="@color/bg_color"
+        android:orientation="horizontal" >
+
+        <View
+            android:layout_width="@dimen/x2dp"
+            android:layout_height="@dimen/x16dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/x11dp"
+            android:background="@color/theme_color" />
+
+        <TextView
+            android:id="@+id/tvTeamName"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x50dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/x12dp"
+            android:text="热门话题"
+            android:textColor="#7d7d90"
+            android:textSize="@dimen/ts_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lin_grouppage3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/comm_bg_listview_item"
+        android:descendantFocusability="blocksDescendants"
+        android:orientation="vertical"
+        android:paddingLeft="0.5dp"
+        android:paddingRight="0.5dp"
+        android:paddingTop="0.5dp" >
+
+        <TextView
+            android:id="@+id/tvGroupName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x11dp"
+            android:layout_marginTop="@dimen/x15dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="失眠的的界定界定asdas"
+            android:textColor="@color/onet_color"
+            android:textSize="@dimen/ts_content" />
+
+        <TextView
+            android:id="@+id/tvGroupCont"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x11dp"
+            android:layout_marginRight="@dimen/x11dp"
+            android:layout_marginTop="@dimen/x5dp"
+            android:maxLines="6"
+            android:text="刚刚梦到像往常样去给我家狗狗喂饭。推开门却是一只大老虎。然后偶倒我身上舔舔的。给我吓醒了。把我吓了后背一身汗"
+            android:textColor="@color/ct_color"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/imgGroupUrl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x11dp"
+            android:layout_marginRight="@dimen/x11dp"
+            android:layout_marginTop=
+            "@dimen/x5dp"
+            android:focusable="false" />
+
+        <com.yzm.sleep.widget.CustomGridView
+            android:id="@+id/gdvGroupgrid"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x12dp"
+            android:layout_marginRight="@dimen/x10dp"
+            android:layout_marginTop="@dimen/x5dp"
+            android:fadingEdge="none"
+            android:focusable="false"
+            android:horizontalSpacing="@dimen/x5dp"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="3"
+            android:verticalSpacing="@dimen/x5dp" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x11dp"
+            android:layout_marginTop="@dimen/x10dp" >
+
+            <com.yzm.sleep.CircleImageView
+                android:id="@+id/imGroupUserIcon"
+                android:layout_width="@dimen/x30dp"
+                android:layout_height="@dimen/x30dp" />
+
+            <ImageView
+                android:id="@+id/tvGroupType"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_alignBottom="@id/imGroupUserIcon"
+                android:layout_alignRight="@id/imGroupUserIcon"
+                android:gravity="center"
+                android:src="@drawable/ic_shequ_vip" />
+
+            <TextView
+                android:id="@+id/tvGroupUserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/x5dp"
+                android:layout_marginRight="@dimen/x10dp"
+                android:layout_toRightOf="@id/imGroupUserIcon"
+                android:ellipsize="end"
+                android:maxLength="12"
+                android:singleLine="true"
+                android:text="失眠的界定啊是的哈就肯定会卷卡式带很快就阿斯顿哈萨克觉得好看撒结婚的"
+                android:textColor="@color/ct_color"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvGroupNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/x15dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="阅读数：37895"
+                android:textColor="@color/fct_color"
+                android:textSize="@dimen/ts_sub" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x10dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x10dp"
+        android:background="@color/bg_color" />
+
+</LinearLayout>

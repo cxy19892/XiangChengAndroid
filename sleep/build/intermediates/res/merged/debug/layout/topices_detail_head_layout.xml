@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:gesture-image="http://schemas.polites.com/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cbg_color" >
+
+    <TextView
+        android:id="@+id/topice_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/x12dp"
+        android:layout_marginRight="@dimen/x12dp"
+        android:layout_marginTop="@dimen/x20dp"
+        android:maxLines="2"
+        android:textColor="@color/onet_color"
+        android:textSize="@dimen/ts_titles" />
+
+    <RelativeLayout
+        android:id="@+id/rl_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/topice_title"
+        android:layout_marginTop="@dimen/x20dp"
+        android:background="@color/cbg_color" >
+
+        <com.yzm.sleep.CircleImageView
+            android:id="@+id/iv_userhead"
+            android:layout_width="@dimen/x36dp"
+            android:layout_height="@dimen/x36dp"
+            android:layout_marginLeft="@dimen/x12dp" />
+
+        <ImageView
+            android:id="@+id/user_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/iv_userhead"
+            android:layout_alignRight="@id/iv_userhead"
+            android:src="@drawable/ic_shequ_vip"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/post_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x10dp"
+            android:layout_marginRight="@dimen/x12dp"
+            android:singleLine="true"
+            android:textColor="@color/ct_color"
+            android:textSize="@dimen/ts_sub" />
+
+        <TextView
+            android:id="@+id/author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x20dp"
+            android:layout_marginRight="@dimen/x12dp"
+            android:layout_toRightOf="@id/iv_userhead"
+            android:singleLine="true"
+            android:textColor="@color/ct_color"
+            android:textSize="@dimen/ts_sub" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_head" >
+
+        <WebView
+            android:id="@+id/topice_webpage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:scrollbars="none"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/topic_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x10dp"
+            android:layout_marginRight="@dimen/x10dp"
+            android:autoLink="web"
+            android:lineSpacingMultiplier="1.2"
+            android:paddingTop="@dimen/x18dp"
+            android:textColor="@color/onet_color"
+            android:textSize="@dimen/ts_sub"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/topic_content_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/topic_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/x10dp"
+            android:layout_marginRight="@dimen/x10dp"
+            android:layout_marginTop="@dimen/x10dp"
+            android:adjustViewBounds="true"
+            android:focusable="false"
+            android:focusableInTouchMode="true"
+            android:scaleType="fitXY"
+            android:visibility="gone" />
+
+        <com.yzm.sleep.widget.CustomGridView
+            android:id="@+id/cust_grid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/topic_content"
+            android:layout_marginTop="@dimen/x10dp"
+            android:horizontalSpacing="@dimen/x5dp"
+            android:listSelector="#00000000"
+            android:numColumns="3"
+            android:paddingLeft="@dimen/x10dp"
+            android:paddingRight="@dimen/x10dp"
+            android:verticalSpacing="@dimen/x5dp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/read_record_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_content"
+        android:layout_marginLeft="@dimen/x12dp"
+        android:layout_marginTop="@dimen/x18dp"
+        android:paddingBottom="@dimen/x28dp"
+        android:textColor="@color/ct_color"
+        android:textSize="@dimen/ts_min"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/rl_related_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/read_record_num"
+        android:background="@color/bg_color"
+        android:visibility="gone" >
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="@dimen/x12dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x12dp"
+            android:background="@color/theme_color" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x25dp"
+            android:paddingBottom="@dimen/x12dp"
+            android:paddingTop="@dimen/x12dp"
+            android:singleLine="true"
+            android:text="相关的讨论小组"
+            android:textColor="@color/ct_color"
+            android:textSize="@dimen/ts_sub" />
+    </RelativeLayout>
+
+    <com.yzm.sleep.widget.CustomListView
+        android:id="@+id/related_groups"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_related_title"
+        android:background="@color/bg_color"
+        android:divider="@color/bg_color"
+        android:dividerHeight="@dimen/x2dp"
+        android:listSelector="@drawable/comm_bg_listview_item"
+        android:visibility="gone" />
+
+    <View
+        android:id="@+id/view_v"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x10dp"
+        android:layout_below="@id/related_groups"
+        android:background="@color/bg_color"
+        android:visibility="gone" />
+
+</RelativeLayout>

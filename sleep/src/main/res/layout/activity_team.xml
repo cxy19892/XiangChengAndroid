@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/app_title"
+        layout="@layout/title_layout_dark" />
+
+    <com.yzm.sleep.widget.StickyLayout
+        android:id="@+id/sticky_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/app_title"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/sticky_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:id="@+id/sticky_header_rela"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x65dp"
+                android:background="@color/cbg_color" >
+
+                <com.yzm.sleep.CircleImageView
+                    android:id="@+id/team_group_icon"
+                    android:layout_width="@dimen/x40dp"
+                    android:layout_height="@dimen/x40dp"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="@dimen/x10dp" />
+
+                <TextView
+                    android:id="@+id/team_groupName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/x10dp"
+                    android:layout_toRightOf="@id/team_group_icon"
+                    android:textColor="@color/onet_color"
+                    android:textSize="@dimen/ts_content" />
+
+                <ImageView
+                    android:id="@+id/ginfo_next"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/x20dp"
+                    android:background="@drawable/icon_right" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x10dp"
+                android:layout_below="@id/sticky_header_rela"
+                android:background="@color/bg_color" />
+        </RelativeLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RadioGroup
+                android:id="@+id/group_list_sort"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/cbg_color"
+                android:orientation="horizontal"
+                android:weightSum="2" >
+
+                <RadioButton
+                    android:id="@+id/group_hottest"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/x40dp"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:checked="true"
+                    android:gravity="center"
+                    android:text="最热"
+                    android:textColor="@color/theme_color"
+                    android:textSize="@dimen/ts_btn" />
+
+                <RadioButton
+                    android:id="@+id/group_fresh"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/x40dp"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:text="最新"
+                    android:textColor="@color/color_home_tab"
+                    android:textSize="@dimen/ts_btn" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2" >
+
+                <View
+                    android:id="@+id/group_sort_line"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/x2dp"
+                    android:layout_weight="1"
+                    android:background="@color/theme_color" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sticky_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ListView
+                android:id="@+id/my_expanlist"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/bg_color"
+                android:childDivider="@null"
+                android:divider="#00000000"
+                android:dividerHeight="0dip"
+                android:listSelector="@android:color/transparent"
+                android:scrollbars="none" />
+        </LinearLayout>
+    </com.yzm.sleep.widget.StickyLayout>
+
+    <Button
+        android:id="@+id/but_groupzd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="@dimen/x50dp"
+        android:layout_marginRight="@dimen/x15dp"
+        android:background="@drawable/ic_top"
+        android:padding="5dp"
+        android:visibility="gone" />
+
+</RelativeLayout>

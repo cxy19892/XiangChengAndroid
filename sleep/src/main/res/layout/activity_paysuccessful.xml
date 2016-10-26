@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+    
+    <include 
+        layout="@layout/title_layout_dark"
+        />
+    
+    	<ImageView 
+    	    android:id="@+id/res_img"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:background="@drawable/ic_success"
+    	    android:layout_marginTop="@dimen/x60dp"
+    	    android:layout_gravity="center"
+    	    />
+    	<TextView 
+    	    android:id="@+id/res_title"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_gravity="center"
+    	    android:textSize="@dimen/ts_sub"
+    	    android:layout_marginTop="@dimen/x29dp"
+    	    android:textColor="@color/onet_color"
+    	    android:text="您已购买成功"
+    	    />
+    		<TextView 
+    		    android:id="@+id/res_context"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_gravity="center"
+    	    android:layout_marginTop="@dimen/x12dp"
+    	    android:textSize="@dimen/ts_sub"
+    	    android:textColor="@color/ct_color"
+    	    android:text="客服将会与您取得沟通相关事宜"
+    	    />
+
+</LinearLayout>

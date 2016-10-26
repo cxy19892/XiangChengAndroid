@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cbg_color"
+    android:orientation="vertical" >
+    
+    <include layout="@layout/title_layout_transparent"/>
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/x16dp"
+        android:paddingBottom="@dimen/x6dp"
+        android:layout_weight="1"
+        >
+        
+        <com.yzm.sleep.widget.MyClockPro
+            android:id="@+id/myclock_pro"
+            android:layout_width="200dp"
+        	android:layout_height="200dp"
+        	android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true" />
+        
+        
+
+        <TextView
+            android:id="@+id/tv_start_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/myclock_pro"
+            android:paddingLeft="@dimen/x10dp"
+            android:paddingRight="@dimen/x10dp"
+            android:paddingTop="@dimen/x1dp"
+            android:paddingBottom="@dimen/x1dp"
+            android:layout_marginTop="-12dp"
+            android:layout_marginLeft="30dp"
+            android:gravity="center"
+            android:textColor="@color/ct_color"
+            android:textSize="@dimen/ts_content"
+            android:background="@drawable/custom_round_normal"
+            android:text="" />
+        
+        
+        
+        <TextView
+            android:id="@+id/tv_stop_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/myclock_pro"
+            android:paddingLeft="@dimen/x10dp"
+            android:paddingRight="@dimen/x10dp"
+            android:paddingTop="@dimen/x1dp"
+            android:paddingBottom="@dimen/x1dp"
+            android:layout_marginTop="-12dp"
+            android:layout_marginRight="30dp"
+            android:gravity="center"
+            android:textColor="@color/ct_color"
+            android:textSize="@dimen/ts_content"
+            android:background="@drawable/custom_round_normal"
+            android:text="8:00" />
+
+        <TextView
+            android:id="@+id/tv_state_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tv_stop_time"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/ct_color"
+            android:textSize="@dimen/ts_titles" />
+        
+        <TextView
+            android:id="@+id/tv_state_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_state_name"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/ct_color"
+            android:textSize="@dimen/ts_content"
+            android:text="" />
+
+    </RelativeLayout>
+    
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/theme_color_7f"
+        >
+        
+        <LinearLayout
+            android:id="@+id/lin_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/theme_color"
+        android:layout_alignParentBottom="true"
+         >
+
+        <Button
+            android:id="@+id/btn_last"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x48dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:background="@color/transparent"
+            android:layout_marginRight="@dimen/x5dp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/ts_btn"
+            android:text="上一阶段" />
+
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x48dp"
+            android:layout_marginLeft="@dimen/x5dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="@dimen/ts_btn"
+            android:background="@color/transparent"
+            android:text="下一阶段" />
+
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_state_suggest"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/lin_bottom"
+            android:lineSpacingExtra="10sp"
+            android:background="@color/theme_color_ee"
+            android:drawableLeft="@drawable/ic_tanhao"
+            android:drawablePadding="@dimen/x16dp"
+            android:padding="@dimen/x16dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/white"
+            android:textSize="@dimen/ts_content"
+            android:text="" />
+        
+        
+        
+        
+    </RelativeLayout>
+
+    
+
+</LinearLayout>

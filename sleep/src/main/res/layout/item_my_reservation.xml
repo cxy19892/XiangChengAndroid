@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/comm_bg_listview_item"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/x10dp"
+    android:paddingBottom="@dimen/x10dp"
+    android:paddingLeft="@dimen/x10dp"
+    android:paddingRight="@dimen/x10dp" >
+
+    <TextView
+        android:id="@+id/tvDoctor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/onet_color"
+        android:textSize="@dimen/ts_btn" />
+
+    <TextView
+        android:id="@+id/tvOrderTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvDoctor"
+        android:layout_marginTop="@dimen/x8dp"
+        android:textColor="@color/fct_color"
+        android:textSize="@dimen/ts_sub" />
+
+    <ImageView
+        android:id="@+id/right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/icon_right" />
+
+</RelativeLayout>

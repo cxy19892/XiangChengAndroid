@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    >
+    <FrameLayout
+        android:id="@+id/pillow_data_content" 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <TextView 
+        android:id="@+id/pillow_data_pull"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:visibility="gone"
+        android:text="下拉开启香橙枕头"
+        android:textSize="14sp"
+        android:textColor="#ffffff"
+        android:padding="5dp"
+        android:gravity="bottom|center_horizontal"
+        android:background="@drawable/scrollbtn_bg"/>
+
+</RelativeLayout>

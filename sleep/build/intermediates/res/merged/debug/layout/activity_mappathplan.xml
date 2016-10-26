@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color" >
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/bmapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/x48dp"
+        android:clickable="true" />
+
+    <RadioGroup
+        android:id="@+id/group"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x48dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/cbg_color"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/by_bus"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/custom_radiobtn_bg" 
+            android:button="@null"
+            android:gravity="center"
+            android:text="公交"
+            android:textColor="@color/onet_color"
+            android:textSize="@dimen/ts_content" />
+
+        <RadioButton
+            android:id="@+id/by_drive"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/custom_radiobtn_bg"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:text="驾车"
+            android:textColor="@color/onet_color"
+            android:textSize="@dimen/ts_content" />
+
+        <RadioButton
+            android:id="@+id/by_walk"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/custom_radiobtn_bg"
+            android:button="@null"
+            android:gravity="center"
+            android:text="步行"
+            android:textColor="@color/onet_color"
+            android:textSize="@dimen/ts_sub" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/x48dp"
+        android:background="@null"
+        android:drawableLeft="@drawable/icon_return"
+        android:paddingLeft="@dimen/x10dp"
+        android:paddingRight="@dimen/x14dp" />
+
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/lin_teamName"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x48dp"
+        android:background="@color/bg_color"
+        android:orientation="horizontal" >
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="@dimen/x2dp"
+            android:layout_height="@dimen/x16dp"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/x11dp"
+            android:background="@color/theme_color" />
+
+        <TextView
+            android:id="@+id/tvTeamName"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/x50dp"
+            android:layout_toRightOf="@id/view1"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/x12dp"
+            android:text="香橙推荐"
+            android:textColor="@color/fct_color"
+            android:textSize="@dimen/ts_content" />
+
+        <Button
+            android:id="@+id/but_more"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/x12dp"
+            android:background="@drawable/button_groupheader"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/ts_sub"
+            android:paddingLeft="@dimen/x10dp"
+            android:paddingRight="@dimen/x10dp"
+            android:text="更多"
+            android:visibility="gone"
+            android:textColor="@color/fct_color" />
+    </RelativeLayout>
+
+    <com.yzm.sleep.widget.CustomListView
+        android:id="@+id/groupHeader"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:childDivider="@null"
+        android:background="@color/bg_color"
+        android:divider="@color/bg_color"
+        android:dividerHeight="0.5dip"
+        android:listSelector="@drawable/comm_bg_listview_item"
+        android:scrollbars="none" >
+    </com.yzm.sleep.widget.CustomListView>
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/comm_bg_listview_item"
+    android:paddingBottom="@dimen/x15dp"
+    android:paddingTop="@dimen/x15dp" >
+
+    <com.yzm.sleep.CircleImageView
+        android:id="@+id/iv_userhead"
+        android:layout_width="@dimen/x46dp"
+        android:layout_height="@dimen/x46dp"
+        android:layout_marginLeft="@dimen/x10dp"
+        android:src="@drawable/ic_my_tx" />
+
+    <ImageView
+        android:id="@+id/user_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/iv_userhead"
+        android:layout_alignBottom="@id/iv_userhead"
+        android:visibility="gone"
+        android:src="@drawable/ic_shequ_vip" />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/x10dp"
+        android:textColor="@color/fct_color"
+        android:textSize="@dimen/ts_min" />
+
+    <ImageView
+        android:id="@+id/iv_hasnew_mag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tv_date"
+        android:layout_marginRight="@dimen/x15dp"
+        android:layout_marginTop="@dimen/x8dp"
+        android:src="@drawable/update_icon"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/x15dp"
+        android:layout_marginTop="@dimen/x2dp"
+        android:layout_toLeftOf="@id/tv_date"
+        android:layout_toRightOf="@id/iv_userhead"
+        android:singleLine="true"
+        android:textColor="@color/onet_color"
+        android:textSize="@dimen/ts_content" />
+
+    <TextView
+        android:id="@+id/tv_message_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_username"
+        android:layout_marginLeft="@dimen/x15dp"
+        android:layout_marginTop="@dimen/x4dp"
+        android:layout_toLeftOf="@id/tv_date"
+        android:layout_toRightOf="@id/iv_userhead"
+        android:singleLine="true"
+        android:textColor="@color/ct_color"
+        android:textSize="@dimen/ts_sub" />
+
+</RelativeLayout>

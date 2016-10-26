@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_layout_dark" />
+
+    <LinearLayout
+        android:id="@+id/lyoutBasic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cbg_color"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <!-- 个人资料 -->
+
+        <RelativeLayout
+            android:id="@+id/rl1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/x11dp"
+            android:paddingLeft="@dimen/x10dp"
+            android:paddingRight="@dimen/x10dp"
+            android:paddingTop="@dimen/x10dp" >
+
+            <com.yzm.sleep.CircleImageView
+                android:id="@+id/userHeadIcon"
+                android:layout_width="@dimen/x46dp"
+                android:layout_height="@dimen/x46dp"
+                android:layout_centerVertical="true" />
+
+            <TextView
+                android:id="@+id/userType"
+                android:layout_width="@dimen/x14dp"
+                android:layout_height="@dimen/x14dp"
+                android:layout_below="@id/userHeadIcon"
+                android:layout_marginLeft="-12dp"
+                android:layout_marginTop="-12dp"
+                android:layout_toRightOf="@id/userHeadIcon"
+                android:background="@drawable/ic_shequ_vip"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/tvSleepDays"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textColor="@color/fct_color"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:id="@+id/layoutNickname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/tvSleepDays"
+                android:layout_toRightOf="@id/userHeadIcon"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tvNickname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x20dp"
+                    android:drawablePadding="@dimen/x10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/onet_color"
+                    android:textSize="@dimen/ts_titles" />
+
+                <TextView
+                    android:id="@+id/tvZjInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x20dp"
+                    android:layout_marginTop="@dimen/x10dp"
+                    android:textColor="@color/fct_color"
+                    android:textSize="15sp"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/ivEnterMyDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/icon_right" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x1dp"
+            android:background="@color/bg_color" />
+        <!-- 私聊或咨询 -->
+
+        <LinearLayout
+            android:id="@+id/llChat"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x44dp"
+            android:layout_marginBottom="@dimen/x15dp"
+            android:layout_marginLeft="@dimen/x30dp"
+            android:layout_marginRight="@dimen/x30dp"
+            android:layout_marginTop="@dimen/x14dp"
+            android:background="@drawable/person_page_chat_attention_bg"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/tvChat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_shequ_sl"
+                android:drawablePadding="@dimen/x10dp"
+                android:text="私聊"
+                android:textColor="@color/ct_color"
+                android:textSize="@dimen/ts_btn" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x1dp"
+            android:background="@color/bg_color" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_topices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:listSelector="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:fastScrollEnabled="false"
+        android:scrollbars="none"
+        android:background="@color/bg_color"
+        android:visibility="visible" >
+    </ListView>
+
+</LinearLayout>

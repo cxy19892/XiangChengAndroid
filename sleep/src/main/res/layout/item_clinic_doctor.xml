@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cbg_color"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/x16dp"
+    android:paddingLeft="@dimen/x10dp"
+    android:paddingRight="@dimen/x10dp"
+    android:paddingTop="@dimen/x16dp" >
+
+    <com.yzm.sleep.CircleImageView
+        android:id="@+id/civDoctorHead"
+        android:layout_width="@dimen/x40dp"
+        android:layout_height="@dimen/x40dp" />
+
+    <ImageView
+        android:id="@+id/ivUserType"
+        android:layout_width="@dimen/x16dp"
+        android:layout_height="@dimen/x16dp"
+        android:layout_alignRight="@id/civDoctorHead"
+        android:layout_alignTop="@id/civDoctorHead"
+        android:layout_marginBottom="-8dp"
+        android:layout_marginRight="-8dp"
+        android:src="@drawable/ic_shequ_vip"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tvDoctor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/civDoctorHead"
+        android:layout_marginLeft="@dimen/x10dp"
+        android:layout_marginTop="@dimen/x2dp"
+        android:layout_toRightOf="@id/civDoctorHead"
+        android:textColor="@color/onet_color"
+        android:textSize="@dimen/ts_content" />
+
+    <TextView
+        android:id="@+id/tvZhichen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tvDoctor"
+        android:layout_below="@id/tvDoctor"
+        android:layout_marginTop="@dimen/x3dp"
+        android:textColor="@color/fct_color"
+        android:textSize="@dimen/ts_sub" />
+
+    <TextView
+        android:id="@+id/tvDoctorIntro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tvDoctor"
+        android:layout_below="@id/tvZhichen"
+        android:layout_marginTop="@dimen/x6dp"
+        android:ellipsize="end"
+        android:lineSpacingMultiplier="1.2"
+        android:textColor="@color/ct_color"
+        android:textSize="@dimen/ts_sub" />
+
+    <Button
+        android:id="@+id/btnMore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/tvDoctorIntro"
+        android:layout_below="@id/tvDoctorIntro"
+        android:background="@null"
+        android:singleLine="true"
+        android:paddingBottom="@dimen/x10dp"
+        android:paddingLeft="@dimen/x20dp"
+        android:paddingRight="@dimen/x6dp"
+        android:paddingTop="@dimen/x10dp"
+        android:textColor="@color/fct_color"
+        android:textSize="@dimen/ts_sub" />
+
+</RelativeLayout>

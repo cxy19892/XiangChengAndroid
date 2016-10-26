@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/comm_bg_listview_item"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical" >
+
+    <View
+        android:id="@+id/view_icon"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x20dp"
+        android:background="@color/bg_color"/>
+
+    <RelativeLayout
+        android:id="@+id/reHeader"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x63dp"
+        android:layout_marginLeft="@dimen/x11dp"
+        android:layout_marginRight="@dimen/x5dp" >
+
+        <com.yzm.sleep.CircleImageView
+            android:id="@+id/imgroupheaderIcon"
+            android:layout_width="@dimen/x41dp"
+            android:layout_height="@dimen/x41dp"
+            android:layout_centerVertical="true" />
+
+        <TextView
+            android:id="@+id/tvHeaderTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/imgroupheaderIcon"
+            android:layout_marginLeft="@dimen/x10dp"
+            android:layout_toRightOf="@id/imgroupheaderIcon"
+            android:textColor="@color/onet_color"
+            android:textSize="@dimen/ts_content" />
+
+        <TextView
+            android:id="@+id/tvHeaderCont"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvHeaderTitle"
+            android:layout_marginLeft="@dimen/x10dp"
+            android:layout_marginRight="@dimen/x50dp"
+            android:layout_marginTop="@dimen/x5dp"
+            android:layout_toRightOf="@id/imgroupheaderIcon"
+            android:maxLines="1"
+            android:textColor="@color/ct_color"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/ginfo_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/x7dp"
+            android:background="@drawable/ic_right" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/bg_color" />
+
+</LinearLayout>

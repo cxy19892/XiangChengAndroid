@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#00000000"
+    android:paddingBottom="@dimen/x5dp" >
+
+    <TextView
+        android:id="@+id/timestamp"
+        style="@style/chat_text_date_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#00000000"
+        android:textSize="@dimen/ts_min"
+        android:textColor="@color/fct_color" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp" >
+
+        <com.yzm.sleep.CircleImageView
+            android:id="@+id/iv_userhead"
+            android:layout_width="@dimen/x46dp"
+            android:layout_height="@dimen/x46dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/x10dp" />
+
+        <ImageView
+            android:id="@+id/iv_usertype"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/iv_userhead"
+            android:layout_alignRight="@id/iv_userhead"
+            android:src="@drawable/ic_shequ_vip"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/bubble"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x5dp"
+            android:layout_toRightOf="@id/iv_userhead"
+            android:background="@drawable/chat_receiv_bg" >
+
+            <TextView
+                android:id="@+id/tv_chatcontent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:autoLink="web"
+                android:gravity="center|left"
+                android:maxWidth="225.0dip"
+                android:minHeight="@dimen/x46dp"
+                android:paddingBottom="@dimen/x3dp"
+                android:paddingLeft="@dimen/x4dp"
+                android:paddingRight="@dimen/x1dp"
+                android:paddingTop="@dimen/x3dp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ts_content" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

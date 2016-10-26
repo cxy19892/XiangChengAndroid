@@ -1,0 +1,586 @@
+[
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\guide2.jpg",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\guide2.jpg"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_poppuwindow_filtrate.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\bg_poppuwindow_filtrate.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_progressbar_bg1.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\custom_progressbar_bg1.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\edit_bg.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\edit_bg.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\music_sort_bg.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\music_sort_bg.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_recording_text_hint_bg.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\ease_recording_text_hint_bg.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\home_my_head_circle.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\home_my_head_circle.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_record_icon.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\btn_record_icon.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\single_corner_bg.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\single_corner_bg.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\app_setting_select_check.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\app_setting_select_check.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\timestampe_bg.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\timestampe_bg.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_add_icon.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\btn_add_icon.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_add_pic_click.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\btn_add_pic_click.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_bg5.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\custom_bg5.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_bg.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\custom_bg.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\left_sicircle.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\left_sicircle.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\awake_alarm_repeat_check.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\awake_alarm_repeat_check.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\home_tab3.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\home_tab3.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_seekbar_thumb_cricle.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\custom_seekbar_thumb_cricle.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\mediacontroller_button.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\exploded-aar\\XiangChengAndroid\\vitamio\\unspecified\\res\\drawable\\mediacontroller_button.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_corner_bg.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\indicator_corner_bg.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\label_bg_press.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\label_bg_press.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\synchrodata_progress_bg.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\synchrodata_progress_bg.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_white_bg.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\dialog_white_bg.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_textview_bg.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\custom_textview_bg.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\guide1.jpg",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\guide1.jpg"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\filled_box.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\filled_box.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\com_sina_weibo_sdk_button_grey.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\exploded-aar\\XiangChengAndroid\\weiboSDK\\unspecified\\res\\drawable\\com_sina_weibo_sdk_button_grey.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\crop_texture.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\crop_texture.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\community_group__search_btn.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\community_group__search_btn.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_round_select.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\custom_round_select.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\knowledge_xiguan.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\knowledge_xiguan.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_icon_comm.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\progress_icon_comm.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\default_text_color.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\default_text_color.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\list_selector_background_transition_holo_light.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_shequ_photo_click.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\btn_shequ_photo_click.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\half_circular_corner_dialog2.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\half_circular_corner_dialog2.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_face_icon.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\btn_face_icon.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_point_bg3.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\custom_point_bg3.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\item_calender_type2.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\item_calender_type2.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_bg2_ff.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\custom_bg2_ff.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\item_calender_type1.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\item_calender_type1.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_circle_point_e0e0f6.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\custom_circle_point_e0e0f6.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\seekbar_img.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\seekbar_img.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\search_dev_animation.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\search_dev_animation.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\text_color_select.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\text_color_select.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_bg11.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\custom_bg11.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\context_menu_item_bg.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\context_menu_item_bg.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_editext_bg.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\custom_editext_bg.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_return.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\icon_return.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_recording_hint_bg.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\ease_recording_hint_bg.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\progressbar_color.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\progressbar_color.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\play_btn_bg.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\play_btn_bg.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_round_normal.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\custom_round_normal.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\home_add_btn_bg.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\home_add_btn_bg.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\get_verification_code_btn.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\get_verification_code_btn.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_bg6.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\custom_bg6.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\right_sicircle.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\right_sicircle.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_circle_point_theme.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\custom_circle_point_theme.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_radiobtn_bg.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\custom_radiobtn_bg.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\knowledge_xili.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\knowledge_xili.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\scrubber_progress_horizontal_holo_dark.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\exploded-aar\\XiangChengAndroid\\vitamio\\unspecified\\res\\drawable\\scrubber_progress_horizontal_holo_dark.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\item_background_holo_light.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\item_background_holo_light.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\com_sina_weibo_sdk_login_button_with_original_logo.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\exploded-aar\\XiangChengAndroid\\weiboSDK\\unspecified\\res\\drawable\\com_sina_weibo_sdk_login_button_with_original_logo.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_bottom_fillet.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\custom_bottom_fillet.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_round_select_small.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\custom_round_select_small.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\com_sina_weibo_sdk_login_button_with_account_text.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\exploded-aar\\XiangChengAndroid\\weiboSDK\\unspecified\\res\\drawable\\com_sina_weibo_sdk_login_button_with_account_text.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\group_check.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\group_check.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\button_groupheader.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\button_groupheader.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\button_usergroup.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\button_usergroup.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\com_sina_weibo_sdk_button_blue.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\exploded-aar\\XiangChengAndroid\\weiboSDK\\unspecified\\res\\drawable\\com_sina_weibo_sdk_button_blue.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_round_normal_small.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\custom_round_normal_small.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_dialog_bg.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\progress_dialog_bg.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\home_tab1.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\home_tab1.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_bg1.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\custom_bg1.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_lcminus_icon.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\ic_lcminus_icon.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\preced_month.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\preced_month.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\item_all_fillet_bg.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\item_all_fillet_bg.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\comm_bg_listview_item.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\comm_bg_listview_item.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\border.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\border.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\label_bg.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\label_bg.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_circle_point_00000000.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\custom_circle_point_00000000.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\close_dialog.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\close_dialog.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_bg4.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\custom_bg4.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_msg_state_failed_resend.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\ease_msg_state_failed_resend.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\knowledge_guilv.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\knowledge_guilv.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_circle_point_blue.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\custom_circle_point_blue.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\message_btn_bg.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\message_btn_bg.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_cricle_1.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\custom_cricle_1.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\delete_picture_img_click.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\delete_picture_img_click.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_bg7.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\custom_bg7.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_icon_conn.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\progress_icon_conn.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\tranceparent_button_bg.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\tranceparent_button_bg.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\guide3.jpg",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\guide3.jpg"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_icon_sync.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\progress_icon_sync.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_bg3.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\custom_bg3.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\scrubber_control_selector_holo.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\exploded-aar\\XiangChengAndroid\\vitamio\\unspecified\\res\\drawable\\scrubber_control_selector_holo.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\custon_content_bg.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\custon_content_bg.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\button_bg_525266.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\button_bg_525266.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\list_selector_background_transition_holo_dark.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\common_tab_bg.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\common_tab_bg.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\crop_selectable_background.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\crop_selectable_background.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\knowledge_hj.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\knowledge_hj.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\corners_btn_color_theme.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\corners_btn_color_theme.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_shequshere_icon.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\ic_shequshere_icon.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\home_tab4.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\home_tab4.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_bg12.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\custom_bg12.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\scrollbtn_bg.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\scrollbtn_bg.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_cricle_2.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\custom_cricle_2.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_point_bg1.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\custom_point_bg1.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_circle_point_green.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\custom_circle_point_green.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_gray1_bg.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\btn_gray1_bg.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_closed_icon.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\dialog_closed_icon.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_finish_icon.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\dialog_finish_icon.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_bg9.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\custom_bg9.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\folder_text_color.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\folder_text_color.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\pillow_fragment_lin_bg.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\pillow_fragment_lin_bg.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_point_bg4.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\custom_point_bg4.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_round_border_bg.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\custom_round_border_bg.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\circular_corner_dialog3.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\circular_corner_dialog3.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\pillow_fragment_bg.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\pillow_fragment_bg.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\binding.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\binding.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\com_sina_weibo_sdk_login_button_with_frame_logo.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\exploded-aar\\XiangChengAndroid\\weiboSDK\\unspecified\\res\\drawable\\com_sina_weibo_sdk_login_button_with_frame_logo.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_right.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\icon_right.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\label_bg_normal.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\label_bg_normal.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_circle_point_7e7c91.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\custom_circle_point_7e7c91.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_texteinput_icon.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\btn_texteinput_icon.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\button_login.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\button_login.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_lcadd_icon.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\ic_lcadd_icon.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\item_background_holo_dark.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\item_background_holo_dark.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\text_select_color.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\text_select_color.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_bgbtnborder.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\custom_bgbtnborder.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\home_tab2.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\home_tab2.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_button_bg.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\custom_button_bg.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\msg_state_failed_resend.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\msg_state_failed_resend.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\circular_corner_dialog.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\circular_corner_dialog.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_add_icon_click.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\btn_add_icon_click.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_icon_upgrade.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\progress_icon_upgrade.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\next_month.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\next_month.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_bg8.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\custom_bg8.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_round_img.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\bg_round_img.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_point_bg2.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\custom_point_bg2.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\round_btn_bg.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\round_btn_bg.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\prbar_bg_tranceparent_progress_violet.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\prbar_bg_tranceparent_progress_violet.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\share_btn_bg.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\share_btn_bg.xml"
+    },
+    {
+        "merged": "G:\\Studio\\XiangChengAndroid\\sleep\\build\\intermediates\\res\\merged\\debug\\drawable\\person_page_chat_attention_bg.xml",
+        "source": "G:\\Studio\\XiangChengAndroid\\sleep\\src\\main\\res\\drawable\\person_page_chat_attention_bg.xml"
+    }
+]
